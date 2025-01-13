@@ -1,0 +1,36 @@
+{
+  "links": [
+    {
+      "url": "https://findjoyinchaos.com",
+      "text": "Find Joy in Chaos",
+      "context": {
+        "before": "$",
+        "after": "/$"
+      }
+    },
+    {
+      "url": "https://kevoncheung.com/now",
+      "text": "a <Now> page",
+      "context": {
+        "before": "$",
+        "after": "/$"
+      }
+    },
+    {
+      "url": "https://sive.rs/a",
+      "text": "\"Anything You Want\"",
+      "context": {
+        "before": "$",
+        "after": "/$"
+      }
+    },
+    {
+      "url": "https://100mba.net/mba2509/?ref=kevoncheung.com",
+      "text": "this amazing interview",
+      "context": {
+        "before": "$",
+        "after": "/$"
+      }
+    }
+  ]
+}

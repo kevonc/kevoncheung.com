@@ -1,0 +1,11 @@
+.
+├── content/
+│   ├── essays/
+│   │   ├── _categories.md
+│   │   └── [essay-slug].md
+│   ├── projects/
+│   │   └── _projects.md
+│   ├── appearances/
+│   │   └── _appearances.md
+│   ├── home.md
+│   └── now.md 

@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1 {
+    @apply text-4xl font-bold mb-6;
+  }
+  h2 {
+    @apply text-2xl font-bold mt-8 mb-4;
+  }
+  h3 {
+    @apply text-xl font-bold mt-6 mb-3;
+  }
+  p {
+    @apply mb-4;
+  }
+  a {
+    @apply text-blue-600 hover:text-blue-800;
+  }
+  ul {
+    @apply list-disc pl-5 mb-4;
+  }
+  strong {
+    @apply font-bold;
+  }
+}
+
+@layer components {
+  .prose img {
+    @apply w-full h-auto rounded-lg;
+    max-height: 600px;
+    object-fit: cover;
+  }
+  
+  .prose .image-container {
+    @apply my-8 w-full;
+  }
+} 
