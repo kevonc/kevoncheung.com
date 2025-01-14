@@ -12,16 +12,16 @@ export default function Blog({ posts }) {
         {posts.map((post) => (
           <article key={post.slug} className="border-b pb-8">
             <Link href={`/blog/${post.slug}`} className="no-underline">
-              <h2 className="hover:text-blue-600 transition-colors">{post.title}</h2>
+              <h2 className="hover:text-blue-600 transition-colors">{post.frontmatter.title}</h2>
             </Link>
             <div className="flex gap-4 text-gray-600 text-sm mb-2">
-              <time>{post.date}</time>
-              {post.category && (
-                <span className="bg-gray-100 px-2 py-1 rounded">{post.category}</span>
+              <time>{post.frontmatter.date}</time>
+              {post.frontmatter.category && (
+                <span className="bg-gray-100 px-2 py-1 rounded">{post.frontmatter.category}</span>
               )}
             </div>
-            {post.meta_description && (
-              <p className="text-gray-700">{post.meta_description}</p>
+            {post.frontmatter.meta_description && (
+              <p className="text-gray-700">{post.frontmatter.meta_description}</p>
             )}
           </article>
         ))}
@@ -40,25 +40,27 @@ export async function getStaticProps() {
         path.join('content', 'essays', filename),
         'utf-8'
       )
+
       const { data: frontmatter } = matter(markdownWithMeta)
-      
-      // Ensure date is a string and exists
-      const date = frontmatter.date ? frontmatter.date.toString() : ''
-      
+
       return {
-        ...frontmatter,
-        date,
-        slug: filename.replace('.md', '')
+        frontmatter: {
+          ...frontmatter,
+          date: frontmatter.date ? frontmatter.date.toString() : ''
+        },
+        slug: frontmatter.slug || filename.replace('.md', '')
       }
     })
-    .sort((a, b) => new Date(b.date || '') - new Date(a.date || ''))
+    .filter(post => post.slug)
+    .sort((a, b) => {
+      if (!a.frontmatter.date) return 1
+      if (!b.frontmatter.date) return -1
+      return new Date(b.frontmatter.date) - new Date(a.frontmatter.date)
+    })
 
   return {
     props: {
-      posts: posts.map(post => ({
-        ...post,
-        date: post.date || ''
-      }))
+      posts
     }
   }
 } 

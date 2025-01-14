@@ -47,11 +47,19 @@ export async function getStaticPaths() {
   
   const paths = files
     .filter(filename => filename !== '_categories.md')
-    .map(filename => ({
-      params: {
-        slug: filename.replace('.md', '')
+    .map(filename => {
+      const markdownWithMeta = fs.readFileSync(
+        path.join('content', 'essays', filename),
+        'utf-8'
+      )
+      const { data: frontmatter } = matter(markdownWithMeta)
+      return {
+        params: {
+          slug: frontmatter.slug || filename.replace('.md', '')
+        }
       }
-    }))
+    })
+    .filter(path => path.params.slug) // Remove paths without slugs
 
   return {
     paths,
@@ -60,8 +68,25 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params: { slug } }) {
+  // Find the file that has this slug in its frontmatter
+  const files = fs.readdirSync(path.join('content', 'essays'))
+  const file = files.find(filename => {
+    const markdownWithMeta = fs.readFileSync(
+      path.join('content', 'essays', filename),
+      'utf-8'
+    )
+    const { data: frontmatter } = matter(markdownWithMeta)
+    return frontmatter.slug === slug
+  })
+
+  if (!file) {
+    return {
+      notFound: true
+    }
+  }
+
   const markdownWithMeta = fs.readFileSync(
-    path.join('content', 'essays', `${slug}.md`),
+    path.join('content', 'essays', file),
     'utf-8'
   )
 
@@ -72,7 +97,7 @@ export async function getStaticProps({ params: { slug } }) {
     props: {
       frontmatter: {
         ...frontmatter,
-        date: frontmatter.date.toString()
+        date: frontmatter.date ? frontmatter.date.toString() : ''
       },
       content: htmlContent,
       slug
