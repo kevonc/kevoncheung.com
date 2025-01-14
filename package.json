@@ -5,11 +5,16 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "extract": "node scripts/extract-content.js",
+    "extract-all": "node scripts/extract-all-posts.js",
+    "clean-mappings": "node scripts/clean-mappings.js",
+    "rename-images": "node scripts/rename-images.js",
+    "download-images": "node scripts/download-images.js",
+    "update-paths": "node scripts/update-image-paths.js",
+    "format": "node scripts/format-content.js",
+    "extract-content": "node scripts/extract-content.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "@mdx-js/loader": "^3.0.0",
     "@mdx-js/react": "^3.0.0",
@@ -17,6 +22,7 @@
     "gray-matter": "^4.0.3",
     "marked": "^11.1.1",
     "next": "^14.1.0",
+    "puppeteer": "^21.5.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "remark-gfm": "^4.0.0"
