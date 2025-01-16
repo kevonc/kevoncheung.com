@@ -7,7 +7,7 @@ meta_description: Personal website of Kevon Cheung
 
 Welcome to my personal site.
 
-I enjoy exploring new ideas around business, education, marketing and knowledge sharing. When I realized everyone has the power to share what they know, I started Small School.
+I enjoy exploring new ideas around business, education, marketing and knowledge sharing. When I realized everyone has the power to share what they know, I started [Small School](https://smallschool.io).
 
 I now live in Hong Kong with my wife and two daughters. I like to run, write, and do silly things with my girls.
 
