@@ -11,6 +11,7 @@ export default function Layout({ children }) {
             </Link>
             <nav>
               <ul className="flex items-center space-x-8">
+                <li><Link href="/about" className="nav-link">About</Link></li>
                 <li><Link href="/now" className="nav-link">Now</Link></li>
                 <li><Link href="/blog" className="nav-link">Articles</Link></li>
                 <li><Link href="https://newsletter.kevoncheung.com" className="nav-link">Newsletter</Link></li>

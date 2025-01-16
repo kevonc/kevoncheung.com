@@ -1,10 +1,13 @@
 import Layout from '../components/Layout'
 import Link from 'next/link'
+import fs from 'fs'
+import path from 'path'
+import matter from 'gray-matter'
 
-export default function Home() {
+export default function Home({ posts }) {
   return (
     <Layout>
-      <div className="flex flex-col md:flex-row items-start justify-between gap-12">
+      <div className="flex flex-col md:flex-row items-start justify-between gap-12 mb-24">
         <div className="flex-1 space-y-6">
           <h1 className="text-gray-900">Hey! I'm Kevon 👋</h1>
           <p className="text-xl text-gray-600">Welcome to my personal site.</p>
@@ -43,6 +46,67 @@ export default function Home() {
           />
         </div>
       </div>
+
+      <div>
+        <h2 className="text-4xl mb-12">Articles</h2>
+        <div className="space-y-12">
+          {posts.map((post) => (
+            <article key={post.slug}>
+              <Link href={`/blog/${post.slug}`} className="block no-underline group">
+                <h3 className="text-2xl text-gray-900 group-hover:text-blue-600 mb-2">
+                  {post.frontmatter.title}
+                </h3>
+                <div className="flex items-center gap-4 text-gray-600">
+                  <time>{new Date(post.frontmatter.date).toLocaleDateString('en-US', {
+                    year: 'numeric',
+                    month: 'long',
+                    day: 'numeric'
+                  })}</time>
+                  {post.frontmatter.category && (
+                    <span className="tag">{post.frontmatter.category.toLowerCase()}</span>
+                  )}
+                </div>
+              </Link>
+            </article>
+          ))}
+        </div>
+      </div>
     </Layout>
   )
+}
+
+export async function getStaticProps() {
+  const files = fs.readdirSync(path.join('content', 'essays'))
+  
+  const posts = files
+    .filter(filename => filename !== '_categories.md')
+    .map(filename => {
+      const markdownWithMeta = fs.readFileSync(
+        path.join('content', 'essays', filename),
+        'utf-8'
+      )
+
+      const { data: frontmatter } = matter(markdownWithMeta)
+
+      return {
+        frontmatter: {
+          ...frontmatter,
+          date: frontmatter.date ? frontmatter.date.toString() : ''
+        },
+        slug: frontmatter.slug || filename.replace('.md', '')
+      }
+    })
+    .filter(post => post.slug)
+    .sort((a, b) => {
+      if (!a.frontmatter.date) return 1
+      if (!b.frontmatter.date) return -1
+      return new Date(b.frontmatter.date) - new Date(a.frontmatter.date)
+    })
+    .slice(0, 5) // Only get the latest 5 posts
+
+  return {
+    props: {
+      posts
+    }
+  }
 } 
