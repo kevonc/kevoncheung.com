@@ -4,25 +4,47 @@ import matter from 'gray-matter'
 import Link from 'next/link'
 import Layout from '../../components/Layout'
 
-export default function Blog({ posts }) {
+export default function Blog({ posts, categories }) {
   return (
     <Layout>
-      <h1>Blog</h1>
-      <div className="space-y-8">
-        {posts.map((post) => (
-          <article key={post.slug} className="border-b pb-8">
-            <Link href={`/blog/${post.slug}`} className="no-underline">
-              <h2 className="hover:text-blue-600 transition-colors">{post.frontmatter.title}</h2>
+      <div className="mb-16">
+        <h1>Articles</h1>
+        <div className="flex flex-wrap gap-2 mb-8">
+          {categories.map((category) => (
+            <Link 
+              key={category.slug}
+              href={`/blog/category/${category.slug}`}
+              className="tag hover:bg-gray-200"
+            >
+              {category.title.toLowerCase()}
             </Link>
-            <div className="flex gap-4 text-gray-600 text-sm mb-2">
-              <time>{post.frontmatter.date}</time>
-              {post.frontmatter.category && (
-                <span className="bg-gray-100 px-2 py-1 rounded">{post.frontmatter.category}</span>
+          ))}
+        </div>
+      </div>
+
+      <div className="space-y-12">
+        {posts.map((post) => (
+          <article key={post.slug} className="group">
+            <Link href={`/blog/${post.slug}`} className="block no-underline">
+              <h2 className="text-2xl text-gray-900 group-hover:text-blue-600 mb-2">
+                {post.frontmatter.title}
+              </h2>
+              <div className="flex gap-4 text-gray-600 text-sm mb-3">
+                <time>{new Date(post.frontmatter.date).toLocaleDateString('en-US', {
+                  year: 'numeric',
+                  month: 'long',
+                  day: 'numeric'
+                })}</time>
+                {post.frontmatter.category && (
+                  <span className="tag">{post.frontmatter.category.toLowerCase()}</span>
+                )}
+              </div>
+              {post.frontmatter.meta_description && (
+                <p className="text-gray-600 leading-relaxed">
+                  {post.frontmatter.meta_description}
+                </p>
               )}
-            </div>
-            {post.frontmatter.meta_description && (
-              <p className="text-gray-700">{post.frontmatter.meta_description}</p>
-            )}
+            </Link>
           </article>
         ))}
       </div>
@@ -31,6 +53,12 @@ export default function Blog({ posts }) {
 }
 
 export async function getStaticProps() {
+  // Get categories
+  const categoriesFile = fs.readFileSync(path.join('content', 'essays', '_categories.md'), 'utf-8')
+  const { data: categoriesData } = matter(categoriesFile)
+  const categories = categoriesData.categories || []
+
+  // Get posts
   const files = fs.readdirSync(path.join('content', 'essays'))
   
   const posts = files
@@ -60,7 +88,8 @@ export async function getStaticProps() {
 
   return {
     props: {
-      posts
+      posts,
+      categories
     }
   }
 } 

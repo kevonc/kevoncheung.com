@@ -2,14 +2,13 @@ import fs from 'fs'
 import path from 'path'
 import matter from 'gray-matter'
 import { marked } from 'marked'
-import Image from 'next/image'
 import Layout from '../../components/Layout'
+import Link from 'next/link'
 
-// Configure marked to handle images
 marked.use({
   renderer: {
     image(href, title, text) {
-      return `<div class="relative w-full aspect-[16/9] my-8">
+      return `<div class="my-8">
         <img src="${href}" alt="${text}" class="rounded-lg" />
       </div>`
     }
@@ -20,23 +19,32 @@ export default function BlogPost({ content, frontmatter }) {
   return (
     <Layout>
       <article className="prose prose-lg max-w-none">
-        <h1>{frontmatter.title}</h1>
-        <div className="flex gap-4 text-gray-600 text-sm mb-8">
-          <time>{frontmatter.date}</time>
-          {frontmatter.category && (
-            <span className="bg-gray-100 px-2 py-1 rounded">{frontmatter.category}</span>
-          )}
-        </div>
-        {frontmatter.image && (
-          <div className="relative w-full aspect-[16/9] my-8">
-            <img 
-              src={frontmatter.image} 
-              alt={frontmatter.title}
-              className="rounded-lg"
-            />
+        <header className="mb-12">
+          <h1 className="mb-3">{frontmatter.title}</h1>
+          <div className="flex items-center gap-4 text-gray-600">
+            <time>{new Date(frontmatter.date).toLocaleDateString('en-US', {
+              year: 'numeric',
+              month: 'long',
+              day: 'numeric'
+            })}</time>
+            {frontmatter.category && (
+              <>
+                <span>•</span>
+                <Link 
+                  href={`/blog/category/${frontmatter.category.toLowerCase().replace(' ', '-')}`}
+                  className="tag hover:bg-gray-200"
+                >
+                  {frontmatter.category.toLowerCase()}
+                </Link>
+              </>
+            )}
           </div>
-        )}
-        <div dangerouslySetInnerHTML={{ __html: content }} />
+        </header>
+        
+        <div 
+          dangerouslySetInnerHTML={{ __html: content }}
+          className="prose prose-lg prose-gray max-w-none"
+        />
       </article>
     </Layout>
   )
@@ -59,7 +67,7 @@ export async function getStaticPaths() {
         }
       }
     })
-    .filter(path => path.params.slug) // Remove paths without slugs
+    .filter(path => path.params.slug)
 
   return {
     paths,
@@ -68,7 +76,6 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params: { slug } }) {
-  // Find the file that has this slug in its frontmatter
   const files = fs.readdirSync(path.join('content', 'essays'))
   const file = files.find(filename => {
     const markdownWithMeta = fs.readFileSync(

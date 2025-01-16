@@ -2,22 +2,37 @@ import Link from 'next/link'
 
 export default function Layout({ children }) {
   return (
-    <div className="container mx-auto px-4 max-w-3xl">
-      <nav className="py-4">
-        <ul className="flex space-x-4">
-          <li><Link href="/">Home</Link></li>
-          <li><Link href="/now">Now</Link></li>
-          <li><Link href="/blog">Blog</Link></li>
-        </ul>
-      </nav>
-      <main>{children}</main>
-      <footer className="py-8 mt-8 border-t">
-        <p>© Kevon Cheung {new Date().getFullYear()}</p>
-        <div className="flex space-x-4 mt-4">
-          <a href="https://twitter.com/MadeByKevon">X</a>
-          <a href="https://threads.net/@kevoncheung">Threads</a>
-          <a href="https://instagram.com/kevoncheung">Instagram</a>
-          <a href="https://youtube.com/@MadeByKevon">YouTube</a>
+    <div className="min-h-screen">
+      <header className="py-8 mb-12">
+        <div className="container mx-auto px-4 max-w-4xl">
+          <div className="flex items-center justify-between">
+            <Link href="/" className="text-xl text-gray-900 no-underline">
+              Kevon Cheung
+            </Link>
+            <nav>
+              <ul className="flex items-center space-x-8">
+                <li><Link href="/now" className="nav-link">Now</Link></li>
+                <li><Link href="/blog" className="nav-link">Articles</Link></li>
+                <li><Link href="https://newsletter.kevoncheung.com" className="nav-link">Newsletter</Link></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </header>
+      
+      <main className="container mx-auto px-4 max-w-4xl pb-16">
+        {children}
+      </main>
+      
+      <footer className="py-8 mt-16 border-t">
+        <div className="container mx-auto px-4 max-w-4xl">
+          <p className="text-gray-600">© {new Date().getFullYear()} Kevon Cheung</p>
+          <div className="flex space-x-6 mt-4">
+            <a href="https://twitter.com/MadeByKevon" className="nav-link">X</a>
+            <a href="https://threads.net/@kevoncheung" className="nav-link">Threads</a>
+            <a href="https://instagram.com/kevoncheung" className="nav-link">Instagram</a>
+            <a href="https://youtube.com/@MadeByKevon" className="nav-link">YouTube</a>
+          </div>
         </div>
       </footer>
     </div>
