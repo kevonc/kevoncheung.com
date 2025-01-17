@@ -1,7 +1,7 @@
 ---
 title: "Writing a newsletter no one will unsubscribe"
 date: "2021-02-08"
-category: "entrepreneurship"
+category: "marketing"
 meta_description: ""
 slug: "newsletter"
 ---

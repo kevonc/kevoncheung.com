@@ -1,7 +1,7 @@
 ---
 title: "You are finding jobs the wrong way"
 date: "2016-09-09"
-category: "entrepreneurship"
+category: "life-lessons"
 meta_description: ""
 slug: "finding-jobs-the-wrong-way"
 ---

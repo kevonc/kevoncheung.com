@@ -1,7 +1,7 @@
 ---
 title: "Will cohort-based learning be the future?"
 date: "2021-02-28"
-category: "entrepreneurship"
+category: "teaching-learning"
 meta_description: ""
 slug: "cohort-based-learning"
 ---

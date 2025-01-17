@@ -79,7 +79,7 @@ export default function Appearances({ appearances }) {
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                   />
                 </div>
-                <h3 className="text-xl mb-2 group-hover:text-blue-600 transition-colors">{appearance.title}</h3>
+                <h3 className="text-xl mb-2 group-hover:text-green-600 transition-colors">{appearance.title}</h3>
                 <p className="text-gray-600 text-sm">{appearance.description}</p>
               </Link>
             </div>

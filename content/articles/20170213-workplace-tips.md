@@ -1,7 +1,7 @@
 ---
 title: "3 workplace tips you don’t learn in college"
 date: "2017-02-13"
-category: "entrepreneurship"
+category: "life-lessons"
 meta_description: ""
 slug: "workplace-tips"
 ---

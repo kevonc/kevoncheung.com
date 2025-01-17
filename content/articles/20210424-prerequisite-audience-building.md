@@ -1,7 +1,7 @@
 ---
 title: "You can't grow an audience without these"
 date: "2021-04-24"
-category: "entrepreneurship"
+category: "marketing"
 meta_description: ""
 slug: "prerequisite-audience-building"
 ---

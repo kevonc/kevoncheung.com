@@ -1,7 +1,7 @@
 ---
 title: "How I grew my Twitter audience with human psychology"
 date: "2021-01-30"
-category: "entrepreneurship"
+category: "marketing"
 meta_description: ""
 slug: "growing-twitter-audience"
 ---

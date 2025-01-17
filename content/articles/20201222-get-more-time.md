@@ -1,7 +1,7 @@
 ---
 title: "How to get more time in your day"
 date: "2020-12-22"
-category: "entrepreneurship"
+category: "life-lessons"
 meta_description: ""
 slug: "get-more-time"
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Landing page optimization: Contra.com"
 date: "2021-01-15"
-category: "entrepreneurship"
+category: "marketing"
 meta_description: ""
 slug: "landing-page-contra"
 ---

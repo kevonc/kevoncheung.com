@@ -1,7 +1,7 @@
 ---
 title: "This approach helped me hit my fitness goal in 14 days"
 date: "2020-12-08"
-category: "entrepreneurship"
+category: "life-lessons"
 meta_description: ""
 slug: "goal-setting"
 ---

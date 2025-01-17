@@ -1,7 +1,7 @@
 ---
 title: "How to be successful in life"
 date: "2021-01-06"
-category: "entrepreneurship"
+category: "life-lessons"
 meta_description: ""
 slug: "success-in-life"
 ---

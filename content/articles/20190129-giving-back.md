@@ -1,7 +1,7 @@
 ---
 title: "I am giving back this year"
 date: "2019-01-29"
-category: "entrepreneurship"
+category: "life-lessons"
 meta_description: ""
 slug: "giving-back"
 ---

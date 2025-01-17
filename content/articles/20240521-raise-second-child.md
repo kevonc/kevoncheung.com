@@ -1,7 +1,7 @@
 ---
 title: "What it takes to raise a second child"
 date: "2024-05-21"
-category: "entrepreneurship"
+category: "family"
 meta_description: ""
 slug: "raise-second-child"
 ---

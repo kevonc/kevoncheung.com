@@ -11,16 +11,22 @@ export default function Post({ content, frontmatter }) {
       <article>
         <header className="mb-16">
           <h1 className="font-semibold">{frontmatter.title}</h1>
-          <div className="flex gap-4 text-gray-600 text-sm">
+          <div className="flex items-center gap-2 text-gray-600 text-sm">
             <time>{new Date(frontmatter.date).toLocaleDateString('en-US', {
               year: 'numeric',
               month: 'long',
               day: 'numeric'
             })}</time>
             {frontmatter.category && (
-              <Link href={`/blog/category/${frontmatter.category.toLowerCase()}`} className="tag hover:bg-gray-200">
-                {frontmatter.category.toLowerCase()}
-              </Link>
+              <>
+                <span className="text-gray-400 mx-2">·</span>
+                <Link 
+                  href={`/category/${frontmatter.category.toLowerCase()}`} 
+                  className="hover:text-gray-900"
+                >
+                  {frontmatter.category.toLowerCase()}
+                </Link>
+              </>
             )}
           </div>
         </header>

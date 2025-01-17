@@ -1,7 +1,7 @@
 ---
 title: "How to decide between starting a community and a cohort-based course"
 date: "2021-05-01"
-category: "entrepreneurship"
+category: "teaching-learning"
 meta_description: ""
 slug: "community-or-cohort-based-course"
 ---

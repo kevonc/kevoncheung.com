@@ -1,7 +1,7 @@
 ---
 title: "Decoding best copywriting examples from Dave Gerhardt"
 date: "2020-11-18"
-category: "entrepreneurship"
+category: "marketing"
 meta_description: ""
 slug: "copywriting-dave-gerhardt"
 ---

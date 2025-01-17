@@ -13,7 +13,7 @@ export default function Blog({ posts, categories }) {
           {categories.map((category) => (
             <Link 
               key={category.slug}
-              href={`/blog/category/${category.slug}`}
+              href={`/category/${category.slug}`}
               className="tag hover:bg-gray-200"
             >
               {category.title.toLowerCase()}
@@ -26,17 +26,20 @@ export default function Blog({ posts, categories }) {
         {posts.map((post) => (
           <article key={post.slug} className="group">
             <Link href={`/${post.slug}`} className="block no-underline">
-              <h2 className="text-3xl text-gray-900 font-medium group-hover:text-blue-600 mb-2">
+              <h2 className="text-3xl text-gray-900 font-medium group-hover:text-green-700 mb-2">
                 {post.frontmatter.title}
               </h2>
-              <div className="flex gap-4 text-gray-600 text-sm mb-3">
+              <div className="flex items-center gap-2 text-gray-600 text-sm mb-3">
                 <time>{new Date(post.frontmatter.date).toLocaleDateString('en-US', {
                   year: 'numeric',
                   month: 'long',
                   day: 'numeric'
                 })}</time>
                 {post.frontmatter.category && (
-                  <span className="tag">{post.frontmatter.category.toLowerCase()}</span>
+                  <>
+                    <span className="text-gray-400 mx-2">·</span>
+                    <span>{post.frontmatter.category.toLowerCase()}</span>
+                  </>
                 )}
               </div>
               {post.frontmatter.meta_description && (

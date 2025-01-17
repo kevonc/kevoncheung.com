@@ -42,17 +42,20 @@ export default function Home({ posts, content }) {
           {posts.map((post) => (
             <article key={post.slug}>
               <Link href={`/${post.slug}`} className="block no-underline group">
-                <h3 className="text-2xl text-gray-900 group-hover:text-blue-600 mb-2">
+                <h3 className="text-2xl text-gray-900 group-hover:text-green-700 mb-2">
                   {post.frontmatter.title}
                 </h3>
-                <div className="flex items-center gap-4 text-gray-600">
+                <div className="flex items-center gap-2 text-gray-600 text-sm">
                   <time>{new Date(post.frontmatter.date).toLocaleDateString('en-US', {
                     year: 'numeric',
                     month: 'long',
                     day: 'numeric'
                   })}</time>
                   {post.frontmatter.category && (
-                    <span className="tag">{post.frontmatter.category.toLowerCase()}</span>
+                    <>
+                      <span className="text-gray-400 mx-2">·</span>
+                      <span>{post.frontmatter.category.toLowerCase()}</span>
+                    </>
                   )}
                 </div>
               </Link>

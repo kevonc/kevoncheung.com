@@ -10,6 +10,6 @@ categories:
     slug: teaching-learning
   - title: Entrepreneurship
     slug: entrepreneurship
-  - title: Parenting
-    slug: parenting
+  - title: Family
+    slug: family
 --- 

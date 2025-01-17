@@ -1,7 +1,7 @@
 ---
 title: "7 life mottos I live by"
 date: "2016-05-02"
-category: "entrepreneurship"
+category: "life-lessons"
 meta_description: ""
 slug: "life-mottos"
 ---

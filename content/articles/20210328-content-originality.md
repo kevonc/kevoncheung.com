@@ -1,7 +1,7 @@
 ---
 title: "Who wrote about this idea first? Does it matter?"
 date: "2021-03-28"
-category: "entrepreneurship"
+category: "marketing"
 meta_description: ""
 slug: "content-originality"
 ---
