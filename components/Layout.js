@@ -3,10 +3,10 @@ import Link from 'next/link'
 export default function Layout({ children }) {
   return (
     <div className="min-h-screen">
-      <header className="pt-4 pb-8 mb-12">
+      <header className="py-4 mb-12">
         <div className="container mx-auto px-4 max-w-4xl">
           <div className="flex items-center justify-between">
-            <Link href="/" className="text-xl font-semibold text-gray-900 no-underline">
+            <Link href="/" className="text-xl text-gray-900 no-underline">
               Kevon Cheung
             </Link>
             <nav>
