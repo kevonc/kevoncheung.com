@@ -4,7 +4,11 @@
 
 @layer base {
   body {
-    @apply text-gray-800 bg-white;
+    @apply text-gray-800 bg-white font-body;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading;
   }
   
   h1 {
@@ -20,29 +24,29 @@
   }
   
   p {
-    @apply mb-4 leading-relaxed;
+    @apply mb-4 leading-relaxed font-body;
   }
   
   a {
-    @apply text-inherit hover:text-gray-900 no-underline;
+    @apply text-inherit hover:text-gray-900 no-underline font-body;
   }
   
   ul {
-    @apply list-none p-0 mb-4;
+    @apply list-none p-0 mb-4 font-body;
   }
 }
 
 @layer components {
   .nav-link {
-    @apply text-gray-600 hover:text-gray-900 no-underline;
+    @apply text-gray-600 hover:text-gray-900 no-underline font-body;
   }
   
   .tag {
-    @apply inline-block px-3 py-1 rounded-full text-sm bg-gray-100 text-gray-600 mr-2 mb-2;
+    @apply inline-block px-3 py-1 rounded-full text-sm bg-gray-100 text-gray-600 mr-2 mb-2 font-body;
   }
   
   .prose {
-    @apply max-w-none;
+    @apply max-w-none font-body;
   }
   
   .prose img {
@@ -57,5 +61,13 @@
 
   .link-underline {
     @apply underline decoration-gray-300 hover:decoration-gray-800 transition-colors;
+  }
+  
+  .prose h1, .prose h2, .prose h3, .prose h4, .prose h5, .prose h6 {
+    @apply font-heading;
+  }
+  
+  .prose p {
+    @apply font-body;
   }
 } 

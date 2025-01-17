@@ -8,7 +8,7 @@ export default function Blog({ posts, categories }) {
   return (
     <Layout>
       <div className="mb-16">
-        <h1>Articles</h1>
+        <h1 className="font-semibold">Articles</h1>
         <div className="flex flex-wrap gap-2 mb-8">
           {categories.map((category) => (
             <Link 
@@ -25,8 +25,8 @@ export default function Blog({ posts, categories }) {
       <div className="space-y-12">
         {posts.map((post) => (
           <article key={post.slug} className="group">
-            <Link href={`/blog/${post.slug}`} className="block no-underline">
-              <h2 className="text-2xl text-gray-900 group-hover:text-blue-600 mb-2">
+            <Link href={`/${post.slug}`} className="block no-underline">
+              <h2 className="text-3xl text-gray-900 font-medium group-hover:text-blue-600 mb-2">
                 {post.frontmatter.title}
               </h2>
               <div className="flex gap-4 text-gray-600 text-sm mb-3">
@@ -54,18 +54,18 @@ export default function Blog({ posts, categories }) {
 
 export async function getStaticProps() {
   // Get categories
-  const categoriesFile = fs.readFileSync(path.join('content', 'essays', '_categories.md'), 'utf-8')
+  const categoriesFile = fs.readFileSync(path.join('content', 'articles', '_categories.md'), 'utf-8')
   const { data: categoriesData } = matter(categoriesFile)
   const categories = categoriesData.categories || []
 
   // Get posts
-  const files = fs.readdirSync(path.join('content', 'essays'))
+  const files = fs.readdirSync(path.join('content', 'articles'))
   
   const posts = files
     .filter(filename => filename !== '_categories.md')
     .map(filename => {
       const markdownWithMeta = fs.readFileSync(
-        path.join('content', 'essays', filename),
+        path.join('content', 'articles', filename),
         'utf-8'
       )
 

@@ -13,10 +13,10 @@ I now live in Hong Kong with my wife and two daughters. I like to run, write, an
 
 Here you'll find my writing and projects. I try my best to show you what I'm learning. Follow me so we can be friends:
 
-- [X](https://twitter.com/MadeByKevon)
-- [Threads](https://threads.net/@kevoncheung)
-- [Instagram](https://instagram.com/kevoncheung)
-- [YouTube](https://youtube.com/@MadeByKevon)
+- [X](https://x.com/MeetKevon)
+- [Threads](https://threads.net/@kevon)
+- [Instagram](https://instagram.com/kevon)
+- [YouTube](https://youtube.com/@MeetKevon)
 
 ## I Share
 

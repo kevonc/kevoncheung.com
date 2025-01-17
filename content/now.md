@@ -4,8 +4,6 @@ meta_description: What I'm doing now - Kevon Cheung
 last_updated: "2024-10-14"
 ---
 
-# What I'm doing now
-
 Here you'll find out what I'm actively thinking about and working on. If you feel connected to something, feel free to reach out! This page was last updated on October 14, 2024.
 
 ## Being a present dad

@@ -41,7 +41,7 @@ export default function Home({ posts, content }) {
         <div className="space-y-12">
           {posts.map((post) => (
             <article key={post.slug}>
-              <Link href={`/blog/${post.slug}`} className="block no-underline group">
+              <Link href={`/${post.slug}`} className="block no-underline group">
                 <h3 className="text-2xl text-gray-900 group-hover:text-blue-600 mb-2">
                   {post.frontmatter.title}
                 </h3>
@@ -82,13 +82,13 @@ export async function getStaticProps() {
   }
 
   // Get blog posts
-  const files = fs.readdirSync(path.join('content', 'essays'))
+  const files = fs.readdirSync(path.join('content', 'articles'))
   
   const posts = files
     .filter(filename => filename !== '_categories.md')
     .map(filename => {
       const markdownWithMeta = fs.readFileSync(
-        path.join('content', 'essays', filename),
+        path.join('content', 'articles', filename),
         'utf-8'
       )
 

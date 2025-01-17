@@ -14,7 +14,7 @@ export default function Layout({ children }) {
                 <li><Link href="/about" className="nav-link">About</Link></li>
                 <li><Link href="/now" className="nav-link">Now</Link></li>
                 <li><Link href="/blog" className="nav-link">Articles</Link></li>
-                <li><Link href="https://newsletter.kevoncheung.com" className="nav-link">Newsletter</Link></li>
+                <li><Link href="https://www.smallschool.is/newsletter" className="nav-link">Newsletter</Link></li>
               </ul>
             </nav>
           </div>
@@ -29,10 +29,10 @@ export default function Layout({ children }) {
         <div className="container mx-auto px-4 max-w-4xl">
           <p className="text-gray-600">© {new Date().getFullYear()} Kevon Cheung</p>
           <div className="flex space-x-6 mt-4">
-            <a href="https://twitter.com/MadeByKevon" className="nav-link">X</a>
-            <a href="https://threads.net/@kevoncheung" className="nav-link">Threads</a>
-            <a href="https://instagram.com/kevoncheung" className="nav-link">Instagram</a>
-            <a href="https://youtube.com/@MadeByKevon" className="nav-link">YouTube</a>
+            <a href="https://x.com/MeetKevon" className="nav-link">X</a>
+            <a href="https://threads.net/@kevon" className="nav-link">Threads</a>
+            <a href="https://instagram.com/kevon" className="nav-link">Instagram</a>
+            <a href="https://youtube.com/@MeetKevon" className="nav-link">YouTube</a>
           </div>
         </div>
       </footer>
