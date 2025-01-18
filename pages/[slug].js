@@ -8,34 +8,36 @@ import Layout from '../components/Layout'
 export default function Post({ content, frontmatter }) {
   return (
     <Layout>
-      <article>
-        <header className="mb-16">
-          <h1 className="font-semibold">{frontmatter.title}</h1>
-          <div className="flex items-center gap-2 text-gray-600 text-sm">
-            <time>{new Date(frontmatter.date).toLocaleDateString('en-US', {
-              year: 'numeric',
-              month: 'long',
-              day: 'numeric'
-            })}</time>
-            {frontmatter.category && (
-              <>
-                <span className="text-gray-400 mx-2">·</span>
-                <Link 
-                  href={`/category/${frontmatter.category.toLowerCase()}`} 
-                  className="hover:text-gray-900"
-                >
-                  {frontmatter.category.toLowerCase()}
-                </Link>
-              </>
-            )}
-          </div>
-        </header>
+      <div className="max-w-3xl mx-auto">
+        <article>
+          <header className="mb-16">
+            <h1 className="font-semibold">{frontmatter.title}</h1>
+            <div className="flex items-center gap-2 text-gray-600 text-sm">
+              <time>{new Date(frontmatter.date).toLocaleDateString('en-US', {
+                year: 'numeric',
+                month: 'long',
+                day: 'numeric'
+              })}</time>
+              {frontmatter.category && (
+                <>
+                  <span className="text-gray-400 mx-2">·</span>
+                  <Link 
+                    href={`/category/${frontmatter.category.toLowerCase()}`} 
+                    className="hover:text-gray-900"
+                  >
+                    {frontmatter.category.toLowerCase()}
+                  </Link>
+                </>
+              )}
+            </div>
+          </header>
 
-        <div 
-          className="prose"
-          dangerouslySetInnerHTML={{ __html: content }}
-        />
-      </article>
+          <div 
+            className="prose"
+            dangerouslySetInnerHTML={{ __html: content }}
+          />
+        </article>
+      </div>
     </Layout>
   )
 }

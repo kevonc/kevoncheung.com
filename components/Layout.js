@@ -13,7 +13,7 @@ export default function Layout({ children }) {
               <ul className="flex items-center space-x-8">
                 <li><Link href="/about" className="nav-link">About</Link></li>
                 <li><Link href="/now" className="nav-link">Now</Link></li>
-                <li><Link href="/blog" className="nav-link">Articles</Link></li>
+                <li><Link href="/articles" className="nav-link">Articles</Link></li>
                 <li><Link href="https://www.smallschool.is/newsletter" className="nav-link">Newsletter</Link></li>
               </ul>
             </nav>

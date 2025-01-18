@@ -7,67 +7,69 @@ import matter from 'gray-matter'
 export default function Home({ posts }) {
   return (
     <Layout>
-      {/* Hero Section */}
-      <div className="flex flex-col md:flex-row items-start justify-between mb-24">
-        <div className="flex-1 max-w-2xl pr-12">
-          <h1 className="text-4xl font-semibold mb-6">Hey! I'm Kevon 👋</h1>
-          
-          <div className="space-y-6 text-lg">
-            <p>Welcome to my personal site.</p>
+      <div className="max-w-3xl mx-auto">
+        {/* Hero Section */}
+        <div className="flex flex-col md:flex-row items-start justify-between mb-24">
+          <div className="flex-1 max-w-2xl">
+            <h1 className="text-4xl mb-6">Hey! I'm Kevon 👋</h1>
+            
+            <div className="space-y-6 text-lg">
+              <p>Welcome to my personal site.</p>
 
-            <p>
-              I enjoy exploring new ideas around business, education, marketing and knowledge sharing. 
-              When I realized everyone has the power to share what they know, I started{' '}
-              <a href="https://smallschool.io" className="link-underline">Small School</a>.
-            </p>
+              <p>
+                I enjoy exploring new ideas around business, education, marketing and knowledge sharing. 
+                When I realized everyone has the power to share what they know, I started{' '}
+                <a href="https://smallschool.io" className="link-underline">Small School</a>.
+              </p>
 
-            <p>
-              I now live in Hong Kong with my wife and two daughters. 
-              I like to run, write, and do silly things with my girls.
-            </p>
+              <p>
+                I now live in Hong Kong with my wife and two daughters. 
+                I like to run, write, and do silly things with my girls.
+              </p>
 
-            <p>
-              Here you'll find my writing and projects. I try my best to show you what I'm learning. 
-              Follow me so we can be friends:
-            </p>
+              <p>
+                Here you'll find my writing and projects. I try my best to show you what I'm learning. 
+                Follow me so we can be friends:
+              </p>
+            </div>
+          </div>
+
+          <div className="w-full md:w-[280px] rounded-2xl overflow-hidden shrink-0">
+            <img 
+              src="/images/kevon.png" 
+              alt="Kevon Cheung" 
+              className="w-full h-full object-cover"
+            />
           </div>
         </div>
 
-        <div className="w-full md:w-[280px] rounded-2xl overflow-hidden shrink-0">
-          <img 
-            src="/images/kevon.png" 
-            alt="Kevon Cheung" 
-            className="w-full h-full object-cover"
-          />
-        </div>
-      </div>
-
-      {/* Articles Section */}
-      <div>
-        <h2 className="text-2xl mb-12">Articles</h2>
-        <div className="space-y-12">
-          {posts.map((post) => (
-            <article key={post.slug}>
-              <Link href={`/${post.slug}`} className="block no-underline group">
-                <h3 className="text-2xl text-gray-900 group-hover:text-gray-700 mb-2">
-                  {post.frontmatter.title}
-                </h3>
-                <div className="flex items-center gap-2 text-gray-600 text-sm">
-                  <time>{new Date(post.frontmatter.date).toLocaleDateString('en-US', {
-                    year: 'numeric',
-                    month: 'long',
-                    day: 'numeric'
-                  })}</time>
-                  {post.frontmatter.category && (
-                    <>
-                      <span className="text-gray-400 mx-2">·</span>
-                      <span>{post.frontmatter.category.toLowerCase()}</span>
-                    </>
-                  )}
-                </div>
-              </Link>
-            </article>
-          ))}
+        {/* Articles Section */}
+        <div>
+          <h2 className="text-2xl mb-12">Articles</h2>
+          <div className="space-y-12">
+            {posts.map((post) => (
+              <article key={post.slug}>
+                <Link href={`/${post.slug}`} className="block no-underline group">
+                  <h3 className="text-2xl text-gray-900 group-hover:text-green-700 mb-2">
+                    {post.frontmatter.title}
+                  </h3>
+                  <div className="flex items-center gap-2 text-gray-600 text-sm">
+                    <time>{new Date(post.frontmatter.date).toLocaleDateString('en-US', {
+                      year: 'numeric',
+                      month: 'long',
+                      day: 'numeric'
+                    })}</time>
+                    {post.frontmatter.category && (
+                      <>
+                        <span className="text-gray-400 mx-2">·</span>
+                        <span>{post.frontmatter.category.toLowerCase()}</span>
+                      </>
+                    )}
+                  </div>
+                </Link>
+              </article>
+            ))}
+          </div>
         </div>
       </div>
     </Layout>
