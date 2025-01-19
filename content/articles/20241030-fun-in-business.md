@@ -10,7 +10,7 @@ Yucks!
 
 The longer I'm in my business, the more I lose my identity.
 
-This is **one of my biggest lessons** in the last 2 years and I want to tell you how that happened and how you can avoid it.
+This is one of my biggest lessons in the last 2 years and I want to tell you how that happened and how you can avoid it.
 
 I don't know if you are the same. Basically when I'm figuring things out, I always look at who is successful at that thing and try to imitate.
 
@@ -22,7 +22,9 @@ Don't get me wrong. I think it is 100% normal to want to imitate. We all do. Jus
 
 Because you think that's the way things should be. 100% okay.
 
-**What's not okay is to be completely consumed by it.** You just keep doing things the same way and not taking the time to reflect.
+**What's not okay is to be completely consumed by it.** 
+
+You just keep doing things the same way and not taking the time to reflect.
 
 This was me in the last 1-2 years. I was doing things like:
 
@@ -48,7 +50,9 @@ But now, in Oct 2024, I'm thinking why not build a small school on the side? You
 
 This way, you are free from all the "business ways" I shared above. You can create value for your people and have fun with it! Why am I suggesting you to do this?
 
-Because that's a shift I'm making myself! **I'm going to prioritize fun.**
+Because that's a shift I'm making myself! 
+
+**I'm going to prioritize fun.**
 
 I'll show you a fun thing if you keep reading.
 

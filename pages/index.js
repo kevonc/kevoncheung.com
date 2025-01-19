@@ -45,12 +45,12 @@ export default function Home({ posts }) {
 
         {/* Articles Section */}
         <div>
-          <h2 className="text-2xl mb-12">Articles</h2>
+          <h2>Articles</h2>
           <div className="space-y-12">
             {posts.map((post) => (
               <article key={post.slug}>
                 <Link href={`/${post.slug}`} className="block no-underline group">
-                  <h3 className="text-2xl text-gray-900 group-hover:text-green-700 mb-2">
+                  <h3 className="group-hover:text-green-700 mb-2">
                     {post.frontmatter.title}
                   </h3>
                   <div className="flex items-center gap-2 text-gray-600 text-sm">

@@ -8,7 +8,7 @@ export default function Category({ posts, category }) {
   return (
     <Layout>
       <div className="mb-16">
-        <h1 className="font-semibold">Articles in {category.title.toLowerCase()}</h1>
+        <h1>Articles in {category.title.toLowerCase()}</h1>
         <div className="flex flex-wrap gap-2 mb-8">
           <Link href="/blog" className="tag hover:bg-gray-200">
             all articles

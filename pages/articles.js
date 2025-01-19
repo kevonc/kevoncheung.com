@@ -9,7 +9,7 @@ export default function Articles({ posts, categories }) {
     <Layout>
       <div className="max-w-3xl mx-auto">
         <div className="mb-16">
-          <h1 className="font-semibold">Articles</h1>
+          <h1>Articles</h1>
           <div className="flex flex-wrap gap-2 mb-8">
             {categories.map((category) => (
               <Link 
@@ -27,7 +27,7 @@ export default function Articles({ posts, categories }) {
           {posts.map((post) => (
             <article key={post.slug} className="group">
               <Link href={`/${post.slug}`} className="block no-underline">
-                <h2 className="text-3xl text-gray-900 font-medium group-hover:text-green-700 mb-2">
+                <h2 className="text-gray-900 group-hover:text-green-700 mb-2">
                   {post.frontmatter.title}
                 </h2>
                 <div className="flex items-center gap-2 text-gray-600 text-sm mb-3">
