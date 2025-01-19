@@ -27,7 +27,7 @@ export default function Articles({ posts, topics }) {
           {posts.map((post) => (
             <article key={post.slug} className="group">
               <Link href={`/${post.slug}`} className="block no-underline">
-                <h2 className="text-gray-900 group-hover:text-green-700 mb-2">
+                <h2 className="group-hover:text-green-700 mb-2">
                   {post.frontmatter.title}
                 </h2>
                 <div className="flex items-center gap-2 text-gray-600 text-sm mb-3">
@@ -67,7 +67,7 @@ export async function getStaticProps() {
   const files = fs.readdirSync(path.join('content', 'articles'))
   
   const posts = files
-    .filter(filename => filename !== '_topics.md')
+    .filter(filename => filename !== '_topics.md' && filename !== '.DS_Store')
     .map(filename => {
       const markdownWithMeta = fs.readFileSync(
         path.join('content', 'articles', filename),
