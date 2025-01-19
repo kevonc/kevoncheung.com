@@ -1,9 +1,9 @@
 ---
-title: "Why you should take an immersive coding course"
-date: "2013-07-12"
-category: "entrepreneurship"
-meta_description: ""
-slug: "immersive-coding-course"
+title: Why you should take an immersive coding course
+date: '2013-07-12'
+meta_description: ''
+slug: immersive-coding-course
+topic: entrepreneurship
 ---
 
 Today is Week 4 Day 5, and I cannot believe one-third of the course has gone by so quickly. I’ve gathered a list of technical topics I want to share, but I can’t seem to find the time to write about them because I’m constantly working on my applications. Today I am going to talk about the difference between learning coding at home using online resources versus taking an immersive course with instructors and other students. I feel that a lot of people also have this concern in mind, “Hey, the course is so expensive, is it worth it?”

@@ -1,9 +1,9 @@
 ---
-title: "I am giving back this year"
-date: "2019-01-29"
-category: "life-lessons"
-meta_description: ""
-slug: "giving-back"
+title: I am giving back this year
+date: '2019-01-29'
+meta_description: ''
+slug: giving-back
+topic: life-lessons
 ---
 
 A thought came to mind this morning. It is not a new idea because, in fact, I’ve been doing it last week without knowing. This new thought is about making 2019 a year to give back.

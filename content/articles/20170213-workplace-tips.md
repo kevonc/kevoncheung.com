@@ -1,9 +1,9 @@
 ---
-title: "3 workplace tips you don’t learn in college"
-date: "2017-02-13"
-category: "life-lessons"
-meta_description: ""
-slug: "workplace-tips"
+title: 3 workplace tips you don’t learn in college
+date: '2017-02-13'
+meta_description: ''
+slug: workplace-tips
+topic: life-lessons
 ---
 
 As people seek more control over their own lives, we hear millennials complain about work all the time. Literally every few days you see or read something along that line. The reasons are, highlight a few, 1) the work is boring, 2) I don’t learn anything, 3) the hours are too long and inflexible. In The E-Myth Revisited: Why Most Small Businesses Don’t Work and What to Do About It by Michael Gerber, he said “The work we do is a reflection of who we are. If we’re sloppy at it, it’s because we’re sloppy inside ……. How we do our work becomes a mirror of how we are inside.” So, in the spirit of this, what are some things that you need to know at the workplace yet they don’t teach you in college?

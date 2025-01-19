@@ -1,9 +1,9 @@
 ---
-title: "Truth behind a successful product launch"
-date: "2021-03-21"
-category: "entrepreneurship"
-meta_description: ""
-slug: "product-launch"
+title: Truth behind a successful product launch
+date: '2021-03-21'
+meta_description: ''
+slug: product-launch
+topic: entrepreneurship
 ---
 
 Every founder has to learn how to launch products.

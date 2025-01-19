@@ -1,9 +1,9 @@
 ---
-title: "How to survive as a non-technical co-founder"
-date: "2013-04-27"
-category: "entrepreneurship"
-meta_description: ""
-slug: "non-technical-cofounder"
+title: How to survive as a non-technical co-founder
+date: '2013-04-27'
+meta_description: ''
+slug: non-technical-cofounder
+topic: entrepreneurship
 ---
 
 My friend Julian from Airbnb recently sent me this article An idea for non-technical co-founders: try a service-first business written by Ben Ogle, it was one of the best articles I’ve read so far in my startup career.

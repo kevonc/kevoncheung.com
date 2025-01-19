@@ -1,9 +1,9 @@
 ---
-title: "This approach helped me hit my fitness goal in 14 days"
-date: "2020-12-08"
-category: "life-lessons"
-meta_description: ""
-slug: "goal-setting"
+title: This approach helped me hit my fitness goal in 14 days
+date: '2020-12-08'
+meta_description: ''
+slug: goal-setting
+topic: life-lessons
 ---
 
 In the last 9 months during COVID-19, I was insanely unhealthy.

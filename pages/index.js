@@ -59,10 +59,10 @@ export default function Home({ posts }) {
                       month: 'long',
                       day: 'numeric'
                     })}</time>
-                    {post.frontmatter.category && (
+                    {post.frontmatter.topic && (
                       <>
                         <span className="text-gray-400 mx-2">·</span>
-                        <span>{post.frontmatter.category.toLowerCase()}</span>
+                        <span>{post.frontmatter.topic.toLowerCase()}</span>
                       </>
                     )}
                   </div>

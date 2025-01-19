@@ -1,5 +1,5 @@
 ---
-title: Now
+title: What I'm doing now
 meta_description: What I'm doing now - Kevon Cheung
 last_updated: "2024-10-14"
 ---

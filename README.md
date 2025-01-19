@@ -1,3 +1,18 @@
+# kevoncheung.com
+
+My personal website built with Next.js.
+
+## Pages
+
+- Articles Page: list all articles
+- Topic Page: list all articles in that topic
+- Article Page: individual article
+
+## Data Structure
+
+- Articles (date, title, slug, content, topic, meta_description)
+- Topics (title, slug)
+
 My current website is https://kevoncheung.com/ , can you duplicate the entire site, including the blog, and create a new site for me? Use markdown for content management and have a folder for each of them. Ignore the styling for now.
 
 Pages:

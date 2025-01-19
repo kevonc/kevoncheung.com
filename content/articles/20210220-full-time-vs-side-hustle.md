@@ -1,9 +1,9 @@
 ---
-title: "Go all in full-time or start as a side hustle?"
-date: "2021-02-20"
-category: "entrepreneurship"
-meta_description: ""
-slug: "full-time-vs-side-hustle"
+title: Go all in full-time or start as a side hustle?
+date: '2021-02-20'
+meta_description: ''
+slug: full-time-vs-side-hustle
+topic: entrepreneurship
 ---
 
 Thanks to the launch of my Building in Public Definitive Guide, I've received a number of questions from readers.

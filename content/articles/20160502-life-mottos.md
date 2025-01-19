@@ -1,9 +1,9 @@
 ---
-title: "7 life mottos I live by"
-date: "2016-05-02"
-category: "life-lessons"
-meta_description: ""
-slug: "life-mottos"
+title: 7 life mottos I live by
+date: '2016-05-02'
+meta_description: ''
+slug: life-mottos
+topic: life-lessons
 ---
 
 There are so many life mottos out there from all these famous people; for me, I believe everyone should have a personal set of life mottos and it is worth writing them down so we can remind ourselves from time to time.

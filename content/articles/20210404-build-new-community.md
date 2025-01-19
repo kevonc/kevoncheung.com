@@ -1,9 +1,9 @@
 ---
-title: "How I build a new community using data and feedback"
-date: "2021-04-04"
-category: "entrepreneurship"
-meta_description: ""
-slug: "build-new-community"
+title: How I build a new community using data and feedback
+date: '2021-04-04'
+meta_description: ''
+slug: build-new-community
+topic: entrepreneurship
 ---
 
 I loved taking out my huge whiteboard and started brainstorming ideas by myself or with my buddies. I thought that one whiteboard would help me change the world.

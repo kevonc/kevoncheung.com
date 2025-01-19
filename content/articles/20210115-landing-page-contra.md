@@ -1,9 +1,9 @@
 ---
-title: "Landing page optimization: Contra.com"
-date: "2021-01-15"
-category: "marketing"
-meta_description: ""
-slug: "landing-page-contra"
+title: 'Landing page optimization: Contra.com'
+date: '2021-01-15'
+meta_description: ''
+slug: landing-page-contra
+topic: marketing
 ---
 
 What does the future of work look like? Flexible, do what you love, and be measured by outcome, not hours.

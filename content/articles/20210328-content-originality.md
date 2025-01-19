@@ -1,9 +1,9 @@
 ---
-title: "Who wrote about this idea first? Does it matter?"
-date: "2021-03-28"
-category: "marketing"
-meta_description: ""
-slug: "content-originality"
+title: Who wrote about this idea first? Does it matter?
+date: '2021-03-28'
+meta_description: ''
+slug: content-originality
+topic: marketing
 ---
 
 When I first became a content creator, I got frustrated sometimes.

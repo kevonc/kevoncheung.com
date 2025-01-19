@@ -1,9 +1,9 @@
 ---
-title: "5 misconceptions about building in public"
-date: "2021-04-11"
-category: "entrepreneurship"
-meta_description: ""
-slug: "misconceptions-building-in-public"
+title: 5 misconceptions about building in public
+date: '2021-04-11'
+meta_description: ''
+slug: misconceptions-building-in-public
+topic: entrepreneurship
 ---
 
 More and more people are embracing Building in Public these days. Why? Is it because it is a hot trend or because more people care about transparency? I'm not entirely sure.

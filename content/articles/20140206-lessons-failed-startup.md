@@ -1,9 +1,9 @@
 ---
-title: "10 lessons I learned from my first failed startup"
-date: "2014-02-06"
-category: "entrepreneurship"
-meta_description: ""
-slug: "lessons-failed-startup"
+title: 10 lessons I learned from my first failed startup
+date: '2014-02-06'
+meta_description: ''
+slug: lessons-failed-startup
+topic: entrepreneurship
 ---
 
 Writing up this post has been in my mind since about a year ago at the beginning of 2013. That was the time when I decided Sponfed would not work out and it was time for us to move on. The delay came from my busy schedule to picking up coding and finding a software engineer job. I wrote half of it in late 2013 but never managed to finalize the details.

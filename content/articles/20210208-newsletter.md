@@ -1,9 +1,9 @@
 ---
-title: "Writing a newsletter no one will unsubscribe"
-date: "2021-02-08"
-category: "marketing"
-meta_description: ""
-slug: "newsletter"
+title: Writing a newsletter no one will unsubscribe
+date: '2021-02-08'
+meta_description: ''
+slug: newsletter
+topic: marketing
 ---
 
 Last week I opened my inbox, and I saw more and more unread newsletters piling up. I decided it was time for at least half of them to go, so I started unsubscribing.

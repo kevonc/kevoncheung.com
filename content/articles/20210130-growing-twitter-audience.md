@@ -1,9 +1,9 @@
 ---
-title: "How I grew my Twitter audience with human psychology"
-date: "2021-01-30"
-category: "marketing"
-meta_description: ""
-slug: "growing-twitter-audience"
+title: How I grew my Twitter audience with human psychology
+date: '2021-01-30'
+meta_description: ''
+slug: growing-twitter-audience
+topic: marketing
 ---
 
 If you are new on Twitter and want to know how to grow to 500 followers with the right approach in 10 weeks, this article is for you.

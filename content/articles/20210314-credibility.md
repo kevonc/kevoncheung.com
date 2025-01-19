@@ -1,9 +1,9 @@
 ---
-title: "What's stopping you from making money online"
-date: "2021-03-14"
-category: "entrepreneurship"
-meta_description: ""
-slug: "credibility"
+title: What's stopping you from making money online
+date: '2021-03-14'
+meta_description: ''
+slug: credibility
+topic: entrepreneurship
 ---
 
 Let's say there are two gardeners: John and Jenn.

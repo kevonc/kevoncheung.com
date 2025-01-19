@@ -1,9 +1,9 @@
 ---
-title: "I was doing customer development in Singapore"
-date: "2013-03-26"
-category: "entrepreneurship"
-meta_description: ""
-slug: "customer-development-singapore"
+title: I was doing customer development in Singapore
+date: '2013-03-26'
+meta_description: ''
+slug: customer-development-singapore
+topic: entrepreneurship
 ---
 
 For the last six days, I traveled to one of the most exciting cities with curiosity and excitement. I used to live there for two whole years when I was two years old, and there wasn’t a tiny bit of memory left in my head. That’s why I was extremely excited to be back in Singapore all by myself, just adventure and exploration in front of me.

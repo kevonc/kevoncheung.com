@@ -18,14 +18,14 @@ export default function Post({ content, frontmatter }) {
                 month: 'long',
                 day: 'numeric'
               })}</time>
-              {frontmatter.category && (
+              {frontmatter.topic && (
                 <>
                   <span className="text-gray-400 mx-2">·</span>
                   <Link 
-                    href={`/category/${frontmatter.category.toLowerCase()}`} 
+                    href={`/topic/${frontmatter.topic.toLowerCase()}`} 
                     className="hover:text-gray-900"
                   >
-                    {frontmatter.category.toLowerCase()}
+                    {frontmatter.topic.toLowerCase()}
                   </Link>
                 </>
               )}

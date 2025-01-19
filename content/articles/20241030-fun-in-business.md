@@ -1,9 +1,9 @@
 ---
-title: "When you lose the fun in business"
-date: "2024-10-30"
-category: "entrepreneurship"
-meta_description: ""
-slug: "fun-in-business"
+title: When you lose the fun in business
+date: '2024-10-30'
+meta_description: ''
+slug: fun-in-business
+topic: entrepreneurship
 ---
 
 Yucks!

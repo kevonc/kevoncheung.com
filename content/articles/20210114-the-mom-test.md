@@ -1,9 +1,9 @@
 ---
-title: "Why I forced my whole team to read The Mom Test"
-date: "2021-01-14"
-category: "entrepreneurship"
-meta_description: ""
-slug: "the-mom-test"
+title: Why I forced my whole team to read The Mom Test
+date: '2021-01-14'
+meta_description: ''
+slug: the-mom-test
+topic: entrepreneurship
 ---
 
 If you've read my other post about validating your startup idea, you'd know that my startup, Toasty, went through a critical pivot after failing the 1st idea.

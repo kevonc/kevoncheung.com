@@ -1,9 +1,9 @@
 ---
-title: "Why you should work overseas in your early career"
-date: "2014-03-06"
-category: "entrepreneurship"
-meta_description: ""
-slug: "work-overseas"
+title: Why you should work overseas in your early career
+date: '2014-03-06'
+meta_description: ''
+slug: work-overseas
+topic: entrepreneurship
 ---
 
 Exactly 123 days ago I moved to Singapore, from Hong Kong, and began to live a life I would never have imagined before. No, it is not one of those dramatic, crazy lives you’ve seen in the movies; in fact, it is the simple, peaceful life of a 23-year-old continuing to be alone overseas.

@@ -1,9 +1,9 @@
 ---
-title: "You have to avoid these user interview traps"
-date: "2020-11-22"
-category: "entrepreneurship"
-meta_description: ""
-slug: "user-interview-traps"
+title: You have to avoid these user interview traps
+date: '2020-11-22'
+meta_description: ''
+slug: user-interview-traps
+topic: entrepreneurship
 ---
 
 "Stay close to your users" has become the principle of building great products.

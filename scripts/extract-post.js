@@ -62,7 +62,7 @@ async function extractPost(url) {
     const formattedContent = `---
 title: "${metadata.title}"
 date: "${metadata.date}"
-category: "entrepreneurship"
+topic: "entrepreneurship"
 meta_description: ""
 slug: "${slug}"
 ---`;

@@ -1,9 +1,9 @@
 ---
-title: "Avoid doing what you like"
-date: "2021-06-19"
-category: "entrepreneurship"
-meta_description: ""
-slug: "avoid-doing-what-you-like"
+title: Avoid doing what you like
+date: '2021-06-19'
+meta_description: ''
+slug: avoid-doing-what-you-like
+topic: entrepreneurship
 ---
 
 I was chatting with a community builder friend and he asked me, "What's the thing that offers the most value in your community?"

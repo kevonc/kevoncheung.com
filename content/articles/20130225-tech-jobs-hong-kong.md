@@ -1,9 +1,9 @@
 ---
-title: "My view on low paying tech jobs in Hong Kong"
-date: "2013-02-25"
-category: "entrepreneurship"
-meta_description: ""
-slug: "tech-jobs-hong-kong"
+title: My view on low paying tech jobs in Hong Kong
+date: '2013-02-25'
+meta_description: ''
+slug: tech-jobs-hong-kong
+topic: entrepreneurship
 ---
 
 A few days ago I came across a job search site, and given I have decided to dive into a geeky path, so I clicked into the site to see whether there will be a future for being a tech guy in the Hong Kong industry.

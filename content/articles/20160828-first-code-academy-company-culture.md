@@ -1,9 +1,9 @@
 ---
-title: "How we define our company culture at First Code Academy"
-date: "2016-08-28"
-category: "entrepreneurship"
-meta_description: ""
-slug: "first-code-academy-company-culture"
+title: How we define our company culture at First Code Academy
+date: '2016-08-28'
+meta_description: ''
+slug: first-code-academy-company-culture
+topic: entrepreneurship
 ---
 
 Ever since Michelle and I read Tony Hsieh’s Delivering Happiness, we have been intrigued by the way Tony runs Zappos and how culture plays a major role in the building of the shoe empire.

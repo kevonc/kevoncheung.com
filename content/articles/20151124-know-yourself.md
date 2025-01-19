@@ -1,9 +1,9 @@
 ---
-title: "Why know yourself"
-date: "2015-11-24"
-category: "entrepreneurship"
-meta_description: ""
-slug: "know-yourself"
+title: Why know yourself
+date: '2015-11-24'
+meta_description: ''
+slug: know-yourself
+topic: entrepreneurship
 ---
 
 One night over dinner, a college friend asked me “What is your life goal?” It was definitely a rare question that not many peers have asked me at this stage of our lives. It was a tough question! I don’t know what life goals I have because it changes all the time. If you asked me in primary school, I would have given you the standard “a businessman” answer. In high school, you might hear “an investment banker who makes a lot of money”. And then in college, you probably hear “an aspiring figure who stands out from the crowd”.

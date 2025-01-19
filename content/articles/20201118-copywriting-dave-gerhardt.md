@@ -1,9 +1,9 @@
 ---
-title: "Decoding best copywriting examples from Dave Gerhardt"
-date: "2020-11-18"
-category: "marketing"
-meta_description: ""
-slug: "copywriting-dave-gerhardt"
+title: Decoding best copywriting examples from Dave Gerhardt
+date: '2020-11-18'
+meta_description: ''
+slug: copywriting-dave-gerhardt
+topic: marketing
 ---
 
 Back in March 2020, I was very active on my LinkedIn trying to engage my network.

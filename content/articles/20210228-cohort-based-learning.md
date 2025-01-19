@@ -1,9 +1,9 @@
 ---
-title: "Will cohort-based learning be the future?"
-date: "2021-02-28"
-category: "teaching-learning"
-meta_description: ""
-slug: "cohort-based-learning"
+title: Will cohort-based learning be the future?
+date: '2021-02-28'
+meta_description: ''
+slug: cohort-based-learning
+topic: teaching-learning
 ---
 
 We keep forgetting one simple truth. We humans are tribal.

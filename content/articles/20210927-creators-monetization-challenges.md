@@ -1,9 +1,9 @@
 ---
-title: "How I grew to $2,000/mo as a nobody then got rid of it"
-date: "2021-09-27"
-category: "entrepreneurship"
-meta_description: ""
-slug: "creators-monetization-challenges"
+title: 'How I grew to $2,000/mo as a nobody then got rid of it'
+date: '2021-09-27'
+meta_description: ''
+slug: creators-monetization-challenges
+topic: entrepreneurship
 ---
 
 Who worked really hard to make a living online, found a way to reach $2K/month, and then said goodbye to the 2 revenue streams?

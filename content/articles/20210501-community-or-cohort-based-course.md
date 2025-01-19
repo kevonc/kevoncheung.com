@@ -1,9 +1,9 @@
 ---
-title: "How to decide between starting a community and a cohort-based course"
-date: "2021-05-01"
-category: "teaching-learning"
-meta_description: ""
-slug: "community-or-cohort-based-course"
+title: How to decide between starting a community and a cohort-based course
+date: '2021-05-01'
+meta_description: ''
+slug: community-or-cohort-based-course
+topic: teaching-learning
 ---
 
 Are you thinking about starting a new community or creating a cohort-based course? They're the hottest products to create in 2021. But before you do so, read this.

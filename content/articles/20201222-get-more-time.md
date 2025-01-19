@@ -1,9 +1,9 @@
 ---
-title: "How to get more time in your day"
-date: "2020-12-22"
-category: "life-lessons"
-meta_description: ""
-slug: "get-more-time"
+title: How to get more time in your day
+date: '2020-12-22'
+meta_description: ''
+slug: get-more-time
+topic: life-lessons
 ---
 
 I'm a productivity nerd. When I waste time, I always feel a sense of guilt.

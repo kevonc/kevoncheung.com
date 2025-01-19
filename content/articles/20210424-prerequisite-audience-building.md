@@ -1,9 +1,9 @@
 ---
-title: "You can't grow an audience without these"
-date: "2021-04-24"
-category: "marketing"
-meta_description: ""
-slug: "prerequisite-audience-building"
+title: You can't grow an audience without these
+date: '2021-04-24'
+meta_description: ''
+slug: prerequisite-audience-building
+topic: marketing
 ---
 
 When it comes to audience building on Twitter, it comes down to producing high-quality content to attract readers. We call it - writing tweet threads to get followers.

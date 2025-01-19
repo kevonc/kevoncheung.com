@@ -1,9 +1,9 @@
 ---
-title: "What a software engineer should expect working in an agency"
-date: "2015-06-06"
-category: "entrepreneurship"
-meta_description: ""
-slug: "working-in-agency"
+title: What a software engineer should expect working in an agency
+date: '2015-06-06'
+meta_description: ''
+slug: working-in-agency
+topic: entrepreneurship
 ---
 
 Well, it has been almost a year since I last wrote a blog post. I would like to take this chance to give an update on what I’m doing. Since leaving Favorite Medium, a Software Development Agency in Singapore, at the end of 2014, I joined First Code Academy in Hong Kong with a mission to empower the next generation to become creators with technology. I am taking this chance to reflect on my experience working as a Software Engineer in an agency, hoping that those who are looking for jobs after a coding bootcamp will see this post and find it helpful.

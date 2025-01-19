@@ -1,9 +1,9 @@
 ---
-title: "Why thinking big is bad for you"
-date: "2021-03-06"
-category: "entrepreneurship"
-meta_description: ""
-slug: "thinking-big"
+title: Why thinking big is bad for you
+date: '2021-03-06'
+meta_description: ''
+slug: thinking-big
+topic: entrepreneurship
 ---
 
 I almost always say yes if an aspiring founder asks me for advice.

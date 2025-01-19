@@ -1,9 +1,9 @@
 ---
-title: "My guide attracted 2,100 people in 3 days. Here's what I learned"
-date: "2021-02-15"
-category: "marketing"
-meta_description: ""
-slug: "bip-guide-behind-the-scenes"
+title: 'My guide attracted 2,100 people in 3 days. Here''s what I learned'
+date: '2021-02-15'
+meta_description: ''
+slug: bip-guide-behind-the-scenes
+topic: marketing
 ---
 
 I was a nobody on the Internet. It took me a total of 2 months and 10,000 words to finish the Building in Public guide, and this happened: 2,100 unique visitors in 3 days, a 73% increase of Twitter followers in 7 days from 767 to 1327, #20 on Hacker News Page 1 for a day, 3 live sharing sessions, and regular mentions of the guide.

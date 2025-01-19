@@ -4,20 +4,20 @@ import matter from 'gray-matter'
 import Link from 'next/link'
 import Layout from '../components/Layout'
 
-export default function Articles({ posts, categories }) {
+export default function Articles({ posts, topics }) {
   return (
     <Layout>
       <div className="max-w-3xl mx-auto">
         <div className="mb-16">
           <h1>Articles</h1>
           <div className="flex flex-wrap gap-2 mb-8">
-            {categories.map((category) => (
-              <Link 
-                key={category.slug}
-                href={`/category/${category.slug}`}
+            {topics.map((topic) => (
+              <Link
+                key={topic.slug}
+                href={`/topic/${topic.slug}`}
                 className="tag hover:bg-gray-200"
               >
-                {category.title.toLowerCase()}
+                {topic.title.toLowerCase()}
               </Link>
             ))}
           </div>
@@ -36,10 +36,10 @@ export default function Articles({ posts, categories }) {
                     month: 'long',
                     day: 'numeric'
                   })}</time>
-                  {post.frontmatter.category && (
+                  {post.frontmatter.topic && (
                     <>
                       <span className="text-gray-400 mx-2">·</span>
-                      <span>{post.frontmatter.category.toLowerCase()}</span>
+                      <span>{post.frontmatter.topic.toLowerCase()}</span>
                     </>
                   )}
                 </div>
@@ -58,16 +58,16 @@ export default function Articles({ posts, categories }) {
 }
 
 export async function getStaticProps() {
-  // Get categories
-  const categoriesFile = fs.readFileSync(path.join('content', 'articles', '_categories.md'), 'utf-8')
-  const { data: categoriesData } = matter(categoriesFile)
-  const categories = categoriesData.categories || []
+  // Get topics
+  const topicsFile = fs.readFileSync(path.join('content', 'articles', '_topics.md'), 'utf-8')
+  const { data: topicsData } = matter(topicsFile)
+  const topics = topicsData.topics || []
 
   // Get posts
   const files = fs.readdirSync(path.join('content', 'articles'))
   
   const posts = files
-    .filter(filename => filename !== '_categories.md')
+    .filter(filename => filename !== '_topics.md')
     .map(filename => {
       const markdownWithMeta = fs.readFileSync(
         path.join('content', 'articles', filename),
@@ -94,7 +94,7 @@ export async function getStaticProps() {
   return {
     props: {
       posts,
-      categories
+      topics
     }
   }
 } 

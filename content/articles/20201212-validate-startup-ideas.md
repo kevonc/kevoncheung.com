@@ -1,9 +1,9 @@
 ---
-title: "How to validate your startup idea"
-date: "2020-12-12"
-category: "entrepreneurship"
-meta_description: ""
-slug: "validate-startup-ideas"
+title: How to validate your startup idea
+date: '2020-12-12'
+meta_description: ''
+slug: validate-startup-ideas
+topic: entrepreneurship
 ---
 
 If you’re thinking about the next big idea that matches or even beats Airbnb, Netflix, and Uber, then you’re on the right track.

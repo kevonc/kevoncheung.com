@@ -1,9 +1,9 @@
 ---
-title: "You are finding jobs the wrong way"
-date: "2016-09-09"
-category: "life-lessons"
-meta_description: ""
-slug: "finding-jobs-the-wrong-way"
+title: You are finding jobs the wrong way
+date: '2016-09-09'
+meta_description: ''
+slug: finding-jobs-the-wrong-way
+topic: life-lessons
 ---
 
 If you were just on any job portal like JobsDB or LinkedIn looking for a job, you might want to read this blog post because you have been finding jobs the wrong way. Everyone knows that finding a job is hard, almost as hard as finding your significant half. What’s worse is, when you start dating someone you don’t like that much, which is kind of like taking a job you’re not so interested in. Now, if you want to find a job that you actually enjoy, read on. Disclaimer: This is more for a startup job.

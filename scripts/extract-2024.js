@@ -70,7 +70,7 @@ mappings.images.forEach((img, index) => {
 const formattedContent = `---
 title: "2024: A Year of Burnout, Reflection, and Change"
 date: "2024-01-07"
-category: "life lessons"
+topic: "life lessons"
 meta_description: "A personal reflection on 2024, discussing burnout in business, the importance of collaboration, and finding a sustainable path forward in entrepreneurship."
 ---
 

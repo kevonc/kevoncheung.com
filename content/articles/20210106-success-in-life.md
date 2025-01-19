@@ -1,9 +1,9 @@
 ---
-title: "How to be successful in life"
-date: "2021-01-06"
-category: "life-lessons"
-meta_description: ""
-slug: "success-in-life"
+title: How to be successful in life
+date: '2021-01-06'
+meta_description: ''
+slug: success-in-life
+topic: life-lessons
 ---
 
 It was Thanksgiving, and I ordered two bottles of my favorite Château Léoville-Poyferré and wrote a card to send to a friend of mine. I don't actually enjoy gifting that much; I prefer catching up over coffee in person. But I wanted to do it this time.
