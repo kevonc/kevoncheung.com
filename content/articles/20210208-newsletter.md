@@ -6,7 +6,7 @@ slug: newsletter
 topic: marketing
 ---
 
-<img src="/images/blog/newsletter-1.png" alt="Writing a newsletter no one will unsubscribe marketing February 8" class="cover-image" />
+<img src="/images/blog/newsletter-1.jpeg" alt="Writing a newsletter no one will unsubscribe marketing February 8" class="cover-image" />
 
 
 Last week I opened my inbox, and I saw more and more unread newsletters piling up. I decided it was time for at least half of them to go, so I started unsubscribing.

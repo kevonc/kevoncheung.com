@@ -41,9 +41,9 @@ And this post is about the first 6 months of Toasty, before our first pivot.
 
 We built a matchmaking platform for conference-goers to screen and set up meetings with each other before the actual date. The goal was to enhance their networking experience so that it was worthwhile to spend days at the conference, especially when tickets were so expensive or if attendees traveled overseas.
 
-<img src="/images/blog/validate-startup-ideas-3.png" alt="And this post is about the first 6 months of" />
+<img src="/images/blog/validate-startup-ideas-3.jpeg" alt="And this post is about the first 6 months of" />
 
-<img src="/images/blog/validate-startup-ideas-2.png" alt="In the journey we pivoted once because we knew our" />
+<img src="/images/blog/validate-startup-ideas-2.jpeg" alt="In the journey we pivoted once because we knew our" />
 
 
 
@@ -120,7 +120,7 @@ Even though they want it, the time constraint of hosting a conference and matchm
 Non-existent feedback loop
 The key to growing a startup product is to collect a ton of feedback to improve iteratively. Most of the buyers are not on-site at the matchmaking site, so they cannot offer any feedback. And attendees only get to use our platform for 1-2 days, so it is extremely difficult to follow up to get their feedback as well.
 
-<img src="/images/blog/validate-startup-ideas-8.png" alt="Even though they want it the time constraint of hosting" />
+<img src="/images/blog/validate-startup-ideas-8.jpeg" alt="Even though they want it the time constraint of hosting" />
 
 In hindsight, this was a terrible idea
 
@@ -139,7 +139,7 @@ How I’d evaluate my future startup ideas (especially for B2B SaaS)
 1. Is my idea part of a global trend?
 It is much better to ride with the wave than to go against it. Zapier played right in the global trend of booming Marketing Technology when it started in 2011. What did they do? They connected all these platforms.
 
-<img src="/images/blog/validate-startup-ideas-9.png" alt="The world has changed a lot now we wouldn’t want" />
+<img src="/images/blog/validate-startup-ideas-9.jpeg" alt="The world has changed a lot now we wouldn’t want" />
 
 
 

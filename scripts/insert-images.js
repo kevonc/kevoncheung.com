@@ -5,80 +5,76 @@ const stringSimilarity = require('string-similarity');
 
 // Helper function to generate alt text based on context
 function generateAltText(context, maxWords = 10) {
-  // Combine before and after text to understand context
-  const fullContext = `${context.before} ${context.after}`;
-  
-  // Extract key phrases and generate a concise description
-  const words = fullContext.split(' ');
-  return words.slice(0, maxWords).join(' ').replace(/[.,\/#!$%\^&\*;:{}=\-_`~()]/g, '').trim();
+  const text = context.before.split(' ').slice(-20).join(' ');
+  return text.split(' ').slice(0, maxWords).join(' ');
 }
 
 // Helper function to find best matching position using fuzzy matching
-function findBestMatch(text, content) {
+function findBestMatch(content, context) {
   const paragraphs = content.split('\n\n');
   let bestMatch = { index: -1, rating: 0 };
-
-  paragraphs.forEach((paragraph, index) => {
-    const similarity = stringSimilarity.compareTwoStrings(text, paragraph);
-    if (similarity > bestMatch.rating) {
-      bestMatch = { index, rating: similarity };
+  
+  paragraphs.forEach((para, index) => {
+    if (para.includes('<img')) return; // Skip paragraphs that already have images
+    
+    const rating = stringSimilarity.compareTwoStrings(
+      para.toLowerCase().trim(),
+      context.before.toLowerCase().trim()
+    );
+    if (rating > bestMatch.rating) {
+      bestMatch = { index, rating };
     }
   });
-
-  return bestMatch.rating > 0.6 ? bestMatch.index : -1;
+  
+  return bestMatch;
 }
 
-async function insertImages() {
-  const articlesDir = path.join(__dirname, '../content/articles');
-  const extractedDir = path.join(__dirname, '../extracted');
+function insertImages() {
+  const articlePath = path.join(__dirname, '../content/articles/20220110-2021.md');
+  const mappingsPath = path.join(__dirname, '../extracted/2021-image-mappings.json');
   
-  // Get all markdown files
-  const articleFiles = fs.readdirSync(articlesDir)
-    .filter(file => file.endsWith('.md'));
-
-  for (const articleFile of articleFiles) {
-    const slug = articleFile.replace('.md', '').split('-').slice(1).join('-');
-    const mappingsFile = path.join(extractedDir, `${slug}-image-mappings.json`);
-    
-    // Skip if no mappings exist
-    if (!fs.existsSync(mappingsFile)) {
-      console.log(`No image mappings found for ${slug}, skipping...`);
-      continue;
-    }
-
-    // Read article and mappings
-    const articlePath = path.join(articlesDir, articleFile);
-    const article = fs.readFileSync(articlePath, 'utf8');
-    const { data: frontmatter, content } = matter(article);
-    const mappings = JSON.parse(fs.readFileSync(mappingsFile, 'utf8'));
-
-    let newContent = content;
-    
-    // Process each image
-    mappings.images.forEach((img, index) => {
-      const altText = generateAltText(img.context);
-      const imageTag = `<img src="/images/blog/${slug}-${index + 1}.png" alt="${altText}"${index === 0 ? ' class="cover-image"' : ''} />`;
-
-      if (index === 0) {
-        // Insert cover image after frontmatter
-        newContent = `\n${imageTag}\n\n${newContent}`;
+  // Read the article and mappings
+  const article = fs.readFileSync(articlePath, 'utf8');
+  const mappings = JSON.parse(fs.readFileSync(mappingsPath, 'utf8'));
+  
+  let { content, data } = matter(article);
+  let paragraphs = content.split('\n\n').filter(p => p.trim() !== '');
+  
+  // Remove any existing images except the cover image
+  paragraphs = paragraphs.filter((p, i) => {
+    if (i <= 1 && p.includes('cover-image')) return true;
+    return !p.includes('<img');
+  });
+  
+  // Process each image
+  mappings.images.forEach((image, index) => {
+    if (index === 0) {
+      // First image is the cover image
+      const coverImage = `<img src="/images/blog/2021-${index + 1}.jpeg" alt="${generateAltText(image.context)}" class="cover-image" />`;
+      // Replace existing cover image or add it
+      const coverIndex = paragraphs.findIndex(p => p.includes('cover-image'));
+      if (coverIndex !== -1) {
+        paragraphs[coverIndex] = coverImage;
       } else {
-        // Find position for other images using fuzzy matching
-        const matchIndex = findBestMatch(img.context.before, newContent);
-        if (matchIndex !== -1) {
-          const contentArray = newContent.split('\n\n');
-          contentArray.splice(matchIndex + 1, 0, imageTag);
-          newContent = contentArray.join('\n\n');
-        }
+        paragraphs.splice(1, 0, coverImage);
       }
-    });
-
-    // Write updated content back to file
-    const updatedArticle = matter.stringify(newContent, frontmatter);
-    fs.writeFileSync(articlePath, updatedArticle);
-    console.log(`Updated ${articleFile} with ${mappings.images.length} images`);
-  }
+    } else {
+      // Find best match for context
+      const match = findBestMatch(paragraphs.join('\n\n'), image.context);
+      if (match.rating > 0.3) { // Threshold for similarity
+        const imageTag = `<img src="/images/blog/2021-${index + 1}.jpeg" alt="${generateAltText(image.context)}" />`;
+        paragraphs.splice(match.index + 1, 0, imageTag);
+      }
+    }
+  });
+  
+  // Reconstruct the content
+  const newContent = matter.stringify(paragraphs.join('\n\n'), data);
+  
+  // Write back to file
+  fs.writeFileSync(articlePath, newContent);
+  console.log('Updated 20220110-2021.md with all images');
 }
 
 // Run the script
-insertImages().catch(console.error); 
+insertImages(); 

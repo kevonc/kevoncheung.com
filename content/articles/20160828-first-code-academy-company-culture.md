@@ -68,7 +68,7 @@ These core values and the stories behind them became training materials for each
 
 From the day when we wrote down the 8 core values of the First Code, we have seen a tremendous increase in actions and behaviors that fit into our culture and values. The team became more efficient as team members started using these core values to make independent decisions.
 
-<img src="/images/blog/first-code-academy-company-culture-3.png" alt="These core values and the stories behind them became training" />
+<img src="/images/blog/first-code-academy-company-culture-3.jpeg" alt="These core values and the stories behind them became training" />
 
 
 

@@ -6,7 +6,7 @@ slug: customer-development-singapore
 topic: entrepreneurship
 ---
 
-<img src="/images/blog/customer-development-singapore-1.png" alt="We learned about the right methodology to do a startup" class="cover-image" />
+<img src="/images/blog/customer-development-singapore-1.jpeg" alt="We learned about the right methodology to do a startup" class="cover-image" />
 
 
 For the last six days, I traveled to one of the most exciting cities with curiosity and excitement. I used to live there for two whole years when I was two years old, and there wasn’t a tiny bit of memory left in my head. That’s why I was extremely excited to be back in Singapore all by myself, just adventure and exploration in front of me.
@@ -17,35 +17,23 @@ At LSM, we formed teams to develop fresh business ideas that we would test with 
 
 We learned about the right methodology to do a startup at LSM, and I kept referring the concept back to my own startup, Sponfed. I realized there were a ton of mistakes we made: didn’t specify a specific market segment where the early adopters are, didn’t test assumptions and pivot enough, and didn’t come up with a way to present our product effectively when meeting with clients. The sponsorship space is definitely a tough market to go into, but we could have been more successful in tackling the problems if we had used the lean startup concept.
 
-<img src="/images/blog/customer-development-singapore-4.png" alt="We learned about the right methodology to do a startup" />
+<img src="/images/blog/customer-development-singapore-2.jpeg" alt="We learned about the right methodology to do a startup" />
 
-<img src="/images/blog/customer-development-singapore-3.png" alt="We learned about the right methodology to do a startup" />
+<img src="/images/blog/customer-development-singapore-3.jpeg" alt="We learned about the right methodology to do a startup" />
 
-<img src="/images/blog/customer-development-singapore-2.png" alt="We learned about the right methodology to do a startup" />
-
-
-
-
-
-
-
-
-
-
-
-
+<img src="/images/blog/customer-development-singapore-4.jpeg" alt="We learned about the right methodology to do a startup" />
 
 Well, other than learning the startup methodology, I also visited a ton of places in Singapore, Night Safari, Garden by the Bay, Sentosa, Raffle Places, Clarke Quay, the best rooftop bar 1-Altitude, Little India, Orchard Road, Bugis, what a shame I didn’t get to Chinatown lol! I found Singapore to be a very lovely place, it is extremely small but ridiculously diverse, from Indians to Chinese to Malays to Westerners, you could expect everything there. From the riverside bars in Clarke Quay and Raffle Places to the outdoor ones on Orchard Road, I could say working short-term in Singapore is totally preferable to Hong Kong, but in terms of living permanently, I’m not too sure because things to do will run out pretty soon.
 
 Other observations from my trip were that the architecture in the city is consistent with a similar modern touch, taxi drivers are very friendly and like to talk with the passengers, asking me whether Hong Kong girls are prettier looking. I have also had most of my meals at the hawker centers or food court, the food there is so cheap that I had to order two sometimes, but the quality? so-so.
 
-<img src="/images/blog/customer-development-singapore-8.png" alt="Other observations from my trip were that the architecture in" />
+<img src="/images/blog/customer-development-singapore-5.jpeg" alt="Other observations from my trip were that the architecture in" />
 
-<img src="/images/blog/customer-development-singapore-7.png" alt="Other observations from my trip were that the architecture in" />
+<img src="/images/blog/customer-development-singapore-6.jpeg" alt="Other observations from my trip were that the architecture in" />
 
-<img src="/images/blog/customer-development-singapore-6.png" alt="Other observations from my trip were that the architecture in" />
+<img src="/images/blog/customer-development-singapore-7.jpeg" alt="Other observations from my trip were that the architecture in" />
 
-<img src="/images/blog/customer-development-singapore-5.png" alt="Other observations from my trip were that the architecture in" />
+<img src="/images/blog/customer-development-singapore-8.jpeg" alt="Other observations from my trip were that the architecture in" />
 
 I can now announce that Singapore has jumped onto my favorite list of cities right behind Bangkok and Taipei. To be honest, it is quite an ideal city to work overseas!
 

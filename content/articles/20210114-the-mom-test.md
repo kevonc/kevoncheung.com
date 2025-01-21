@@ -6,7 +6,7 @@ slug: the-mom-test
 topic: entrepreneurship
 ---
 
-<img src="/images/blog/the-mom-test-1.png" alt="The same goes for creating a tech product for the" class="cover-image" />
+<img src="/images/blog/the-mom-test-1.jpeg" alt="The same goes for creating a tech product for the" class="cover-image" />
 
 
 If you've read my other post about validating your startup idea, you'd know that my startup, Toasty, went through a critical pivot after failing the 1st idea.

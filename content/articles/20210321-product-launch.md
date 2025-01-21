@@ -6,7 +6,7 @@ slug: product-launch
 topic: entrepreneurship
 ---
 
-<img src="/images/blog/product-launch-1.png" alt="Truth behind a successful product launch entrepreneurship March 21 2021" class="cover-image" />
+<img src="/images/blog/product-launch-1.jpeg" alt="Truth behind a successful product launch entrepreneurship March 21 2021" class="cover-image" />
 
 
 Every founder has to learn how to launch products.

@@ -6,7 +6,7 @@ slug: get-more-time
 topic: life-lessons
 ---
 
-<img src="/images/blog/get-more-time-1.png" alt="How to get more time in your day life Lessons" class="cover-image" />
+<img src="/images/blog/get-more-time-1.jpeg" alt="How to get more time in your day life Lessons" class="cover-image" />
 
 
 I'm a productivity nerd. When I waste time, I always feel a sense of guilt.
@@ -55,7 +55,7 @@ One thing you should also know, that decision fatigue is real. If a person has t
 
 There are so many decisions each one of us has to make each day, and the key is to find out what matters to you most to want to keep having to make that decision, and what matters least to you so you can remove the need to make such a decision completely.
 
-<img src="/images/blog/get-more-time-2.png" alt="How I reduce decision fatigue One thing you should also" />
+<img src="/images/blog/get-more-time-2.jpeg" alt="How I reduce decision fatigue One thing you should also" />
 
 Let's take my day as an example.
 
@@ -75,7 +75,7 @@ Up until 8:45 am, I still make no decision, wasting no time.
 Next: dress up
 I've long stopped caring about what I wear, maybe because most of my work is in front of a computer. I have about 12 Uniqlo t-shirts in plain colors, 7-8 J Crew shirts in plain colors, and 4-5 American Eagle jeans in black or blue. Every day, I just put on whatever combination that I feel like on the day. Not having to decide what to wear saves me a good 5-15 mins.
 
-<img src="/images/blog/get-more-time-4.png" alt="I've long stopped caring about what I wear maybe because" />
+<img src="/images/blog/get-more-time-4.jpeg" alt="I've long stopped caring about what I wear maybe because" />
 
 
 

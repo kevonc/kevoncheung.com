@@ -6,7 +6,7 @@ slug: build-new-community
 topic: entrepreneurship
 ---
 
-<img src="/images/blog/build-new-community-1.png" alt="How I build a new community using data and feedback" class="cover-image" />
+<img src="/images/blog/build-new-community-1.jpeg" alt="How I build a new community using data and feedback" class="cover-image" />
 
 
 I loved taking out my huge whiteboard and started brainstorming ideas by myself or with my buddies. I thought that one whiteboard would help me change the world.

@@ -6,7 +6,7 @@ slug: credibility
 topic: entrepreneurship
 ---
 
-<img src="/images/blog/credibility-1.png" alt="What's stopping you from making money online entrepreneurship March 14" class="cover-image" />
+<img src="/images/blog/credibility-1.jpeg" alt="What's stopping you from making money online entrepreneurship March 14" class="cover-image" />
 
 
 Let's say there are two gardeners: John and Jenn.

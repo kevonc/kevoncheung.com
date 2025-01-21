@@ -6,7 +6,7 @@ slug: growing-twitter-audience
 topic: marketing
 ---
 
-<img src="/images/blog/growing-twitter-audience-1.png" alt="How I grew my Twitter audience with human psychology marketing" class="cover-image" />
+<img src="/images/blog/growing-twitter-audience-1.jpeg" alt="How I grew my Twitter audience with human psychology marketing" class="cover-image" />
 
 
 If you are new on Twitter and want to know how to grow to 500 followers with the right approach in 10 weeks, this article is for you.

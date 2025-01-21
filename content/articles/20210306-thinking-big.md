@@ -6,7 +6,7 @@ slug: thinking-big
 topic: entrepreneurship
 ---
 
-<img src="/images/blog/thinking-big-1.png" alt="Why thinking big is bad for you entrepreneurship March 6" class="cover-image" />
+<img src="/images/blog/thinking-big-1.jpeg" alt="Why thinking big is bad for you entrepreneurship March 6" class="cover-image" />
 
 
 I almost always say yes if an aspiring founder asks me for advice.
