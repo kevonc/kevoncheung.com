@@ -6,6 +6,9 @@ slug: landing-page-contra
 topic: marketing
 ---
 
+<img src="/images/blog/landing-page-contra-1.png" alt="Landing page optimization Contracom marketing January 15 2021 What does" class="cover-image" />
+
+
 What does the future of work look like? Flexible, do what you love, and be measured by outcome, not hours.
 
 I have never been a victim of the traditional 9-6 job. As mentioned here, I am selective to find companies and teams that I know I'd enjoy working there so much that I put in 300% effort.
@@ -20,6 +23,8 @@ Getting to know Contra
 Last week, I stumbled upon Contra. I'm not going to tell you what they do just yet, because that's the whole purpose of this post.
 
 I was impressed by their vision and community, so I browsed some more and saw that they were looking for ambassadors. I clicked in, motivated by my curiosity, and saw an application form with the question "How would you change/improve our current landing pages?"
+
+<img src="/images/blog/landing-page-contra-2.png" alt="I was impressed by their vision and community so I" />
 
 I wanted to apply and connect with these awesome people!, so I did. And this post is my answer to the question they posted.
 

@@ -6,6 +6,9 @@ slug: content-originality
 topic: marketing
 ---
 
+<img src="/images/blog/content-originality-1.png" alt="Who wrote about this idea first? Does it matter? marketing" class="cover-image" />
+
+
 When I first became a content creator, I got frustrated sometimes.
 
 The piece of content that I spent dozens of hours to create was taken by other people to recreate into their content.

@@ -6,6 +6,9 @@ slug: product-launch
 topic: entrepreneurship
 ---
 
+<img src="/images/blog/product-launch-1.png" alt="Truth behind a successful product launch entrepreneurship March 21 2021" class="cover-image" />
+
+
 Every founder has to learn how to launch products.
 
 If you do it well, your product gets a good start with testimonials, users, and sometimes even revenue on day 1.
@@ -74,6 +77,10 @@ At Toasty, we built, we launched, and we got nothing.
 
 The way I created the guide and the email course was very different. I've been using Twitter to make friends and my tweets became my testing ground. Long before my guide was ready, I already talked about it and received interest from people.
 
+<img src="/images/blog/product-launch-6.png" alt="At Toasty we built we launched and we got nothing" />
+
+<img src="/images/blog/product-launch-4.png" alt="If your plan is to focus on building and then" />
+
 
 
 I also tweeted to see if anyone would be interested in helping to review my draft. When they replied, I reached out via DM and got to know them.
@@ -102,6 +109,10 @@ Don't underestimate word of mouth
 If your product has no fans before it launches, you're doomed.
 
 The word "launch" is a little misleading. It refers to the moment you put out something to the world. From launching my products and also watching how people launch on Product Hunt, I figured there is a huge advantage to having a group of people already cheering for you when you "launch".
+
+<img src="/images/blog/product-launch-8.png" alt="The word "launch" is a little misleading It refers to" />
+
+<img src="/images/blog/product-launch-7.png" alt="Don't underestimate word of mouth If your product has no" />
 
 With the early readers, I was able to get their testimonials to add credibility to my product when it launched. I use Testimonial.
 

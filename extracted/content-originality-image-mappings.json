@@ -3,7 +3,11 @@
     {
       "src": "https://framerusercontent.com/images/kKuDvhLNkO9C5oxC3Kk53670hU.jpeg",
       "alt": "",
-      "filename": "blog/content-originality-1.jpeg"
+      "filename": "blog/content-originality-1.png",
+      "context": {
+        "before": "Who wrote about this idea first? Does it matter? marketing March 28, 2021",
+        "after": "When I first became a content creator, I got frustrated sometimes. The piece of content that I spent dozens of hours to create was taken by other people to recreate into their content. In my mind, an upsetting voice could be heard \"This is my content!\" But as months went by, I came to realize there isn't such thing such originality of content and I shouldn't care about it at all. True originality is not important Content comes from knowledge in our head, and knowledge comes from consuming and processing other knowledge."
+      }
     }
   ]
 }

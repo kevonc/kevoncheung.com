@@ -6,6 +6,9 @@ slug: first-code-academy-company-culture
 topic: entrepreneurship
 ---
 
+<img src="/images/blog/first-code-academy-company-culture-1.png" alt="How we define our company culture at First Code Academy" class="cover-image" />
+
+
 Ever since Michelle and I read Tony Hsieh’s Delivering Happiness, we have been intrigued by the way Tony runs Zappos and how culture plays a major role in the building of the shoe empire.
 
 Nowadays, a respectable company is not represented by its huge revenue or operating margin, a more convincing way of measuring is through its impact on the world and its employee’s happiness.
@@ -64,6 +67,8 @@ Create impact through community service & social responsibility
 These core values and the stories behind them became training materials for each new team member. We do not expect everyone to get it just because we talk about it once, as a matter of fact, the new member has to feel the culture and see examples in her own eyes.
 
 From the day when we wrote down the 8 core values of the First Code, we have seen a tremendous increase in actions and behaviors that fit into our culture and values. The team became more efficient as team members started using these core values to make independent decisions.
+
+<img src="/images/blog/first-code-academy-company-culture-3.png" alt="These core values and the stories behind them became training" />
 
 
 

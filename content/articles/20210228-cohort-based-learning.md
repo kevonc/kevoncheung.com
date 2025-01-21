@@ -6,9 +6,14 @@ slug: cohort-based-learning
 topic: teaching-learning
 ---
 
+<img src="/images/blog/cohort-based-learning-1.png" alt="Will cohortbased learning be the future? teaching  learning February" class="cover-image" />
+
+
 We keep forgetting one simple truth. We humans are tribal.
 
 When I came across a new platform called Contra and offered my suggestions to optimize their landing pages, I learned that they are creating a community for the future of work. And I started thinking about what "humans are tribal" means to the future of our education and work.
+
+<img src="/images/blog/cohort-based-learning-2.png" alt="We keep forgetting one simple truth We humans are tribal" />
 
 If we're tribal, why do we grow communities to thousands of people knowing that we'd lose touch with it? What sort of communities will empower people to learn and work in the best way?
 

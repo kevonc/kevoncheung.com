@@ -6,6 +6,9 @@ slug: fun-in-business
 topic: entrepreneurship
 ---
 
+<img src="/images/blog/fun-in-business-1.png" alt="When you lose the fun in business entrepreneurship October 30" class="cover-image" />
+
+
 Yucks!
 
 The longer I'm in my business, the more I lose my identity.

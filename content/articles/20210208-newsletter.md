@@ -6,6 +6,9 @@ slug: newsletter
 topic: marketing
 ---
 
+<img src="/images/blog/newsletter-1.png" alt="Writing a newsletter no one will unsubscribe marketing February 8" class="cover-image" />
+
+
 Last week I opened my inbox, and I saw more and more unread newsletters piling up. I decided it was time for at least half of them to go, so I started unsubscribing.
 
 I already had an automatic system to filter all the newsletters into different folders. This way I could only read them twice a week at dedicated times. But still, the situation was getting out of control.

@@ -6,6 +6,9 @@ slug: credibility
 topic: entrepreneurship
 ---
 
+<img src="/images/blog/credibility-1.png" alt="What's stopping you from making money online entrepreneurship March 14" class="cover-image" />
+
+
 Let's say there are two gardeners: John and Jenn.
 
 Both are capable of maintaining your lawn, how would you choose which one to hire?
@@ -47,6 +50,8 @@ Or it "must be" difficult to get on Tim Ferriss' podcast. If Dave is on the show
 
 I use quotations on "must be" because it is all about how hard we perceive the task to be. Everyone could have a different level of difficulty. For example, if your uncle happens to know Barack Obama, then it is not surprising that you could easily get a photo with the former President at a country club.
 
+<img src="/images/blog/credibility-3.png" alt="I use quotations on "must be" because it is all" />
+
 So every achievement is placed on a scale from easy to achieve to hard to achieve. Achieving closer to the easy side means you'd gain a tiny bit of credibility, and closer to the hard side means a ton of credibility.
 
 If we put this concept into the online world, the scale looks like this:
@@ -79,6 +84,8 @@ When someone endorses your name or work, it is a strong signal of trust because 
 And this is not something we do for anybody.
 
 More importantly, this person's credibility level spills over to your credibility level. For example, if Elon Musk says you're the man to watch in the micro-SaaS space. Then you get his credibility level, which is a huge jump.
+
+<img src="/images/blog/credibility-4.png" alt="When someone endorses your name or work it is a" />
 
 I was endorsed by Preetam Nath who has 5,000+ followers and is an influencer in the SaaS space. This helped me a lot.
 

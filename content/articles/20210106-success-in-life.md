@@ -6,6 +6,9 @@ slug: success-in-life
 topic: life-lessons
 ---
 
+<img src="/images/blog/success-in-life-1.png" alt="How to be successful in life life Lessons January 6" class="cover-image" />
+
+
 It was Thanksgiving, and I ordered two bottles of my favorite Château Léoville-Poyferré and wrote a card to send to a friend of mine. I don't actually enjoy gifting that much; I prefer catching up over coffee in person. But I wanted to do it this time.
 
 Because I genuinely wanted to say thank you to him. This man has taught me important lessons that I knew would have an impact on my entire life.

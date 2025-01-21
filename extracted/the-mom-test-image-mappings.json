@@ -3,7 +3,11 @@
     {
       "src": "https://framerusercontent.com/images/Vxo46cAkYxIOMKnNAGvJs83tj3M.jpeg",
       "alt": "",
-      "filename": "blog/the-mom-test-1.jpeg"
+      "filename": "blog/the-mom-test-1.png",
+      "context": {
+        "before": "The same goes for creating a tech product for the world. It is arrogant to think that you can create a product your target customers want ... until you actually talk to them. The conversations will lead you to identify their problems and needs, in which you can help create solutions to solve them. The key here is to talk to the customers. Surprisingly, a lot of founders never talk to any potential customers before building out their ideas. And this is why The Mom Test is such an important book to address the proper way to do customer interviews.",
+        "after": "A go-to book for user and customer interviews. What the Mom Test preaches Here is a quick description of what the Mom Test is about: “They say you shouldn’t ask your mom whether your business is a good idea, because she loves you and will lie to you. This is technically true, but it misses the point. You shouldn’t ask anyone if your business is a good idea. It’s a bad question and everyone will lie to you at least a little. As a matter of fact, it’s not their responsibility to tell you the truth. It’s your responsibility to find it and it’s worth doing right .”"
+      }
     }
   ]
 }

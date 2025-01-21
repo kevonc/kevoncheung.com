@@ -6,6 +6,9 @@ slug: full-time-vs-side-hustle
 topic: entrepreneurship
 ---
 
+<img src="/images/blog/full-time-vs-side-hustle-1.png" alt="Go all in fulltime or start as a side hustle?" class="cover-image" />
+
+
 Thanks to the launch of my Building in Public Definitive Guide, I've received a number of questions from readers.
 
 One question is "What do you think about going full-time indie hacker vs. side hustle? I know I want to run my own business in the future."

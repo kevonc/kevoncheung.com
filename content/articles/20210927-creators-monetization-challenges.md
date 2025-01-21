@@ -6,6 +6,9 @@ slug: creators-monetization-challenges
 topic: entrepreneurship
 ---
 
+<img src="/images/blog/creators-monetization-challenges-1.png" alt="How I grew to 2000mo as a nobody then got" class="cover-image" />
+
+
 Who worked really hard to make a living online, found a way to reach $2K/month, and then said goodbye to the 2 revenue streams?
 
 Yeah ... that was me.

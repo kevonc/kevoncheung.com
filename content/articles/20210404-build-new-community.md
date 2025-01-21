@@ -6,6 +6,9 @@ slug: build-new-community
 topic: entrepreneurship
 ---
 
+<img src="/images/blog/build-new-community-1.png" alt="How I build a new community using data and feedback" class="cover-image" />
+
+
 I loved taking out my huge whiteboard and started brainstorming ideas by myself or with my buddies. I thought that one whiteboard would help me change the world.
 
 I kept throwing ideas on the board, hoping to find the perfect solution to the perfect problem.
@@ -47,6 +50,8 @@ Is that even possible?
 Step-by-step on how I found my way to launching a private community
 1) Quickest way to gauge interest
 Ever since I rolled out the Building in Public Definitive Guide, a lot of people have reached out to me telling me their interests in a supportive ecosystem. They understood the mindset and how it could help their work, yet resources and a support system weren’t there for them.
+
+<img src="/images/blog/build-new-community-2.png" alt="Is that even possible? Stepbystep on how I found my" />
 
 I didn't know whether this was true or if there were enough people to create a sustainable community.
 
@@ -92,6 +97,10 @@ Only 9 of them did. Others didn't respond.
 Out of the 9 people, only 6 were active.
 
 Yet, we had a super good time helping each other. One day, someone shared their new Building in Public tweet and others gave feedback. The other day, someone pitched their new product idea and got fair comments from other builders.
+
+<img src="/images/blog/build-new-community-4.png" alt="Yet we had a super good time helping each other" />
+
+<img src="/images/blog/build-new-community-3.png" alt="Out of the 9 people only 6 were active Yet" />
 
 The dynamic of the group was good. To me, that was the most important thing because with any community or group, it always comes down to people's interactions.
 

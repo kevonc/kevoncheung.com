@@ -6,6 +6,9 @@ slug: raise-second-child
 topic: family
 ---
 
+<img src="/images/blog/raise-second-child-1.png" alt="What it takes to raise a second child parenthood May" class="cover-image" />
+
+
 Recently, my wife and I decided to spend some private time with our second child, Audrey. We realized it's so easy to neglect the second kid and give her less attention. I've been pondering why this happens, and it seems pretty common.
 
 When you have your first kid, everything is exciting and new. You try to create fresh experiences, be creative, and give all your attention to the first child.

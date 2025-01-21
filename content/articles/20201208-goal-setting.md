@@ -6,6 +6,9 @@ slug: goal-setting
 topic: life-lessons
 ---
 
+<img src="/images/blog/goal-setting-1.png" alt="This approach helped me hit my fitness goal in 14" class="cover-image" />
+
+
 In the last 9 months during COVID-19, I was insanely unhealthy.
 
 Before then, I had been exercising regularly through my routine of running and cycling. And I enjoyed getting out for both fresh air and sweat. But ever since COVID-19 became a pandemic, and our team moved to work from home, then my wife became pregnant, suddenly I found myself spending the majority of my time at home.
@@ -107,6 +110,8 @@ So the formula works only if we keep setting short-term goals using the 5 ingred
 I also learned that a lot about achieving goals comes down to how you engineer the small details to cue your own mind. With the right cue, you do the right things. When you do the right things, you make things happen in your control. When you make enough of these things happen, your ultimate goal is achieved.
 
 I wouldn’t overwhelm myself with too many short-term goals at the same time, because I think it is just impossible to have so many “top of minds”. To me, combining career goals, fitness goals, family goals, and mental goals, having 4 at the same time is the limit. Of course, as we practice, we might be able to increase that number.
+
+<img src="/images/blog/goal-setting-5.png" alt="I wouldn’t overwhelm myself with too many shortterm goals at" />
 
 And why did goal setting fail for me previously?
 I’ve set many goals for myself in my life. Some I achieved, and some I failed. I used to love putting up my New Year solutions on my blog, so let’s take a look at what I set in the past years.

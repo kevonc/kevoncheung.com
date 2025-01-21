@@ -6,6 +6,9 @@ slug: avoid-doing-what-you-like
 topic: entrepreneurship
 ---
 
+<img src="/images/blog/avoid-doing-what-you-like-1.png" alt="Avoid doing what you like entrepreneurship June 19 2021 I" class="cover-image" />
+
+
 I was chatting with a community builder friend and he asked me, "What's the thing that offers the most value in your community?"
 
 It took me a good 10 seconds to think about Public Lab, the Building in Public community I run, and I said "So far, the AMA sessions!"

@@ -6,6 +6,9 @@ slug: user-interview-traps
 topic: entrepreneurship
 ---
 
+<img src="/images/blog/user-interview-traps-1.png" alt="You have to avoid these user interview traps entrepreneurship November" class="cover-image" />
+
+
 "Stay close to your users" has become the principle of building great products.
 
 

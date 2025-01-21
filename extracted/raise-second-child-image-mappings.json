@@ -3,7 +3,11 @@
     {
       "src": "https://framerusercontent.com/images/6H63XOIqKnhjCmOoAejy9i3KAKM.png",
       "alt": "Kevon and Audrey",
-      "filename": "blog/raise-second-child-1.png"
+      "filename": "blog/raise-second-child-1.png",
+      "context": {
+        "before": "What it takes to raise a second child parenthood May 21, 2024",
+        "after": "Recently, my wife and I decided to spend some private time with our second child, Audrey. We realized it's so easy to neglect the second kid and give her less attention. I've been pondering why this happens, and it seems pretty common. When you have your first kid, everything is exciting and new . You try to create fresh experiences, be creative, and give all your attention to the first child. But with the second child, it's different. The first child is already walking, talking, and demanding attention, so naturally, your focus gets split."
+      }
     }
   ]
 }

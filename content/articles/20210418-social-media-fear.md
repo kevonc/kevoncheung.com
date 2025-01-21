@@ -6,6 +6,9 @@ slug: social-media-fear
 topic: entrepreneurship
 ---
 
+<img src="/images/blog/social-media-fear-1.png" alt="How to overcome your social media fear marketing April 18" class="cover-image" />
+
+
 I found my spot to be helpful on the Internet.
 
 Since I published the Building in Public Definitive Guide, I've been helping builders get over their fear to speak and share publicly on the Internet.

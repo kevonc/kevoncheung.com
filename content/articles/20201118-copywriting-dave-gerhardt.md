@@ -6,6 +6,9 @@ slug: copywriting-dave-gerhardt
 topic: marketing
 ---
 
+<img src="/images/blog/copywriting-dave-gerhardt-1.png" alt="Decoding best copywriting examples from Dave Gerhardt marketing November 18" class="cover-image" />
+
+
 Back in March 2020, I was very active on my LinkedIn trying to engage my network.
 
 Soon I realized the engagement numbers weren’t moving at all.
@@ -22,6 +25,8 @@ Then social media came along, and it became all about speaking directly to your 
 And the best form of communication is still text, believe it or not. That’s where copywriting comes in.
 
 But a lot of us don’t take copywriting seriously because it is not easy to spot that you’re not good at it. As long as you can write, you can always produce something. But are people reading it? That’s the billion-dollar question.
+
+<img src="/images/blog/copywriting-dave-gerhardt-2.png" alt="Then social media came along and it became all about" />
 
 
 
@@ -61,6 +66,8 @@ Dave doesn’t do that. When you read his words, you feel that he is talking to 
 He is talking to a very clear audience
 We all get greedy and want to speak to a lot of people at once. Dave focuses on marketers and he makes it very clear. Funny enough, by doing this, he naturally attracts other people.
 
+<img src="/images/blog/copywriting-dave-gerhardt-4.png" alt="He writes like he talks To a lot of us" />
+
 
 
 His opening line is short (8-16 words)
@@ -86,6 +93,8 @@ Are you thinking of using hashtags to bring in views & engagement? It is not qui
 He injects personality and talks about unrelated things
 Big one. If copywriting is #1 important, personality is #2. Have some swags and differentiate yourself from the rest. Dave is genuine and fun, and you just want to be his friend.
 
+<img src="/images/blog/copywriting-dave-gerhardt-9.png" alt="No one has time so let’s cut to the chase" />
+
 
 
 He posts consistently
@@ -93,6 +102,8 @@ To keep an active presence, Dave tweets at least once a day, and posts on Linked
 
 He speaks the annoying truth
 Here comes the best way to resonate with your audience - get on the same side! Dave points out annoying things he faces in his life/work and it feels like a friend telling you over lunch, so you jump into the conversation. 3,106 reactions and 723 comments!
+
+<img src="/images/blog/copywriting-dave-gerhardt-10.png" alt="Big one If copywriting is 1 important personality is 2" />
 
 
 

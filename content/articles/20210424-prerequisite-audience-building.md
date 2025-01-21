@@ -6,6 +6,9 @@ slug: prerequisite-audience-building
 topic: marketing
 ---
 
+<img src="/images/blog/prerequisite-audience-building-1.png" alt="You can't grow an audience without these marketing April 24" class="cover-image" />
+
+
 When it comes to audience building on Twitter, it comes down to producing high-quality content to attract readers. We call it - writing tweet threads to get followers.
 
 I've come across so many people who want to build an audience, but they either don't start or give up in a few weeks.

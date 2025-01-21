@@ -6,6 +6,9 @@ slug: community-or-cohort-based-course
 topic: teaching-learning
 ---
 
+<img src="/images/blog/community-or-cohort-based-course-1.png" alt="How to decide between starting a community and a cohortbased" class="cover-image" />
+
+
 Are you thinking about starting a new community or creating a cohort-based course? They're the hottest products to create in 2021. But before you do so, read this.
 
 I've been writing about Building in Public and it brings me a lot of people who want to get started yet struggling to find ways.
