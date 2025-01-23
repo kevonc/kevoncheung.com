@@ -48,7 +48,7 @@ Is that even possible?
 
 Step-by-step on how I found my way to launching a private community
 1) Quickest way to gauge interest
-Ever since I rolled out the Building in Public Definitive Guide, a lot of people have reached out to me telling me their interests in a supportive ecosystem. They understood the mindset and how it could help their work, yet resources and a support system weren’t there for them.
+Ever since I rolled out <a href="https://smallschool.is/build-in-public">the Building in Public Definitive Guide</a>, a lot of people have reached out to me telling me their interests in a supportive ecosystem. They understood the mindset and how it could help their work, yet resources and a support system weren’t there for them.
 
 I didn't know whether this was true or if there were enough people to create a sustainable community.
 
@@ -208,6 +208,6 @@ I shared this fact with the 20 early builders on the Public Lab community so the
 <img src="/images/blog/build-new-community-9.png" alt="Image 9 from build-new-community" />
 
 4) Take baby steps
-I cannot stress enough the importance of taking slow baby steps. Whenever I moved fast in my previous startups, I made all the wrong decisions. When I launched the Building in Public Definitive Guide or the email course, Making Twitter Friends, I also took baby steps to roll it out.
+I cannot stress enough the importance of taking slow baby steps. Whenever I moved fast in my previous startups, I made all the wrong decisions. When I launched the Building in Public Definitive Guide or the email course, <a href="/product-launch">Making Twitter Friends</a>, I also took baby steps to roll it out.
 
-This is why I'm in no rush to open the Public Lab community up to everyone. My plan is to bring in batches of 20 people at a time so that we're creating a sustainable community. If you're interested to get on the waitlist, check out the Public Lab's website! See you there.
+This is why I'm in no rush to open the Public Lab community up to everyone. My plan is to bring in batches of 20 people at a time so that we're creating a sustainable community. If you're interested to get on the waitlist, check out <a href="http://publiclab.co/">the Public Lab's website</a>! See you there.

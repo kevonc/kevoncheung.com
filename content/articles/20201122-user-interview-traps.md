@@ -56,7 +56,7 @@ Most of us understand that.
 
 But when I was actually talking to customers, it was a very different story.
 
-I was perfectly aware that I shouldn’t ask them for ideas (learnings from the Mom Test, my favorite user interview book). We also had our own solution in mind already. But it was extremely hard to stay away from their constant “feature requests”.
+I was perfectly aware that I shouldn’t ask them for ideas (learnings from <a href="https://amzn.to/2JZ9AUT">the Mom Test</a>, my favorite user interview book). We also had our own solution in mind already. But it was extremely hard to stay away from their constant “feature requests”.
 
 When people learned more about Toasty, it was natural for them to tell me how they would use Toasty only if we had A, B, and C.
 

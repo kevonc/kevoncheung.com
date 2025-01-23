@@ -45,7 +45,7 @@ I have been in the technology and software space for most of my career. Whenever
 
 On other occasions, I've seen countless times when he was speaking with other executives, he would be completely transparent about what he was good at, what he could bring to the table, and what he didn't know. Every conversation, then, became a genuine conversation for everyone. It was not one person pitching another person.
 
-I've made "humility" a top principle in my life. And that is natural to me because I'm still early in my career. But to see someone who is already successful and powerful remain at that level of humility towards everyone, was inspiring.
+I've made <a href="/life-mottos">"humility" a top principle in my life</a>. And that is natural to me because I'm still early in my career. But to see someone who is already successful and powerful remain at that level of humility towards everyone, was inspiring.
 
 Keeping his home extremely clean and tidy
 One time, he invited me to his home. I walked in, and it was overwhelmingly white. The walls were white, a lot of items were simple, and the home didn't have a lot of "things". It was minimalistic.
@@ -56,7 +56,7 @@ He told me he didn't like to have a lot of things at home. To have fewer things 
 
 And one of the things he could then focus more on was his family. He spent a great amount of time with his family, and every Friday evening, it was his date night with his wife, no kids.
 
-That was refreshing to hear at the moment. Lately, since I've been spending more time learning and practicing a stronger, less distracted mind, what he said to me makes total sense.
+That was refreshing to hear at the moment. Lately, since I've been spending more time <a href="/get-more-time">learning and practicing a stronger, less distracted mind</a>, what he said to me makes total sense.
 
 A few reminders to those who want success in the business world
 There are so many successful people out there. Some are really smart. But to me, long-term success comes down to:

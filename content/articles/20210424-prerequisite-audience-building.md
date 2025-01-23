@@ -32,13 +32,13 @@ For example, if you've been a software engineer for 10 years, then picking up Re
 So if you want to help yourself increase accountability, figure out where the topic you're learning fits on your graph.
 
 Results can only come when you're consistent
-In my newsletter last week, I talked about my way of overcoming shiny object syndrome. You might be driven by emotions, which means you prefer to work on ideas that are exciting. When a new idea pops up, you go after that.
+In <a href="https://www.smallschool.is/newsletter">my newsletter last week</a>, I talked about my way of overcoming shiny object syndrome. You might be driven by emotions, which means you prefer to work on ideas that are exciting. When a new idea pops up, you go after that.
 
 What I see is a lack of consistency.
 
 And honestly, this is super hard. About 7 months ago, I started a new project and I was 90% finished. But I didn't publish it because I came up with a better plan to focus on my blog. Despite how experienced you are, wanting to move to new ideas is a challenge that will keep coming back to all of us.
 
-Taking #BuildingInPublic as an example, if you see value in it yet find it hard to keep up, I observed that it usually comes down to 2 major challenges.
+Taking <a href="https://smallschool.is/build-in-public">#BuildingInPublic</a> as an example, if you see value in it yet find it hard to keep up, I observed that it usually comes down to 2 major challenges.
 
 Unclear what you're building
 If you have a company or product that you're currently building, then building in public is straightforward. You're sharing your journey to build up your authentic brand and grow an audience. But if you're in a transition period and do not know what to build, it is super hard for you to stay focused.
@@ -60,7 +60,7 @@ I love mind mapping and I constantly revisit my business model on my online whit
 
 <img src="/images/blog/prerequisite-audience-building-3.png" alt="Image 3 from prerequisite-audience-building" />
 
-Twitter is a beautiful platform with a high volume of users and activities. It is the perfect place as a top funnel to expose yourself to new people every week.
+Twitter is a beautiful platform with a high volume of users and activities. It is the <a href="/growing-twitter-audience">perfect place as a top funnel to expose yourself</a> to new people every week.
 
 This means you're consistently placing relevant high-quality content into the right people's hands.
 

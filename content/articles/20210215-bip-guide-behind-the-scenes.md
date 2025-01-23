@@ -8,7 +8,7 @@ topic: marketing
 <img src="/images/blog/bip-guide-behind-the-scenes-1.jpeg" alt="Image 1 from bip-guide-behind-the-scenes" class="cover-image" />
 
 
-I was a nobody on the Internet. It took me a total of 2 months and 10,000 words to finish the Building in Public guide, and this happened: 2,100 unique visitors in 3 days, a 73% increase of Twitter followers in 7 days from 767 to 1327, #20 on Hacker News Page 1 for a day, 3 live sharing sessions, and regular mentions of the guide.
+I was a nobody on the Internet. It took me a total of 2 months and 10,000 words to finish <a href="https://www.smallschool.is/build-in-public">the Building in Public guide</a>, and this happened: 2,100 unique visitors in 3 days, a 73% increase of Twitter followers in 7 days from 767 to 1327, #20 on Hacker News Page 1 for a day, 3 live sharing sessions, and regular mentions of the guide.
 
 <img src="/images/blog/bip-guide-behind-the-scenes-2.png" alt="Image 2 from bip-guide-behind-the-scenes" />
 
@@ -43,7 +43,7 @@ What were my initial goals?
 To dedicate lots of hours across a few months to a topic was not a small project, I absolutely wasn't doing this for fun. So why did I do it?
 
 1. The best way to start is to give
-If you've seen my email course on Making Twitter Friends, you know that I think a lot about human interactions. I know that in order for others to pay attention to my voice, I first need to gain trust and credibility. These 2 things are too important to ignore for anyone just starting out.
+If you've seen my email course on <a href="http://makingtwitterfriends.com/">Making Twitter Friends</a>, you know that I think a lot about human interactions. I know that in order for others to pay attention to my voice, I first need to gain trust and credibility. These 2 things are too important to ignore for anyone just starting out.
 
 Because most of my work was buried with the companies I was running, I had no credibility on the Internet. And this was also why I decided to make this guide free for all.
 
@@ -77,9 +77,9 @@ Honestly, the truth is I don't know. What I know is that I started to create a s
 This is why I don't have an expectation of what this launch can potentially bring me. What is more important is that more people will see how I can help and we get to start some conversations.
 
 3. I'm interested in SEO
-If you've read my newsletters, you know I'm someone who values long-term impact and does not mind taking baby steps to get there. When I started to build my personal voice, my goal was to establish my website and rank well via SEO.
+If you've read <a href="https://www.smallschool.is/newsletter">my newsletters</a>, you know I'm someone who values long-term impact and does not mind taking baby steps to get there. When I started to build my personal voice, my goal was to establish my website and rank well via SEO.
 
-I'm interested in social media, but organic search engine traffic sounds a lot more attractive to me. I did that for my startup, but doing it for a personal site is like 10x harder.
+I'm interested in social media, but organic search engine traffic sounds a lot more attractive to me. I <a href="/seo-guide">did that for my startup</a>, but doing it for a personal site is like 10x harder.
 
 Since my website is fairly new, I have a domain rating (DR) of 2. It is miserable.
 
@@ -97,14 +97,14 @@ If you also love writing as I do, you know that writing is not just about writin
 
 So when I decided to create this Building in Public Definitive Guide, I didn't jump into writing.
 
-I spent some time growing my early Twitter audience. I researched every single thing I could find about Building in Public on the internet. I went to forums where people talk about Building in Public and I checked out what people were asking and discussing. I took a lot of notes during those days.
+I spent some time <a href="http://makingtwitterfriends.com/">growing my early Twitter audience</a>. I researched every single thing I could find about Building in Public on the internet. I went to forums where people talk about Building in Public and I checked out what people were asking and discussing. I took a lot of notes during those days.
 
 Finally, I spent two entire weeks being active on forums to join in discussions and reply to people to help them get started. Mostly I wanted to get myself familiar with the topic, but also I was hoping a few of them would remember me. So when I officially launch, they'd offer a hand in sharing or something. I wasn't sure if that happened as I didn't keep track, but helping people has always been my number one principle.
 
 2. Writing in public
 Once I confirmed working on this guide, I put it out there by sharing my intention. I created a few tweet threads to share my thinking and progress.
 
-You can find #1 #2 #3 #4 here.
+You can find <a href="https://twitter.com/MeetKevon/status/1347322177289211904">#1</a> <a href="https://twitter.com/MeetKevon/status/1347747524170317828">#2</a> <a href="https://twitter.com/MeetKevon/status/1348813871369261058">#3</a> <a href="https://twitter.com/MeetKevon/status/1352028030525313024">#4</a> here.
 
 Why I did that was exactly the entire purpose behind Building in Public. I was as transparent about my work as possible and shared it early.
 
@@ -128,7 +128,7 @@ From my own experience reading a guide, I always prefer something that is practi
 
 With that, using real examples would be my approach to writing this guide. So when I was researching, I noted down which example would be great for which chapter and talking point.
 
-Once I added these examples to my chapters, I made sure to include a profile picture of everyone and a link to their Twitter or websites. If I was going to use someone's work as an example, I better give them enough respect.
+Once I <a href="https://www.smallschool.is/build-in-public/how">added these examples to my chapters</a>, I made sure to include a profile picture of everyone and a link to their Twitter or websites. If I was going to use someone's work as an example, I better give them enough respect.
 
 For most examples, I didn't contact the person to ask for permission because they were positive about their work. But for some examples that were more sensitive, e.g. Wenzel tweeted about his fear of getting his idea stolen, I reached out and asked if it'd be okay to quote him. Everyone was happy to be included.
 

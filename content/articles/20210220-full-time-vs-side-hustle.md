@@ -8,7 +8,7 @@ topic: entrepreneurship
 <img src="/images/blog/full-time-vs-side-hustle-1.jpeg" alt="Image 1 from full-time-vs-side-hustle" class="cover-image" />
 
 
-Thanks to the launch of my Building in Public Definitive Guide, I've received a number of questions from readers.
+Thanks to the launch of my <a href="https://publiclab.co/building-in-public">Building in Public Definitive Guide</a>, I've received a number of questions from readers.
 
 One question is "What do you think about going full-time indie hacker vs. side hustle? I know I want to run my own business in the future."
 
@@ -42,11 +42,11 @@ You might wonder that if you go full-time, you're able to accelerate project gro
 
 Almost everything on and off the Internet takes time.
 
-You need time to build relationships with the right people. You need time to curate the first 1,000 fans. You need time to wait for SEO to kick off. When you reach out to people, you need time to wait for their replies.
+You need time to build relationships with the right people. You need time to <a href="/growing-twitter-audience">curate the first 1,000 fans</a>. You need time to <a href="/seo-guide">wait for SEO to kick off</a>. When you reach out to people, you need time to wait for their replies.
 
 Back then doing it full-time, I only gave myself 6 weeks to prove myself. That wasn't enough time.
 
-Now that I understand it takes time, I've given myself a slow start. It has been 3 months since I first started and I still haven't made a dollar, and I'm okay with it. Because my results from launching my guide showed me that I'm on the right track.
+Now that I understand it takes time, I've given myself a slow start. It has been 3 months since I first started and I still haven't made a dollar, and I'm okay with it. Because <a href="/bip-guide-bts">my results from launching my guide</a> showed me that I'm on the right track.
 
 Can you see clearly?
 When you have all the time in the world, you tend to do a lot of unimportant things.
@@ -77,4 +77,4 @@ Of course, there are people out there who can start from scratch, do it full-tim
 
 Whatever you do, know that this is going to be a marathon, so you're better off training slowly and adding the mileage each week than forcing yourself to sprint right away.
 
-And remember to build in public throughout your journey to maximize your potential. This is my free Building in Public guide to help you get started and my free email course, Making Twitter Friends, to help you build genuine relationships.
+And remember to build in public throughout your journey to maximize your potential. This is my free <a href="https://smallschool.is/build-in-public">Building in Public guide</a> to help you get started and my free email course, <a href="http://makingtwitterfriends.com/">Making Twitter Friends</a>, to help you build genuine relationships.

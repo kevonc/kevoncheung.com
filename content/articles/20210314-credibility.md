@@ -26,7 +26,7 @@ Our brain is wired in a special way that we make decisions based on credibility,
 
 Once the credibility is established, whatever a person says or does, it is always better.
 
-This is why testimonials and social proof have become a big part of the online world. I put up this wall by Testimonial on my homepage to let people instantly find out whether I'm trustworthy.
+This is why testimonials and social proof have become a big part of the online world. I put up this wall by <a href="https://testimonial.to/?via=kevon">Testimonial</a> on my homepage to let people instantly find out whether I'm trustworthy.
 
 <img src="/images/blog/credibility-2.png" alt="Screenshot of a Twitter thread about building in public" />
 
@@ -65,7 +65,7 @@ But if you have an active Twitter account with 5,000 followers and have written 
 
 This is exactly how I approached my journey to become a writer and content creator 4 months ago.
 
-I started writing tweets and articles that got people's attention. Then I created a free definitive guide on #BuildingInPublic which was read by 2,100 people in the first 3 days. With that, I have an email course to help people make real Twitter friends. I then start to speak on podcasts about #BuildingInPublic, storytelling, relationship building, etc.
+I started writing <a href="https://twitter.com/MeetKevon">tweets</a> and <a href="https://kevoncheung.com/articles">articles</a> that got people's attention. Then I created a <a href="https://smallschool.is/build-in-public">free definitive guide on #BuildingInPublic</a> which was read by 2,100 people in the first 3 days. With that, I have <a href="http://makingtwitterfriends.com/">an email course</a> to help people make real Twitter friends. I then start to speak on podcasts about #BuildingInPublic, storytelling, relationship building, etc.
 
 Remember this.
 
@@ -94,7 +94,7 @@ Building an audience has been a popular trend recently. Everyone is busy growing
 
 Online success depends on online relationships. And to have those, you have to understand how online relationships work and the techniques to craft them.
 
-I created a free email course, Making Twitter Friends, to share my techniques for building meaningful online relationships.
+I created a free email course, <a href="http://makingtwitterfriends.com/">Making Twitter Friends</a>, to share my techniques for building meaningful online relationships.
 
 Accumulate evidence
 Unless you're a celebrity with a manager, no one is going to promote you, except yourself.
@@ -108,7 +108,7 @@ Do yourself a favor. Be your own promoter.
 
 I love Testimonial.to - easy to use and does the job!
 
-So far, Testimonial.to is the best tool for capturing social proof (example here & here). You can use this link to get 15% off.
+So far, Testimonial.to is the best tool for capturing social proof (example here & here). You can <a href="https://testimonial.to/?via=kevon">use this link to get 15% off</a>.
 
 If you're the type of person who sees this as bragging, then do this with me.
 

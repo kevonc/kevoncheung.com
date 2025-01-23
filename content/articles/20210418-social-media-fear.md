@@ -10,7 +10,7 @@ topic: entrepreneurship
 
 I found my spot to be helpful on the Internet.
 
-Since I published the Building in Public Definitive Guide, I've been helping builders get over their fear to speak and share publicly on the Internet.
+Since I published <a href="https://publiclab.co/building-in-public">the Building in Public Definitive Guide</a>, I've been helping builders get over their fear to speak and share publicly on the Internet.
 
 I'm able to help because I've trained up myself emotionally over the years.
 
@@ -21,7 +21,7 @@ When I ran my previous startup, I shot lots of videos and hosted many community 
 The secret to having success on the Internet
 "Audience building" is what every company and person wants to do now. We all want more followers as a distribution channel.
 
-But to curate an audience, we have to constantly put ourselves out there and talk about "us".
+But to <a href="/growing-twitter-audience">curate an audience</a>, we have to constantly put ourselves out there and talk about "us".
 
 Yes, there are people who can do so without showing their faces. However, the majority builds an audience with their own authentic self.
 
@@ -100,7 +100,7 @@ On one hand, you need to have the self-confidence to believe in your own vision 
 
 Now you're thinking - this is very contradicting! Do I listen or not?
 
-It goes back to your own foundation. A true entrepreneur has a strong foundation on what you're working on. The belief is so strong that it is not easy to move you. But, you must listen to what people have to say even if that means pretending you're listening. After all, no one wants to deal with someone who is self-centered.
+It goes back to your own foundation. A true entrepreneur has <a href="/build-new-community">a strong foundation on what you're working on</a>. The belief is so strong that it is not easy to move you. But, you must listen to what people have to say even if that means pretending you're listening. After all, no one wants to deal with someone who is self-centered.
 
 When feedback is given over a social platform like Twitter, you have to be super careful. Ask all the time "Does the feedback make sense?" People usually give feedback after quickly skimming the content, do they have enough context to give good feedback?
 

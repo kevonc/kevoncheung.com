@@ -16,7 +16,7 @@ But the founding stories of these successful startups were oversimplified and gl
 
 What I want to talk about here: validation.
 
-In the last couple of years, mainly because of the Lean Startup movement, a lot of us founders are obsessed with talking to users and finding ways to quickly validate ideas.
+In the last couple of years, mainly because of the Lean Startup movement, a lot of us founders are obsessed with <a href="/user-interview-traps">talking to users</a> and finding ways to quickly validate ideas.
 
 So, why I wrote this article
 Because I’m a big fan of talking to people for validation, but the world of founders often jumps to this “user interview” step immediately.
@@ -32,7 +32,7 @@ Why is this important? Because not every problem is worth solving.
 This was a tough lesson for me to share because it was one of those moments I couldn’t believe I actually made such a rookie mistake. So I want this to be a guiding principle for me and other founders to evaluate new startup ideas.
 
 The Story of Toasty
-I ran a startup called Toasty for 18 months in 2019-2020. The whole startup was built upon my vision of how we could improve human interactions with one another.
+I ran a startup called <a href="https://toasty.ai/">Toasty</a> for 18 months in 2019-2020. The whole startup was built upon my vision of how we could improve human interactions with one another.
 
 In the journey, we pivoted once because we knew our idea and direction were bad, then we pivoted again because of COVID-19.
 
@@ -50,7 +50,7 @@ The web app was beautifully designed to allow any attendee to see who else was g
 How did we come up with this idea?
 Honestly, we had zero ideas about “the problem” and “the solution”.
 
-We ran about a dozen user interviews in the conference and exhibition space and we could see a trend emerging. Most organizers were searching for new technologies that could level up the attendee’s experience. A good percentage of them had started using different products in the market but were not so happy about them and the outcomes.
+We ran about <a href="/user-interview-traps">a dozen user interviews</a> in the conference and exhibition space and we could see a trend emerging. Most organizers were searching for new technologies that could level up the attendee’s experience. A good percentage of them had started using different products in the market but were not so happy about them and the outcomes.
 
 We researched the space and the competitors and confirmed that there weren’t many competitors in the space, but for the few existing players, we thought they were doing fairly well, built a solid brand, and had grown their team to about 30 people in a few years.
 
@@ -131,7 +131,7 @@ It is much better to ride with the wave than to go against it. Zapier played rig
 <img src="/images/blog/validate-startup-ideas-9.jpeg" alt="Image 9 from validate-startup-ideas" />
 
 
-Source: SaaS Marketer
+Source: <a href="https://saasmarketer.io/saas-partnership-strategy">SaaS Marketer</a>
 
 2. Is the product easy to use? Can users self-onboard?
 This makes sure the rate of growth can be exponential. A product that raises the least confusing questions in the user’s mind wins.
@@ -152,7 +152,7 @@ This is a tricky one. Without competitors, I’d question the demand for this sp
 If not 10x better, then there is no point in working on this idea because it is not convincing enough to acquire users. A 10% better product will have a super hard time asking users to form new habits.
 
 8. How easy is it to get to the target audience? How big is the market?
-E.g. restaurant is a terrible audience to go after. (See here) If it requires salespeople to go door-to-door to get to the audience, the idea won’t fly. Also, after focusing on a niche audience, it must be possible to expand to other groups.
+E.g. restaurant is a terrible audience to go after. (<a href="https://medium.com/build-something-cool/my-cofounder-said-i-love-what-were-doing-and-we-shut-down-our-startup-80d5e710c2b2">See here</a>) If it requires salespeople to go door-to-door to get to the audience, the idea won’t fly. Also, after focusing on a niche audience, it must be possible to expand to other groups.
 
 Over to you
 As a founder, it is your role to evaluate an idea and the relevant hypotheses before wasting resources on building it or even just researching it.
@@ -163,4 +163,4 @@ And now with the number of #NoCode products out there, it is so easy for founder
 
 Of course, after the hard lesson here, we pivoted to a product that was part of the global trend, easy to use, fast to spread, and quick to value. Toasty is now a video meeting platform focused on collaboration and engagement and is getting a lot more users than the matchmaking platform. As a side note, I stepped down from my CEO role in Oct 2020 and Eric Tsang is now leading the team.
 
-To wrap this up, I’ve put these 8 questions onto this Google Sheet so you can clone and answer them honestly about your idea and see whether you still want to pursue it afterward. Click here to download it.
+To wrap this up, I’ve put these 8 questions onto <a href="https://bit.ly/startup-idea-worthwhile">this Google Sheet</a> so you can clone and answer them honestly about your idea and see whether you still want to pursue it afterward. <a href="https://bit.ly/startup-idea-worthwhile">Click here to download it.</a>

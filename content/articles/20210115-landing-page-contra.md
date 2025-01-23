@@ -10,16 +10,16 @@ topic: marketing
 
 What does the future of work look like? Flexible, do what you love, and be measured by outcome, not hours.
 
-I have never been a victim of the traditional 9-6 job. As mentioned here, I am selective to find companies and teams that I know I'd enjoy working there so much that I put in 300% effort.
+I have never been a victim of the traditional 9-6 job. I am selective to find companies and teams that I know I'd enjoy working there so much that I put in 300% effort.
 
 Ever since COVID-19 happened and my last team moved to a fully remote environment, I've imagined what working will look like in the near future.
 
-It is going to be more decentralized (the next level of the gig economy), with individuals not just executing freelance projects for employers, but also building sustainable, paid products that can support their lives. This is already happening, and I documented some examples in my Building in Public Definitive Guide.
+It is going to be more decentralized (the next level of the gig economy), with individuals not just executing freelance projects for employers, but also building sustainable, paid products that can support their lives. This is already happening, and I documented some examples in my <a href="https://publiclab.co/building-in-public">Building in Public Definitive Guide</a>.
 
 And that brings us to why I'm talking about Contra.
 
 Getting to know Contra
-Last week, I stumbled upon Contra. I'm not going to tell you what they do just yet, because that's the whole purpose of this post.
+Last week, I stumbled upon <a href="https://contra.com/">Contra</a>. I'm not going to tell you what they do just yet, because that's the whole purpose of this post.
 
 I was impressed by their vision and community, so I browsed some more and saw that they were looking for ambassadors. I clicked in, motivated by my curiosity, and saw an application form with the question "How would you change/improve our current landing pages?"
 
@@ -28,7 +28,7 @@ I wanted to apply and connect with these awesome people!, so I did. And this pos
 An exercise: visit this homepage
 I want to take you through the entire thought process. You'll take a look at their homepage just like any new visitor. Click below and read the entire page.
 
-Click here to enlarge this image below:
+<a href="https://uploads-ssl.webflow.com/5fdf5c194a4d23f828ab1984/60015992ebca5f7d11d08aa2_contra-homepage.png">Click here</a> to enlarge this image below:
 
 <img src="/images/blog/landing-page-contra-2.png" alt="Image 2 from landing-page-contra" />
 

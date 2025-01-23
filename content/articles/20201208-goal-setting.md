@@ -126,13 +126,13 @@ Just like starting anything new, I recommend starting small and then celebrating
 
 The goal here is to have a successful story about achieving a goal in 14 days. Once you get there, then you’ll naturally expand in your own ways.
 
-To get you started, I have this framework set up so you can clone the Google Sheet for free here.
+To get you started, I have this framework set up so <a href="https://bit.ly/my14dayschallenge">you can clone the Google Sheet for free here</a>.
 
 <img src="/images/blog/goal-setting-6.png" alt="Image 6 from goal-setting" />
 
-Download: Click Here
+Download: <a href="https://bit.ly/my14dayschallenge">Click Here</a>
 Fill this in, and get started today.
 
 I can guarantee you that something good is going to come out after these 14 days.
 
-If you would like a second pair of eyes to look through what you have noted down, I’d be happy to review and give you some feedback. Just hit me up on this Twitter thread and we can connect and chat!
+If you would like a second pair of eyes to look through what you have noted down, I’d be happy to review and give you some feedback. Just <a href="https://twitter.com/kevon69/status/1336443799455711232">hit me up on this Twitter thread</a> and we can connect and chat!

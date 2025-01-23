@@ -36,6 +36,6 @@ I enjoy feeling connected when I read their words.
 
 Sharing words that truly represent yourself is one way to ensure what your subscribers want is you and nothing else.
 
-Having this reflection also sharpens the way I write my newsletters. I have been very intentional and explicit about what kind of writer I am. My newsletters don't just come with my thoughts on business, product, and marketing, they also consist of my life, my family, my daughter, my ridiculous pictures,  my (perhaps stupid) views of the world, and most importantly, my thoughts. I know that my words are not for everyone. But if you decide to hear from me, I make sure to share my truest views.
+Having this reflection also sharpens the way I write <a href="https://www.smallschool.is/newsletter">my newsletters</a>. I have been very intentional and explicit about what kind of writer I am. My newsletters don't just come with my thoughts on business, product, and marketing, they also consist of my life, my family, my daughter, my ridiculous pictures,  my (perhaps stupid) views of the world, and most importantly, my thoughts. I know that my words are not for everyone. But if you decide to hear from me, I make sure to share my truest views.
 
 To newsletter writers out there, now is the time to think about how you can write newsletters with a unique perspective so that your readers won't be unsubscribing anytime soon.

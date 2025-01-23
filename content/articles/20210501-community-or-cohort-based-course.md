@@ -10,13 +10,13 @@ topic: teaching-learning
 
 Are you thinking about starting a new community or creating a cohort-based course? They're the hottest products to create in 2021. But before you do so, read this.
 
-I've been writing about Building in Public and it brings me a lot of people who want to get started yet struggling to find ways.
+I've been writing about <a href="https://smallschool.is/build-in-public">Building in Public</a> and it brings me a lot of people who want to get started yet struggling to find ways.
 
 What they need is not a tech tool to help them build in public. Instead, they want to learn the fundamentals, have the accountability to push through the start, and have a support ecosystem.
 
-And so I began to build a private community for #BuildingInPublic that would become a safe space for these builders to gather and support one another.
+And so I began to <a href="/build-new-community">build a private community for #BuildingInPublic</a> that would become a safe space for these builders to gather and support one another.
 
-But from interacting with the members, I realized what's more helpful in their early journey is to push for the #BuildingInPublic mindset in a fixed timeframe. And that's when I created the cohort-based course.
+But from interacting with the members, I realized what's more helpful in their early journey is to push for the #BuildingInPublic mindset in a fixed timeframe. And that's when I created the <a href="https://www.smallschool.is/build-in-public-mastery">cohort-based course.</a>
 
 Here I'm breaking down and comparing what I learned from creating these two products. This can help you think through how you want to approach creating them.
 
@@ -94,8 +94,8 @@ You don't expect newborn parents to have time to take a 30-day cohort-based cour
 
 On the other hand, if the problem you're solving is more about building a mindset, then a cohort-based course is a good choice.
 
-For example, building a writing habit, learning no-code tools, building in public, overcoming impostor syndrome, etc.
+For example, building a writing habit, learning no-code tools, <a href="https://smallschool.is/build-in-public">building in public</a>, overcoming impostor syndrome, etc.
 
-But, of course, it is hard to exactly define which product is good for what problems. Do not come up with the solution in your own head, the best you can do is to talk to your audience and figure out the best way you can help them.
+But, of course, it is hard to exactly define which product is good for what problems. <a href="/build-new-community">Do not come up with the solution in your own head</a>, the best you can do is to talk to your audience and figure out the best way you can help them.
 
 Don't create these types of products just because they're in trend. Make sure your desired lifestyle and your skillsets are aligned before jumping in.

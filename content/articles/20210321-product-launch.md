@@ -40,11 +40,11 @@ That's when I knew I was launching the wrong way.
 Building smaller products
 Since I stopped working on Toasty in late 2020 and became an indie creator, I've been building mini-products myself.
 
-First, I created the Building in Public Definitive Guide, then an email course called Making Twitter Friends. Since it was just me with no capital and no team, I slowed down this time.
+First, I created <a href="https://publiclab.co/building-in-public">the Building in Public Definitive Guide</a>, then an email course called <a href="http://makingtwitterfriends.com/">Making Twitter Friends</a>. Since it was just me with no capital and no team, I slowed down this time.
 
 I believed truthfully: to go slow is to go faster.
 
-I was working on building my credibility first, and here I figured out what else was needed to increase the success of my launches.
+I was working on <a href="/credibility">building my credibility first</a>, and here I figured out what else was needed to increase the success of my launches.
 
 Find breadcrumbs
 If you're generating new ideas in your head every single day, you're doomed.
@@ -63,7 +63,7 @@ There are lots and lots of courses on Growing Twitter.
 
 I haven't taken any of these courses. But, a lot of them seem to focus on the mechanics. What I'm more interested in is how to be personal, make friends, and build relationships. Growing for the sake of growth doesn't interest me.
 
-I wrote an article on growing Twitter using human psychology and I could tell from the page views and subscriber number that people enjoy it very much.
+I wrote an article on <a href="/growing-twitter-audience">growing Twitter using human psychology</a> and I could tell from the page views and subscriber number that people enjoy it very much.
 
 All these data points gave me signals about a potential opportunity. It wasn't 100% validation (as there is no such thing), but I was confident enough that my products would at least benefit a group of people.
 
@@ -82,16 +82,16 @@ I also tweeted to see if anyone would be interested in helping to review my draf
 
 <img src="/images/blog/product-launch-4.png" alt="Image 4 from product-launch" />
 
-Dan (@DanRoche01) was super helpful.
+Dan (<a href="https://twitter.com/DanRoche01">@DanRoche01</a>) was super helpful.
 
 <img src="/images/blog/product-launch-5.png" alt="Image 5 from product-launch" />
 
-Boris (@BorisTane) was giving me a hand.
+Boris (<a href="https://twitter.com/BorisTane">@BorisTane</a>) was giving me a hand.
 
 <img src="/images/blog/product-launch-6.png" alt="Image 6 from product-launch" />
 
 
-Pavel (@hipavel) even helped read my draft for both part 1 & 2.
+Pavel (<a href="https://twitter.com/hipavel">@hipavel</a>) even helped read my draft for both part 1 & 2.
 
 They liked the idea and were willing to help, so I took the opportunity to bring them in as early readers. I didn't do that to create exclusivity. I was more interested in getting early feedback to improve the product before it hit the big stage.
 
@@ -104,7 +104,7 @@ If your product has no fans before it launches, you're doomed.
 
 The word "launch" is a little misleading. It refers to the moment you put out something to the world. From launching my products and also watching how people launch on Product Hunt, I figured there is a huge advantage to having a group of people already cheering for you when you "launch".
 
-With the early readers, I was able to get their testimonials to add credibility to my product when it launched. I use Testimonial.
+With the early readers, I was able to get their testimonials to add credibility to my product when it launched. I use <a href="https://testimonial.to/?via=kevon">Testimonial</a>.
 
 <img src="/images/blog/product-launch-7.png" alt="Image 7 from product-launch" />
 

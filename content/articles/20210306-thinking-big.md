@@ -41,7 +41,7 @@ The truth is when you haven't been in the business, you don't know what people (
 
 I learned my hard lessons when I was running Toasty. Because of COVID-19, we were forced to adapt our technology to the video meeting space. None of us had experience working with video conferencing technology. We also didn't know anything about virtual events, communities, or meetings.
 
-I tried to overcome this by arranging dozens of user interviews to get the full picture of the space. And I can tell you that unless you're a veteran entrepreneur, user interviews can be full of traps. They can rarely give you enough understanding to tackle problems in a new space.
+I tried to overcome this by arranging dozens of user interviews to get the full picture of the space. And I can tell you that unless you're a veteran entrepreneur, <a href="/user-interview-traps">user interviews can be full of traps</a>. They can rarely give you enough understanding to tackle problems in a new space.
 
 Over the years, I've found that the easiest way to overcome this is to "find your lane, and stay in your lane". If you've been in the Education space, find problems in there to solve.
 
@@ -68,7 +68,7 @@ The venture path trains founders on an entirely different skillset: pitching ide
 
 Media creates this illusion that the venture path is the best path to entrepreneurship.
 
-I also learned this the hard way. I raised angel funding at Toasty and I jumped into building a team full of engineers and designers. We didn't have a good understanding of the video meeting space, yet we started building the product immediately. My time was spent on managing people and expectations, which meant I was training myself on the wrong skills in such early days.
+I also learned this the hard way. I <a href="/validate-startup-ideas">raised angel funding at Toasty</a> and I jumped into building a team full of engineers and designers. We didn't have a good understanding of the video meeting space, yet we started building the product immediately. My time was spent on managing people and expectations, which meant I was training myself on the wrong skills in such early days.
 
 There are definitely entrepreneurs who are great at going down this venture path. But those stories, skills, and learnings are rarely applicable to an aspiring founder who is just starting out.
 

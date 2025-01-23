@@ -8,11 +8,11 @@ topic: entrepreneurship
 <img src="/images/blog/the-mom-test-1.jpeg" alt="Image 1 from the-mom-test" class="cover-image" />
 
 
-If you've read my other post about validating your startup idea, you'd know that my startup, Toasty, went through a critical pivot after failing the 1st idea.
+If you've read my other post about <a href="/validate-startup-ideas">validating your startup idea</a>, you'd know that my startup, Toasty, went through a critical pivot after failing the 1st idea.
 
 When we made such a pivot, I decided we had to do something drastically different, which was to pay more attention to user research and interviews.
 
-Instead of jumping into product development, I stopped what everyone was working on for 2 days, and asked my entire team to read a customer interview book called the Mom Test by Rob Fitzpatrick.
+Instead of jumping into product development, I stopped what everyone was working on for 2 days, and asked my entire team to read a customer interview book called <a href="https://amzn.to/2JZ9AUT">the Mom Test</a> by Rob Fitzpatrick.
 
 I also asked my team to come together and form a discussion to each share our learnings.
 
@@ -31,7 +31,7 @@ The same goes for creating a tech product for the world. It is arrogant to think
 
 The key here is to talk to the customers. Surprisingly, a lot of founders never talk to any potential customers before building out their ideas.
 
-And this is why The Mom Test is such an important book to address the proper way to do customer interviews.
+And this is why <a href="https://amzn.to/2JZ9AUT">the Mom Test</a> is such an important book to address the proper way to do customer interviews.
 
 A go-to book for user and customer interviews.
 
@@ -62,4 +62,4 @@ We are in love with the problem, not the solution
 We keep learning and sharing
 We know that it is important to share user interview insights, but it is impossible for the entire team to be talking to customers directly. We set up a system to take notes and validate hypotheses that the whole team can review. This way we keep a transparent validation flow and avoid biases.
 
-But of course, even with the right framework in place, running user interviews and extracting the right information are still some of the hardest parts of building startups. We made a ton of mistakes in our journey and learned to avoid these traps in the future.
+But of course, even with the right framework in place, running user interviews and extracting the right information are still some of the hardest parts of building startups. We made a ton of mistakes in our journey and <a href="/user-interview-traps">learned to avoid these traps</a> in the future.

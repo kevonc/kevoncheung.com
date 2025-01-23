@@ -8,17 +8,17 @@ topic: entrepreneurship
 <img src="/images/blog/first-code-academy-company-culture-1.png" alt="Image 1 from first-code-academy-company-culture" class="cover-image" />
 
 
-Ever since Michelle and I read Tony Hsieh’s Delivering Happiness, we have been intrigued by the way Tony runs Zappos and how culture plays a major role in the building of the shoe empire.
+Ever since Michelle and I read Tony Hsieh’s <a href="https://www.amazon.com/Delivering-Happiness-Profits-Passion-Purpose-ebook/dp/B00FOT936Y/ref=sr_1_1?crid=1TRCXJAQWAGAW&dib=eyJ2IjoiMSJ9.eoIe9s1pcFh0YqRh6Kw0OtG9d7hdihkmOr4_IUEw-oUFweLg_MAOAnuPM9VzyN-HPx64kxCeN2xIM0oWx7cKALGJQ8bghgrOgRI8d1qvDbUEPcCE028tC7UtRkPXk-qLVDNzlq5D9rH9q9xSHwsQ3YnN0UENZ5GKVmRri8ie16VozQwhF0QWbFF8hRB7NDzFS-b5oRX6dOV4U7dhx19zhDGdS8MygnPlL6bwaNEnqqE.28MoVh9GQXNTzaAFoUXpraO37EjwpZO-Z34-g6b02oY&dib_tag=se&keywords=Delivering+Happiness&qid=1729487595&sprefix=delivering+happiness%2Caps%2C296&sr=8-1">Delivering Happiness</a>, we have been intrigued by the way Tony runs Zappos and how culture plays a major role in the building of the shoe empire.
 
 Nowadays, a respectable company is not represented by its huge revenue or operating margin, a more convincing way of measuring is through its impact on the world and its employee’s happiness.
 
 In the book, Tony mentioned that there are only 3 key areas that are worth investing in when everything else could be copied easily, and the trio is a brand, culture, and pipeline.
 
-With a huge admiration for building a well-defined company culture, I want to talk about how we define our culture at First Code Academy.
+With a huge admiration for building a well-defined company culture, I want to talk about how we define our culture at <a href="https://www.firstcodeacademy.com/">First Code Academy</a>.
 
 When I joined First Code in January 2015, it was the early period of the startup (one and a half years in). The campus looked like someone just rented an empty furnished space yesterday, the people have titles but no one was exactly sure what to work on, and there was certainly no sign of a strong culture.
 
-Just like most startups, at that point in time, the style (I wouldn’t say culture) of First Code was hugely defined by the personality of its founder, Michelle. It was about working hard, moving fast, experimenting with new ideas, and becoming close to our parents and students.
+Just like most startups, at that point in time, the style (I wouldn’t say culture) of First Code was hugely defined by the personality of its founder, <a href="http://www.sunmichelle.com/">Michelle</a>. It was about working hard, moving fast, experimenting with new ideas, and becoming close to our parents and students.
 
 We focused most of our energy on making sure the startup was growing rapidly and we were achieving the goals that we set for ourselves.
 
@@ -26,7 +26,7 @@ What we neglected was the development of a place where people would wake up and 
 
 It was until late 2015 that Michelle and I started to think about what a company culture meant and really poured our hearts into shaping a culture at First Code.
 
-We started reading a lot of books about this topic, Tony Hsieh’s Delivering Happiness, Howard Schultz’s Pour Your Heart Into It: How Starbucks Built a Company One Cup at a Time, and Phil Knight’s Shoe Dog were the prints that really got a piece of our hearts.
+We started reading a lot of books about this topic, Tony Hsieh’s Delivering Happiness, Howard Schultz’s <a href="https://amzn.to/2KbQ07N">Pour Your Heart Into It: How Starbucks Built a Company One Cup at a Time</a>, and Phil Knight’s <a href="https://amzn.to/37cgqzn">Shoe Dog</a> were the prints that really got a piece of our hearts.
 
 We jotted down notes while reading them, and instantly they sparked interesting things we wanted to try at First Code.
 

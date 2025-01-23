@@ -10,7 +10,7 @@ topic: entrepreneurship
 
 I was chatting with a community builder friend and he asked me, "What's the thing that offers the most value in your community?"
 
-It took me a good 10 seconds to think about Public Lab, the Building in Public community I run, and I said "So far, the AMA sessions!"
+It took me a good 10 seconds to think about <a href="https://publiclab.co/">Public Lab</a>, the Building in Public community I run, and I said "So far, the AMA sessions!"
 
 I went on to tell him that personally I almost never attended any AMA sessions myself, but because I can clearly see that my members enjoy them, I keep on inviting entrepreneurs who value authenticity and transparency to share with us.
 

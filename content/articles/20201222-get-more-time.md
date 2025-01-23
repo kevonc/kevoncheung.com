@@ -18,7 +18,7 @@ To me, the main reason I love to be productive is that I know I'm not the smarte
 
 There are many articles that talk about improving productivity, and honestly, most of them are useless. Start the day with a good breakfast. Play music to focus? I don't need to know that.
 
-Recently I came across a great article by Nat Eliason. He talked about how anyone could create systems and hire people to 10x their productivity. This is a golden lesson to entrepreneurs and as you know, I'm a big fan of System Thinking, so his article resonates well with me.
+Recently I came across <a href="https://www.nateliason.com/blog/personal-leverage">a great article by Nat Eliason</a>. He talked about how anyone could create systems and hire people to 10x their productivity. This is a golden lesson to entrepreneurs and as you know, I'm a big fan of System Thinking, so his article resonates well with me.
 
 But a part of me thinks that before I can create a system and hire people to run it, I must first maximize the productivity of my own. It is like ... running for a half marathon before challenging yourself to a full marathon.
 
@@ -50,7 +50,7 @@ We spend a lot of time making decisions every day, and that's an exhaustion of t
 the less ad-hoc decisions we have to make, the more productive we are.
 
 How I reduce decision fatigue
-One thing you should also know, that decision fatigue is real. If a person has to make a lot of decisions within a period, he or she might start making poor choices.
+One thing you should also know, that <a href="https://www.forbes.com/sites/womensmedia/2019/05/13/how-to-identify-when-youre-experiencing-decision-fatigue">decision fatigue is real</a>. If a person has to make a lot of decisions within a period, he or she might start making poor choices.
 
 There are so many decisions each one of us has to make each day, and the key is to find out what matters to you most to want to keep having to make that decision, and what matters least to you so you can remove the need to make such a decision completely.
 

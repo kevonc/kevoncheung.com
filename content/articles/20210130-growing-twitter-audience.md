@@ -10,13 +10,13 @@ topic: marketing
 
 If you are new on Twitter and want to know how to grow to 500 followers with the right approach in 10 weeks, this article is for you.
 
-I remember I was doing a sharing session on my Building in Public Definitive Guide and the host asked me, "Kevon, I see that you have a very cozy audience on Twitter. How did you start?"
+I remember I was doing a sharing session on my <a href="https://publiclab.co/building-in-public">Building in Public Definitive Guide</a> and the host asked me, "Kevon, I see that you have a very cozy audience on Twitter. How did you start?"
 
 "It was a lot of hard work! But mostly I think doing the right things helped the most." That's what I said.
 
 And I could tell the participants really enjoyed the tips I shared, so this article is my way of helping more people get started.
 
-As of Feb 2022, my presence has grown to 9,000+ followers. One year ago when I wrote this article, I had 553 followers after using Twitter for 10 weeks. which makes this sharing relevant to where you are now.
+As of Feb 2022, my presence has grown to <a href="https://twitter.com/MeetKevon">9,000+ followers</a>. One year ago when I wrote this article, I had 553 followers after using Twitter for 10 weeks. which makes this sharing relevant to where you are now.
 
 <img src="/images/blog/growing-twitter-audience-2.png" alt="Image 2 from growing-twitter-audience" />
 
@@ -38,7 +38,7 @@ It meant that I could make the assumption that if Amanda is known for being a bo
 
 So I thought hard about what kind of people I wanted to interact with on Twitter.
 
-I enjoyed solving problems and building products. I was also spending more and more time in the Indie Hackers community to share experiences and help other builders. Therefore, having deeper relationships with people in this community made a lot of sense.
+I enjoyed solving problems and building products. I was also spending more and more time in the <a href="http://indiehackers.com/">Indie Hackers</a> community to share experiences and help other builders. Therefore, having deeper relationships with people in this community made a lot of sense.
 
 I then came up with a list of 20 key influencers in this community. They were active in sharing ideas and all had a large following.
 
@@ -105,4 +105,4 @@ I don't believe in any quick hacks to drive the growth of my audience because ev
 
 I am more for the fundamentals of building and managing human relationships, I see that behind every large audience, there is always a strong core group of friends who are fuelling everything else we see.
 
-I hope this is helpful to you. Try out some of the advice above first. If you want to go further, I also created a free 7-day email course, Making Twitter Friends, to deep dive into some of the concepts and so far 1,800+ students completed the course. Or if you want me to help you 1:1, you can also contact me.
+I hope this is helpful to you. Try out some of the advice above first. If you want to go further, I also created a free 7-day email course, <a href="http://makingtwitterfriends.com/">Making Twitter Friends</a>, to deep dive into some of the concepts and so far 1,800+ students completed the course. Or if you want me to help you 1:1, you can also <a href="https://publiclab.co/coaching">contact me</a>.

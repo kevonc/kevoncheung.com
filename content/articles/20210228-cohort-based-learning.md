@@ -10,7 +10,7 @@ topic: teaching-learning
 
 We keep forgetting one simple truth. We humans are tribal.
 
-When I came across a new platform called Contra and offered my suggestions to optimize their landing pages, I learned that they are creating a community for the future of work. And I started thinking about what "humans are tribal" means to the future of our education and work.
+When I came across a new platform called <a href="http://contra.com/">Contra</a> and <a href="/landing-page-contra">offered my suggestions to optimize their landing pages</a>, I learned that they are creating a community for the future of work. And I started thinking about what "humans are tribal" means to the future of our education and work.
 
 If we're tribal, why do we grow communities to thousands of people knowing that we'd lose touch with it? What sort of communities will empower people to learn and work in the best way?
 
@@ -58,13 +58,13 @@ These groups are more engaging because the small size allows everyone to know on
 In the next few years, we'll see an influx of these cohort-based communities, with smaller groups embedded inside large communities. And they will be mainly in two categories: learning and working.
 
 Learning together as a cohort
-Learning is part of our daily lives, so the education space is moving fast to adopt this model. Companies like OnDeck and Gagan's new company are both making cohorts their core offerings to group students together to learn.
+Learning is part of our daily lives, so the education space is moving fast to adopt this model. Companies like <a href="https://www.beondeck.com/">OnDeck</a> and <a href="https://twitter.com/gaganbiyani/status/1326948549779742732">Gagan's new company</a> are both making cohorts their core offerings to group students together to learn.
 
 In each cohort, there is a sense of belonging and students get to know every single classmate. They keep each other accompanied and accountable to work through a traditionally lonely learning experience. A good percentage of students stay in touch afterward, and that forms a powerful network that is equivalent to an MBA group.
 
 This style of learning has been popular in education for a while, and it is not surprising to see that it recreates the traditional classroom experience.
 
-I run a small, cozy #BuildingInPublic Support Group on Twitter. If you're interested, say hi to me here.
+I run a small, cozy #BuildingInPublic Support Group on Twitter. If you're interested, <a href="https://x.com/MeetKevon">say hi to me here</a>.
 
 Working together as a cohort
 Compared to learning, working together as a cohort is a completely new concept. Mainly because it requires significant changes from our current approach of working.
@@ -92,7 +92,7 @@ Will this happen anytime soon? I'm optimistic that this will become the preferre
 This is also the reason why I'm fascinated by the vision of Contra to reinvent work for the digital world.
 
 How I know cohort-based is the future
-In my January newsletter, I shared that I came to realize running an angel-funded startup wasn't what I wanted at the moment. It surely sounded amazing to be able to raise funds, build a team, and pursue high growth opportunities, but underlying the hardcore, out-of-balanced work life, I was living a life that was out of my control.
+In <a href="https://www.smallschool.is/newsletter">my January newsletter</a>, I shared that I came to realize running an angel-funded startup wasn't what I wanted at the moment. It surely sounded amazing to be able to raise funds, build a team, and pursue high growth opportunities, but underlying the hardcore, out-of-balanced work life, I was living a life that was out of my control.
 
 What I want to focus on is building a brand and a voice of my own. I love sharing thoughts based on my learnings and interpretations of the world.
 

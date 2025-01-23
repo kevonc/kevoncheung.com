@@ -115,10 +115,10 @@ Interact with their posts genuinely
 By doing this consistently, you’ll start seeing results coming back to your posts.
 
 How I improved my engagement results
-Obviously, here I’m only able to capture a small part of his mastermind. You’ll learn much more if you follow Dave’s Twitter and LinkedIn.
+Obviously, here I’m only able to capture a small part of his mastermind. You’ll learn much more if you follow Dave’s <a href="https://twitter.com/davegerhardt">Twitter</a> and <a href="https://www.linkedin.com/in/davegerhardt/">LinkedIn</a>.
 
 After I picked up these tactics from Dave. I put them into practice and saw my engagement numbers go up and up. Within 5 months, I was able to achieve 5-10x growth on my regular LinkedIn posts.
 
-If you're craving more copywriting tips, check out this chapter from my Building in Public guide.
+If you're craving more copywriting tips, check out <a href="https://www.smallschool.is/build-in-public/storytelling">this chapter from my Building in Public guide</a>.
 
 <img src="/images/blog/copywriting-dave-gerhardt-11.png" alt="Image 11 from copywriting-dave-gerhardt" />

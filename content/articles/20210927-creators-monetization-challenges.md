@@ -37,7 +37,7 @@ In the 3rd cohort in Jul 2021, it made $1,868. Honestly, it wasn't bad at all! 
 
 The other product was Public Lab, the paid community on Building in Public. I haven't been able to strengthen the value proposition and do much marketing for it, but it still has close to 50 paid members for $267.5MRR.
 
-Together, they made up $2K+ in revenue in Jul 2021.
+Together, <a href="/jul-2021-income-report">they made up $2K+ in revenue in Jul 2021.</a>
 
 ## If working, what happened?
 You would think that it must be the competition that caused me to stop these products. Nope!
@@ -64,7 +64,7 @@ Okay, it seems like the Notion template product is the best thing to work on.
 
 Not yet! ‚ùå
 
-In my August income report, I talked about how an info product can make good revenue, and then depending on whether you have a sales funnel in place, sales can tank pretty badly.
+In my <a href="/aug-2021-income-report">August income report</a>, I talked about how an info product can make good revenue, and then depending on whether you have a sales funnel in place, sales can tank pretty badly.
 
 Time factor is important, but I also look at a few things:
 
@@ -104,7 +104,7 @@ Since this was the 1st time of me creating a course, I could see that the parts 
 
 Even though some students would come to me and said the 30 days challenge was good and game-changing for them, I knew I should take a pause, revisit what I learned, and create a better course.
 
-It is also why I'm part of the Maven Course Accelerator to improve my course design and facilitation skills.
+It is also why I'm part of the <a href="https://maven.com/maven/course-accelerator">Maven Course Accelerator</a> to improve my course design and facilitation skills.
 
 ## I stopped collecting recurring membership fee
 
@@ -151,7 +151,7 @@ As mentioned above, I figured my time should be spent more on creating content/c
 
 And also it is because members from a paid community alone can lack a shared goal.
 
-My plan is to create a new book called Find Joy in Chaos, and the community will be the supporting platform for everyone going through the learning journey. Everything we will do in the community is tied to an aligned learning outcome.
+My plan is to create a new book called <a href="https://findjoyinchaos.com/">Find Joy in Chaos</a>, and the community will be the supporting platform for everyone going through the learning journey. Everything we will do in the community is tied to an aligned learning outcome.
 
 This becomes straightforward and members know how to help one another.
 
