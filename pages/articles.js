@@ -43,11 +43,6 @@ export default function Articles({ posts, topics }) {
                     </>
                   )}
                 </div>
-                {post.frontmatter.meta_description && (
-                  <p className="text-gray-600 leading-relaxed">
-                    {post.frontmatter.meta_description}
-                  </p>
-                )}
               </Link>
             </article>
           ))}

@@ -5,8 +5,7 @@ meta_description: ''
 slug: first-code-academy-company-culture
 topic: entrepreneurship
 ---
-
-<img src="/images/blog/first-code-academy-company-culture-1.png" alt="How we define our company culture at First Code Academy" class="cover-image" />
+<img src="/images/blog/first-code-academy-company-culture-1.png" alt="Image 1 from first-code-academy-company-culture" class="cover-image" />
 
 
 Ever since Michelle and I read Tony Hsieh’s Delivering Happiness, we have been intrigued by the way Tony runs Zappos and how culture plays a major role in the building of the shoe empire.
@@ -35,7 +34,7 @@ We understood that culture couldn’t be developed in a day or by one person, an
 
 The next step was to put them into action, finding out what culture and values our team possessed by digging into our memories.
 
-
+<img src="/images/blog/first-code-academy-company-culture-2.jpeg" alt="Image 2 from first-code-academy-company-culture" />
 
 
 It might be easier to list out 8-10 core values to First Code and then ask every team member to follow, but we chose to do it the other way around - we looked at what examples we could spot in the last few months and we started from there.
@@ -68,9 +67,7 @@ These core values and the stories behind them became training materials for each
 
 From the day when we wrote down the 8 core values of the First Code, we have seen a tremendous increase in actions and behaviors that fit into our culture and values. The team became more efficient as team members started using these core values to make independent decisions.
 
-<img src="/images/blog/first-code-academy-company-culture-3.jpeg" alt="These core values and the stories behind them became training" />
-
-
+<img src="/images/blog/first-code-academy-company-culture-3.jpeg" alt="Image 3 from first-code-academy-company-culture" />
 
 
 Sometimes, though, when you’re inside a bubble, it prevents you from seeing what is outside. Although we were excited and contented about how First Code’s culture was shaping internally, there was one thing we weren’t 100% sure of and we were curious to find out -

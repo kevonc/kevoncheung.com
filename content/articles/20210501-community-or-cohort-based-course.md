@@ -6,8 +6,7 @@ slug: community-or-cohort-based-course
 topic: teaching-learning
 ---
 
-<img src="/images/blog/community-or-cohort-based-course-1.jpeg" alt="How to decide between starting a community and a cohortbased" class="cover-image" />
-
+<img src="/images/blog/community-or-cohort-based-course-1.jpeg" alt="Image 1 from community-or-cohort-based-course" class="cover-image" />
 
 Are you thinking about starting a new community or creating a cohort-based course? They're the hottest products to create in 2021. But before you do so, read this.
 
@@ -21,10 +20,9 @@ But from interacting with the members, I realized what's more helpful in their e
 
 Here I'm breaking down and comparing what I learned from creating these two products. This can help you think through how you want to approach creating them.
 
+<img src="/images/blog/community-or-cohort-based-course-2.png" alt="Image 2 from community-or-cohort-based-course" />
 
-
-
-A community is a commitment
+## A community is a commitment
 An online community is asynchronous. It runs in the background for most people's lives. Most people are not visiting the community all the time, but they go there when they want to interact with the other members.
 
 It could be asking questions, sharing their newest learnings, or just being part of a committed group of like-minded people.
@@ -33,21 +31,23 @@ Because they only go to a community when they need it, it requires them to be se
 
 If you're building a community, there are 2 key parts you have to pay attention to.
 
-Providing value on an ongoing basis
+### Providing value on an ongoing basis
+
 Members stay in your community because they're constantly learning and getting values. While you're creating a culture for members to help one another, you also need to put in the effort to create resources, invite guest speakers, and run community activities all the time.
 
 This is why your members are paying a monthly membership fee.
 
 When you stop doing those, the values you provide end, and community members leave.
 
-Having the right purpose and pace
+### Having the right purpose and pace
+
 At this point, I'm not convinced an online community can be someone's main stream of income. It is possible, but it is very hard. This is because your income is tied to the number of members in the community, but the more members you have, the less engaged they are. Not good.
 
 I've been building the Public Lab community slowly as I want to build strong foundations and culture before more members join. I started with 20 selected builders who expressed interest and I spent 4 weeks observing the interactions before welcoming a few new members.
 
 The first 20 members set the culture, the tone, and most importantly, how Public Lab fits into their building journey. This foundation influences how the new members perceive the community.
 
-A cohort-based course is a drive
+## A cohort-based course is a drive
 Cohort-based learning is the future because it enhances the sense of belonging and accountability.
 
 This type, of course, can have more synchronous components as everyone aims to achieve certain goals within the set timeframe. It involves active coursework for students to follow through.
@@ -56,14 +56,14 @@ Accountability and active support are essential in the course. This means studen
 
 They want the feeling of "doing it together". Even though they don't know if they can continue what they've learned after the course ends, they want to give themselves a chance to accomplish a lot in this timeframe.
 
-Designing an action-packed course
+### Designing an action-packed course
 Your students desire a transformation from your course. This means your course needs to deliver clear outcomes, have a gradual progression, and have a weekly group call and accountability system set up to support that.
 
 The course only happens for a period of time, so your students are paying a one-off course fee.
 
 When the course ends, your responsibility to deliver value ends.
 
-Focusing on repetition and scale
+### Focusing on repetition and scale
 Because there is a start and end date to the course, it is all about giving so much value within the timeframe and repeating this model as many times as possible.
 
 You're not designing a course to run it 1 time. You're doing it to run it 100 times.
@@ -72,10 +72,12 @@ If your topic has a high demand, it could be your mainstream income. But you nee
 
 Running a cohort-based course means you have to repeatedly promote, enroll, and run operations for each cohort. This is a monthly repetition of the same tasks, and the fun can fade out after you run it a few times.
 
-Which one should you go for?
+## Which one should you go for?
+
 This is a question you need to ask yourself plus think about your audience.
 
-For yourself
+### For yourself
+
 You should think about your personal preference and what lifestyle you desire.
 
 Running a community means it is a long-term commitment with no end date. It is like running a marathon and you'll go fast and slow at different times. You also need to enjoy building genuine relationships with people. Are you someone who can stick to a project for a long time?
@@ -84,7 +86,8 @@ Running a cohort-based course is like a project-based commitment. You spend more
 
 Either product requires a lot of time and effort, but the timeline and urgency are on a different scale. It is super important to figure out how that fits into the online business life you want to live.
 
-For your audience
+### For your audience
+
 The ultimate goal is to choose the product that brings the best value and outcome to your audience. If the niche or problem you're solving is a long-term play, like blogging or parenting, then a community is a good choice.
 
 You don't expect newborn parents to have time to take a 30-day cohort-based course, do you?

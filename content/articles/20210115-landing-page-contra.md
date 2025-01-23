@@ -5,8 +5,7 @@ meta_description: ''
 slug: landing-page-contra
 topic: marketing
 ---
-
-<img src="/images/blog/landing-page-contra-1.png" alt="Landing page optimization Contracom marketing January 15 2021 What does" class="cover-image" />
+<img src="/images/blog/landing-page-contra-1.png" alt="Image 1 from landing-page-contra" class="cover-image" />
 
 
 What does the future of work look like? Flexible, do what you love, and be measured by outcome, not hours.
@@ -24,8 +23,6 @@ Last week, I stumbled upon Contra. I'm not going to tell you what they do just y
 
 I was impressed by their vision and community, so I browsed some more and saw that they were looking for ambassadors. I clicked in, motivated by my curiosity, and saw an application form with the question "How would you change/improve our current landing pages?"
 
-<img src="/images/blog/landing-page-contra-2.png" alt="I was impressed by their vision and community so I" />
-
 I wanted to apply and connect with these awesome people!, so I did. And this post is my answer to the question they posted.
 
 An exercise: visit this homepage
@@ -33,7 +30,7 @@ I want to take you through the entire thought process. You'll take a look at the
 
 Click here to enlarge this image below:
 
-
+<img src="/images/blog/landing-page-contra-2.png" alt="Image 2 from landing-page-contra" />
 
 What I love
 Branding is strong. Contra shows a lot of character and personality, and I want to learn more about the futuristic concept of this platform. The site uses a lot of human faces which is great for any website, but particularly a people-oriented product.

@@ -6,6 +6,8 @@ slug: misconceptions-building-in-public
 topic: entrepreneurship
 ---
 
+<img src="/images/blog/misconceptions-building-in-public-1.jpg" alt="Image 1 from misconceptions-building-in-public" class="cover-image" />
+
 More and more people are embracing Building in Public these days. Why? Is it because it is a hot trend or because more people care about transparency? I'm not entirely sure.
 
 After writing the definitive guide to help people get started, I've been speaking at events, jumping on podcasts, and chatting with people privately.
@@ -14,7 +16,7 @@ I thought my guide covered most of the areas pretty well, but it would be naive 
 
 I’ve heard some repeated questions, so here I want to summarize the top 5 misconceptions about Building in Public.
 
-1/ "Building in Public takes up a lot of time which I don't have"
+## 1/ "Building in Public takes up a lot of time which I don't have"
 A certain group of people sees Building in Public as a daily todo list. They feel a need to publicize what they're working on every day and talk about their progress, learnings, and achievements very frequently. My guess is this movement is very popular among the maker community and hence this behavior is common.
 
 They use Building in Public as an accountability tool because building alone can be difficult to keep themselves on track. But to me, sharing daily work is exhausting and unsustainable as it adds a lot of extra work that might not contribute to the bigger goals.
@@ -25,7 +27,7 @@ Alison Seboldt is a maker and programmer. I love bringing her up because she onl
 
 That's an amazing example of Building in Public. She is being true to herself. She is constantly reflecting. And she is openly sharing her thoughts.
 
-2/ "I'm not comfortable sharing so much"
+## 2/ "I'm not comfortable sharing so much"
 Many entrepreneurs are not comfortable sharing business metrics in public because these numbers represent how the business or product is truly doing. It opens up a lot of room for questions and challenges.
 
 There are people who are confident enough to do so, like Paul from Copy AI and YongFook from Bannerbear. When some builders share numbers, it makes other builders feel that they should also share their numbers.
@@ -44,7 +46,7 @@ Ultimately, you want to share enough to establish your authentic voice but not e
 
 Find your own fine line.
 
-3/ "I don't want to look like I'm bragging"
+## 3/ "I don't want to look like I'm bragging"
 Building in Public is getting popular and some people are doing it hypocritically. They pretend they're Building in Public but what they want to do is to show off and create marketing buzz.
 
 Yes, that happens. Everything in our world has two sides. There are always people who stay true to it, and there are always people who abuse it.
@@ -59,7 +61,7 @@ The goal is to always educate. When you do that, you're not bragging.
 
 Every time before you're about to publish a piece of Building in Public content, look at your writing and see if it is going to help another person learn something. If yes, go ahead. If not, you're bragging and don't publish it.
 
-4/ "Building in Public seems to be a nice marketing hack"
+## 4/ "Building in Public seems to be a nice marketing hack"
 Some people get a lot of exposure and followers from Building in Public. It must be a magical hack to be successful. Right?
 
 But ... what you see is skewed.
@@ -74,7 +76,7 @@ Secondly, followers do not equal customers. A lot of people have 20,000+ followe
 
 Building in Public will not bring you magical success, so don't do it for that reason.
 
-5/ "I'm not good enough to Build in Public"
+## 5/ "I'm not good enough to Build in Public"
 Many people I talk to are hesitant to Build in Public because they fear that they sound stupid, weak, and uncertain.
 
 When everyone else sounds super confident, they believe it does more harm than good to put their vulnerable self out there.
@@ -95,7 +97,7 @@ You also need practice. When you first start Building in Public, your writing li
 
 But if you never take that 1st step, you will forever have fear.
 
-Why are there so many misconceptions?
+## Why are there so many misconceptions?
 When I look at the 5 points above, one theme emerges.
 
 We like to look at others around us and compare ourselves. Some successful builders are doing A, B, C, D, E for Building in Public, so if we start, we also need to do A, B, C, D, E.

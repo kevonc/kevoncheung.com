@@ -5,8 +5,7 @@ meta_description: ''
 slug: build-new-community
 topic: entrepreneurship
 ---
-
-<img src="/images/blog/build-new-community-1.jpeg" alt="How I build a new community using data and feedback" class="cover-image" />
+<img src="/images/blog/build-new-community-1.jpeg" alt="Image 1 from build-new-community" class="cover-image" />
 
 
 I loved taking out my huge whiteboard and started brainstorming ideas by myself or with my buddies. I thought that one whiteboard would help me change the world.
@@ -51,9 +50,9 @@ Step-by-step on how I found my way to launching a private community
 1) Quickest way to gauge interest
 Ever since I rolled out the Building in Public Definitive Guide, a lot of people have reached out to me telling me their interests in a supportive ecosystem. They understood the mindset and how it could help their work, yet resources and a support system weren’t there for them.
 
-<img src="/images/blog/build-new-community-2.png" alt="Is that even possible? Stepbystep on how I found my" />
-
 I didn't know whether this was true or if there were enough people to create a sustainable community.
+
+<img src="/images/blog/build-new-community-2.png" alt="Image 2 from build-new-community" />
 
 So I resorted to a tweet thread to help me figure this out.
 
@@ -98,15 +97,15 @@ Out of the 9 people, only 6 were active.
 
 Yet, we had a super good time helping each other. One day, someone shared their new Building in Public tweet and others gave feedback. The other day, someone pitched their new product idea and got fair comments from other builders.
 
-<img src="/images/blog/build-new-community-4.png" alt="Yet we had a super good time helping each other" />
-
-<img src="/images/blog/build-new-community-3.png" alt="Out of the 9 people only 6 were active Yet" />
-
 The dynamic of the group was good. To me, that was the most important thing because with any community or group, it always comes down to people's interactions.
 
 I kept asking questions in the group and seeking insights on what to do next.
 
+<img src="/images/blog/build-new-community-3.png" alt="Image 3 from build-new-community" />
+
 I also facilitated the group's interactions a little.
+
+<img src="/images/blog/build-new-community-4.png" alt="Image 4 from build-new-community" />
 
 5) Debating with myself
 At this point, I was still hesitant to run a full-on community.
@@ -134,6 +133,8 @@ I was definitely flattered by their kind words, and I started to believe a commu
 
 Thing B
 
+<img src="/images/blog/build-new-community-5.png" alt="Image 5 from build-new-community" />
+
 I studied more about virtual communities. There is Circle which is a forum style, and there is Slack which is a live messaging style.
 
 Personally, I stopped getting on Slack because the number of messages in different communities was getting out of control. I was super overwhelmed.
@@ -150,6 +151,8 @@ Just for fun, I set up a gathering for indie builders to meet 1:1. The event wen
 
 This gave me another confidence boost about my facilitation ability.
 
+<img src="/images/blog/build-new-community-6.png" alt="Image 6 from build-new-community" />
+
 With these 3 events over that week, I decided to give it a shot to expand the small group into a larger community for Building in Public.
 
 And I had to get to work: setting up Circle, figuring out membership & payment, building a website, etc. Lots of work!
@@ -161,7 +164,7 @@ After all, I only had 6 people.
 
 Of course, I wrote a tweet to find them.
 
-
+<img src="/images/blog/build-new-community-7.png" alt="Image 7 from build-new-community" />
 
 
 The early culture of a community is crucial. I wanted to find people I might have already interacted with on Twitter who are supportive givers. They must enjoy interacting and helping one another.
@@ -175,7 +178,7 @@ There was just one problem - it was a bare shell and didn't look like a communit
 
 I made sure to thank my early builders to be patient with me as I continued to work on setting up the foundation and facilitating the group to get started.
 
-
+<img src="/images/blog/build-new-community-8.png" alt="Image 8 from build-new-community" />
 
 
 Carrying forward the spirit of Building in Public, I also decided to build this community in public.
@@ -201,6 +204,8 @@ Back then, the forum was for a local singer so the focal point was very clear - 
 Now, Public Lab was built on top of a mindset. The backbone of this community is education and learning. And I need to make sure it is bringing value to every member constantly.
 
 I shared this fact with the 20 early builders on the Public Lab community so they can have the right expectation and involvement to do this together.
+
+<img src="/images/blog/build-new-community-9.png" alt="Image 9 from build-new-community" />
 
 4) Take baby steps
 I cannot stress enough the importance of taking slow baby steps. Whenever I moved fast in my previous startups, I made all the wrong decisions. When I launched the Building in Public Definitive Guide or the email course, Making Twitter Friends, I also took baby steps to roll it out.

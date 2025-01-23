@@ -5,8 +5,7 @@ meta_description: ''
 slug: social-media-fear
 topic: entrepreneurship
 ---
-
-<img src="/images/blog/social-media-fear-1.png" alt="How to overcome your social media fear marketing April 18" class="cover-image" />
+<img src="/images/blog/social-media-fear-1.png" alt="Image 1 from social-media-fear" class="cover-image" />
 
 
 I found my spot to be helpful on the Internet.
@@ -67,8 +66,6 @@ In fact, if you're Building in Public, most of your sharing is based on your own
 
 2) You're afraid of public criticism
 This is what happened to me last week. I tweeted about Clubhouse.
-
-
 
 I had zero idea the tweet would go viral with 3,300 likes. While most said they also didn't use Clubhouse lately, one person quoted my tweet and commented that building a social app is hard and my tweet was terrible trying to mock Clubhouse.
 

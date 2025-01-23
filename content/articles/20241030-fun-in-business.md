@@ -69,7 +69,7 @@ Honestly, after 4 years of working solo, I crave working and collaborating with 
 
 As to having fun, I did something super random for fun:
 
-
+<img src="/images/blog/fun-in-business-2.png" alt="Prioritize fun" />
 
 
 This made no sense but this is was what I wanted to do.

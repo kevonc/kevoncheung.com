@@ -5,8 +5,7 @@ meta_description: ''
 slug: the-mom-test
 topic: entrepreneurship
 ---
-
-<img src="/images/blog/the-mom-test-1.jpeg" alt="The same goes for creating a tech product for the" class="cover-image" />
+<img src="/images/blog/the-mom-test-1.jpeg" alt="Image 1 from the-mom-test" class="cover-image" />
 
 
 If you've read my other post about validating your startup idea, you'd know that my startup, Toasty, went through a critical pivot after failing the 1st idea.
@@ -33,8 +32,6 @@ The same goes for creating a tech product for the world. It is arrogant to think
 The key here is to talk to the customers. Surprisingly, a lot of founders never talk to any potential customers before building out their ideas.
 
 And this is why The Mom Test is such an important book to address the proper way to do customer interviews.
-
-
 
 A go-to book for user and customer interviews.
 

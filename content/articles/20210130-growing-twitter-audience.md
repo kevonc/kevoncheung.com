@@ -5,8 +5,7 @@ meta_description: ''
 slug: growing-twitter-audience
 topic: marketing
 ---
-
-<img src="/images/blog/growing-twitter-audience-1.jpeg" alt="How I grew my Twitter audience with human psychology marketing" class="cover-image" />
+<img src="/images/blog/growing-twitter-audience-1.jpeg" alt="Image 1 from growing-twitter-audience" class="cover-image" />
 
 
 If you are new on Twitter and want to know how to grow to 500 followers with the right approach in 10 weeks, this article is for you.
@@ -19,7 +18,7 @@ And I could tell the participants really enjoyed the tips I shared, so this arti
 
 As of Feb 2022, my presence has grown to 9,000+ followers. One year ago when I wrote this article, I had 553 followers after using Twitter for 10 weeks. which makes this sharing relevant to where you are now.
 
-
+<img src="/images/blog/growing-twitter-audience-2.png" alt="Image 2 from growing-twitter-audience" />
 
 Once you have 500 followers, you can grow it organically.
 

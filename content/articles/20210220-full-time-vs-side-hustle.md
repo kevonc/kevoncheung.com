@@ -5,8 +5,7 @@ meta_description: ''
 slug: full-time-vs-side-hustle
 topic: entrepreneurship
 ---
-
-<img src="/images/blog/full-time-vs-side-hustle-1.jpeg" alt="Go all in fulltime or start as a side hustle?" class="cover-image" />
+<img src="/images/blog/full-time-vs-side-hustle-1.jpeg" alt="Image 1 from full-time-vs-side-hustle" class="cover-image" />
 
 
 Thanks to the launch of my Building in Public Definitive Guide, I've received a number of questions from readers.

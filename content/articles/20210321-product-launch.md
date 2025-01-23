@@ -5,8 +5,7 @@ meta_description: ''
 slug: product-launch
 topic: entrepreneurship
 ---
-
-<img src="/images/blog/product-launch-1.jpeg" alt="Truth behind a successful product launch entrepreneurship March 21 2021" class="cover-image" />
+<img src="/images/blog/product-launch-1.jpeg" alt="Image 1 from product-launch" class="cover-image" />
 
 
 Every founder has to learn how to launch products.
@@ -58,7 +57,7 @@ Here were the breadcrumbs that led me to build Making Twitter Friends.
 
 There is no shortage of courses on growing Twitter, and I keep seeing more. As my Twitter circle gets bigger, I know that the demand is there.
 
-
+<img src="/images/blog/product-launch-2.png" alt="Image 2 from product-launch" />
 
 There are lots and lots of courses on Growing Twitter.
 
@@ -77,24 +76,19 @@ At Toasty, we built, we launched, and we got nothing.
 
 The way I created the guide and the email course was very different. I've been using Twitter to make friends and my tweets became my testing ground. Long before my guide was ready, I already talked about it and received interest from people.
 
-<img src="/images/blog/product-launch-6.png" alt="At Toasty we built we launched and we got nothing" />
-
-<img src="/images/blog/product-launch-4.png" alt="If your plan is to focus on building and then" />
-
-
+<img src="/images/blog/product-launch-3.png" alt="Image 3 from product-launch" />
 
 I also tweeted to see if anyone would be interested in helping to review my draft. When they replied, I reached out via DM and got to know them.
 
-
+<img src="/images/blog/product-launch-4.png" alt="Image 4 from product-launch" />
 
 Dan (@DanRoche01) was super helpful.
 
-
-
+<img src="/images/blog/product-launch-5.png" alt="Image 5 from product-launch" />
 
 Boris (@BorisTane) was giving me a hand.
 
-
+<img src="/images/blog/product-launch-6.png" alt="Image 6 from product-launch" />
 
 
 Pavel (@hipavel) even helped read my draft for both part 1 & 2.
@@ -110,19 +104,15 @@ If your product has no fans before it launches, you're doomed.
 
 The word "launch" is a little misleading. It refers to the moment you put out something to the world. From launching my products and also watching how people launch on Product Hunt, I figured there is a huge advantage to having a group of people already cheering for you when you "launch".
 
-<img src="/images/blog/product-launch-8.png" alt="The word "launch" is a little misleading It refers to" />
-
-<img src="/images/blog/product-launch-7.png" alt="Don't underestimate word of mouth If your product has no" />
-
 With the early readers, I was able to get their testimonials to add credibility to my product when it launched. I use Testimonial.
 
-
+<img src="/images/blog/product-launch-7.png" alt="Image 7 from product-launch" />
 
 A beautiful Testimonial wall featuring tweets.
 
 Because they were part of the creation, they didn't hesitate to help to retweet and to promote. That "network effect" was powerful.
 
-
+<img src="/images/blog/product-launch-8.png" alt="Image 8 from product-launch" />
 
 If you click to see my launch tweet's stats, I had a total of 53 Retweets + 37 Quote Tweets. That's 90 people helping out!
 

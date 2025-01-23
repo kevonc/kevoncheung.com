@@ -5,8 +5,7 @@ meta_description: ''
 slug: validate-startup-ideas
 topic: entrepreneurship
 ---
-
-<img src="/images/blog/validate-startup-ideas-1.png" alt="How to validate your startup idea entrepreneurship December 12 2020" class="cover-image" />
+<img src="/images/blog/validate-startup-ideas-1.png" alt="Image 1 from validate-startup-ideas" class="cover-image" />
 
 
 If you’re thinking about the next big idea that matches or even beats Airbnb, Netflix, and Uber, then you’re on the right track.
@@ -41,15 +40,11 @@ And this post is about the first 6 months of Toasty, before our first pivot.
 
 We built a matchmaking platform for conference-goers to screen and set up meetings with each other before the actual date. The goal was to enhance their networking experience so that it was worthwhile to spend days at the conference, especially when tickets were so expensive or if attendees traveled overseas.
 
-<img src="/images/blog/validate-startup-ideas-3.jpeg" alt="And this post is about the first 6 months of" />
-
-<img src="/images/blog/validate-startup-ideas-2.jpeg" alt="In the journey we pivoted once because we knew our" />
-
-
+<img src="/images/blog/validate-startup-ideas-2.jpeg" alt="Image 2 from validate-startup-ideas" />
 
 Here is us traveling to Shanghai for the first conference that used Toasty! We wanted to be there to observe and talk to end-users.
 
-
+<img src="/images/blog/validate-startup-ideas-3.jpeg" alt="Image 3 from validate-startup-ideas" />
 
 The web app was beautifully designed to allow any attendee to see who else was going to the conference and set up meetings beforehand.
 How did we come up with this idea?
@@ -59,17 +54,13 @@ We ran about a dozen user interviews in the conference and exhibition space and 
 
 We researched the space and the competitors and confirmed that there weren’t many competitors in the space, but for the few existing players, we thought they were doing fairly well, built a solid brand, and had grown their team to about 30 people in a few years.
 
-<img src="/images/blog/validate-startup-ideas-4.png" alt="We researched the space and the competitors and confirmed that" />
-
 With these data points, we jumped in without thinking too much.
 
 6 months later, after working with conferences around Asia, I made the decision to pivot our entire direction to work on a new product. I didn’t see how this matchmaking platform could be sustainable to be a solid venture.
 
-<img src="/images/blog/validate-startup-ideas-5.png" alt="6 months later after working with conferences around Asia I" />
-
 It was one of the toughest calls I had to make.
 
-
+<img src="/images/blog/validate-startup-ideas-4.png" alt="Image 4 from validate-startup-ideas" />
 
 
 Toasty analyzed everyone's profile and recommended people you should meet.
@@ -77,6 +68,8 @@ What we learned about this business model
 Before the decision to pivot, I took some time to consolidate the learnings, and here is a summary.
 
 Sales cycle is long
+
+<img src="/images/blog/validate-startup-ideas-5.png" alt="Image 5 from validate-startup-ideas" />
 
 
 November is too early to talk about a conference in March next year.
@@ -89,12 +82,12 @@ Since conferences don’t happen very often, the need to use a matchmaking platf
 Buyers, operators, and end-users are three different groups of people
 The marketing/experience department searches and compares different software options. The operations department handles the logistics of the business matchmaking. And finally, the conference attendees use the software. When the buyer and user aren’t the same person, the chance of having a failed product experience skyrocketed.
 
-<img src="/images/blog/validate-startup-ideas-6.png" alt="The marketingexperience department searches and compares different software options The" />
-
 Zero viral effect
 The end users (attendees) are exposed to our matchmaking platform once (during the conference week), and after the conference, our product is completely out of everyone’s mind. The likelihood for someone to talk and share with another person (organizers or attendees) is very low.
 
 One-off payment term
+
+<img src="/images/blog/validate-startup-ideas-6.png" alt="Image 6 from validate-startup-ideas" />
 
 
 A one-off payment is also hard to collect. Here they just never paid us 50% of the contract.
@@ -104,11 +97,9 @@ Since it is not a SaaS subscription platform but a B2B platform, organizers pay 
 Market size is small
 We made a naive assumption that because it is a software platform, it would be okay to have a small local market. However, the matchmaking platform actually comes with a lot of other parts, such as on-site logistics, promotion, table arrangement, technical support, etc. Even if we could work this out and serve all the conferences in Asia, this is just not a big market, and it is not growing fast at all.
 
-<img src="/images/blog/validate-startup-ideas-7.png" alt="Since it is not a SaaS subscription platform but a" />
-
 Matchmaking is not top of the organizer’s mind
 
-
+<img src="/images/blog/validate-startup-ideas-7.png" alt="Image 7 from validate-startup-ideas" />
 
 Keynote and Sponsors make the conference, the other things are all icing on the cake.
 
@@ -120,11 +111,9 @@ Even though they want it, the time constraint of hosting a conference and matchm
 Non-existent feedback loop
 The key to growing a startup product is to collect a ton of feedback to improve iteratively. Most of the buyers are not on-site at the matchmaking site, so they cannot offer any feedback. And attendees only get to use our platform for 1-2 days, so it is extremely difficult to follow up to get their feedback as well.
 
-<img src="/images/blog/validate-startup-ideas-8.jpeg" alt="Even though they want it the time constraint of hosting" />
-
 In hindsight, this was a terrible idea
 
-
+<img src="/images/blog/validate-startup-ideas-8.jpeg" alt="Image 8 from validate-startup-ideas" />
 
 Waving goodbye to our first product.
 I don’t think this is an impossible idea since a few companies have built a pretty successful business around this niche. It can be a business, just not one that could grow fast and delight a lot of people. It could work in 2015, not 2019.
@@ -139,9 +128,7 @@ How I’d evaluate my future startup ideas (especially for B2B SaaS)
 1. Is my idea part of a global trend?
 It is much better to ride with the wave than to go against it. Zapier played right in the global trend of booming Marketing Technology when it started in 2011. What did they do? They connected all these platforms.
 
-<img src="/images/blog/validate-startup-ideas-9.jpeg" alt="The world has changed a lot now we wouldn’t want" />
-
-
+<img src="/images/blog/validate-startup-ideas-9.jpeg" alt="Image 9 from validate-startup-ideas" />
 
 
 Source: SaaS Marketer

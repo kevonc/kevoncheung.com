@@ -5,8 +5,7 @@ meta_description: ''
 slug: goal-setting
 topic: life-lessons
 ---
-
-<img src="/images/blog/goal-setting-1.png" alt="This approach helped me hit my fitness goal in 14" class="cover-image" />
+<img src="/images/blog/goal-setting-1.png" alt="Image 1 from goal-setting" class="cover-image" />
 
 
 In the last 9 months during COVID-19, I was insanely unhealthy.
@@ -49,7 +48,7 @@ Let’s take a look at what I did in the last 6 weeks compared to the first 9 mo
 
 From Jan to Sep, on average I ran less than 2 hours a month, and I rarely did any exercise other than running.
 
-
+<img src="/images/blog/goal-setting-2.png" alt="Image 2 from goal-setting" />
 
 
 Starting from mid-October, I’ve boosted up to at least 10-13 hours of running in a month.
@@ -58,12 +57,11 @@ I also started following some YouTube videos for 20 minutes of HIIT, I did it on
 
 Eating-wise, I ordered calorie-controlled meal plans so that I could burn more than I took in each day.
 
-
-
+<img src="/images/blog/goal-setting-3.png" alt="Image 3 from goal-setting" />
 
 Most importantly, I put up a piece of paper and recorded my weight and waist every morning. I forgot to do so on some days. And as you can see, I was drunk one day (lol) so I didn’t manage to exercise.
 
-
+<img src="/images/blog/goal-setting-4.jpeg" alt="Image 4 from goal-setting" />
 
 
 Why did it work? The 5 magical ingredients.
@@ -111,12 +109,10 @@ I also learned that a lot about achieving goals comes down to how you engineer t
 
 I wouldn’t overwhelm myself with too many short-term goals at the same time, because I think it is just impossible to have so many “top of minds”. To me, combining career goals, fitness goals, family goals, and mental goals, having 4 at the same time is the limit. Of course, as we practice, we might be able to increase that number.
 
-<img src="/images/blog/goal-setting-5.png" alt="I wouldn’t overwhelm myself with too many shortterm goals at" />
-
 And why did goal setting fail for me previously?
 I’ve set many goals for myself in my life. Some I achieved, and some I failed. I used to love putting up my New Year solutions on my blog, so let’s take a look at what I set in the past years.
 
-
+<img src="/images/blog/goal-setting-5.png" alt="Image 5 from goal-setting" />
 
 
 These are my goals for 2019, and looking back, they’re large and vague goals, they’re things I couldn’t control. And you bet it, it was out of my mind after about a week into 2019.
@@ -132,7 +128,7 @@ The goal here is to have a successful story about achieving a goal in 14 days. O
 
 To get you started, I have this framework set up so you can clone the Google Sheet for free here.
 
-
+<img src="/images/blog/goal-setting-6.png" alt="Image 6 from goal-setting" />
 
 Download: Click Here
 Fill this in, and get started today.

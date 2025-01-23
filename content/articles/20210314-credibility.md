@@ -5,8 +5,7 @@ meta_description: ''
 slug: credibility
 topic: entrepreneurship
 ---
-
-<img src="/images/blog/credibility-1.jpeg" alt="What's stopping you from making money online entrepreneurship March 14" class="cover-image" />
+<img src="/images/blog/credibility-1.jpeg" alt="A person looking at their laptop screen, contemplating online business" class="cover-image" />
 
 
 Let's say there are two gardeners: John and Jenn.
@@ -29,7 +28,7 @@ Once the credibility is established, whatever a person says or does, it is alway
 
 This is why testimonials and social proof have become a big part of the online world. I put up this wall by Testimonial on my homepage to let people instantly find out whether I'm trustworthy.
 
-
+<img src="/images/blog/credibility-2.png" alt="Screenshot of a Twitter thread about building in public" />
 
 This is what I have on KevonCheung.com's homepage.
 
@@ -50,13 +49,11 @@ Or it "must be" difficult to get on Tim Ferriss' podcast. If Dave is on the show
 
 I use quotations on "must be" because it is all about how hard we perceive the task to be. Everyone could have a different level of difficulty. For example, if your uncle happens to know Barack Obama, then it is not surprising that you could easily get a photo with the former President at a country club.
 
-<img src="/images/blog/credibility-3.png" alt="I use quotations on "must be" because it is all" />
-
 So every achievement is placed on a scale from easy to achieve to hard to achieve. Achieving closer to the easy side means you'd gain a tiny bit of credibility, and closer to the hard side means a ton of credibility.
 
 If we put this concept into the online world, the scale looks like this:
 
-
+<img src="/images/blog/credibility-3.png" alt="Screenshot showing social proof and endorsements" />
 
 These are the most common achievements for tech founders and creators. Can you point out where your credibility level is right now?
 
@@ -85,11 +82,9 @@ And this is not something we do for anybody.
 
 More importantly, this person's credibility level spills over to your credibility level. For example, if Elon Musk says you're the man to watch in the micro-SaaS space. Then you get his credibility level, which is a huge jump.
 
-<img src="/images/blog/credibility-4.png" alt="When someone endorses your name or work it is a" />
-
 I was endorsed by Preetam Nath who has 5,000+ followers and is an influencer in the SaaS space. This helped me a lot.
 
-
+<img src="/images/blog/credibility-4.png" alt="Screenshot of project documentation and evidence" />
 
 Once you get that going. When you can get different respected people to endorse you regularly, you're establishing yourself as "somebody".
 
@@ -107,6 +102,8 @@ Unless you're a celebrity with a manager, no one is going to promote you, except
 You want to take every chance to capture positive things people say about you. It could be a tweet, a post, an email, a written note, or anything.
 
 Do yourself a favor. Be your own promoter.
+
+<img src="/images/blog/credibility-5.jpeg" alt="A person working on their laptop, building their online presence" />
 
 
 I love Testimonial.to - easy to use and does the job!

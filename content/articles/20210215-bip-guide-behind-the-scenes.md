@@ -5,12 +5,20 @@ meta_description: ''
 slug: bip-guide-behind-the-scenes
 topic: marketing
 ---
+<img src="/images/blog/bip-guide-behind-the-scenes-1.jpeg" alt="Image 1 from bip-guide-behind-the-scenes" class="cover-image" />
+
 
 I was a nobody on the Internet. It took me a total of 2 months and 10,000 words to finish the Building in Public guide, and this happened: 2,100 unique visitors in 3 days, a 73% increase of Twitter followers in 7 days from 767 to 1327, #20 on Hacker News Page 1 for a day, 3 live sharing sessions, and regular mentions of the guide.
 
+<img src="/images/blog/bip-guide-behind-the-scenes-2.png" alt="Image 2 from bip-guide-behind-the-scenes" />
+
 I had an average of 200-300 users per week until the spike in traffic from the launch.
 
+<img src="/images/blog/bip-guide-behind-the-scenes-3.png" alt="Image 3 from bip-guide-behind-the-scenes" />
+
 My Twitter had 795 new followers in the last 28 days.
+
+<img src="/images/blog/bip-guide-behind-the-scenes-4.png" alt="Image 4 from bip-guide-behind-the-scenes" />
 
 The submission made its way up to #20 on page 1 for the day.
 
@@ -58,6 +66,10 @@ Some will bookmark this guide and come back later, and some will completely forg
 
 Some will remember me as the author and refer to their friends when they have questions about Building in Public.
 
+<img src="/images/blog/bip-guide-behind-the-scenes-5.png" alt="Image 5 from bip-guide-behind-the-scenes" />
+
+<img src="/images/blog/bip-guide-behind-the-scenes-6.png" alt="Image 6 from bip-guide-behind-the-scenes" />
+
 These are the rewarding moments since the launch.
 
 Honestly, the truth is I don't know. What I know is that I started to create a small piece of knowledge real estate that belongs to me, and hopefully, it will have a sustainable impact in the days to come.
@@ -72,6 +84,8 @@ I'm interested in social media, but organic search engine traffic sounds a lot m
 Since my website is fairly new, I have a domain rating (DR) of 2. It is miserable.
 
 Getting enough traffic to prove that my website is useful and getting backlinks are two factors that play into the algorithm. Getting backlinks is out of the question for someone like me with no content and credibility, so getting some traffic to tell Google that I'm a serious content creator would be my first step.
+
+<img src="/images/blog/bip-guide-behind-the-scenes-7.png" alt="Image 7 from bip-guide-behind-the-scenes" />
 
 Domain rating (DR) plays a big part in getting your site's content ranked.
 
@@ -107,6 +121,8 @@ I had a total of 9 early readers, and they weren't just there to point out gramm
 
 How did I find them? I tweeted about my guide a number of times and I asked if anyone would be interested in being an early (beta) reader and to give feedback. The relationships I've built helped and a few people said yes.
 
+<img src="/images/blog/bip-guide-behind-the-scenes-8.png" alt="Image 8 from bip-guide-behind-the-scenes" />
+
 4. Using a ton of real examples
 From my own experience reading a guide, I always prefer something that is practical and actionable. Theories are important, but it'd help me a lot if I could take action now.
 
@@ -127,7 +143,7 @@ I kept a list of everyone who was included as an example, who helped as an early
 2. I kept talking about Building in Public
 To make sure there would be consistent exposure before and after the launch, I had to keep bringing this topic up. What I did was extract key points from my guide and write a bunch of short tweets. I then used Hootsuite to schedule 2 tweets per week, and it started even before the guide was launched. This way I was gradually building up my voice on this topic.
 
-
+<img src="/images/blog/bip-guide-behind-the-scenes-9.png" alt="Image 9 from bip-guide-behind-the-scenes" />
 
 Remixing the content from the guide into short tweets.
 
@@ -142,5 +158,7 @@ Final thoughts
 It has only been 7 days, so I don't quite have enough data to say how far this guide can go. The launch traffic has inevitably died down after a few days. But to me, I can already see that my "small potato" status on the Internet is evolving a little bit. People are sharing the guide with one another and starting to tag me as a go-to person for Building in Public.
 
 The most exciting part of the launch was definitely seeing how many people were on my website at the same time right after the launch. 50+ people reading at the same time? Wow!
+
+<img src="/images/blog/bip-guide-behind-the-scenes-10.gif" alt="Image 10 from bip-guide-behind-the-scenes" />
 
 Lastly, I'm not exactly sure what the next step is. The main question is: in addition to a written guide, how can I create more value to help people build in public? I'll surely be paying attention to signals from people to figure out the next step!

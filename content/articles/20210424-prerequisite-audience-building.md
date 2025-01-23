@@ -5,8 +5,7 @@ meta_description: ''
 slug: prerequisite-audience-building
 topic: marketing
 ---
-
-<img src="/images/blog/prerequisite-audience-building-1.png" alt="You can't grow an audience without these marketing April 24" class="cover-image" />
+<img src="/images/blog/prerequisite-audience-building-1.png" alt="Image 1 from prerequisite-audience-building" class="cover-image" />
 
 
 When it comes to audience building on Twitter, it comes down to producing high-quality content to attract readers. We call it - writing tweet threads to get followers.
@@ -24,7 +23,7 @@ Holding yourself accountable
 
 Some people can hold themselves accountable and do self-learning, and some people cannot. This is how I see how we should approach learning.
 
-
+<img src="/images/blog/prerequisite-audience-building-2.png" alt="Image 2 from prerequisite-audience-building" />
 
 Choosing between self-learning or cohort-based learning depends on your skills and experiences measured against the difficulty of what you're trying to learn. And the accountability line determines whether you'll be able to hold yourself accountable.
 
@@ -59,7 +58,7 @@ This is the biggest threat to your consistency. If you don't see it in your plan
 
 I love mind mapping and I constantly revisit my business model on my online whiteboard. This is my marketing funnel at the moment.
 
-
+<img src="/images/blog/prerequisite-audience-building-3.png" alt="Image 3 from prerequisite-audience-building" />
 
 Twitter is a beautiful platform with a high volume of users and activities. It is the perfect place as a top funnel to expose yourself to new people every week.
 
