@@ -34,7 +34,7 @@ export default function Home({ posts }) {
             </div>
           </div>
 
-          <div className="w-full md:w-[280px] rounded-2xl overflow-hidden shrink-0">
+          <div className="w-full md:w-[280px] md:ml-6 rounded-2xl overflow-hidden shrink-0">
             <img 
               src="/images/kevon.png" 
               alt="Kevon Cheung" 

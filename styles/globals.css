@@ -53,6 +53,11 @@
     @apply max-w-none font-body;
   }
   
+  .prose a {
+    @apply text-green-700 hover:text-green-600 no-underline;
+    target-new: tab;
+  }
+  
   .prose img {
     @apply w-full h-auto rounded-lg my-8;
     max-height: 600px;

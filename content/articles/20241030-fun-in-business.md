@@ -21,7 +21,7 @@ If you want a big YouTube channel, you should make videos like Mr Beast. If you 
 
 Oh no. This sounds bad.
 
-Don't get me wrong. I think it is 100% normal to want to imitate. We all do. Just like how in Find Joy in Chaos, I talked about how if you are new to a social media platform, you often talk like the first few accounts you follow.
+Don't get me wrong. I think it is 100% normal to want to imitate. We all do. Just like how in <a href="https://findjoyinchaos.com/" rel="noopener noreferrer">Find Joy in Chaos</a>, I talked about how if you are new to a social media platform, you often talk like the first few accounts you follow.
 
 Because you think that's the way things should be. 100% okay.
 
@@ -61,7 +61,7 @@ I'll show you a fun thing if you keep reading.
 
 But wait, if I'm no longer 100% working on Small School, what will I be doing?
 
-I did something fun this week by adding a <Now> page on my website. There are a couple of points there but I want to highlight one here:
+I did something fun this week by adding <a href="https://kevoncheung.com/now" rel="noopener noreferrer">a <Now> page</a> on my website. There are a couple of points there but I want to highlight one here:
 
 At this point, I am allocating time to explore companies and projects I can join to play a meaningful part. Either full-time or contract base. Something that aligns with my interest in education, knowledge-sharing, and creation.
 
@@ -76,6 +76,6 @@ This made no sense but this is was what I wanted to do.
 
 This refreshing approach to business was obviously inspired by Derek Sivers.
 
-I was reading his book "Anything You Want" last week and wanted to run my company the way I wanted.
+I was reading his book <a href="https://sive.rs/a" rel="noopener noreferrer">"Anything You Want"</a> last week and wanted to run my company the way I wanted.
 
-I also found this amazing interview with Derek Sivers that was published a month ago.
+I also found <a href="https://100mba.net/mba2509/?ref=kevoncheung.com" rel="noopener noreferrer">this amazing interview</a> with Derek Sivers that was published a month ago.
