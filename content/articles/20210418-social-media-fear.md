@@ -18,7 +18,7 @@ I'm able to help because I've trained up myself emotionally over the years.
 
 When I ran my previous startup, I shot lots of videos and hosted many community gatherings. Through putting myself out there consistently, I've found a few tricks to help me overcome the fear.
 
-The secret to having success on the Internet
+## The secret to having success on the Internet
 "Audience building" is what every company and person wants to do now. We all want more followers as a distribution channel.
 
 But to <a href="/growing-twitter-audience">curate an audience</a>, we have to constantly put ourselves out there and talk about "us".
@@ -29,7 +29,7 @@ To me, if we want to have an online audience, it is equally important to know ho
 
 We have to overcome our fears of feeling exposed in a public space.
 
-Fears you have in you
+## Fears you have in you
 If you're reading this, you're likely someone who used to be a quiet employee who only dealt with a handful of people on the team. Now you're figuring out how to become a public builder who is sharing your life, work, and thoughts consistently online.
 
 You're afraid of how people (a lot of them) perceive you. You feel like you're standing on stage being judged by every single pair of eyes.
@@ -40,8 +40,8 @@ When you think of the comments coming from anywhere on the Internet, you're anxi
 
 Does this sound like you?
 
-Understanding fears
-1) You care about how people perceive you
+## Understanding fears
+### 1) You care about how people perceive you
 When I was a teenager, I cared a lot about how people saw me. I bought nice jackets and jeans and tried to look cool all the time. I can believe that our fears of how others perceive us come from our teenage years and carry onto our adult lives.
 
 If you're afraid of speaking and sharing in public because of this, it is because you don't want to be seen as weak, stupid, or uncertain. It doesn't help when everyone around you seems to be super confident about what they do, and you think you have to be like them.
@@ -64,7 +64,7 @@ When you finally understand this, then you know you don't have to be an expert. 
 
 In fact, if you're Building in Public, most of your sharing is based on your own feelings and thoughts. And this means as long as you're staying true to yourself, no one can ever invalidate your own experiences.
 
-2) You're afraid of public criticism
+### 2) You're afraid of public criticism
 This is what happened to me last week. I tweeted about Clubhouse.
 
 I had zero idea the tweet would go viral with 3,300 likes. While most said they also didn't use Clubhouse lately, one person quoted my tweet and commented that building a social app is hard and my tweet was terrible trying to mock Clubhouse.
@@ -89,7 +89,7 @@ When it happens, it is up to you to choose what action you want to take. You can
 
 You still have a lot of room to decide what to do after the negative comments come, so you don't have to fear too much before posting publicly.
 
-3) You're not sure how to handle public feedback
+### 3) You're not sure how to handle public feedback
 When you build in public, you're sharing your journey in building your company or product. Inevitably, you're going to share a lot that is unfinished and unpolished.
 
 And whether you ask for feedback or not, they'll come.

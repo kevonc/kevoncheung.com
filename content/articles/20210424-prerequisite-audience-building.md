@@ -18,7 +18,7 @@ But ever since I started running the #30DaysInPublic challenge, I found out they
 
 The things that are holding them back are accountability and consistency.
 
-Holding yourself accountable
+## Holding yourself accountable
 8 years ago, I was trying to pick up coding myself. After 6 months of grinding online materials, I gave up and joined an in-person coding boot camp. I even flew all the way to New York to take it.
 
 Some people can hold themselves accountable and do self-learning, and some people cannot. This is how I see how we should approach learning.
@@ -31,7 +31,7 @@ For example, if you've been a software engineer for 10 years, then picking up Re
 
 So if you want to help yourself increase accountability, figure out where the topic you're learning fits on your graph.
 
-Results can only come when you're consistent
+## Results can only come when you're consistent
 In <a href="https://www.smallschool.is/newsletter">my newsletter last week</a>, I talked about my way of overcoming shiny object syndrome. You might be driven by emotions, which means you prefer to work on ideas that are exciting. When a new idea pops up, you go after that.
 
 What I see is a lack of consistency.
@@ -40,7 +40,7 @@ And honestly, this is super hard. About 7 months ago, I started a new project an
 
 Taking <a href="https://smallschool.is/build-in-public">#BuildingInPublic</a> as an example, if you see value in it yet find it hard to keep up, I observed that it usually comes down to 2 major challenges.
 
-Unclear what you're building
+## Unclear what you're building
 If you have a company or product that you're currently building, then building in public is straightforward. You're sharing your journey to build up your authentic brand and grow an audience. But if you're in a transition period and do not know what to build, it is super hard for you to stay focused.
 
 There are 2 ways to tackle this.
@@ -51,7 +51,7 @@ Or you can be like me. I didn't know what to build back then, so I started off w
 
 Either way, you're creating so that you have real insights to share, not making up things. The key is to pick a topic carefully so that you're building the right audience.
 
-Not able to form a Twitter strategy
+## Not able to form a Twitter strategy
 Most people I talk to think Twitter is extra work. They understand the powerfulness of the social platform and the importance of growing an audience, but they fail to see Twitter as part of their business model.
 
 This is the biggest threat to your consistency. If you don't see it in your plan, how do you stick to it?
@@ -76,7 +76,7 @@ When you look at it this way, you can see how building in public on Twitter is a
 
 The reason why you stop is that you don't know where Twitter fits in your marketing strategy.
 
-Writing and storytelling are still crucial
+## Writing and storytelling are still crucial
 I talked about how people write well, so does #30DaysInPublic focus less on writing and storytelling?
 
 Absolutely not. I created 15 challenges that span 30 days, and they represent different ways of building in public. Each of them comes with a real example on Twitter and I broke down the storytelling technique so the #30DaysInPublic builders can still work on their writing and storytelling.

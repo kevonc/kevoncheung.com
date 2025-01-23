@@ -16,7 +16,7 @@ In my mind, an upsetting voice could be heard "This is my content!"
 
 But as months went by, I came to realize there isn't such thing such originality of content and I shouldn't care about it at all.
 
-True originality is not important
+## True originality is not important
 Content comes from knowledge in our head, and knowledge comes from consuming and processing other knowledge.
 
 If you pay attention to the content on the Internet, you'll find that a lot of ideas are inspired by similar content. Hardly anyone is creating a new piece of knowledge out of nowhere.
@@ -29,7 +29,7 @@ That's when I learned that no one possesses the true originality of content. I a
 
 Of course, here I'm talking about the way knowledge flows and gets worked on. If someone is literally copying another person's content and making it their own, that's a different story.
 
-What is important then?
+## What is important then?
 And what makes a creator special?
 
 To be an awesome creator, I want to inspire, educate, and create conversations for other people.
@@ -38,11 +38,11 @@ What matters more than the originality of the content are the thoughts and ideas
 
 To become a creator people love, I stand by these 3 things:
 
-I should have my own opinion. Ideas are everywhere, but I'm the only one with my own thoughts.
+1. I should have my own opinion. Ideas are everywhere, but I'm the only one with my own thoughts.
 
-I should be consistent in sharing value. One piece of content only plays a small part in helping the people around me. But if I zoom out, all my content combined can make a huge impact.
+2. I should be consistent in sharing value. One piece of content only plays a small part in helping the people around me. But if I zoom out, all my content combined can make a huge impact.
 
-I should be helpful. Creating content is just one part of the equation. If I want to create a bond with the people around me, developing relationships and helping them out would be my best way to offer value.
+3. I should be helpful. Creating content is just one part of the equation. If I want to create a bond with the people around me, developing relationships and helping them out would be my best way to offer value.
 
 As I created more, I changed my perspective about content creation. I am now super excited when I can inspire someone to create a new piece of content.
 

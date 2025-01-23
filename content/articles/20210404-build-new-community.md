@@ -18,7 +18,7 @@ I was creating inside my own head and was completely detached from the real worl
 
 With the power of Building in Public now, I have learned how to not rely on my brain and get the best ideas to move forward.
 
-The Old Days
+## The Old Days
 I remember it was the Summer of 2012.
 
 I just graduated from Babson College, a school ranked #1 for entrepreneurship. It felt like everyone was making their way into running great businesses, and I had the urge to do the same.
@@ -31,7 +31,7 @@ We put up hypotheses (when we pretended they were real problems instead). We wro
 
 Okay, you know how it ended. It was naive to start a business in our heads.
 
-Today
+## Today
 The "me" today has accumulated enough failed experiences to finally understand how this works. It doesn't mean I can make it work. It just means I know the right approach to take.
 
 But first, I made a few confessions to myself.
@@ -46,8 +46,8 @@ Instead, I am going to rely on other people to tell me what to do. Instead of be
 
 Is that even possible?
 
-Step-by-step on how I found my way to launching a private community
-1) Quickest way to gauge interest
+## Step-by-step on how I found my way to launching a private community
+### 1) Quickest way to gauge interest
 Ever since I rolled out <a href="https://smallschool.is/build-in-public">the Building in Public Definitive Guide</a>, a lot of people have reached out to me telling me their interests in a supportive ecosystem. They understood the mindset and how it could help their work, yet resources and a support system weren’t there for them.
 
 I didn't know whether this was true or if there were enough people to create a sustainable community.
@@ -58,30 +58,30 @@ So I resorted to a tweet thread to help me figure this out.
 
 I spent about an hour crafting up an initial idea and made a graph explaining the offering, both free and paid.
 
-2) Getting initial data
+### 2) Getting initial data
 This one tweet led to 19 responses. Not bad for a single tweet.
 
 And I learned more about what people wanted to achieve as they started to build in public.
 
 The form gave me important insights:
 
-100% of people wanted a free buddy system
+- 100% of people wanted a free buddy system
 
-58% of people wanted a paid group
+- 58% of people wanted a paid group
 
-68% of people wanted a "building in public" course
+- 68% of people wanted a "building in public" course
 
-58% of people wanted a storytelling course
+- 58% of people wanted a storytelling course
 
 I also concluded a few key points:
 
-Accountability and support are important to people's building in public journey.
+- Accountability and support are important to people's building in public journey.
 
-58% of people are willing to pay $15/mo for a community. Good %!
+- 58% of people are willing to pay $15/mo for a community. Good %!
 
-Free is always good, but it doesn't make sense for me to do it because A) people's commitment will likely be low for a free service and B) I can see myself abandoning it soon if it doesn't contribute to the bigger picture
+- Free is always good, but it doesn't make sense for me to do it because A) people's commitment will likely be low for a free service and B) I can see myself abandoning it soon if it doesn't contribute to the bigger picture
 
-3) Reaching out to 19 people
+### 3) Reaching out to 19 people
 I could have started a paid group at $15/mo at that point, but I chose not to.
 
 The main reason was that I had zero idea how to run such a group. Even if I had gotten people to pay for the 1st month, I wasn't confident they would stay.
@@ -92,7 +92,7 @@ So I created a free Twitter DM group and invited these 19 people to join.
 
 Only 9 of them did. Others didn't respond.
 
-4) Starting a cozy Twitter DM group
+### 4) Starting a cozy Twitter DM group
 Out of the 9 people, only 6 were active.
 
 Yet, we had a super good time helping each other. One day, someone shared their new Building in Public tweet and others gave feedback. The other day, someone pitched their new product idea and got fair comments from other builders.
@@ -107,7 +107,7 @@ I also facilitated the group's interactions a little.
 
 <img src="/images/blog/build-new-community-4.png" alt="Image 4 from build-new-community" />
 
-5) Debating with myself
+### 5) Debating with myself
 At this point, I was still hesitant to run a full-on community.
 
 A lot of people think running a community is easy. You put together a group of people and they are going to interact with each other.
@@ -122,16 +122,16 @@ I'm someone who must do it well when I set my mind to a new project. So for a fu
 
 And with a newborn, I wasn't sure if I could commit to such a project. I struggled to move forward.
 
-6) What changed my mind
+### 6) What changed my mind
 Then the next week, a number of things happened.
 
-Thing A
+**Thing A**
 
 I was chatting with the Twitter DM group members individually and they gave me confirmation that I was helping them in their journey, something even beyond building in public.
 
 I was definitely flattered by their kind words, and I started to believe a community is where I can bring the most value to the people around me after releasing the definitive guide.
 
-Thing B
+**Thing B**
 
 <img src="/images/blog/build-new-community-5.png" alt="Image 5 from build-new-community" />
 
@@ -145,7 +145,7 @@ But for Circle, it seems to be asynchronous. Members can take their time to enga
 
 I also learned that as a community builder, if I can set up a good foundation and a regular rhythm to facilitate, it doesn't require my "live attention" as I previously thought. A lot of it can be asynchronous!
 
-Thing C
+**Thing C**
 
 Just for fun, I set up a gathering for indie builders to meet 1:1. The event went super well and people loved it. They also shared that they loved the way I ran it.
 
@@ -157,7 +157,7 @@ With these 3 events over that week, I decided to give it a shot to expand the sm
 
 And I had to get to work: setting up Circle, figuring out membership & payment, building a website, etc. Lots of work!
 
-7) Finding the early members
+### 7) Finding the early members
 There was a lot of groundwork I needed to get done, but I knew finding more active, engaging early members was my top priority.
 
 After all, I only had 6 people.
@@ -171,7 +171,7 @@ The early culture of a community is crucial. I wanted to find people I might hav
 
 I kept a list of all the people who were interested and split them into batches so I could invite them later.
 
-8) Finally, the community was up!
+### 8) Finally, the community was up!
 After about a week of intense groundwork, the Public Lab community was finally set up.
 
 There was just one problem - it was a bare shell and didn't look like a community.
@@ -189,14 +189,14 @@ I can only see the upside of being transparent about this whole process if we wa
 
 After all, it is not as important what I think the community members need as what they actually need.
 
-My takeaways from this process
-1) People know best what they need
+## My takeaways from this process
+### 1) People know best what they need
 I need to get outside my head because I know nothing. The best way to create something valuable is to observe and listen to the people around me.
 
-2) Keep communicating
+### 2) Keep communicating
 I have no idea what the next step is. Instead of getting lost, I focus on figuring out how to get hints to do the next thing. It could be a public tweet or private DMs. This is also the beauty of building in public, when you're open to comments and feedback, people have so much to share.
 
-3) Be a learner
+### 3) Be a learner
 The closest I've gotten to running an online community was running a forum with 10,000+ members when I was 15. But, it was a different experience.
 
 Back then, the forum was for a local singer so the focal point was very clear - her!
@@ -207,7 +207,7 @@ I shared this fact with the 20 early builders on the Public Lab community so the
 
 <img src="/images/blog/build-new-community-9.png" alt="Image 9 from build-new-community" />
 
-4) Take baby steps
+### 4) Take baby steps
 I cannot stress enough the importance of taking slow baby steps. Whenever I moved fast in my previous startups, I made all the wrong decisions. When I launched the Building in Public Definitive Guide or the email course, <a href="/product-launch">Making Twitter Friends</a>, I also took baby steps to roll it out.
 
 This is why I'm in no rush to open the Public Lab community up to everyone. My plan is to bring in batches of 20 people at a time so that we're creating a sustainable community. If you're interested to get on the waitlist, check out <a href="http://publiclab.co/">the Public Lab's website</a>! See you there.

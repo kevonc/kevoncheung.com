@@ -14,7 +14,7 @@ It took me a good 10 seconds to think about <a href="https://publiclab.co/">Publ
 
 I went on to tell him that personally I almost never attended any AMA sessions myself, but because I can clearly see that my members enjoy them, I keep on inviting entrepreneurs who value authenticity and transparency to share with us.
 
-We like to think others are like us
+## We like to think others are like us
 Whenever we come up with a new idea, we like to think it is a brilliant one.
 
 Our excitement overshadows logic and validation, and at this point, first-time entrepreneurs would go all out to build it.
@@ -27,7 +27,7 @@ Everyone has different positions and priorities in their lives. And that changes
 
 I was reflecting on my example above. If I'd made decisions about what to offer to the community members based on my own preference, then these community AMA sessions would have never happened.
 
-To serve people, first, we observe
+## To serve people, first, we observe
 This means we should always avoid using our own preferences to judge what we should be working on.
 
 A real-life example I can think of is when someone wants to buy a house as an investment. First-time investors tend to think about whether they enjoy staying at the house, or whether the rental house is near their own place.
@@ -45,7 +45,7 @@ Here is our latest AMA session with Ben Barbersmith, an amazing entrepreneur who
 
 And of course, the feedback has been so great that I know how to continue serving them well.
 
-Who should take this advice?
+## Who should take this advice?
 Quite simple. Any entrepreneurs.
 
 If you want to build something people want, you must serve them well. What you like should be the last item on the list.
