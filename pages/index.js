@@ -79,11 +79,11 @@ export default function Home({ posts, projects }) {
             {projects.map((project) => (
               <article key={project.title} className="group">
                 <a href={project.link} target="_blank" rel="noopener noreferrer" className="flex gap-6 no-underline">
-                  <div className="w-[160px] h-[160px] shrink-0 rounded-lg overflow-hidden bg-gray-100">
+                  <div className="w-[284px] h-[160px] shrink-0 rounded-lg overflow-hidden bg-gray-100">
                     <img 
                       src={project.image} 
                       alt={project.title}
-                      width={160}
+                      width={284}
                       height={160}
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                     />
