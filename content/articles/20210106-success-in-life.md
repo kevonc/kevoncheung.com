@@ -18,7 +18,8 @@ And I have been observing these people from all walks of life. Even when I was y
 
 I've always loved to pick up little clues about why certain people are successful and why for some people, once they start talking, I want to teleport myself to somewhere else. I want to know their secret formula to get to where they are. As Naval Ravikant puts it "everything in life is of compound interest", these people are successful not because of any overnight success or super high IQ, they are because of certain qualities they practice every single day.
 
-Out of all the people, why him?
+## Out of all the people, why him?
+
 I am not going to reveal his name here without his permission.
 
 To tell you why I look up to this man, I have to give you some context.
@@ -29,7 +30,8 @@ Up until this point, he sounds like every other successful person in the corpora
 
 However, given I got a chance to work with him in one of my previous ventures, I learned a great ton from him. What caught my eyes came down to these 3 things.
 
-Respecting everyone despite of their ranks
+## Respecting everyone despite of their ranks
+
 Obviously, I was a lot younger than him, and that naturally created a power dynamic between us that was unbalanced. But this didn't change the way we interacted.
 
 Whenever he needed my help, he posed a question genuinely and politely. Once it was done, he would thank me personally. When we had coffee chats, he would always text me beforehand if he anticipated he would be late, even if it was just 1 minute.
@@ -40,14 +42,16 @@ In my career, I've seen leaders fire people. I've fired people myself. It was ne
 
 From my observations, he respected everyone from top-level businessmen to waitresses, doormen, and even interns sitting in meetings.
 
-Acknowledging his own weaknesses
+## Acknowledging his own weaknesses
+
 I have been in the technology and software space for most of my career. Whenever we caught up, because he didn't know much about software and SaaS, he was open about his lack of knowledge and he was eager to learn more.
 
 On other occasions, I've seen countless times when he was speaking with other executives, he would be completely transparent about what he was good at, what he could bring to the table, and what he didn't know. Every conversation, then, became a genuine conversation for everyone. It was not one person pitching another person.
 
 I've made <a href="/life-mottos">"humility" a top principle in my life</a>. And that is natural to me because I'm still early in my career. But to see someone who is already successful and powerful remain at that level of humility towards everyone, was inspiring.
 
-Keeping his home extremely clean and tidy
+## Keeping his home extremely clean and tidy
+
 One time, he invited me to his home. I walked in, and it was overwhelmingly white. The walls were white, a lot of items were simple, and the home didn't have a lot of "things". It was minimalistic.
 
 It reminded me of the Japanese lady, Marie Kondo, who advocated for tidying up. So later on, I couldn't help but to ask him "Why is your home so simple and tidy?"
@@ -58,14 +62,15 @@ And one of the things he could then focus more on was his family. He spent a gre
 
 That was refreshing to hear at the moment. Lately, since I've been spending more time <a href="/get-more-time">learning and practicing a stronger, less distracted mind</a>, what he said to me makes total sense.
 
-A few reminders to those who want success in the business world
+## A few reminders to those who want success in the business world
+
 There are so many successful people out there. Some are really smart. But to me, long-term success comes down to:
 
-1) Your relationships with people
+1. Your relationships with people
 
-2) Your self awareness
+2. Your self awareness
 
-3) Your mind focusing on the right things
+3. Your mind focusing on the right things
 
 These are things that people think are easy to achieve. You read from a book or an article like this, and then you spend a few seconds thinking about it, and you move on. But the truth is - it's hard to master these things. It takes a strong conscious mind to guide oneself to keep practicing.
 

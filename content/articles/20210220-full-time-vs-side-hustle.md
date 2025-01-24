@@ -10,7 +10,7 @@ topic: entrepreneurship
 
 Thanks to the launch of my <a href="https://publiclab.co/building-in-public">Building in Public Definitive Guide</a>, I've received a number of questions from readers.
 
-One question is "What do you think about going full-time indie hacker vs. side hustle? I know I want to run my own business in the future."
+One question is ***"What do you think about going full-time indie hacker vs. side hustle? I know I want to run my own business in the future."***
 
 Here, I'd like to define Indie Hackers as anyone who codes or creates online independently.
 
@@ -26,7 +26,8 @@ I was full-time on it and spent 30-40 hours a week making one video. After 6 wee
 
 Let me compare the two experiences for you.
 
-Pressure of having no income
+## Pressure of having no income
+
 Whether you're creating content or a product online, it takes a significant time in the early days before it takes off. It takes most creators a full year before there is presentable traction.
 
 Back then, when I moved from a high-paying startup role to a full-time video creator, I started from $0. Because of that, I was giving myself pressure that I had to start making some money. If I couldn't do that, then maybe I wasn't qualified to be a full-time creator.
@@ -37,7 +38,8 @@ Now, I know that I have to take that pressure off me so that I can allow my curi
 
 This is also why some of the best creators out there started their projects as a side hustle when the pressure was low. Amazing things often happen when someone is having fun.
 
-Sorry, but it takes time
+## Sorry, but it takes time
+
 You might wonder that if you go full-time, you're able to accelerate project growth and get there sooner. I'd like to say yes to that, but unfortunately, the answer is no.
 
 Almost everything on and off the Internet takes time.
@@ -48,7 +50,8 @@ Back then doing it full-time, I only gave myself 6 weeks to prove myself. That w
 
 Now that I understand it takes time, I've given myself a slow start. It has been 3 months since I first started and I still haven't made a dollar, and I'm okay with it. Because <a href="/bip-guide-bts">my results from launching my guide</a> showed me that I'm on the right track.
 
-Can you see clearly?
+## Can you see clearly?
+
 When you have all the time in the world, you tend to do a lot of unimportant things.
 
 When I was full-time, I did a lot to keep myself busy and productive. I was writing scripts, I was shooting videos, I was editing, I was distributing and promoting, etc. It was an intense one-man factory.
@@ -59,7 +62,8 @@ Now that I'm part-time with freelancing work to deliver to my clients, I have le
 
 In a way, I'm a lot more productive because I'm doing it part-time.
 
-Don't chase after an idea that is evolving
+## Don't chase after an idea that is evolving
+
 Whenever you have a fresh idea and start to explore it, you'll find the idea changing based on the new information and thoughts you have. You know that you have to make these adjustments to start getting your rewards (income).
 
 When I was doing it full-time, I was desperate to evolve my idea. "How can my videos help me make money? What if I contact other creators to collaborate?" these questions popped into my head and I was spinning in circles.
@@ -68,7 +72,8 @@ Now, as the pressure is off, I have learned to slow down, sit back, listen to pe
 
 You can't force an idea. But if you slow down and open your eyes and ears, you'll find it.
 
-So, create the best environment to strive
+## So, create the best environment to strive
+
 Over the years, I've learned that the best way to move forward is to create and maintain an environment where I can stay true to myself, hence doing my best work.
 
 Starting as a side hustle allows you to have the time, space, and creativity to do the right things.

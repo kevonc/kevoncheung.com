@@ -18,7 +18,8 @@ I also asked my team to come together and form a discussion to each share our le
 
 I've never seen such a great way to align everyone by learning on the same topic and firing questions and insights at each other. Not only did we form a new approach to building our new product, but we were also shaping our company culture around problems and customers.
 
-The importance of talking to customers
+## The importance of talking to customers
+
 We can all agree that building a startup, especially in technology, is super exciting.
 
 When you get incredibly excited, you often try hard to convince other people that you have the best idea. But, this is where things can very much go wrong. The idea might be perfect in your own mind, but it isn't valuable at all in the target customer's mind.
@@ -33,9 +34,10 @@ The key here is to talk to the customers. Surprisingly, a lot of founders never 
 
 And this is why <a href="https://amzn.to/2JZ9AUT">the Mom Test</a> is such an important book to address the proper way to do customer interviews.
 
-A go-to book for user and customer interviews.
+*A go-to book for user and customer interviews.*
 
-What the Mom Test preaches
+## What the Mom Test preaches
+
 Here is a quick description of what the Mom Test is about:
 
 “They say you shouldn’t ask your mom whether your business is a good idea, because she loves you and will lie to you. This is technically true, but it misses the point. You shouldn’t ask anyone if your business is a good idea. It’s a bad question and everyone will lie to you at least a little. As a matter of fact, it’s not their responsibility to tell you the truth. It’s your responsibility to find it and it’s worth doing right .”
@@ -50,16 +52,17 @@ With this information in hand, we can identify the pain points: 1) definitely ti
 
 We can dig deeper and work out our solutions to tackle some of the pain points. This is all without having to ask the interviewee whether our idea is good or not. We already know it is solid.
 
-Reshaping Toasty's product culture
+## Reshaping Toasty's product culture
+
 We took the learnings and implemented a new approach to our product development:
 
-We always listen to customers for their problems and pain points
+### We always listen to customers for their problems and pain points
 ‍We never pretend to be our own customers and decide on their needs for them. We talk to them directly and understand their experiences and challenges. During conversations with customers, most time is spent asking them questions instead of talking.
 
-We are in love with the problem, not the solution
+### We are in love with the problem, not the solution
 ‍We know that it is very easy to be stuck in the ideation mode and design lots of solutions to solve a problem. Instead of doing that, we should be more obsessed with working on the right problem and know that the solution to solve it can be changed.
 
-We keep learning and sharing
+### We keep learning and sharing
 We know that it is important to share user interview insights, but it is impossible for the entire team to be talking to customers directly. We set up a system to take notes and validate hypotheses that the whole team can review. This way we keep a transparent validation flow and avoid biases.
 
 But of course, even with the right framework in place, running user interviews and extracting the right information are still some of the hardest parts of building startups. We made a ton of mistakes in our journey and <a href="/user-interview-traps">learned to avoid these traps</a> in the future.

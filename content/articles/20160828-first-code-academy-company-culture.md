@@ -47,21 +47,21 @@ When I open my email inbox, I often see tons of emails with replies filled with 
 
 The list just kept on going until we had to stop and weigh which one was more important as a company. Eventually, with all the examples, we came down to 8 core values at First Code:
 
-Done is better than perfect
+1. Done is better than perfect
 
-Cultivate a culture of learning
+2. Cultivate a culture of learning
 
-Be resourceful and solution-oriented
+3. Be resourceful and solution-oriented
 
-Be humble
+4. Be humble
 
-Show appreciation and gratitude
+5. Show appreciation and gratitude
 
-Create fun and a bit of spontaneity
+6. Create fun and a bit of spontaneity
 
-Build a passionate and positive team and family spirit
+7. Build a passionate and positive team and family spirit
 
-Create impact through community service & social responsibility
+8. Create impact through community service & social responsibility
 
 These core values and the stories behind them became training materials for each new team member. We do not expect everyone to get it just because we talk about it once, as a matter of fact, the new member has to feel the culture and see examples in her own eyes.
 
@@ -78,15 +78,15 @@ We reached out to a few parents with one simple question “What do you think of
 
 I would like to share one of the responses that made our hearts drop while reading it.
 
-“The way that I have experienced First Code culture is by observing the way my daughter experiences it.
+***"The way that I have experienced First Code culture is by observing the way my daughter experiences it.***
 
-First Code is the smartest and most progressive amongst all her activities: art, language, sports on top of her normal international school curriculum. She is truly excited about coming to First Code and especially proud of what she is creating. This is not a “course” to her. It is an expression of herself and a most powerful one as she gains “control” of an environment that she creates. I’d love to be a child again so I could be part of it in that way.
+***First Code is the smartest and most progressive amongst all her activities: art, language, sports on top of her normal international school curriculum. She is truly excited about coming to First Code and especially proud of what she is creating. This is not a “course” to her. It is an expression of herself and a most powerful one as she gains “control” of an environment that she creates. I’d love to be a child again so I could be part of it in that way.***
 
-As a professional admiring the same people you admire, I see your culture as fun empowering bold and unafraid; approachable collaborative warm yet cool and hip; transparent open forward-looking.
+***As a professional admiring the same people you admire, I see your culture as fun empowering bold and unafraid; approachable collaborative warm yet cool and hip; transparent open forward-looking.***
 
-Inspired by the ones who made history by thinking further than current reality and inspiring because these heroes are “on the walls” and talking to all of us in your space all the time. As I can compare to P&G, Coca-Cola, COFCO, Swire or ____ that I have experienced, another major trait comes up: FRESH, spontaneous, authentic.”
+***Inspired by the ones who made history by thinking further than current reality and inspiring because these heroes are “on the walls” and talking to all of us in your space all the time. As I can compare to P&G, Coca-Cola, COFCO, Swire or ____ that I have experienced, another major trait comes up: FRESH, spontaneous, authentic."***
 
-By a Parent of First Code Academy
+*By a Parent of First Code Academy*
 
 I attribute this positive culture we have to all current and former team members, our parents, and our students.
 

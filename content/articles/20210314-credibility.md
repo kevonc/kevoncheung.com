@@ -16,7 +16,7 @@ It is likely not how they look. Not how they talk. Not how many years of experie
 
 It comes down to one thing.
 
-Who do you trust more to do an excellent job?
+***Who do you trust more to do an excellent job?***
 
 If Jenn has a website with recommendations from happy customers and her story is featured in the Gardener Magazine, and John has nothing but a business card, you're going to instantly raise Jenn's credibility level and choose her for the job.
 
@@ -34,9 +34,10 @@ This is what I have on KevonCheung.com's homepage.
 
 But, the important question is:
 
-When tech founders and creators are just starting out, how can they effectively build up their online credibility? How should they think about it?
+***When tech founders and creators are just starting out, how can they effectively build up their online credibility? How should they think about it?***
 
-Break it down into baby steps
+## Break it down into baby steps
+
 This is my way of breaking down how human perceives credibility.
 
 If it is very hard to achieve one thing, and you achieve it, we tend to think you're qualified to get there. And that makes you more trusted.
@@ -57,7 +58,7 @@ If we put this concept into the online world, the scale looks like this:
 
 These are the most common achievements for tech founders and creators. Can you point out where your credibility level is right now?
 
-To be able to achieve something on the harder side of the scale, you need credibility from things that come from the easier side.
+***To be able to achieve something on the harder side of the scale, you need credibility from things that come from the easier side.***
 
 If your dream is to become a book author and you haven't published any articles or done any interviews, your chance of success is slim because you don't have credibility.
 
@@ -69,9 +70,10 @@ I started writing <a href="https://twitter.com/MeetKevon">tweets</a> and <a href
 
 Remember this.
 
-Work your credibility up by achieving things on the easy-to-hard scale, one baby step at a time.
+***Work your credibility up by achieving things on the easy-to-hard scale, one baby step at a time.***
 
-Get endorsed by real people
+## Get Endorsed by Real People
+
 The baby-step approach gives you a roadmap to increase your own credibility.
 
 But we live in a world that is run by people, so getting affirmation from real people helps to make big leaps in lifting your credibility.
@@ -88,7 +90,7 @@ I was endorsed by Preetam Nath who has 5,000+ followers and is an influencer in 
 
 Once you get that going. When you can get different respected people to endorse you regularly, you're establishing yourself as "somebody".
 
-To get an endorsement, it is almost always based on strong and mutual relationships.
+***To get an endorsement, it is almost always based on strong and mutual relationships.***
 
 Building an audience has been a popular trend recently. Everyone is busy growing their social following. Most beginners focus on the follower count, while people who deeply understand how this works know that it is based on meaningful relationships and interactions.
 
@@ -96,17 +98,17 @@ Online success depends on online relationships. And to have those, you have to u
 
 I created a free email course, <a href="http://makingtwitterfriends.com/">Making Twitter Friends</a>, to share my techniques for building meaningful online relationships.
 
-Accumulate evidence
-Unless you're a celebrity with a manager, no one is going to promote you, except yourself.
+## Accumulate evidence
+
+***Unless you're a celebrity with a manager, no one is going to promote you, except yourself.***
 
 You want to take every chance to capture positive things people say about you. It could be a tweet, a post, an email, a written note, or anything.
 
-Do yourself a favor. Be your own promoter.
+***Do yourself a favor. Be your own promoter.***
 
 <img src="/images/blog/credibility-5.jpeg" alt="A person working on their laptop, building their online presence" />
 
-
-I love Testimonial.to - easy to use and does the job!
+*I love Testimonial.to - easy to use and does the job!*
 
 So far, Testimonial.to is the best tool for capturing social proof (example here & here). You can <a href="https://testimonial.to/?via=kevon">use this link to get 15% off</a>.
 
@@ -120,7 +122,8 @@ And you still like her. Why?
 
 As long as you're humble in your everyday life, one or two brags in a while aren't killing your reputation. They're happy you want to share with others. Just don't overdo it.
 
-Fake it
+## Faking it
+
 Can you boost your credibility artificially? Yes. Almost everything in our world can be faked.
 
 You could pay someone to write a book for you. You could pay to get featured on most media. You could create a new company and call yourself the CEO.

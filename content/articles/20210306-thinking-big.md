@@ -18,15 +18,15 @@ On the call, we hopped from one idea to another. Of course, I tried my best to s
 
 After the call, I reflected and noticed there are things aspiring founders have in common:
 
-You mostly talk about your solutions. You rarely start by addressing a problem.
+1. You mostly talk about your solutions. You rarely start by addressing a problem.
 
-You are not sure where to start. The ideal next step in your head is usually quite a leap.
+2. You are not sure where to start. The ideal next step in your head is usually quite a leap.
 
 These are not just extremely hard, there is no good way to prevent yourself from struggling through them. I learned my way as I was stuck for so many years.
 
 I want to see if I can break down the Why and lessen the pain you have to go through if you have an idea and want to know where to go with it.
 
-Why founders don't talk about problems enough
+## Why founders don't talk about problems enough
 Your conversations with people are always a pitch about your solution.
 
 How you envision the future to be, how your ideas will reshape people's behavior and make their lives better, etc.
@@ -49,7 +49,8 @@ This is why the popular entrepreneur stories are always about someone like Peter
 
 Find problems by immersing yourself in the space for a long time.
 
-Why founders' ideal next step is always quite a leap
+## Why founders' ideal next step is always quite a leap
+
 You have an idea and you're thinking about finding a co-founder or landing funding. Then you sit on this idea for 6 months and nothing has happened yet.
 
 Whose fault?
@@ -74,7 +75,8 @@ There are definitely entrepreneurs who are great at going down this venture path
 
 Ironically, a video game could be a better training ground to know how to systematically resolve puzzles and build a business.
 
-Advice to the 13 years old me
+## Advice to the 13 years old me
+
 I started tinkering with the Internet when I was 13. I made websites that attracted thousands of visitors and a forum that had 10,000+ members.
 
 I loved building and serving people online, yet I gave it all up when I went to boarding school.

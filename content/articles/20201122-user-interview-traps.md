@@ -5,11 +5,10 @@ meta_description: ''
 slug: user-interview-traps
 topic: entrepreneurship
 ---
+
 <img src="/images/blog/user-interview-traps-1.png" alt="Image 1 from user-interview-traps" class="cover-image" />
 
-
-"Stay close to your users" has become the principle of building great products.
-
+***"Stay close to your users" has become the principle of building great products.***
 
 As a founder or product leader, are you obsessed with user interviews?
 
@@ -19,7 +18,8 @@ But having done 200+ user interviews in the last 18 months, I discovered that fo
 
 And here are the top 4 for me.
 
-Trap #1 - I was overdoing these interviews and lost sight of the meaning
+## Trap #1 - I was overdoing these interviews and lost sight of the meaning
+
 I have been a big fan of “staying close to your users” and I took that to my heart.
 
 Talking to potential users and existing users became a routine of mine when I was building Toasty. The more I did, the less time I had to prepare and analyze. Which meant at some point I wasn’t even validating any hypothesis at these interviews.
@@ -28,13 +28,14 @@ I lost the meaning of these interviews and was doing them for the sake of “sta
 
 How did that happen?
 
-With an overwhelming plate as the CEO, I lost my consciousness in product discovery.
+- With an overwhelming plate as the CEO, I lost my consciousness in product discovery.
 
-As I frequently met with potential and existing users, I lost track of whom I was speaking to and for what purpose.
+- As I frequently met with potential and existing users, I lost track of whom I was speaking to and for what purpose.
 
 Lesson learned. I needed to be clear about its objective before setting up an interview. And technically I only needed 5-10 interviews each time to validate one hypothesis and should have moved on to the next hypothesis regardless of the results.
 
-Trap #2 - People were just so nice
+## Trap #2 - People were just so nice
+
 The other reason I loved talking to people was that 90% of the people I met were amazing. They were generous in sharing and genuine in helping.
 
 This was good, but also bad.
@@ -49,7 +50,8 @@ I learned that we should have excluded their ideas and opinions from the intervi
 
 I also learned that it was better to look for facial expressions, body language, and actual product usage to gauge whether they were interested. If they show excitement, curiosity, and urgency, or if they immediately check out or sign up for our product and start using it, then it is a sign that they’re interested. Otherwise, despite all the kind words, they’re really not.
 
-Trap #3 - Never asked for solutions from customers
+## Trap #3 - Never asked for solutions from customers
+
 Henry Ford once said, that if he had asked his customers for new ideas, they would have told him to create faster horses. He didn’t do that, and he created cars to replace horses.
 
 Most of us understand that.
@@ -70,7 +72,8 @@ And to create a successful product (and company), we needed to work on a 10x bet
 
 Lesson learned. I needed to break down the insights from customers into 2 tracks - 1 being facts and behaviors to lead us to a 10x product, the other 1 being feature ideas for immediate product enhancement.
 
-Trap #4 - I didn’t have a proper post-interview tactic
+## Trap #4 - I didn’t have a proper post-interview tactic
+
 One of the rules of user interviews is to talk to people from the same segment. This way you can discover common patterns from the same type of people.
 
 And once you get to know them, the best part is they become leads that you can convert when you’re ready.
@@ -85,7 +88,8 @@ In early-stage startups, everything we do has to be super impactful because we a
 
 Lesson learned. I should have set up a better plan to follow up with these interviewees, keep them in the loop, and incentivize them beyond the chat.
 
-User interviews are hard
+## User interviews are hard
+
 Because you’re dealing with human beings, and each of them thinks differently. And to extract useful insights requires all the important skills like analytical listening and imagination.
 
 Honestly, no one could get it right the first time, and I certainly learned it the hard way.
