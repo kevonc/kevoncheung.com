@@ -6,7 +6,7 @@ import { marked } from 'marked'
 
 export default function Now({ content, frontmatter }) {
   return (
-    <Layout>
+    <Layout title="Now">
       <div className="max-w-3xl mx-auto">
         <h1 className="text-center mb-16">{frontmatter.title}</h1>
         <div 

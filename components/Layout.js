@@ -1,8 +1,15 @@
 import Link from 'next/link'
+import Head from 'next/head'
 
-export default function Layout({ children }) {
+export default function Layout({ children, title }) {
+  const pageTitle = title ? `${title} - Kevon Cheung` : 'Kevon Cheung'
+  
   return (
     <div className="min-h-screen">
+      <Head>
+        <title>{pageTitle}</title>
+      </Head>
+      
       <header className="py-4 mb-12">
         <div className="container mx-auto px-4 max-w-4xl">
           <div className="flex items-center justify-between">

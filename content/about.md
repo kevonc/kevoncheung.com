@@ -3,7 +3,7 @@ title: About
 meta_description: About Kevon Cheung - founder, educator, and software engineer
 appearances:
   - title: "$12k/month from Monetizing a Twitter Audience - Careers 2.0"
-    description: "This is ABC"
+    description: ""
     image_url: "/images/appearances/career20.png"
     link: "https://www.youtube.com/watch?v=vsiaadsCu-E"
     date: "2023-06-05"

@@ -80,7 +80,6 @@ export default function Appearances({ appearances }) {
                   />
                 </div>
                 <h3 className="text-xl mb-2 group-hover:text-green-600 transition-colors">{appearance.title}</h3>
-                <p className="text-gray-600 text-sm">{appearance.description}</p>
               </Link>
             </div>
           ))}

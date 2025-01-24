@@ -5,8 +5,14 @@ import Link from 'next/link'
 import Layout from '../components/Layout'
 
 export default function Articles({ posts, topics }) {
+  // Add helper function to get topic name from slug
+  const getTopicName = (topicSlug) => {
+    const topic = topics.find(t => t.slug === topicSlug?.toLowerCase().replace(/\s+/g, '-'))
+    return topic?.title || topicSlug
+  }
+
   return (
-    <Layout>
+    <Layout title="Articles">
       <div className="max-w-3xl mx-auto">
         <div className="mb-16">
           <h1>Articles</h1>
@@ -39,7 +45,7 @@ export default function Articles({ posts, topics }) {
                   {post.frontmatter.topic && (
                     <>
                       <span className="text-gray-400 mx-2">·</span>
-                      <span>{post.frontmatter.topic.toLowerCase()}</span>
+                      <span>{getTopicName(post.frontmatter.topic).toLowerCase()}</span>
                     </>
                   )}
                 </div>

@@ -5,8 +5,16 @@ import Link from 'next/link'
 import Layout from '../../components/Layout'
 
 export default function Topic({ posts, topic }) {
+  // Add helper function to get topic name from slug
+  const getTopicName = (topicSlug) => {
+    if (topicSlug?.toLowerCase().replace(/\s+/g, '-') === topic.slug) {
+      return topic.title
+    }
+    return topicSlug
+  }
+
   return (
-    <Layout>
+    <Layout title={`${topic.title} Articles`}>
       <div className="max-w-3xl mx-auto">
         <div className="mb-16">
           <h1>Articles in {topic.title.toLowerCase()}</h1>
@@ -21,7 +29,7 @@ export default function Topic({ posts, topic }) {
           {posts.map((post) => (
             <article key={post.slug} className="group">
               <Link href={`/${post.slug}`} className="block no-underline">
-                <h2 className="text-3xl text-gray-900 font-medium group-hover:text-gray-700 mb-2">
+                <h2 className="group-hover:text-green-700 mb-2">
                   {post.frontmatter.title}
                 </h2>
                 <div className="flex items-center gap-2 text-gray-600 text-sm mb-3">
@@ -33,15 +41,10 @@ export default function Topic({ posts, topic }) {
                   {post.frontmatter.topic && (
                     <>
                       <span className="text-gray-400 mx-2">·</span>
-                      <span>{post.frontmatter.topic.toLowerCase()}</span>
+                      <span>{getTopicName(post.frontmatter.topic).toLowerCase()}</span>
                     </>
                   )}
                 </div>
-                {post.frontmatter.meta_description && (
-                  <p className="text-gray-600 leading-relaxed">
-                    {post.frontmatter.meta_description}
-                  </p>
-                )}
               </Link>
             </article>
           ))}

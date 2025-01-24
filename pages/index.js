@@ -4,9 +4,9 @@ import fs from 'fs'
 import path from 'path'
 import matter from 'gray-matter'
 
-export default function Home({ posts }) {
+export default function Home({ posts, projects }) {
   return (
-    <Layout>
+    <Layout title="Home">
       <div className="max-w-3xl mx-auto">
         {/* Hero Section */}
         <div className="flex flex-col md:flex-row items-start justify-between mb-24">
@@ -44,7 +44,7 @@ export default function Home({ posts }) {
         </div>
 
         {/* Articles Section */}
-        <div>
+        <div className="mb-24">
           <h2>Articles</h2>
           <div className="space-y-12">
             {posts.map((post) => (
@@ -71,12 +71,47 @@ export default function Home({ posts }) {
             ))}
           </div>
         </div>
+
+        {/* Projects Section */}
+        <div>
+          <h2>Projects</h2>
+          <div className="space-y-12">
+            {projects.map((project) => (
+              <article key={project.title} className="group">
+                <a href={project.link} target="_blank" rel="noopener noreferrer" className="flex gap-6 no-underline">
+                  <div className="w-[160px] h-[160px] shrink-0 rounded-lg overflow-hidden bg-gray-100">
+                    <img 
+                      src={project.image} 
+                      alt={project.title}
+                      width={160}
+                      height={160}
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                    />
+                  </div>
+                  <div className="flex-1">
+                    <h3 className="group-hover:text-green-700 mb-2">
+                      {project.title}
+                    </h3>
+                    <p className="text-gray-600">
+                      {project.description}
+                    </p>
+                  </div>
+                </a>
+              </article>
+            ))}
+          </div>
+        </div>
       </div>
     </Layout>
   )
 }
 
 export async function getStaticProps() {
+  // Get projects
+  const projectsFile = fs.readFileSync(path.join('content', 'projects', '_projects.md'), 'utf-8')
+  const { data: projectsData } = matter(projectsFile)
+  const projects = projectsData.projects || []
+
   // Get blog posts
   const files = fs.readdirSync(path.join('content', 'articles'))
   
@@ -108,7 +143,8 @@ export async function getStaticProps() {
 
   return {
     props: {
-      posts
+      posts,
+      projects
     }
   }
 } 

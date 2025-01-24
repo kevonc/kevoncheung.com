@@ -8,7 +8,7 @@ import SubscriptionForm from '../components/SubscriptionForm'
 
 export default function Post({ content, frontmatter }) {
   return (
-    <Layout>
+    <Layout title={frontmatter.title}>
       <div className="max-w-3xl mx-auto">
         <article>
           <header className="mb-16">
