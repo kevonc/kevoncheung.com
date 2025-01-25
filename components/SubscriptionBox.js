@@ -1,20 +1,14 @@
-import { useEffect } from 'react'
+import Script from 'next/script'
 
 export default function SubscriptionBox() {
-  useEffect(() => {
-    const script = document.createElement('script')
-    script.src = 'https://smallschool.kit.com/fca4203871/index.js'
-    script.async = true
-    script.setAttribute('data-uid', 'fca4203871')
-    document.body.appendChild(script)
-
-    return () => {
-      const existingScript = document.querySelector('script[data-uid="fca4203871"]')
-      if (existingScript) {
-        document.body.removeChild(existingScript)
-      }
-    }
-  }, [])
-
-  return <div id="fca4203871" className="my-16" />
+  return (
+    <div className="my-16">
+      <div id="fca4203871" />
+      <Script
+        src="https://smallschool.kit.com/fca4203871/index.js"
+        data-uid="fca4203871"
+        strategy="afterInteractive"
+      />
+    </div>
+  )
 } 

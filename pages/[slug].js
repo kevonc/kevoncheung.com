@@ -37,10 +37,10 @@ export default function Post({ content, frontmatter }) {
             className="prose mb-16"
             dangerouslySetInnerHTML={{ __html: content }}
           />
+          
+          <SubscriptionBox />
         </article>
-        
       </div>
-      <SubscriptionBox />
     </Layout>
   )
 }
