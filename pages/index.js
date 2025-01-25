@@ -1,3 +1,4 @@
+import { useEffect } from 'react'
 import Layout from '../components/Layout'
 import Link from 'next/link'
 import fs from 'fs'
@@ -5,6 +6,18 @@ import path from 'path'
 import matter from 'gray-matter'
 
 export default function Home({ posts, projects }) {
+  useEffect(() => {
+    // Load Senja widget script
+    const script = document.createElement('script')
+    script.src = 'https://widget.senja.io/widget/34da712b-077a-4a62-8332-fb04f41dfe74/platform.js'
+    script.async = true
+    document.body.appendChild(script)
+
+    return () => {
+      document.body.removeChild(script)
+    }
+  }, [])
+
   return (
     <Layout title="Home">
       <div className="max-w-3xl mx-auto">
@@ -46,7 +59,7 @@ export default function Home({ posts, projects }) {
         {/* Articles Section */}
         <div className="mb-24">
           <h2>Articles</h2>
-          <div className="space-y-12">
+          <div className="space-y-8">
             {posts.map((post) => (
               <article key={post.slug}>
                 <Link href={`/${post.slug}`} className="block no-underline group">
@@ -74,32 +87,46 @@ export default function Home({ posts, projects }) {
 
         {/* Projects Section */}
         <div>
-          <h2>Projects</h2>
-          <div className="space-y-12">
-            {projects.map((project) => (
-              <article key={project.title} className="group">
-                <a href={project.link} target="_blank" rel="noopener noreferrer" className="flex gap-6 no-underline">
-                  <div className="w-[284px] h-[160px] shrink-0 rounded-lg overflow-hidden bg-gray-100">
-                    <img 
-                      src={project.image} 
-                      alt={project.title}
-                      width={284}
-                      height={160}
-                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                    />
-                  </div>
-                  <div className="flex-1">
-                    <h3 className="group-hover:text-green-700 mb-2">
-                      {project.title}
-                    </h3>
-                    <p className="text-gray-600">
-                      {project.description}
-                    </p>
-                  </div>
-                </a>
-              </article>
-            ))}
+          <div className="mb-24">
+            <h2>Projects</h2>
+            <div className="space-y-4">
+              {projects.map((project) => (
+                <article key={project.title} className="group">
+                  <a href={project.link} target="_blank" rel="noopener noreferrer" className="flex gap-6 no-underline">
+                    <div className="w-[284px] h-[160px] shrink-0 rounded-lg overflow-hidden bg-gray-100">
+                      <img 
+                        src={project.image} 
+                        alt={project.title}
+                        width={284}
+                        height={160}
+                        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                      />
+                    </div>
+                    <div className="flex-1">
+                      <h3 className="group-hover:text-green-700 mb-2">
+                        {project.title}
+                      </h3>
+                      <p className="text-gray-600">
+                        {project.description}
+                      </p>
+                    </div>
+                  </a>
+                </article>
+              ))}
+            </div>
           </div>
+        </div>
+
+        {/* What They Say Section */}
+        <div>
+          <h2>What They Say</h2>
+          <div 
+            className="senja-embed" 
+            data-id="34da712b-077a-4a62-8332-fb04f41dfe74" 
+            data-mode="shadow" 
+            data-lazyload="false" 
+            style={{ display: 'block' }}
+          />
         </div>
       </div>
     </Layout>

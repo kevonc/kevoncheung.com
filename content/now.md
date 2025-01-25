@@ -42,6 +42,4 @@ I've always loved sports that require a **high level of concentration** — beer
 
 I took golf lessons when I was 20 but never really played much ever since. It is time to pick it up again.
 
----
-
-*This page is inspired by [Derek Sivers](https://sive.rs/now) and [Joel Gascoigne](https://joelgascoigne.com/now). See theirs!* 
+*This page is inspired by [Derek Sivers](https://sive.rs/now) and [Joel Gascoigne](https://joel.is/now/). See theirs!* 

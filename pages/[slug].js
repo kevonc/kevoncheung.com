@@ -4,7 +4,7 @@ import matter from 'gray-matter'
 import { marked } from 'marked'
 import Link from 'next/link'
 import Layout from '../components/Layout'
-import SubscriptionForm from '../components/SubscriptionForm'
+import SubscriptionBox from '../components/SubscriptionBox'
 
 export default function Post({ content, frontmatter }) {
   return (
@@ -34,13 +34,13 @@ export default function Post({ content, frontmatter }) {
           </header>
 
           <div 
-            className="prose"
+            className="prose mb-16"
             dangerouslySetInnerHTML={{ __html: content }}
           />
         </article>
         
-        <SubscriptionForm />
       </div>
+      <SubscriptionBox />
     </Layout>
   )
 }
