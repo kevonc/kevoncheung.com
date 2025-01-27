@@ -13,7 +13,7 @@ export default function Layout({ children, title }) {
       <header className="py-4 mb-12">
         <div className="container mx-auto px-4 max-w-4xl">
           <div className="flex items-center justify-between">
-            <Link href="/" className="text-xl text-gray-900 no-underline">
+            <Link href="/" className="text-xl font-semibold text-gray-900 no-underline">
               Kevon Cheung
             </Link>
             <nav>
@@ -33,14 +33,25 @@ export default function Layout({ children, title }) {
       </main>
       
       <footer className="py-8 mt-16 border-t">
-        <div className="container mx-auto px-4 max-w-4xl">
-          <p className="text-gray-600">© {new Date().getFullYear()} Kevon Cheung</p>
-          <div className="flex space-x-6 mt-4">
-            <a href="https://x.com/MeetKevon" className="nav-link">X</a>
-            <a href="https://threads.net/@kevon" className="nav-link">Threads</a>
-            <a href="https://instagram.com/kevon" className="nav-link">Instagram</a>
-            <a href="https://youtube.com/@MeetKevon" className="nav-link">YouTube</a>
-          </div>
+        <div className="container mx-auto px-4 max-w-4xl flex flex-col items-center">
+          <p className="text-gray-600 m-0">© {new Date().getFullYear()} Kevon Cheung</p>
+          <div class="social-links">
+            <a href="https://x.com/MeetKevon" target="_blank" rel="noopener noreferrer" class="social-icon">
+              <img src="/images/social/x.svg" alt="X" width="24" height="24" />
+            </a>
+            <a href="https://www.linkedin.com/in/kevoncheung/" target="_blank" rel="noopener noreferrer" class="social-icon">
+              <img src="/images/social/linkedin.svg" alt="LinkedIn" width="24" height="24" />
+            </a>
+            <a href="https://www.instagram.com/kevon/" target="_blank" rel="noopener noreferrer" class="social-icon">
+              <img src="/images/social/instagram.svg" alt="Instagram" width="24" height="24" />
+            </a>
+            <a href="https://www.threads.net/@kevon" target="_blank" rel="noopener noreferrer" class="social-icon">
+              <img src="/images/social/threads.svg" alt="Threads" width="24" height="24" />
+            </a>
+            <a href="https://www.youtube.com/@MeetKevon" target="_blank" rel="noopener noreferrer" class="social-icon">
+              <img src="/images/social/youtube.svg" alt="YouTube" width="24" height="24" />
+            </a>
+          </div> 
         </div>
       </footer>
     </div>

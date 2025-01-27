@@ -34,13 +34,26 @@ appearances:
     date: "2023-11-03"
 ---
 
-I'm the founder of [Small School](https://smallschool.io), helping people productize their knowledge into digital products.
+Hi! I'm Kevon. I grew up in Hong Kong and spent 7 years studying in the U.S. around the Boston area. Then I was in New York and Singapore for a short time. Now I'm back home in Hong Kong. I've been building and sharing things online since I was 12 years old. Let's just say I've enjoyed the impact and connections I'm able to make. You can check out [what I'm doing now](/now) if you're curious.
 
-Previously, I was the CEO at First Code Academy, where we taught kids to code across Asia. Before that, I was a software engineer at Oursky, building mobile apps for startups and enterprises.
+## Making My Life
 
-My professional career started in software engineering. I graduated from The University of Hong Kong with a Computer Science degree. I've always been passionate about education and entrepreneurship, which led me to start teaching coding and eventually building education businesses.
+Life is all about connecting the dots.
 
-More info about my work can be found in my [LinkedIn](https://linkedin.com/in/kevoncheung).
+While I majored in Entrepreneurship and Finance, my heart has always been in technology since young. So fresh out of university, I spent the Summer learning how to code and got my first job as a software engineer in Singapore. I relocated in 4 days. After one year, I realized I didn't want to be typing on the keyboard all day (Yup, before AI showed up, that was normal).
+
+Coincidentally, a founder reached out and I went on to spend four years expanding her kids coding school across Asia. I never imagined I would be interested in education, but saying yes ended up changing the entire trajectory of my life. I spent the next two years leading a funded startup building a software for online teaching and facilitating.
+
+During COVID in 2020, I took a big step into writing and teaching online myself. I wrote a guide that [went sort of viral](/bip-guide-behind-the-scenes). With an audience, I dedicated myself to teaching them [how to build in public](https://www.smallschool.is/build-in-public). I started Public Lab and later rebranded it into [Small School](https://smallschool.is).
+
+Education, teaching, and learning were words that were foreign to me. Now I can proudly say they are in my DNA.
+
+## My Family
+
+Just like education, I also never imagined myself being a family-oriented person. I'm thinking these are the things that grow on you as you age. I love spending a tremendous amount of time with my family - the bonding, growing, and enriching. I find human growth fascinating because it is not linear and straightforward. 
+
+
+
 
 ## 📚 Books That Shaped Me
 
