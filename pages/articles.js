@@ -21,7 +21,7 @@ export default function Articles({ posts, topics }) {
               <Link
                 key={topic.slug}
                 href={`/topic/${topic.slug}`}
-                className="tag hover:bg-gray-200"
+                className="tag"
               >
                 {topic.title.toLowerCase()}
               </Link>

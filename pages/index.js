@@ -4,8 +4,9 @@ import Link from 'next/link'
 import fs from 'fs'
 import path from 'path'
 import matter from 'gray-matter'
+import { marked } from 'marked'
 
-export default function Home({ posts, projects }) {
+export default function Home({ posts, projects, homeContent, homeTitle }) {
   useEffect(() => {
     // Load Senja widget script
     const script = document.createElement('script')
@@ -24,27 +25,12 @@ export default function Home({ posts, projects }) {
         {/* Hero Section */}
         <div className="flex flex-col md:flex-row items-start justify-between mb-24">
           <div className="flex-1 max-w-2xl">
-            <h1 className="text-4xl mb-6">Hey! I'm Kevon 👋</h1>
+            <h1 className="text-4xl mb-6">{homeTitle}</h1>
             
-            <div className="space-y-6 text-lg">
-              <p>Welcome to my personal site.</p>
-
-              <p>
-                I enjoy exploring new ideas around business, education, marketing and knowledge sharing. 
-                When I realized everyone has the power to share what they know, I started{' '}
-                <a href="https://smallschool.io" className="link-underline">Small School</a>.
-              </p>
-
-              <p>
-                I now live in Hong Kong with my wife and two daughters. 
-                I like to run, write, and do silly things with my girls.
-              </p>
-
-              <p>
-                Here you'll find my writing and projects. I try my best to show you what I'm learning. 
-                Follow me so we can be friends:
-              </p>
-            </div>
+            <div 
+              className="space-y-6 text-lg prose"
+              dangerouslySetInnerHTML={{ __html: homeContent }}
+            />
           </div>
 
           <div className="w-full md:w-[280px] md:ml-6 rounded-2xl overflow-hidden shrink-0">
@@ -134,6 +120,11 @@ export default function Home({ posts, projects }) {
 }
 
 export async function getStaticProps() {
+  // Get home content
+  const homeFile = fs.readFileSync(path.join('content', 'home.md'), 'utf-8')
+  const { data: homeMatter, content: homeContent } = matter(homeFile)
+  const htmlContent = marked(homeContent)
+
   // Get projects
   const projectsFile = fs.readFileSync(path.join('content', 'projects', '_projects.md'), 'utf-8')
   const { data: projectsData } = matter(projectsFile)
@@ -171,7 +162,9 @@ export async function getStaticProps() {
   return {
     props: {
       posts,
-      projects
+      projects,
+      homeContent: htmlContent,
+      homeTitle: homeMatter.title
     }
   }
 } 

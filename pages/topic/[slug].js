@@ -19,7 +19,7 @@ export default function Topic({ posts, topic }) {
         <div className="mb-16">
           <h1>Articles in {topic.title.toLowerCase()}</h1>
           <div className="flex flex-wrap gap-2 mb-8">
-            <Link href="/articles" className="tag hover:bg-gray-200">
+            <Link href="/articles" className="tag">
               all articles
             </Link>
           </div>

@@ -46,7 +46,7 @@
   }
   
   .tag {
-    @apply inline-block px-4 py-2 rounded-full text-sm text-green-700 bg-green-50 border border-green-700 mr-2 mb-2 font-body hover:bg-green-100 transition-colors;
+    @apply inline-block px-4 py-2 rounded-full text-sm text-green-700 bg-green-50 border border-green-700 mr-2 mb-2 font-body hover:bg-green-700 hover:text-white transition-colors;
   }
   
   .prose {
@@ -84,4 +84,29 @@
   .prose h1, .prose h2, .prose h3, .prose h4, .prose h5, .prose h6 {
     @apply font-heading;
   }
+}
+
+.social-links {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.social-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-color: #f3f4f6;
+  transition: transform 0.2s;
+}
+
+.social-icon:hover {
+  transform: scale(1.1);
 } 
+
+.social-icon img {
+  margin-bottom: 0;
+}

@@ -42,14 +42,14 @@ My professional career started in software engineering. I graduated from The Uni
 
 More info about my work can be found in my [LinkedIn](https://linkedin.com/in/kevoncheung).
 
-## 📺 Shows I Love
-
-[Ted Lasso](https://tv.apple.com/us/show/ted-lasso/umc.cmc.vtoh0mn0xn7t3c643xqonfzy), [The Morning Show](https://tv.apple.com/us/show/the-morning-show/umc.cmc.25tn3v8ku4b39tr6ccgb8nl6m), [Succession](https://www.hbo.com/succession), [The Bear](https://www.fxnetworks.com/shows/the-bear), [Modern Family](https://abc.com/shows/modern-family), [The Office](https://www.peacocktv.com/stream-tv/the-office).
-
 ## 📚 Books That Shaped Me
 
 - [Anything You Want](https://sive.rs/a) by Derek Sivers
 - [Company of One](https://ofone.co) by Paul Jarvis
 - [Show Your Work](https://austinkleon.com/show-your-work) by Austin Kleon
 - [The Almanack of Naval Ravikant](https://www.navalmanack.com) by Eric Jorgenson
-- [The Psychology of Money](https://www.morganhousel.com/book) by Morgan Housel 
+- [The Psychology of Money](https://www.morganhousel.com/book) by Morgan Housel
+
+## 🗞 Articles That Inspired Me
+
+- [The Ladders of Wealth Creation](https://nathanbarry.com/wealth-creation/?ref=kevoncheung.com) by Nathan Barry
