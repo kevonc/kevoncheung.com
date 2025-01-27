@@ -11,9 +11,9 @@ export default function Post({ content, frontmatter }) {
     <Layout title={frontmatter.title}>
       <div className="max-w-3xl mx-auto">
         <article>
-          <header className="mb-16">
+          <header className="mb-10">
             <h1>{frontmatter.title}</h1>
-            <div className="flex items-center gap-2 text-gray-600 text-sm">
+            <div className="flex items-center gap-2 text-gray-600 text-base">
               <time>{new Date(frontmatter.date).toLocaleDateString('en-US', {
                 year: 'numeric',
                 month: 'long',

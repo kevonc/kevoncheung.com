@@ -7,9 +7,9 @@ import { marked } from 'marked'
 
 export default function About({ content, frontmatter }) {
   return (
-    <Layout title="About">
+    <Layout title={frontmatter.page_title}>
       <div className="max-w-3xl mx-auto">
-        <h1 className="text-center mb-16">{frontmatter.title}</h1>
+        <h1 className="text-center mb-16">{frontmatter.h1_title}</h1>
 
         <div className="space-y-12">
           <div 

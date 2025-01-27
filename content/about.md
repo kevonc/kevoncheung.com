@@ -1,5 +1,6 @@
 ---
-title: About
+h1_title: About
+page_title: About
 meta_description: About Kevon Cheung - founder, educator, and software engineer
 appearances:
   - title: "$12k/month from Monetizing a Twitter Audience - Careers 2.0"
