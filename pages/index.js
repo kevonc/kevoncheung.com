@@ -78,8 +78,8 @@ export default function Home({ posts, projects, homeContent, homeTitle }) {
             <div className="space-y-4">
               {projects.map((project) => (
                 <article key={project.title} className="group">
-                  <a href={project.link} target="_blank" rel="noopener noreferrer" className="flex gap-6 no-underline">
-                    <div className="w-[284px] h-[160px] shrink-0 rounded-lg overflow-hidden bg-gray-100">
+                  <a href={project.link} target="_blank" rel="noopener noreferrer" className="flex flex-col md:flex-row gap-3 md:gap-6 no-underline">
+                    <div className="w-full md:w-[284px] h-[160px] shrink-0 rounded-lg overflow-hidden bg-gray-100">
                       <img 
                         src={project.image} 
                         alt={project.title}
@@ -88,8 +88,8 @@ export default function Home({ posts, projects, homeContent, homeTitle }) {
                         className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                       />
                     </div>
-                    <div className="flex-1">
-                      <h3 className="group-hover:text-green-700 mb-2">
+                    <div className="flex-1 flex flex-col md:justify-center">
+                      <h3 className="group-hover:text-green-700 mb-2 mt-4">
                         {project.title}
                       </h3>
                       <p className="text-gray-600">

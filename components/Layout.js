@@ -1,7 +1,9 @@
 import Link from 'next/link'
 import Head from 'next/head'
+import { useState } from 'react'
 
 export default function Layout({ children, title }) {
+  const [isMenuOpen, setIsMenuOpen] = useState(false)
   const pageTitle = title ? `${title} - Kevon Cheung` : 'Kevon Cheung'
   
   return (
@@ -16,7 +18,32 @@ export default function Layout({ children, title }) {
             <Link href="/" className="text-xl font-semibold text-gray-900 no-underline">
               Kevon Cheung
             </Link>
-            <nav>
+
+            {/* Mobile menu button */}
+            <button 
+              onClick={() => setIsMenuOpen(!isMenuOpen)}
+              className="md:hidden p-2"
+              aria-label="Toggle menu"
+            >
+              <svg 
+                className="w-6 h-6" 
+                fill="none" 
+                strokeLinecap="round" 
+                strokeLinejoin="round" 
+                strokeWidth="2" 
+                viewBox="0 0 24 24" 
+                stroke="currentColor"
+              >
+                {isMenuOpen ? (
+                  <path d="M6 18L18 6M6 6l12 12" />
+                ) : (
+                  <path d="M4 6h16M4 12h16M4 18h16" />
+                )}
+              </svg>
+            </button>
+
+            {/* Desktop navigation */}
+            <nav className="hidden md:block">
               <ul className="flex items-center space-x-8 list-none p-0 m-0">
                 <li className="m-0"><Link href="/about" className="nav-link">About</Link></li>
                 <li className="m-0"><Link href="/now" className="nav-link">Now</Link></li>
@@ -24,6 +51,62 @@ export default function Layout({ children, title }) {
                 <li className="m-0"><Link href="https://www.smallschool.is/newsletter" className="nav-link">Newsletter</Link></li>
               </ul>
             </nav>
+          </div>
+
+          {/* Mobile navigation */}
+          <div className={`
+            md:hidden fixed inset-0 z-50 transform transition-transform duration-300 ease-in-out
+            ${isMenuOpen ? 'translate-x-0' : '-translate-x-full'}
+          `}>
+            <div className="bg-white h-full w-64 shadow-lg">
+              <div className="p-4">
+                <nav>
+                  <ul className="list-none p-0 m-0 space-y-2">
+                    <li>
+                      <Link 
+                        href="/about" 
+                        className="nav-link block py-1.5"
+                        onClick={() => setIsMenuOpen(false)}
+                      >
+                        About
+                      </Link>
+                    </li>
+                    <li>
+                      <Link 
+                        href="/now" 
+                        className="nav-link block py-1.5"
+                        onClick={() => setIsMenuOpen(false)}
+                      >
+                        Now
+                      </Link>
+                    </li>
+                    <li>
+                      <Link 
+                        href="/articles" 
+                        className="nav-link block py-1.5"
+                        onClick={() => setIsMenuOpen(false)}
+                      >
+                        Articles
+                      </Link>
+                    </li>
+                    <li>
+                      <Link 
+                        href="https://www.smallschool.is/newsletter" 
+                        className="nav-link block py-1.5"
+                        onClick={() => setIsMenuOpen(false)}
+                      >
+                        Newsletter
+                      </Link>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+            {/* Overlay */}
+            <div 
+              className="bg-black bg-opacity-50 absolute inset-0 -z-10"
+              onClick={() => setIsMenuOpen(false)}
+            ></div>
           </div>
         </div>
       </header>
@@ -35,20 +118,20 @@ export default function Layout({ children, title }) {
       <footer className="py-8 mt-16 border-t">
         <div className="container mx-auto px-4 max-w-4xl flex flex-col items-center">
           <p className="text-gray-600 m-0">© {new Date().getFullYear()} Kevon Cheung</p>
-          <div class="social-links">
-            <a href="https://x.com/MeetKevon" target="_blank" rel="noopener noreferrer" class="social-icon">
+          <div className="social-links mb-8 md:mb-0">
+            <a href="https://x.com/MeetKevon" target="_blank" rel="noopener noreferrer" className="social-icon">
               <img src="/images/social/x.svg" alt="X" width="24" height="24" />
             </a>
-            <a href="https://www.linkedin.com/in/kevoncheung/" target="_blank" rel="noopener noreferrer" class="social-icon">
+            <a href="https://www.linkedin.com/in/kevoncheung/" target="_blank" rel="noopener noreferrer" className="social-icon">
               <img src="/images/social/linkedin.svg" alt="LinkedIn" width="24" height="24" />
             </a>
-            <a href="https://www.instagram.com/kevon/" target="_blank" rel="noopener noreferrer" class="social-icon">
+            <a href="https://www.instagram.com/kevon/" target="_blank" rel="noopener noreferrer" className="social-icon">
               <img src="/images/social/instagram.svg" alt="Instagram" width="24" height="24" />
             </a>
-            <a href="https://www.threads.net/@kevon" target="_blank" rel="noopener noreferrer" class="social-icon">
+            <a href="https://www.threads.net/@kevon" target="_blank" rel="noopener noreferrer" className="social-icon">
               <img src="/images/social/threads.svg" alt="Threads" width="24" height="24" />
             </a>
-            <a href="https://www.youtube.com/@MeetKevon" target="_blank" rel="noopener noreferrer" class="social-icon">
+            <a href="https://www.youtube.com/@MeetKevon" target="_blank" rel="noopener noreferrer" className="social-icon">
               <img src="/images/social/youtube.svg" alt="YouTube" width="24" height="24" />
             </a>
           </div> 
