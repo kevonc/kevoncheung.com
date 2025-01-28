@@ -47,12 +47,14 @@ function generateSiteMap(posts, staticPages) {
   
   // Combine static pages and dynamic post pages
   const allUrls = [
-    ...staticPages.map(page => `<url>
-<loc>${baseUrl}${page}</loc>
-</url>`),
-    ...posts.map(({ slug }) => `<url>
-<loc>${baseUrl}/${slug}</loc>
-</url>`)
+    ...staticPages.map(page => {
+      const url = `${baseUrl}${page}`
+      return `  <url>\n    <loc>${url}</loc>\n  </url>`
+    }),
+    ...posts.map(({ slug }) => {
+      const url = `${baseUrl}/${slug}`
+      return `  <url>\n    <loc>${url}</loc>\n  </url>`
+    })
   ]
 
   return `<?xml version="1.0" encoding="UTF-8"?>
@@ -92,5 +94,14 @@ export async function getStaticProps() {
 }
 
 export default function SiteMap({ sitemap }) {
+  // Set the content type to XML
+  if (typeof window === 'undefined') {
+    // This code only runs on the server
+    // @ts-ignore
+    if (res) {
+      // @ts-ignore
+      res.setHeader('Content-Type', 'text/xml')
+    }
+  }
   return sitemap
 } 
