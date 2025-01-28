@@ -1,6 +1,7 @@
 import '../styles/globals.css'
 import { Archivo, Schibsted_Grotesk } from 'next/font/google'
 import { useEffect } from 'react'
+import GoogleAnalytics from '../components/GoogleAnalytics'
 
 const archivo = Archivo({ 
   subsets: ['latin'],
@@ -25,9 +26,12 @@ function MyApp({ Component, pageProps }) {
   }, []); // Run once on mount
 
   return (
-    <main className={`${archivo.className} ${schibsted.className}`}>
-      <Component {...pageProps} />
-    </main>
+    <>
+      <GoogleAnalytics />
+      <main className={`${archivo.className} ${schibsted.className}`}>
+        <Component {...pageProps} />
+      </main>
+    </>
   )
 }
 

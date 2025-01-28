@@ -3,10 +3,25 @@ import path from 'path'
 import matter from 'gray-matter'
 import { marked } from 'marked'
 import Link from 'next/link'
+import { useEffect } from 'react'
 import Layout from '../components/Layout'
-import SubscriptionBox from '../components/SubscriptionBox'
 
 export default function Post({ content, frontmatter }) {
+  useEffect(() => {
+    // Remove any existing script first
+    const existingScript = document.querySelector('script[data-uid="fca4203871"]')
+    if (existingScript) {
+      existingScript.remove()
+    }
+
+    // Create and add the script
+    const script = document.createElement('script')
+    script.src = 'https://smallschool.kit.com/fca4203871/index.js'
+    script.async = true
+    script.setAttribute('data-uid', 'fca4203871')
+    document.getElementById('subscription-container').appendChild(script)
+  }, []) // Run once when component mounts
+
   return (
     <Layout title={frontmatter.title}>
       <div className="max-w-3xl mx-auto">
@@ -37,8 +52,8 @@ export default function Post({ content, frontmatter }) {
             className="prose mb-16"
             dangerouslySetInnerHTML={{ __html: content }}
           />
-          
-          <SubscriptionBox />
+
+          <div id="subscription-container" className="mt-8"></div>
         </article>
       </div>
     </Layout>
@@ -103,6 +118,7 @@ export async function getStaticProps({ params: { slug } }) {
   )
 
   const { data: frontmatter, content } = matter(markdownWithMeta)
+  const htmlContent = marked(content)
 
   return {
     props: {
@@ -110,7 +126,7 @@ export async function getStaticProps({ params: { slug } }) {
         ...frontmatter,
         date: frontmatter.date ? frontmatter.date.toString() : ''
       },
-      content: marked(content)
+      content: htmlContent
     }
   }
 } 
