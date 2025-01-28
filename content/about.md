@@ -40,11 +40,11 @@ Hi! I'm Kevon. I grew up in Hong Kong and spent 7 years studying in the U.S. aro
 
 Life is all about connecting the dots.
 
-While I majored in Entrepreneurship and Finance, my heart has always been in technology since young. So fresh out of university, I spent the Summer learning how to code and got my first job as a software engineer in Singapore. I hopped on the plane and relocated myself in 4 days. After one year, I realized I didn't want to be typing on the keyboard all day (Yup, before AI showed up, that was normal).
+While I majored in Entrepreneurship and Finance, my heart has always been in technology since I was young. So fresh out of university, I spent the summer learning how to code and got my first job as a software engineer in Singapore. I hopped on the plane and relocated myself in 4 days. After one year, I realized I didn't want to be typing on the keyboard all day (Yup, before AI showed up, that was normal).
 
 Coincidentally, a founder reached out and I went on to spend four years expanding her kids coding school across Asia. I never imagined I would be interested in education, but saying yes ended up changing the entire trajectory of my life. After that, I spent two years leading a funded startup building software for online teaching and facilitating.
 
-During COVID in 2020, I took a big step into writing and teaching online myself. I wrote a guide that [went sort of viral](/bip-guide-behind-the-scenes). With an audience, I dedicated myself to teaching them [how to build in public](https://www.smallschool.is/build-in-public). I started Public Lab and later rebranded it into [Small School](https://smallschool.is).
+During COVID in 2020, I took a big step into writing and teaching online myself. I wrote a guide that [went somehwat viral](/bip-guide-behind-the-scenes). With an audience, I dedicated myself to teaching them [how to build in public](https://www.smallschool.is/build-in-public). I started Public Lab and later rebranded it into [Small School](https://smallschool.is).
 
 The dots have connected me to entrepreneurship, business, coding, education, teaching, and learning. Now these are the things I deeply care about.
 
@@ -62,7 +62,7 @@ We're just a simple family prioritizing happiness and basic values.
 
 I love trying new things, but I haven't gotten to a point where I'm obsessed with one thing.
 
-I like to run - flat or trail. I like to play tennis and now golf too. I enjoy the precision game and the ability to get fresh air and socialize.
+I like to run - flat or trail. I like to play tennis and now golf too. I enjoy the precision of the game and the ability to get fresh air and socialize.
 
 
 ## 📚 Books That Shaped Me
