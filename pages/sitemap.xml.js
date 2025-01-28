@@ -2,64 +2,69 @@ import fs from 'fs'
 import path from 'path'
 import matter from 'gray-matter'
 
-const EXTERNAL_DATA_URL = process.env.SITE_URL || 'https://kevoncheung.com'
+// Function to get all static pages from the pages directory
+function getStaticPages() {
+  const pagesDirectory = path.join(process.cwd(), 'pages')
+  const staticPages = []
 
-function generateSiteMap(posts, topics) {
+  function scanDirectory(directory) {
+    const files = fs.readdirSync(directory)
+    
+    files.forEach(file => {
+      const filePath = path.join(directory, file)
+      const stat = fs.statSync(filePath)
+      
+      if (stat.isDirectory()) {
+        // Skip api, _app, _document directories
+        if (!['api', '_app', '_document'].includes(file)) {
+          scanDirectory(filePath)
+        }
+      } else {
+        // Only process .js, .jsx, .ts, .tsx files
+        if (file.match(/\.(js|jsx|ts|tsx)$/)) {
+          // Convert file path to route
+          let route = filePath
+            .replace(pagesDirectory, '')
+            .replace(/\.(js|jsx|ts|tsx)$/, '')
+            .replace(/\/index$/, '')
+            .replace(/\[.*\]/, '*') // Replace dynamic routes with *
+          
+          // Skip special Next.js files and API routes
+          if (!file.startsWith('_') && !file.startsWith('api') && file !== 'sitemap.xml.js') {
+            staticPages.push(route || '/')
+          }
+        }
+      }
+    })
+  }
+
+  scanDirectory(pagesDirectory)
+  return staticPages
+}
+
+function generateSiteMap(posts, staticPages) {
+  const baseUrl = 'https://kevoncheung.com'
+  
+  // Combine static pages and dynamic post pages
+  const allUrls = [
+    ...staticPages.map(page => `<url>
+<loc>${baseUrl}${page}</loc>
+</url>`),
+    ...posts.map(({ slug }) => `<url>
+<loc>${baseUrl}/${slug}</loc>
+</url>`)
+  ]
+
   return `<?xml version="1.0" encoding="UTF-8"?>
-   <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-     <!-- Add the static pages -->
-     <url>
-       <loc>${EXTERNAL_DATA_URL}</loc>
-       <changefreq>daily</changefreq>
-       <priority>1.0</priority>
-     </url>
-     <url>
-       <loc>${EXTERNAL_DATA_URL}/about</loc>
-       <changefreq>monthly</changefreq>
-       <priority>0.8</priority>
-     </url>
-     <url>
-       <loc>${EXTERNAL_DATA_URL}/now</loc>
-       <changefreq>weekly</changefreq>
-       <priority>0.8</priority>
-     </url>
-     <url>
-       <loc>${EXTERNAL_DATA_URL}/articles</loc>
-       <changefreq>daily</changefreq>
-       <priority>0.8</priority>
-     </url>
-     
-     <!-- Add all article pages -->
-     ${posts
-       .map(({ slug, date }) => {
-         return `
-       <url>
-           <loc>${`${EXTERNAL_DATA_URL}/${slug}`}</loc>
-           <lastmod>${date ? new Date(date).toISOString() : new Date().toISOString()}</lastmod>
-           <changefreq>monthly</changefreq>
-           <priority>0.7</priority>
-       </url>
-     `
-       })
-       .join('')}
-
-     <!-- Add all topic pages -->
-     ${topics
-       .map(({ slug }) => {
-         return `
-       <url>
-           <loc>${`${EXTERNAL_DATA_URL}/topic/${slug}`}</loc>
-           <changefreq>weekly</changefreq>
-           <priority>0.6</priority>
-       </url>
-     `
-       })
-       .join('')}
-   </urlset>
- `
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+${allUrls.join('\n')}
+</urlset>`
 }
 
 export async function getStaticProps() {
+  // Get static pages
+  const staticPages = getStaticPages()
+
   // Get posts
   const files = fs.readdirSync(path.join('content', 'articles'))
   const posts = files
@@ -71,19 +76,13 @@ export async function getStaticProps() {
       )
       const { data: frontmatter } = matter(markdownWithMeta)
       return {
-        slug: frontmatter.slug || filename.replace('.md', ''),
-        date: frontmatter.date ? frontmatter.date.toString() : null
+        slug: frontmatter.slug || filename.replace('.md', '')
       }
     })
     .filter(post => post.slug)
 
-  // Get topics
-  const topicsFile = fs.readFileSync(path.join('content', 'articles', '_topics.md'), 'utf-8')
-  const { data: topicsData } = matter(topicsFile)
-  const topics = topicsData.topics || []
-
-  // Generate the XML sitemap with the posts data
-  const sitemap = generateSiteMap(posts, topics)
+  // Generate the XML sitemap with both static pages and posts
+  const sitemap = generateSiteMap(posts, staticPages)
 
   return {
     props: {
@@ -93,7 +92,5 @@ export async function getStaticProps() {
 }
 
 export default function SiteMap({ sitemap }) {
-  return (
-    <div dangerouslySetInnerHTML={{ __html: sitemap }} />
-  )
+  return sitemap
 } 
