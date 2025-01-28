@@ -10,15 +10,11 @@ export default function About({ content, frontmatter }) {
     <Layout title={frontmatter.page_title}>
       <div className="max-w-3xl mx-auto">
         <h1 className="text-center mb-16">{frontmatter.h1_title}</h1>
-
-        <div className="space-y-12">
-          <div 
-            className="prose prose-lg max-w-none"
-            dangerouslySetInnerHTML={{ __html: content }}
-          />
-
-          <Appearances appearances={frontmatter.appearances} />
-        </div>
+        <div 
+          className="prose prose-lg max-w-none"
+          dangerouslySetInnerHTML={{ __html: content }}
+        />
+        <Appearances appearances={frontmatter.appearances} />
       </div>
     </Layout>
   )

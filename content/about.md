@@ -36,33 +36,43 @@ appearances:
 
 Hi! I'm Kevon. I grew up in Hong Kong and spent 7 years studying in the U.S. around the Boston area. Then I was in New York and Singapore for a short time. Now I'm back home in Hong Kong. I've been building and sharing things online since I was 12 years old. Let's just say I've enjoyed the impact and connections I'm able to make. You can check out [what I'm doing now](/now) if you're curious.
 
-## Making My Life
+## 🌅 Life Making
 
 Life is all about connecting the dots.
 
-While I majored in Entrepreneurship and Finance, my heart has always been in technology since young. So fresh out of university, I spent the Summer learning how to code and got my first job as a software engineer in Singapore. I relocated in 4 days. After one year, I realized I didn't want to be typing on the keyboard all day (Yup, before AI showed up, that was normal).
+While I majored in Entrepreneurship and Finance, my heart has always been in technology since young. So fresh out of university, I spent the Summer learning how to code and got my first job as a software engineer in Singapore. I hopped on the plane and relocated myself in 4 days. After one year, I realized I didn't want to be typing on the keyboard all day (Yup, before AI showed up, that was normal).
 
-Coincidentally, a founder reached out and I went on to spend four years expanding her kids coding school across Asia. I never imagined I would be interested in education, but saying yes ended up changing the entire trajectory of my life. I spent the next two years leading a funded startup building a software for online teaching and facilitating.
+Coincidentally, a founder reached out and I went on to spend four years expanding her kids coding school across Asia. I never imagined I would be interested in education, but saying yes ended up changing the entire trajectory of my life. After that, I spent two years leading a funded startup building software for online teaching and facilitating.
 
 During COVID in 2020, I took a big step into writing and teaching online myself. I wrote a guide that [went sort of viral](/bip-guide-behind-the-scenes). With an audience, I dedicated myself to teaching them [how to build in public](https://www.smallschool.is/build-in-public). I started Public Lab and later rebranded it into [Small School](https://smallschool.is).
 
-Education, teaching, and learning were words that were foreign to me. Now I can proudly say they are in my DNA.
+The dots have connected me to entrepreneurship, business, coding, education, teaching, and learning. Now these are the things I deeply care about.
 
-## My Family
+## 🏡 My Family
 
-Just like education, I also never imagined myself being a family-oriented person. I'm thinking these are the things that grow on you as you age. I love spending a tremendous amount of time with my family - the bonding, growing, and enriching. I find human growth fascinating because it is not linear and straightforward. 
+Just like education, I also never imagined myself being a family-oriented person. I'm thinking these are the things that grow on you as you age.
 
+Lydia and I met in 2016. I often joke that it was "wife at first sight". I was at that stage of my life and the right person showed up. We got married in 2019 and now live a busy life with our two daughters. 
 
+I love spending a tremendous amount of time with my family - the bonding, growing, and enriching. I find human growth to be quite fascinating because it is not linear and straightforward, maybe that's why I'm drawn to learning and parenting.
+
+We're just a simple family prioritizing happiness and basic values.
+
+## 🏌️‍♂️ Hobbies
+
+I love trying new things, but I haven't gotten to a point where I'm obsessed with one thing.
+
+I like to run - flat or trail. I like to play tennis and now golf too. I enjoy the precision game and the ability to get fresh air and socialize.
 
 
 ## 📚 Books That Shaped Me
 
-- [Anything You Want](https://sive.rs/a) by Derek Sivers
-- [Company of One](https://ofone.co) by Paul Jarvis
-- [Show Your Work](https://austinkleon.com/show-your-work) by Austin Kleon
-- [The Almanack of Naval Ravikant](https://www.navalmanack.com) by Eric Jorgenson
-- [The Psychology of Money](https://www.morganhousel.com/book) by Morgan Housel
+- [Life Is What You Make It]([text](https://amzn.to/3PSW2bO)) by Peter Buffett
+- [Pour Your Heart Into It]([text](https://www.amazon.com/Pour-Your-Heart-Into-Starbucks-ebook/dp/B00JJ9GD9A)) by Howard Schultz
+- [Delivering Happiness]([text](https://www.amazon.com/Delivering-Happiness-Profits-Passion-Purpose-ebook/dp/B00FOT936Y)) by Tony Hsieh
+- [The E-Myth Revisited](https://amzn.to/4hAYxvr) by Michael E. Gerber
 
-## 🗞 Articles That Inspired Me
+## 🗞 Articles That Shaped Me
 
+- [How to Start a Blog that Changes Your Life]([text](https://www.nateliason.com/blog/start-a-blog?ref=kevoncheung.com)) by Nat Eliason
 - [The Ladders of Wealth Creation](https://nathanbarry.com/wealth-creation/?ref=kevoncheung.com) by Nathan Barry
