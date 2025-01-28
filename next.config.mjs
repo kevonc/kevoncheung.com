@@ -16,7 +16,21 @@ const nextConfig = {
   // Configure hostname for sitemap
   env: {
     SITE_URL: 'https://kevoncheung.com',
-  }
+  },
+  // Handle XML content type
+  headers: async () => {
+    return [
+      {
+        source: '/sitemap.xml',
+        headers: [
+          {
+            key: 'Content-Type',
+            value: 'application/xml',
+          },
+        ],
+      },
+    ]
+  },
 }
 
 export default withMDX(nextConfig) 

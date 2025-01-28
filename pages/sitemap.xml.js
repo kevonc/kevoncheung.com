@@ -93,15 +93,9 @@ export async function getStaticProps() {
   }
 }
 
+// Create a component that renders the XML content
 export default function SiteMap({ sitemap }) {
-  // Set the content type to XML
-  if (typeof window === 'undefined') {
-    // This code only runs on the server
-    // @ts-ignore
-    if (res) {
-      // @ts-ignore
-      res.setHeader('Content-Type', 'text/xml')
-    }
-  }
-  return sitemap
+  return (
+    <div dangerouslySetInnerHTML={{ __html: sitemap }} />
+  )
 } 
