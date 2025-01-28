@@ -59,7 +59,7 @@
   }
   
   .prose img {
-    @apply w-full h-auto rounded-lg mb-10;
+    @apply w-full h-auto rounded-lg mt-10 mb-10;
     max-height: 600px;
     object-fit: cover;
   }

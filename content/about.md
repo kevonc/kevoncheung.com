@@ -50,6 +50,8 @@ The dots have connected me to entrepreneurship, business, coding, education, tea
 
 ## 🏡 My Family
 
+![Kevon's Family](/images/kevon-family.jpg)
+
 Just like education, I also never imagined myself being a family-oriented person. I'm thinking these are the things that grow on you as you age.
 
 Lydia and I met in 2016. I often joke that it was "wife at first sight". I was at that stage of my life and the right person showed up. We got married in 2019 and now live a busy life with our two daughters. 
