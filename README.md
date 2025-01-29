@@ -35,3 +35,10 @@ Content Management System:
 ```bash
 npm run dev
 ```
+
+## How to deploy
+
+```bash
+vercel deploy --prod
+```
+
