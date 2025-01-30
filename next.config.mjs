@@ -38,6 +38,19 @@ const nextConfig = {
       '/sitemap.xml': { page: '/sitemap.xml' },
     }
   },
+  // PostCSS and Tailwind config paths
+  postcssConfigPath: './postcss.config.cjs',
+  tailwindConfigPath: './tailwind.config.cjs',
+  reactStrictMode: true,
+  async redirects() {
+    return [
+      {
+        source: '/blog/:slug',
+        destination: '/:slug',
+        permanent: true
+      }
+    ]
+  }
 }
 
 export default withMDX(nextConfig) 

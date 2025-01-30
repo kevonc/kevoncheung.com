@@ -88,44 +88,28 @@ ${allUrls.join('\n')}
 </urlset>`
 }
 
-export async function getStaticProps() {
-  // Get static pages
-  const staticPages = getStaticPages()
+// Get static pages
+const staticPages = getStaticPages()
 
-  // Get posts
-  const files = fs.readdirSync(path.join('content', 'articles'))
-  const posts = files
-    .filter(filename => filename !== '_topics.md')
-    .map(filename => {
-      const markdownWithMeta = fs.readFileSync(
-        path.join('content', 'articles', filename),
-        'utf-8'
-      )
-      const { data: frontmatter } = matter(markdownWithMeta)
-      return {
-        slug: frontmatter.slug || filename.replace('.md', ''),
-        date: frontmatter.date ? new Date(frontmatter.date).toISOString() : null
-      }
-    })
-    .filter(post => post.slug)
-
-  // Generate the XML sitemap
-  const sitemap = generateSiteMap(posts, staticPages)
-
-  return {
-    props: {
-      sitemap
+// Get posts
+const files = fs.readdirSync(path.join('content', 'articles'))
+const posts = files
+  .filter(filename => filename !== '_topics.md')
+  .map(filename => {
+    const markdownWithMeta = fs.readFileSync(
+      path.join('content', 'articles', filename),
+      'utf-8'
+    )
+    const { data: frontmatter } = matter(markdownWithMeta)
+    return {
+      slug: frontmatter.slug || filename.replace('.md', ''),
+      date: frontmatter.date ? new Date(frontmatter.date).toISOString() : null
     }
-  }
-}
+  })
+  .filter(post => post.slug)
 
-export default function Sitemap({ sitemap }) {
-  // Hack to return XML content in static HTML
-  return (
-    <div 
-      dangerouslySetInnerHTML={{ 
-        __html: `<xml>${sitemap}</xml>`
-      }} 
-    />
-  )
-} 
+// Generate the sitemap
+const sitemap = generateSiteMap(posts, staticPages)
+
+// Write the sitemap to the public directory
+fs.writeFileSync('public/sitemap.xml', sitemap) 

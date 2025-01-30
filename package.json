@@ -2,18 +2,16 @@
   "name": "kevoncheung.com",
   "version": "1.0.0",
   "description": "Personal website of Kevon Cheung",
+  "type": "module",
+  "exports": {
+    "./postcss.config.cjs": "./postcss.config.cjs",
+    "./tailwind.config.cjs": "./tailwind.config.cjs"
+  },
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "node scripts/generate-sitemap.mjs && next build",
     "start": "next start",
-    "extract": "node scripts/extract-content.js",
-    "extract-all": "node scripts/extract-all-posts.js",
-    "clean-mappings": "node scripts/clean-mappings.js",
-    "rename-images": "node scripts/rename-images.js",
-    "download-images": "node scripts/download-images.js",
-    "update-paths": "node scripts/update-image-paths.js",
-    "format": "node scripts/format-content.js",
-    "extract-content": "node scripts/extract-content.js"
+    "sitemap": "node scripts/generate-sitemap.mjs"
   },
   "dependencies": {
     "@mdx-js/loader": "^3.0.0",
