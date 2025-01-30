@@ -2,6 +2,12 @@ import fs from 'fs'
 import path from 'path'
 import matter from 'gray-matter'
 
+// Ensure output directory exists
+const outDir = path.join(process.cwd(), 'out')
+if (!fs.existsSync(outDir)) {
+  fs.mkdirSync(outDir, { recursive: true })
+}
+
 // Function to get all static pages from the pages directory
 function getStaticPages() {
   const pagesDirectory = path.join(process.cwd(), 'pages')
@@ -111,5 +117,11 @@ const posts = files
 // Generate the sitemap
 const sitemap = generateSiteMap(posts, staticPages)
 
-// Write the sitemap to the public directory
-fs.writeFileSync('public/sitemap.xml', sitemap) 
+// Write the sitemap to both public and out directories for development and production
+const publicDir = path.join(process.cwd(), 'public')
+if (!fs.existsSync(publicDir)) {
+  fs.mkdirSync(publicDir, { recursive: true })
+}
+
+fs.writeFileSync(path.join(publicDir, 'sitemap.xml'), sitemap)
+fs.writeFileSync(path.join(outDir, 'sitemap.xml'), sitemap) 

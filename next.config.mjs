@@ -17,27 +17,6 @@ const nextConfig = {
   env: {
     SITE_URL: 'https://kevoncheung.com',
   },
-  // Handle XML content type
-  async headers() {
-    return [
-      {
-        source: '/sitemap.xml',
-        headers: [
-          {
-            key: 'Content-Type',
-            value: 'application/xml',
-          },
-        ],
-      },
-    ]
-  },
-  // Ensure sitemap.xml is generated as .xml file
-  async exportPathMap(defaultPathMap) {
-    return {
-      ...defaultPathMap,
-      '/sitemap.xml': { page: '/sitemap.xml' },
-    }
-  },
   // PostCSS and Tailwind config paths
   postcssConfigPath: './postcss.config.cjs',
   tailwindConfigPath: './tailwind.config.cjs',
