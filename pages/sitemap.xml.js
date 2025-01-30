@@ -88,7 +88,7 @@ ${allUrls.join('\n')}
 </urlset>`
 }
 
-export async function getServerSideProps({ res }) {
+export async function getStaticProps() {
   // Get static pages
   const staticPages = getStaticPages()
 
@@ -112,17 +112,20 @@ export async function getServerSideProps({ res }) {
   // Generate the XML sitemap
   const sitemap = generateSiteMap(posts, staticPages)
 
-  // Set proper XML content type header
-  res.setHeader('Content-Type', 'application/xml')
-  res.write(sitemap)
-  res.end()
-
   return {
-    props: {},
+    props: {
+      sitemap
+    }
   }
 }
 
-// This default export is necessary for the page to be accessible
-export default function Sitemap() {
-  return null
+export default function Sitemap({ sitemap }) {
+  // Hack to return XML content in static HTML
+  return (
+    <div 
+      dangerouslySetInnerHTML={{ 
+        __html: `<xml>${sitemap}</xml>`
+      }} 
+    />
+  )
 } 

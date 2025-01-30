@@ -18,7 +18,7 @@ const nextConfig = {
     SITE_URL: 'https://kevoncheung.com',
   },
   // Handle XML content type
-  headers: async () => {
+  async headers() {
     return [
       {
         source: '/sitemap.xml',
@@ -30,6 +30,13 @@ const nextConfig = {
         ],
       },
     ]
+  },
+  // Ensure sitemap.xml is generated as .xml file
+  async exportPathMap(defaultPathMap) {
+    return {
+      ...defaultPathMap,
+      '/sitemap.xml': { page: '/sitemap.xml' },
+    }
   },
 }
 
