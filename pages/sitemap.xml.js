@@ -42,18 +42,43 @@ function getStaticPages() {
   return staticPages
 }
 
+function getPagePriority(path) {
+  if (path === '/') return 1
+  if (['/about', '/now'].includes(path)) return 0.8
+  if (path === '/articles') return 0.7
+  return 0.5
+}
+
+function getChangeFreq(path) {
+  if (path === '/') return 'yearly'
+  if (['/about', '/now'].includes(path)) return 'monthly'
+  if (path === '/articles') return 'weekly'
+  return 'monthly'
+}
+
 function generateSiteMap(posts, staticPages) {
   const baseUrl = 'https://kevoncheung.com'
+  const currentDate = new Date().toISOString()
   
   // Combine static pages and dynamic post pages
   const allUrls = [
     ...staticPages.map(page => {
       const url = `${baseUrl}${page}`
-      return `  <url>\n    <loc>${url}</loc>\n  </url>`
+      return `  <url>
+    <loc>${url}</loc>
+    <lastmod>${currentDate}</lastmod>
+    <changefreq>${getChangeFreq(page)}</changefreq>
+    <priority>${getPagePriority(page)}</priority>
+  </url>`
     }),
-    ...posts.map(({ slug }) => {
+    ...posts.map(({ slug, date }) => {
       const url = `${baseUrl}/${slug}`
-      return `  <url>\n    <loc>${url}</loc>\n  </url>`
+      return `  <url>
+    <loc>${url}</loc>
+    <lastmod>${date || currentDate}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>`
     })
   ]
 
@@ -63,7 +88,7 @@ ${allUrls.join('\n')}
 </urlset>`
 }
 
-export async function getStaticProps() {
+export async function getServerSideProps({ res }) {
   // Get static pages
   const staticPages = getStaticPages()
 
@@ -78,24 +103,26 @@ export async function getStaticProps() {
       )
       const { data: frontmatter } = matter(markdownWithMeta)
       return {
-        slug: frontmatter.slug || filename.replace('.md', '')
+        slug: frontmatter.slug || filename.replace('.md', ''),
+        date: frontmatter.date ? new Date(frontmatter.date).toISOString() : null
       }
     })
     .filter(post => post.slug)
 
-  // Generate the XML sitemap with both static pages and posts
+  // Generate the XML sitemap
   const sitemap = generateSiteMap(posts, staticPages)
 
+  // Set proper XML content type header
+  res.setHeader('Content-Type', 'application/xml')
+  res.write(sitemap)
+  res.end()
+
   return {
-    props: {
-      sitemap
-    }
+    props: {},
   }
 }
 
-// Create a component that renders the XML content
-export default function SiteMap({ sitemap }) {
-  return (
-    <div dangerouslySetInnerHTML={{ __html: sitemap }} />
-  )
+// This default export is necessary for the page to be accessible
+export default function Sitemap() {
+  return null
 } 
