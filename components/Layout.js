@@ -2,14 +2,32 @@ import Link from 'next/link'
 import Head from 'next/head'
 import { useState } from 'react'
 
-export default function Layout({ children, title }) {
+export default function Layout({ children, title, metaDescription, metaImage }) {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const pageTitle = title ? `${title} - Kevon Cheung` : 'Kevon Cheung'
+  const defaultMetaImage = 'https://kevoncheung.com/images/meta-image.png' // Default meta image
+  const metaImageUrl = metaImage || defaultMetaImage
+  const defaultDescription = "Kevon Cheung - Educator, Marketer, and Writer"
   
   return (
     <div className="min-h-screen">
       <Head>
         <title>{pageTitle}</title>
+        <meta name="description" content={metaDescription || defaultDescription} />
+        
+        {/* Open Graph meta tags */}
+        <meta property="og:title" content={pageTitle} />
+        <meta property="og:description" content={metaDescription || defaultDescription} />
+        <meta property="og:image" content={metaImageUrl} />
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="Kevon Cheung" />
+        
+        {/* Twitter Card meta tags */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@MeetKevon" />
+        <meta name="twitter:title" content={pageTitle} />
+        <meta name="twitter:description" content={metaDescription || defaultDescription} />
+        <meta name="twitter:image" content={metaImageUrl} />
       </Head>
       
       <header className="py-4 mb-12">
