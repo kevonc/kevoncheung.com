@@ -34,8 +34,12 @@ export default function Layout({ children, title, metaDescription, metaImage, ro
       <header className="py-4 mb-12">
         <div className="container mx-auto px-4 max-w-4xl">
           <div className="flex items-center justify-between">
-            <Link href="/" className="text-xl font-semibold text-gray-900 no-underline">
-              Kevon Cheung
+            <Link href="/" className="no-underline">
+              <img 
+                src="/images/logo.png" 
+                alt="Kevon Cheung" 
+                className="h-6 w-auto"
+              />
             </Link>
 
             {/* Mobile menu button */}
