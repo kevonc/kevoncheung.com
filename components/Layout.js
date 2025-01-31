@@ -140,7 +140,7 @@ export default function Layout({ children, title, metaDescription, metaImage, ro
       
       <footer className="py-8 mt-16 border-t">
         <div className="container mx-auto px-4 max-w-4xl flex flex-col items-center">
-          <p className="text-gray-600 m-0">© {new Date().getFullYear()} Kevon Cheung</p>
+          <p className="text-gray-600 mb-4">© {new Date().getFullYear()} Kevon Cheung</p>
           <div className="social-links mb-8 md:mb-0">
             <a href="https://x.com/MeetKevon" target="_blank" rel="noopener noreferrer" className="social-icon">
               <img src="/images/social/x.svg" alt="X" width="24" height="24" />
