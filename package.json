@@ -10,7 +10,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build && node scripts/generate-sitemap.mjs",
-    "start": "next start",
+    "serve": "npx serve@latest out",
     "sitemap": "node scripts/generate-sitemap.mjs"
   },
   "dependencies": {

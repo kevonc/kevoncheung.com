@@ -2,7 +2,7 @@ import Link from 'next/link'
 import Head from 'next/head'
 import { useState } from 'react'
 
-export default function Layout({ children, title, metaDescription, metaImage }) {
+export default function Layout({ children, title, metaDescription, metaImage, robotsDirective = 'index, follow' }) {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const pageTitle = title ? `${title} - Kevon Cheung` : 'Kevon Cheung'
   const defaultMetaImage = 'https://kevoncheung.com/images/meta-image.png' // Default meta image
@@ -14,6 +14,7 @@ export default function Layout({ children, title, metaDescription, metaImage }) 
       <Head>
         <title>{pageTitle}</title>
         <meta name="description" content={metaDescription || defaultDescription} />
+        <meta name="robots" content={robotsDirective} />
         
         {/* Open Graph meta tags */}
         <meta property="og:title" content={pageTitle} />

@@ -17,19 +17,9 @@ const nextConfig = {
   env: {
     SITE_URL: 'https://kevoncheung.com',
   },
-  // PostCSS and Tailwind config paths
-  postcssConfigPath: './postcss.config.cjs',
-  tailwindConfigPath: './tailwind.config.cjs',
   reactStrictMode: true,
-  async redirects() {
-    return [
-      {
-        source: '/blog/:slug',
-        destination: '/:slug',
-        permanent: true
-      }
-    ]
-  }
+  // Note: redirects don't work with output: 'export', 
+  // you'll need to handle these in your hosting platform
 }
 
 export default withMDX(nextConfig) 
