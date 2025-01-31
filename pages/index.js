@@ -35,7 +35,7 @@ export default function Home({ posts, projects, homeContent, homeTitle }) {
 
           <div className="w-full md:w-[280px] md:ml-6 rounded-2xl overflow-hidden shrink-0">
             <img 
-              src="/images/kevon.png" 
+              src="/images/kevon-home.jpg" 
               alt="Kevon Cheung" 
               className="w-full h-full object-cover"
             />
