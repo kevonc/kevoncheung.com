@@ -2,6 +2,7 @@
 title: Decoding best copywriting examples from Dave Gerhardt
 date: '2020-11-18'
 meta_description: ''
+meta_image: '/images/blog/copywriting-dave-gerhardt-1.png'
 slug: copywriting-dave-gerhardt
 topic: marketing
 ---
@@ -10,7 +11,7 @@ topic: marketing
 
 Back in March 2020, I was very active on my LinkedIn trying to engage my network.
 
-Soon I realized the engagement numbers weren’t moving at all.
+Soon I realized the engagement numbers weren't moving at all.
 
 I spent some time looking at the best marketer I knew, Dave Gerhardt and studied how he did it. And I learned that it all came down to copywriting skills - which I sucked at. I was determined to get that fixed.
 
@@ -22,13 +23,13 @@ Most of us are still used to the traditional form of communication - broadcast a
 
 Then social media came along, and it became all about speaking directly to your audiences and having this two-way communication. Now, everyone is a marketing channel.
 
-And the best form of communication is still text, believe it or not. That’s where copywriting comes in.
+And the best form of communication is still text, believe it or not. That's where copywriting comes in.
 
-But a lot of us don’t take copywriting seriously because it is not easy to spot that you’re not good at it. As long as you can write, you can always produce something. But are people reading it? That’s the billion-dollar question.
+But a lot of us don't take copywriting seriously because it is not easy to spot that you're not good at it. As long as you can write, you can always produce something. But are people reading it? That's the billion-dollar question.
 
 <img src="/images/blog/copywriting-dave-gerhardt-2.png" alt="Image 2 from copywriting-dave-gerhardt" />
 
-## Dave Gerhardt’s copywriting tactics on LinkedIn
+## Dave Gerhardt's copywriting tactics on LinkedIn
 
 If you spend enough time in the marketing world, you must know Dave Gerhardt. He was the VP of Marketing at Drift and now CMO at Privy. He is amazing because he is very different from the other marketing leaders. And you know he is good by looking at his engagement metrics.
 
@@ -42,7 +43,7 @@ So, how does he write on LinkedIn?
 
 - He tells a story (even a personal one)
 
-- He shares users’ success stories
+- He shares users' success stories
 
 - He uses bullet points
 
@@ -54,13 +55,13 @@ So, how does he write on LinkedIn?
 
 - He speaks the annoying truth
 
-## Let’s look at each one in detail!
+## Let's look at each one in detail!
 
 ### He writes like he talks
 
 To a lot of us, when we first write marketing copies, somehow we always go for a commercial, robotic type of tone as if that is the golden standard.
 
-Dave doesn’t do that. When you read his words, you feel that he is talking to you like a friend on the phone.
+Dave doesn't do that. When you read his words, you feel that he is talking to you like a friend on the phone.
 
 <img src="/images/blog/copywriting-dave-gerhardt-3.png" alt="Image 3 from copywriting-dave-gerhardt" />
 
@@ -76,18 +77,18 @@ I love to look at his 1st line.
 
 ### He tells a story (even a personal one)
 
-We all love reading a story because we’re nosy and we want to find out what happened. Daves always writes as if he is telling a quick bedtime story to his kids.
+We all love reading a story because we're nosy and we want to find out what happened. Daves always writes as if he is telling a quick bedtime story to his kids.
 
 <img src="/images/blog/copywriting-dave-gerhardt-6.png" alt="Image 6 from copywriting-dave-gerhardt" />
 
 He uses bullet points
-No one has time, so let’s cut to the chase. Removing words is key to good copywriting.
+No one has time, so let's cut to the chase. Removing words is key to good copywriting.
 
 <img src="/images/blog/copywriting-dave-gerhardt-7.png" alt="Image 7 from copywriting-dave-gerhardt" />
 
 ### He focuses on one hashtag only
 
-Are you thinking of using hashtags to bring in views & engagement? It is not quite sustainable and Dave doesn’t care about that. He is persistent on one hashtag only: #marketing.
+Are you thinking of using hashtags to bring in views & engagement? It is not quite sustainable and Dave doesn't care about that. He is persistent on one hashtag only: #marketing.
 
 <img src="/images/blog/copywriting-dave-gerhardt-8.png" alt="Image 8 from copywriting-dave-gerhardt" />
 
@@ -108,13 +109,13 @@ Here comes the best way to resonate with your audience - get on the same side! D
 
 ## Bonus: writing well is not enough on LinkedIn
 
-This is not from Dave, but I must bring it up because I see quite a lot of people writing better yet still don’t get the engagement they want.
+This is not from Dave, but I must bring it up because I see quite a lot of people writing better yet still don't get the engagement they want.
 
 You want to dedicate time to:
 
 - Remove irrelevant Linkedin connections
 
-- Clean up your feed by “Unfollow XXX”
+- Clean up your feed by "Unfollow XXX"
 
 - Now you only see relevant connections & your target audience
 
@@ -122,11 +123,11 @@ You want to dedicate time to:
 
 - Interact with their posts genuinely
 
-By doing this consistently, you’ll start seeing results coming back to your posts.
+By doing this consistently, you'll start seeing results coming back to your posts.
 
 ## How I improved my engagement results
 
-Obviously, here I’m only able to capture a small part of his mastermind. You’ll learn much more if you follow Dave’s <a href="https://twitter.com/davegerhardt">Twitter</a> and <a href="https://www.linkedin.com/in/davegerhardt/">LinkedIn</a>.
+Obviously, here I'm only able to capture a small part of his mastermind. You'll learn much more if you follow Dave's <a href="https://twitter.com/davegerhardt">Twitter</a> and <a href="https://www.linkedin.com/in/davegerhardt/">LinkedIn</a>.
 
 After I picked up these tactics from Dave. I put them into practice and saw my engagement numbers go up and up. Within 5 months, I was able to achieve 5-10x growth on my regular LinkedIn posts.
 

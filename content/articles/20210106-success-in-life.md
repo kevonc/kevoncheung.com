@@ -2,6 +2,7 @@
 title: How to be successful in life
 date: '2021-01-06'
 meta_description: ''
+meta_image: '/images/blog/success-in-life-1.jpeg'
 slug: success-in-life
 topic: life-lessons
 ---

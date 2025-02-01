@@ -2,6 +2,7 @@
 title: Will cohort-based learning be the future?
 date: '2021-02-28'
 meta_description: ''
+meta_image: '/images/blog/cohort-based-learning-1.jpeg'
 slug: cohort-based-learning
 topic: teaching-learning
 ---

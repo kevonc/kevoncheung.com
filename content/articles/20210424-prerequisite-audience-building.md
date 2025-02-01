@@ -2,6 +2,7 @@
 title: You can't grow an audience without these
 date: '2021-04-24'
 meta_description: ''
+meta_image: '/images/blog/prerequisite-audience-building-1.png'
 slug: prerequisite-audience-building
 topic: marketing
 ---

@@ -2,6 +2,7 @@
 title: What's stopping you from making money online
 date: '2021-03-14'
 meta_description: ''
+meta_image: '/images/blog/credibility-1.jpeg'
 slug: credibility
 topic: entrepreneurship
 ---

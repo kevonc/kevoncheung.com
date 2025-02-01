@@ -2,6 +2,7 @@
 title: When you lose the fun in business
 date: '2024-10-30'
 meta_description: ''
+meta_image: '/images/blog/fun-in-business-1.png'
 slug: fun-in-business
 topic: entrepreneurship
 ---

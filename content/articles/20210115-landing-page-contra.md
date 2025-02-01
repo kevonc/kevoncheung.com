@@ -2,6 +2,7 @@
 title: 'Landing page optimization: Contra.com'
 date: '2021-01-15'
 meta_description: ''
+meta_image: '/images/blog/landing-page-contra-1.png'
 slug: landing-page-contra
 topic: marketing
 ---

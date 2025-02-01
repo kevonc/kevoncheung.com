@@ -2,6 +2,7 @@
 title: Go all in full-time or start as a side hustle?
 date: '2021-02-20'
 meta_description: ''
+meta_image: '/images/blog/full-time-vs-side-hustle-1.jpeg'
 slug: full-time-vs-side-hustle
 topic: entrepreneurship
 ---

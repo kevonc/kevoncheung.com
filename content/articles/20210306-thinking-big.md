@@ -2,6 +2,7 @@
 title: Why thinking big is bad for you
 date: '2021-03-06'
 meta_description: ''
+meta_image: '/images/blog/thinking-big-1.jpeg'
 slug: thinking-big
 topic: entrepreneurship
 ---

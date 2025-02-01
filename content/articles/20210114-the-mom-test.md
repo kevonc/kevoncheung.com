@@ -2,6 +2,7 @@
 title: Why I forced my whole team to read The Mom Test
 date: '2021-01-14'
 meta_description: ''
+meta_image: '/images/blog/the-mom-test-1.jpeg'
 slug: the-mom-test
 topic: entrepreneurship
 ---

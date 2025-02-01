@@ -2,6 +2,7 @@
 title: 'My guide attracted 2,100 people in 3 days. Here''s what I learned'
 date: '2021-02-15'
 meta_description: ''
+meta_image: '/images/blog/bip-guide-behind-the-scenes-1.jpeg'
 slug: bip-guide-behind-the-scenes
 topic: marketing
 ---

@@ -2,6 +2,7 @@
 title: How to get more time in your day
 date: '2020-12-22'
 meta_description: ''
+meta_image: '/images/blog/get-more-time-1.jpeg'
 slug: get-more-time
 topic: life-lessons
 ---

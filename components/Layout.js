@@ -127,7 +127,7 @@ export default function Layout({ children, title, metaDescription, metaImage, ro
             </div>
             {/* Overlay */}
             <div 
-              className="bg-black bg-opacity-50 absolute inset-0 -z-10"
+              className="bg-green-950 bg-opacity-80 absolute inset-0 -z-10"
               onClick={() => setIsMenuOpen(false)}
             ></div>
           </div>

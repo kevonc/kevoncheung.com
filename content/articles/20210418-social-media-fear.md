@@ -2,6 +2,7 @@
 title: How to overcome your social media fear
 date: '2021-04-18'
 meta_description: ''
+meta_image: '/images/blog/social-media-fear-1.png'
 slug: social-media-fear
 topic: entrepreneurship
 ---

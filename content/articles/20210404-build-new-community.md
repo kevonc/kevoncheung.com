@@ -2,6 +2,7 @@
 title: How I build a new community using data and feedback
 date: '2021-04-04'
 meta_description: ''
+meta_image: '/images/blog/build-new-community-1.jpeg'
 slug: build-new-community
 topic: entrepreneurship
 ---
@@ -27,7 +28,7 @@ Tech startups were hot at that time, and I thought I'd give it a shot. It would 
 
 I brought in my best friend and my sister, and the 3 of us bought a huge whiteboard and gathered at my home almost every day. We were trying to find a problem worth solving.
 
-We put up hypotheses (when we pretended they were real problems instead). We wrote reasons why people needed our solution. We also started making “progress” like registering a company, getting business cards, and putting together a website.
+We put up hypotheses (when we pretended they were real problems instead). We wrote reasons why people needed our solution. We also started making "progress" like registering a company, getting business cards, and putting together a website.
 
 Okay, you know how it ended. It was naive to start a business in our heads.
 
@@ -48,7 +49,7 @@ Is that even possible?
 
 ## Step-by-step on how I found my way to launching a private community
 ### 1) Quickest way to gauge interest
-Ever since I rolled out <a href="https://smallschool.is/build-in-public">the Building in Public Definitive Guide</a>, a lot of people have reached out to me telling me their interests in a supportive ecosystem. They understood the mindset and how it could help their work, yet resources and a support system weren’t there for them.
+Ever since I rolled out <a href="https://smallschool.is/build-in-public">the Building in Public Definitive Guide</a>, a lot of people have reached out to me telling me their interests in a supportive ecosystem. They understood the mindset and how it could help their work, yet resources and a support system weren't there for them.
 
 I didn't know whether this was true or if there were enough people to create a sustainable community.
 

@@ -2,6 +2,7 @@
 title: 'How I grew to $2,000/mo as a nobody then got rid of it'
 date: '2021-09-27'
 meta_description: ''
+meta_image: '/images/blog/creators-monetization-challenges-1.jpeg'
 slug: creators-monetization-challenges
 topic: entrepreneurship
 ---

@@ -2,6 +2,7 @@
 title: 5 misconceptions about building in public
 date: '2021-04-11'
 meta_description: ''
+meta_image: '/images/blog/misconceptions-building-in-public-1.jpg'
 slug: misconceptions-building-in-public
 topic: entrepreneurship
 ---
@@ -14,7 +15,7 @@ After writing the definitive guide to help people get started, I've been speakin
 
 I thought my guide covered most of the areas pretty well, but it would be naive to think that a guide can change people's mindsets swiftly. It is a process of self-discovery and practice.
 
-I’ve heard some repeated questions, so here I want to summarize the top 5 misconceptions about Building in Public.
+I've heard some repeated questions, so here I want to summarize the top 5 misconceptions about Building in Public.
 
 ## 1/ "Building in Public takes up a lot of time which I don't have"
 A certain group of people sees Building in Public as a daily todo list. They feel a need to publicize what they're working on every day and talk about their progress, learnings, and achievements very frequently. My guess is this movement is very popular among the maker community and hence this behavior is common.
@@ -81,7 +82,7 @@ Many people I talk to are hesitant to Build in Public because they fear that the
 
 When everyone else sounds super confident, they believe it does more harm than good to put their vulnerable self out there.
 
-To me, this is because they don't understand the connection between people. Let’s think about the people we like to have around us.
+To me, this is because they don't understand the connection between people. Let's think about the people we like to have around us.
 
 We don't like someone who is perfect. We like someone who is eager to improve.
 

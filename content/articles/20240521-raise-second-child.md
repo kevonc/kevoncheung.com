@@ -2,6 +2,7 @@
 title: What it takes to raise a second child
 date: '2024-05-21'
 meta_description: ''
+meta_image: '/images/blog/raise-second-child-1.png'
 slug: raise-second-child
 topic: family
 ---
@@ -15,7 +16,7 @@ When you have your first kid, everything is exciting and new. You try to create 
 
 But with the second child, it's different. The first child is already walking, talking, and demanding attention, so naturally, your focus gets split.
 
-Also, it’s just not as thrilling the second time around. You've already done the cafe hopping and home tidying exercises with the first kid. Your creative juices run dry by the time the second one comes along.
+Also, it's just not as thrilling the second time around. You've already done the cafe hopping and home tidying exercises with the first kid. Your creative juices run dry by the time the second one comes along.
 
 Then there's tolerance—this one's tough to admit but true.
 

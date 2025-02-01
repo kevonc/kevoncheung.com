@@ -8,13 +8,13 @@ export default function Custom404() {
       robotsDirective="noindex, follow"
     >
       <div className="min-h-[60vh] flex flex-col items-center justify-center text-center px-4">
-        <h1 className="text-3xl font-bold mb-4">Oops! Page not found.</h1>
-        <h2 className="text-xl font-semibold mb-12">Do you want to get a fresh start?</h2>
+        <h1 className="text-3xl font-bold mb-4">I'm sorry! This page doesn't exist anymore.</h1>
+        <h2 className="text-xl font-semibold mb-12">Why don't you start here instead?</h2>
         <Link 
-          href="/" 
+          href="/about" 
           className="bg-green-600 text-white px-6 py-3 rounded-lg hover:bg-green-700 transition-colors"
         >
-          Go back
+          Click for surprise
         </Link>
       </div>
     </Layout>

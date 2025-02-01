@@ -2,6 +2,7 @@
 title: Truth behind a successful product launch
 date: '2021-03-21'
 meta_description: ''
+meta_image: '/images/blog/product-launch-1.jpeg'
 slug: product-launch
 topic: entrepreneurship
 ---

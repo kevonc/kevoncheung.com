@@ -2,6 +2,7 @@
 title: Avoid doing what you like
 date: '2021-06-19'
 meta_description: ''
+meta_image: '/images/blog/avoid-doing-what-you-like-1.png'
 slug: avoid-doing-what-you-like
 topic: entrepreneurship
 ---

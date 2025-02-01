@@ -2,6 +2,7 @@
 title: Writing a newsletter no one will unsubscribe
 date: '2021-02-08'
 meta_description: ''
+meta_image: '/images/blog/newsletter-1.jpeg'
 slug: newsletter
 topic: marketing
 ---

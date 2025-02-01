@@ -2,6 +2,7 @@
 title: How to decide between starting a community and a cohort-based course
 date: '2021-05-01'
 meta_description: ''
+meta_image: '/images/blog/community-or-cohort-based-course-1.jpeg'
 slug: community-or-cohort-based-course
 topic: teaching-learning
 ---

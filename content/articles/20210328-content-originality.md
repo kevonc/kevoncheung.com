@@ -2,6 +2,7 @@
 title: Who wrote about this idea first? Does it matter?
 date: '2021-03-28'
 meta_description: ''
+meta_image: '/images/blog/content-originality-1.jpeg'
 slug: content-originality
 topic: marketing
 ---
