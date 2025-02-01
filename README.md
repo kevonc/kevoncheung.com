@@ -36,7 +36,7 @@ Content Management System:
 npm run dev
 ```
 
-## How to deploy
+## How to deploy to Vercel directly
 
 ```bash
 vercel deploy --prod

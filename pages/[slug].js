@@ -63,7 +63,8 @@ export default function Post({ content, frontmatter }) {
 export async function getStaticPaths() {
   const files = fs.readdirSync(path.join('content', 'articles'))
 
-  const paths = files
+  // Get all article slugs
+  const slugs = files
     .filter(filename => filename !== '_categories.md')
     .map(filename => {
       const markdownWithMeta = fs.readFileSync(
@@ -74,13 +75,14 @@ export async function getStaticPaths() {
       const { data: frontmatter } = matter(markdownWithMeta)
       const slug = frontmatter.slug || filename.replace('.md', '')
 
-      return {
-        params: {
-          slug
-        }
-      }
+      return slug
     })
-    .filter(path => path.params.slug)
+    .filter(Boolean)
+
+  // Create paths for direct routes only
+  const paths = slugs.map(slug => ({
+    params: { slug }
+  }))
 
   return {
     paths,
