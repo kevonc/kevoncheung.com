@@ -23,7 +23,11 @@ export default function Post({ content, frontmatter }) {
   }, []) // Run once when component mounts
 
   return (
-    <Layout title={frontmatter.title}>
+    <Layout 
+      title={frontmatter.title}
+      metaImage={frontmatter.meta_image}
+      metaDescription={frontmatter.meta_description}
+    >
       <div className="max-w-3xl mx-auto">
         <article>
           <header className="mb-10">
