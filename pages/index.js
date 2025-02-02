@@ -60,7 +60,7 @@ export default function Home({ posts, projects, homeContent, homeTitle }) {
         </div>
 
         {/* Subscription Section */}
-        <div className="bg-[#16423c] rounded-xl -mx-4 sm:-mx-6 md:-mx-8 lg:-mx-16 xl:-mx-24 2xl:-mx-32 px-4 sm:px-6 md:px-8 lg:px-16 xl:px-24 2xl:px-32 py-16 mb-24">
+        <div className="bg-[#16423c] rounded-xl -mx-0.6 sm:-mx-6 md:-mx-8 lg:-mx-16 xl:-mx-24 2xl:-mx-32 px-6 sm:px-8 md:px-10 lg:px-16 xl:px-24 2xl:px-32 py-16 mb-24">
           <div className="max-w-3xl mx-auto text-white">
             <h2 className="text-white mt-0 mb-4">Subscribe to hear from me</h2>
             <p className="text-lg mb-2">You'll get my latest ideas, learnings, and even frustrations directly in your inbox. I'd be happy to connect with you over email too.</p>
