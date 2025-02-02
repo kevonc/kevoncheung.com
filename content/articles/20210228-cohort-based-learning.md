@@ -1,7 +1,7 @@
 ---
-title: Will cohort-based learning be the future?
+title: Why cohort-based learning is the future of education
 date: '2021-02-28'
-meta_description: ''
+meta_description: 'Explore why cohort-based courses are revolutionizing online education. Learn the benefits of collaborative learning and why traditional courses fall short.'
 meta_image: '/images/blog/cohort-based-learning-1.jpeg'
 slug: cohort-based-learning
 topic: teaching-learning

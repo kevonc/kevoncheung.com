@@ -1,7 +1,7 @@
 ---
 title: 'My guide attracted 2,100 people in 3 days. Here''s what I learned'
 date: '2021-02-15'
-meta_description: ''
+meta_description: 'The journey of creating a comprehensive guide on building in public. Get insights into the research, writing process, and launch strategy.'
 meta_image: '/images/blog/bip-guide-behind-the-scenes-1.jpeg'
 slug: bip-guide-behind-the-scenes
 topic: marketing

@@ -1,7 +1,7 @@
 ---
 title: What it takes to raise a second child
 date: '2024-05-21'
-meta_description: ''
+meta_description: 'Discover why second children often get less attention and what parents can do about it. A honest reflection on the challenges of raising multiple kids and finding balance.'
 meta_image: '/images/blog/raise-second-child-1.png'
 slug: raise-second-child
 topic: family

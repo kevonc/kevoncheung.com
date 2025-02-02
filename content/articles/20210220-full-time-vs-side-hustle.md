@@ -1,11 +1,12 @@
 ---
-title: Go all in full-time or start as a side hustle?
+title: Start a business full-time or as a side hustle
 date: '2021-02-20'
-meta_description: ''
+meta_description: 'Comparing the pros and cons of full-time entrepreneurship versus side hustles. Learn how to make the right choice for your situation and set yourself up for sustainable success.'
 meta_image: '/images/blog/full-time-vs-side-hustle-1.jpeg'
 slug: full-time-vs-side-hustle
 topic: entrepreneurship
 ---
+
 <img src="/images/blog/full-time-vs-side-hustle-1.jpeg" alt="Image 1 from full-time-vs-side-hustle" class="cover-image" />
 
 

@@ -1,7 +1,7 @@
 ---
 title: How I grew my Twitter audience with human psychology
 date: '2021-01-30'
-meta_description: ''
+meta_description: 'Proven strategies to grow your Twitter following authentically. Learn how to create engaging content and build meaningful connections on Twitter.'
 meta_image: '/images/blog/growing-twitter-audience-1.jpeg'
 slug: growing-twitter-audience
 topic: marketing

@@ -1,8 +1,8 @@
 ---
-title: You have to avoid these user interview traps
+title: Got to avoid these user interview traps
 date: '2020-11-22'
-meta_description: ''
-meta_image: '/images/blog/user-interview-traps-1.png'
+meta_description: 'Avoid critical mistakes in customer research interviews. Learn proven techniques to gather authentic feedback and validate your business ideas effectively.'
+meta_image: '/images/blog/user-interview-traps-1.jpeg'
 slug: user-interview-traps
 topic: entrepreneurship
 ---

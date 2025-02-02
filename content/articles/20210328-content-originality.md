@@ -1,7 +1,7 @@
 ---
 title: Who wrote about this idea first? Does it matter?
 date: '2021-03-28'
-meta_description: ''
+meta_description: 'Exploring the myth of content originality and why it should not hold creators back. Learn why true value comes from your unique perspective and consistent delivery rather than being first.'
 meta_image: '/images/blog/content-originality-1.jpeg'
 slug: content-originality
 topic: marketing

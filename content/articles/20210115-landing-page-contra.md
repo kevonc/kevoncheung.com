@@ -1,8 +1,8 @@
 ---
-title: 'Landing page optimization: Contra.com'
+title: Landing page teardown - Contra
 date: '2021-01-15'
-meta_description: ''
-meta_image: '/images/blog/landing-page-contra-1.png'
+meta_description: 'Detailed analysis of Contra's landing page design and copy. Learn key principles for creating high-converting landing pages from this real-world example.'
+meta_image: '/images/blog/landing-page-contra-1.jpeg'
 slug: landing-page-contra
 topic: marketing
 ---

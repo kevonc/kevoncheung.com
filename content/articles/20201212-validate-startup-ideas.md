@@ -1,7 +1,7 @@
 ---
 title: How to validate your startup idea
 date: '2020-12-12'
-meta_description: ''
+meta_description: 'A practical framework for evaluating and validating startup ideas before investing resources. Learn eight essential questions to assess market potential and business viability.'
 meta_image: '/images/blog/validate-startup-ideas-1.png'
 slug: validate-startup-ideas
 topic: entrepreneurship

@@ -1,8 +1,8 @@
 ---
-title: Decoding best copywriting examples from Dave Gerhardt
+title: Copywriting lessons from Dave Gerhardt
 date: '2020-11-18'
-meta_description: ''
-meta_image: '/images/blog/copywriting-dave-gerhardt-1.png'
+meta_description: 'Master the art of persuasive copywriting with insights from marketing expert Dave Gerhardt. Learn proven techniques to write compelling content that converts.'
+meta_image: '/images/blog/copywriting-dave-gerhardt-1.jpeg'
 slug: copywriting-dave-gerhardt
 topic: marketing
 ---

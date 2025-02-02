@@ -1,7 +1,7 @@
 ---
-title: 'How I grew to $2,000/mo as a nobody then got rid of it'
+title: 'How I grew to $2,000/mo then got rid of it'
 date: '2021-09-27'
-meta_description: ''
+meta_description: 'A creator's journey from $0 to $2,000 monthly revenue and the surprising decision to let it go. Learn about the real challenges of monetizing as a content creator.'
 meta_image: '/images/blog/creators-monetization-challenges-1.jpeg'
 slug: creators-monetization-challenges
 topic: entrepreneurship

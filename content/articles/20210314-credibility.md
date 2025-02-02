@@ -1,10 +1,10 @@
 ---
-title: What's stopping you from making money online
+title: How to build credibility online
 date: '2021-03-14'
-meta_description: ''
+meta_description: 'Build genuine authority and trust in your online presence. Learn effective ways to establish credibility without appearing salesy or inauthentic.'
 meta_image: '/images/blog/credibility-1.jpeg'
 slug: credibility
-topic: entrepreneurship
+topic: marketing
 ---
 <img src="/images/blog/credibility-1.jpeg" alt="A person looking at their laptop screen, contemplating online business" class="cover-image" />
 

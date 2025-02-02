@@ -1,7 +1,7 @@
 ---
-title: How to decide between starting a community and a cohort-based course
+title: Community vs Cohort-based Course - Which one should you build?
 date: '2021-05-01'
-meta_description: ''
+meta_description: 'Compare communities and cohort-based courses to find the right fit for your business. Practical insights on choosing between these two popular creator models.'
 meta_image: '/images/blog/community-or-cohort-based-course-1.jpeg'
 slug: community-or-cohort-based-course
 topic: teaching-learning

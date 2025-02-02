@@ -1,7 +1,7 @@
 ---
 title: How to get more time in your day
 date: '2020-12-22'
-meta_description: ''
+meta_description: 'Practical strategies to maximize your daily productivity without burning out. Learn effective techniques like task batching and automation to create more time for what matters.'
 meta_image: '/images/blog/get-more-time-1.jpeg'
 slug: get-more-time
 topic: life-lessons

@@ -1,7 +1,7 @@
 ---
-title: How I build a new community using data and feedback
+title: How I build a new community from scratch
 date: '2021-04-04'
-meta_description: ''
+meta_description: 'Step-by-step guide to launching and growing an online community. Learn proven strategies for building engagement and fostering meaningful connections.'
 meta_image: '/images/blog/build-new-community-1.jpeg'
 slug: build-new-community
 topic: entrepreneurship

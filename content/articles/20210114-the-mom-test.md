@@ -1,7 +1,7 @@
 ---
 title: Why I forced my whole team to read The Mom Test
 date: '2021-01-14'
-meta_description: ''
+meta_description: 'Master the art of customer interviews using The Mom Test method. Learn how to get honest feedback and validate your business ideas effectively.'
 meta_image: '/images/blog/the-mom-test-1.jpeg'
 slug: the-mom-test
 topic: entrepreneurship
@@ -41,7 +41,7 @@ And this is why <a href="https://amzn.to/2JZ9AUT">the Mom Test</a> is such an im
 
 Here is a quick description of what the Mom Test is about:
 
-“They say you shouldn’t ask your mom whether your business is a good idea, because she loves you and will lie to you. This is technically true, but it misses the point. You shouldn’t ask anyone if your business is a good idea. It’s a bad question and everyone will lie to you at least a little. As a matter of fact, it’s not their responsibility to tell you the truth. It’s your responsibility to find it and it’s worth doing right .”
+"They say you shouldn't ask your mom whether your business is a good idea, because she loves you and will lie to you. This is technically true, but it misses the point. You shouldn't ask anyone if your business is a good idea. It's a bad question and everyone will lie to you at least a little. As a matter of fact, it's not their responsibility to tell you the truth. It's your responsibility to find it and it's worth doing right ."
 
 In the current world we live in, most people are nice to each other. They don't mean to lie, but because saying your idea sounds interesting and giving your words of affirmation are what you want to hear (plus it doesn't cost them money), it is simply easier to do so.
 

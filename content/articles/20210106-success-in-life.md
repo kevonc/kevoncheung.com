@@ -1,7 +1,7 @@
 ---
 title: How to be successful in life
 date: '2021-01-06'
-meta_description: ''
+meta_description: 'A personal reflection on defining true success beyond societal standards. Explore what meaningful achievement looks like in both life and career.'
 meta_image: '/images/blog/success-in-life-1.jpeg'
 slug: success-in-life
 topic: life-lessons
