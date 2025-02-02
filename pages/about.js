@@ -14,7 +14,13 @@ export default function About({ content, frontmatter }) {
           className="prose prose-lg max-w-none"
           dangerouslySetInnerHTML={{ __html: content }}
         />
+
         <Appearances appearances={frontmatter.appearances} />
+        
+        <div className="prose prose-lg max-w-none mt-16">
+          <h2>📩 Contact</h2>
+          <p>If you want to reach out to me, you can write to k@kevoncheung.com.</p>
+        </div>
       </div>
     </Layout>
   )

@@ -62,7 +62,7 @@ export default function Home({ posts, projects, homeContent, homeTitle }) {
         {/* Subscription Section */}
         <div className="bg-[#16423c] rounded-xl -mx-0.6 sm:-mx-6 md:-mx-8 lg:-mx-16 xl:-mx-24 2xl:-mx-32 px-6 sm:px-8 md:px-10 lg:px-16 xl:px-24 2xl:px-32 py-16 mb-24">
           <div className="max-w-3xl mx-auto text-white">
-            <h2 className="text-white mt-0 mb-4">Subscribe to hear from me</h2>
+            <h2 className="text-white mt-0 mb-4">Subscribe to bounce ideas with me</h2>
             <p className="text-lg mb-2">You'll get my <span class="italic">latest ideas, learnings, and even frustrations</span> directly in your inbox. I love connecting over email too.</p>
             <div id="subscription-container">
               {/* Kit script will be embedded here */}
@@ -72,7 +72,7 @@ export default function Home({ posts, projects, homeContent, homeTitle }) {
 
         {/* Articles Section */}
         <div className="mb-24">
-          <h2>Articles</h2>
+          <h2>Latest Articles</h2>
           <div className="space-y-8">
             {posts.map((post) => (
               <article key={post.slug}>
