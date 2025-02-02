@@ -9,13 +9,30 @@ import { marked } from 'marked'
 export default function Home({ posts, projects, homeContent, homeTitle }) {
   useEffect(() => {
     // Load Senja widget script
-    const script = document.createElement('script')
-    script.src = 'https://widget.senja.io/widget/34da712b-077a-4a62-8332-fb04f41dfe74/platform.js'
-    script.async = true
-    document.body.appendChild(script)
+    const senjaScript = document.createElement('script')
+    senjaScript.src = 'https://widget.senja.io/widget/34da712b-077a-4a62-8332-fb04f41dfe74/platform.js'
+    senjaScript.async = true
+    document.body.appendChild(senjaScript)
+
+    // Remove any existing Kit script first
+    const existingScript = document.querySelector('script[data-uid="e610788a6b"]')
+    if (existingScript) {
+      existingScript.remove()
+    }
+
+    // Create and add the Kit script
+    const kitScript = document.createElement('script')
+    kitScript.src = 'https://smallschool.kit.com/e610788a6b/index.js'
+    kitScript.async = true
+    kitScript.setAttribute('data-uid', 'e610788a6b')
+    document.getElementById('subscription-container').appendChild(kitScript)
 
     return () => {
-      document.body.removeChild(script)
+      document.body.removeChild(senjaScript)
+      const script = document.querySelector('script[data-uid="e610788a6b"]')
+      if (script) {
+        script.remove()
+      }
     }
   }, [])
 
@@ -39,6 +56,17 @@ export default function Home({ posts, projects, homeContent, homeTitle }) {
               alt="Kevon Cheung" 
               className="w-full h-full object-cover"
             />
+          </div>
+        </div>
+
+        {/* Subscription Section */}
+        <div className="bg-[#16423c] rounded-xl -mx-4 sm:-mx-6 md:-mx-8 lg:-mx-16 xl:-mx-24 2xl:-mx-32 px-4 sm:px-6 md:px-8 lg:px-16 xl:px-24 2xl:px-32 py-16 mb-24">
+          <div className="max-w-3xl mx-auto text-white">
+            <h2 className="text-white mt-0 mb-4">Subscribe to hear from me</h2>
+            <p className="text-lg mb-2">You'll get my latest ideas, learnings, and even frustrations directly in your inbox. I'd be happy to connect with you over email too.</p>
+            <div id="subscription-container">
+              {/* Kit script will be embedded here */}
+            </div>
           </div>
         </div>
 

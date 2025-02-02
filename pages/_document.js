@@ -8,7 +8,6 @@ export default function Document() {
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon.ico" />
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon.ico" />
         <link rel="shortcut icon" href="/favicon.ico" />
-        <script async src="https://smallschool.kit.com/fca4203871/index.js"></script>
       </Head>
       <body>
         <Main />
