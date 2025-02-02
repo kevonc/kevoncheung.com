@@ -56,7 +56,7 @@ Just like education, I also never imagined myself being a family-oriented person
 
 Lydia and I met in 2016. I often joke that it was "wife at first sight". I was at that stage of my life and the right person showed up. We got married in 2019 and now live a busy life with our two daughters. 
 
-I love spending a tremendous amount of time with my family - the bonding, growing, and enriching. I find human growth to be quite fascinating because it is not linear and straightforward, maybe that's why I'm drawn to learning and parenting.
+I'm a GirlDad and I love spending a tremendous amount of time with my family - the bonding, growing, and enriching. I find human growth to be quite fascinating because it is not linear and straightforward, maybe that's why I'm drawn to learning and parenting.
 
 We're just a simple family prioritizing happiness and basic values.
 
