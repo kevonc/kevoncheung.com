@@ -29,6 +29,10 @@ Content Management System:
 - Appearances (title, image, link)
 
 
+## Create new article
+
+1. Create a new markdown file in the `content/articles` folder
+2. git add, git commit, git push
 
 ## How to run
 

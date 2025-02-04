@@ -1,5 +1,20 @@
 {
   "redirects": [
     { "source": "/blog/:slug", "destination": "/:slug", "permanent": true }
+  ],
+  "headers": [
+    {
+      "source": "/robots.txt",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/plain"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600"
+        }
+      ]
+    }
   ]
 } 
