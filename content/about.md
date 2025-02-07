@@ -69,12 +69,12 @@ I like to run - flat or trail. I like to play tennis and now golf too. I enjoy t
 
 ## 📚 Books That Shaped Me
 
-- [Life Is What You Make It]([text](https://amzn.to/3PSW2bO)) by Peter Buffett
-- [Pour Your Heart Into It]([text](https://www.amazon.com/Pour-Your-Heart-Into-Starbucks-ebook/dp/B00JJ9GD9A)) by Howard Schultz
-- [Delivering Happiness]([text](https://www.amazon.com/Delivering-Happiness-Profits-Passion-Purpose-ebook/dp/B00FOT936Y)) by Tony Hsieh
+- [Life Is What You Make It](https://amzn.to/3PSW2bO) by Peter Buffett
+- [Pour Your Heart Into It](https://www.amazon.com/Pour-Your-Heart-Into-Starbucks-ebook/dp/B00JJ9GD9A) by Howard Schultz
+- [Delivering Happiness](https://www.amazon.com/Delivering-Happiness-Profits-Passion-Purpose-ebook/dp/B00FOT936Y) by Tony Hsieh
 - [The E-Myth Revisited](https://amzn.to/4hAYxvr) by Michael E. Gerber
 
 ## 🗞 Articles That Shaped Me
 
-- [How to Start a Blog that Changes Your Life]([text](https://www.nateliason.com/blog/start-a-blog?ref=kevoncheung.com)) by Nat Eliason
+- [How to Start a Blog that Changes Your Life](https://www.nateliason.com/blog/start-a-blog?ref=kevoncheung.com) by Nat Eliason
 - [The Ladders of Wealth Creation](https://nathanbarry.com/wealth-creation/?ref=kevoncheung.com) by Nathan Barry

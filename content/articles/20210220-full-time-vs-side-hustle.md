@@ -10,7 +10,7 @@ topic: entrepreneurship
 <img src="/images/blog/full-time-vs-side-hustle-1.jpeg" alt="Image 1 from full-time-vs-side-hustle" class="cover-image" />
 
 
-Thanks to the launch of my <a href="https://publiclab.co/building-in-public">Building in Public Definitive Guide</a>, I've received a number of questions from readers.
+Thanks to the launch of my <a href="https://smallschool.is/build-in-public">Building in Public Definitive Guide</a>, I've received a number of questions from readers.
 
 One question is ***"What do you think about going full-time indie hacker vs. side hustle? I know I want to run my own business in the future."***
 
@@ -50,7 +50,7 @@ You need time to build relationships with the right people. You need time to <a 
 
 Back then doing it full-time, I only gave myself 6 weeks to prove myself. That wasn't enough time.
 
-Now that I understand it takes time, I've given myself a slow start. It has been 3 months since I first started and I still haven't made a dollar, and I'm okay with it. Because <a href="/bip-guide-bts">my results from launching my guide</a> showed me that I'm on the right track.
+Now that I understand it takes time, I've given myself a slow start. It has been 3 months since I first started and I still haven't made a dollar, and I'm okay with it. Because <a href="/bip-guide-behind-the-sceness">my results from launching my guide</a> showed me that I'm on the right track.
 
 ## Can you see clearly?
 

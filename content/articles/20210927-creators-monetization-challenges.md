@@ -38,7 +38,7 @@ In the 3rd cohort in Jul 2021, it made $1,868. Honestly, it wasn't bad at all! 
 
 The other product was Public Lab, the paid community on Building in Public. I haven't been able to strengthen the value proposition and do much marketing for it, but it still has close to 50 paid members for $267.5MRR.
 
-Together, <a href="/jul-2021-income-report">they made up $2K+ in revenue in Jul 2021.</a>
+Together, <a href="/jul-2021">they made up $2K+ in revenue in Jul 2021.</a>
 
 ## If working, what happened?
 You would think that it must be the competition that caused me to stop these products. Nope!
@@ -65,7 +65,7 @@ Okay, it seems like the Notion template product is the best thing to work on.
 
 Not yet! ‚ùå
 
-In my <a href="/aug-2021-income-report">August income report</a>, I talked about how an info product can make good revenue, and then depending on whether you have a sales funnel in place, sales can tank pretty badly.
+In my <a href="/aug-2021">August income report</a>, I talked about how an info product can make good revenue, and then depending on whether you have a sales funnel in place, sales can tank pretty badly.
 
 Time factor is important, but I also look at a few things:
 

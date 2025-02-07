@@ -9,7 +9,7 @@ topic: entrepreneurship
 <img src="/images/blog/first-code-academy-company-culture-1.png" alt="Image 1 from first-code-academy-company-culture" class="cover-image" />
 
 
-Ever since Michelle and I read Tony Hsieh's <a href="https://www.amazon.com/Delivering-Happiness-Profits-Passion-Purpose-ebook/dp/B00FOT936Y/ref=sr_1_1?crid=1TRCXJAQWAGAW&dib=eyJ2IjoiMSJ9.eoIe9s1pcFh0YqRh6Kw0OtG9d7hdihkmOr4_IUEw-oUFweLg_MAOAnuPM9VzyN-HPx64kxCeN2xIM0oWx7cKALGJQ8bghgrOgRI8d1qvDbUEPcCE028tC7UtRkPXk-qLVDNzlq5D9rH9q9xSHwsQ3YnN0UENZ5GKVmRri8ie16VozQwhF0QWbFF8hRB7NDzFS-b5oRX6dOV4U7dhx19zhDGdS8MygnPlL6bwaNEnqqE.28MoVh9GQXNTzaAFoUXpraO37EjwpZO-Z34-g6b02oY&dib_tag=se&keywords=Delivering+Happiness&qid=1729487595&sprefix=delivering+happiness%2Caps%2C296&sr=8-1">Delivering Happiness</a>, we have been intrigued by the way Tony runs Zappos and how culture plays a major role in the building of the shoe empire.
+Ever since Michelle and I read Tony Hsieh's <a href="https://www.amazon.com/Delivering-Happiness-Profits-Passion-Purpose-ebook/dp/B00FOT936Y">Delivering Happiness</a>, we have been intrigued by the way Tony runs Zappos and how culture plays a major role in the building of the shoe empire.
 
 Nowadays, a respectable company is not represented by its huge revenue or operating margin, a more convincing way of measuring is through its impact on the world and its employee's happiness.
 
