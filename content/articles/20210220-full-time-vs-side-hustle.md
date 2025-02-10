@@ -50,7 +50,7 @@ You need time to build relationships with the right people. You need time to <a 
 
 Back then doing it full-time, I only gave myself 6 weeks to prove myself. That wasn't enough time.
 
-Now that I understand it takes time, I've given myself a slow start. It has been 3 months since I first started and I still haven't made a dollar, and I'm okay with it. Because <a href="/bip-guide-behind-the-sceness">my results from launching my guide</a> showed me that I'm on the right track.
+Now that I understand it takes time, I've given myself a slow start. It has been 3 months since I first started and I still haven't made a dollar, and I'm okay with it. Because <a href="/bip-guide-behind-the-scenes">my results from launching my guide</a> showed me that I'm on the right track.
 
 ## Can you see clearly?
 
