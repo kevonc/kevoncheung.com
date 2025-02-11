@@ -30,7 +30,7 @@ export default function HirePage() {
           <div className="flex-1 max-w-2xl">
             <h1 className="text-4xl mb-6">You want a personal brand, but you don't have the time—or the know-how.</h1>
             
-            <div className="space-y-6 text-lg">
+            <div className="space-y-6 text-lg mb-10">
               <p>You're a CEO or entrepreneur, amazing at what you do. You want to share your ideas, help more people, and build up your influence.</p>
               <p>But the reality is that trust requires content, and content requires time. And between running a business and living your life, that's the one thing you don't have.</p>
               <p>That's where I come in. <span className="font-bold">I'll be your marketing right-hand</span>, making it easy to build a personal brand — <span className="font-bold">with minimal effort on your part and maximum impact you'll wake up excited for.</span></p>
