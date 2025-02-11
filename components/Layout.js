@@ -70,6 +70,7 @@ export default function Layout({ children, title, metaDescription, metaImage, ro
               <ul className="flex items-center space-x-8 list-none p-0 m-0">
                 <li className="m-0"><Link href="/about" className="nav-link">About</Link></li>
                 <li className="m-0"><Link href="/now" className="nav-link">Now</Link></li>
+                <li className="m-0"><Link href="/hire-me" className="nav-link">Hire Me</Link></li>
                 <li className="m-0"><Link href="/articles" className="nav-link">Articles</Link></li>
                 <li className="m-0"><Link href="https://www.smallschool.is/newsletter" className="nav-link">Newsletter</Link></li>
               </ul>
@@ -101,6 +102,15 @@ export default function Layout({ children, title, metaDescription, metaImage, ro
                         onClick={() => setIsMenuOpen(false)}
                       >
                         Now
+                      </Link>
+                    </li>
+                    <li>
+                      <Link 
+                        href="/hire-me" 
+                        className="nav-link block py-1.5"
+                        onClick={() => setIsMenuOpen(false)}
+                      >
+                        Hire Me
                       </Link>
                     </li>
                     <li>
