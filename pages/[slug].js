@@ -96,7 +96,7 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({ params: { slug } }) {
   // Check if this is a special route that should be handled by other pages
-  if (['blog', 'about', 'now'].includes(slug)) {
+  if (['about', 'now', 'hire-me'].includes(slug)) {
     return {
       notFound: true
     }
