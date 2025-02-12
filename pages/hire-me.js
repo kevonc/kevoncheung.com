@@ -55,9 +55,9 @@ export default function HirePage() {
           <p>Many people will tell you how to build a personal brand. Me? I've actually done it. I started from scratch, attracted a loyal audience, and taught thousands — by being myself, not by chasing trends.</p>
           <ol>
             <li>I wrote the <a href="https://smallschool.is/build-in-public">Build in Public guide</a> that has been read by 50,000 entrepreneurs</li>
-            <li>I wrote and self-published <a href="https://findjoyinchaos.com/">Find Joy in Chaos</a> with 4.9/5 rating</li>
+            <li>I wrote and self-published <a href="https://findjoyinchaos.com/">Find Joy in Chaos</a> with a 4.9/5 rating</li>
             <li>I created and taught 500+ students personally with <a href="https://smallschool.is/build-in-public-mastery">Build in Public Mastery</a></li>
-
+            <li>I helped Ali Abdaal build an AI course that was taught to 1,000+ students over a weekend</li>
           </ol>
           <p>I'm not a fan of those personal brands that throw out authoritative posts just to squeeze cash from their followers. I show up for purpose, genuine influence, and building something that truly resonates.</p>
           <p>And what sets me apart? I bring a unique blend of skills: marketing (built my own brand — telling relatable stories), operations (former COO — creating well-oiled systems), and tech (ex-software engineer — leveraging AI to do more & do it better).</p>
@@ -65,13 +65,17 @@ export default function HirePage() {
 
           <h2>How you can work with me</h2>
           
-          <div className="grid md:grid-cols-2 gap-8 mt-8">
+          <div className="max-w-3xl mx-auto">
             {/* Full-Time Option */}
             <div className="border border-[#16423c]/20 rounded-xl p-8 flex flex-col">
-              <div className="text-4xl font-bold mb-2">FULL-TIME</div>
-              <p className="text-gray-600 mb-8">Fully committed to your brand</p>
+              <div className="flex items-center justify-center gap-4 mb-2">
+                <span className="text-4xl font-bold">FULL-TIME</span>
+                <span className="text-gray-500">or</span>
+                <span className="text-4xl font-bold">FRACTIONAL</span>
+              </div>
+              <p className="text-gray-600 mb-8 text-center">Starts at $4,000 per month</p>
 
-              <p className="text-[#16423c]">We'll strategize the best marketing plans to execute, for example:</p>
+              <p className="text-[#16423c]">Together we'll strategize the best marketing plans to execute, for example:</p>
               
               <div className="space-y-4 flex-grow">
                 <div className="flex items-start gap-2">
@@ -80,7 +84,7 @@ export default function HirePage() {
                     alt="Leaf icon" 
                     className="w-[15px] h-[15px] text-[#16423c] mt-1 shrink-0 leaf-icon"
                   />
-                  <span>Interviewing you to create content that reflects your philosophies</span>
+                  <span>Interviewing you regularly to create content that reflects your philosophies</span>
                 </div>
                 <div className="flex items-start gap-2">
                   <img 
@@ -89,6 +93,14 @@ export default function HirePage() {
                     className="w-[15px] h-[15px] text-[#16423c] mt-1 shrink-0 leaf-icon"
                   />
                   <span>Finding and collaborating with the right partners to elevate your brand</span>
+                </div>
+                <div className="flex items-start gap-2">
+                  <img 
+                    src="/images/leaf-icon.png" 
+                    alt="Leaf icon" 
+                    className="w-[15px] h-[15px] text-[#16423c] mt-1 shrink-0 leaf-icon"
+                  />
+                  <span>Creating and executing your content and build-in-public strategy on social media and email</span>
                 </div>
                 <div className="flex items-start gap-2">
                   <img 
@@ -112,39 +124,6 @@ export default function HirePage() {
                     alt="Leaf icon" 
                     className="w-[15px] h-[15px] text-[#16423c] mt-1 shrink-0 leaf-icon"
                   />
-                  <span>A lot more as I'm part of your team!</span>
-                </div>
-              </div>
-
-              <a href="https://tally.so/r/nWK4VN">
-                <button href="https://tally.so/r/nWK4VN" className="mt-8 w-full bg-[#16423c] text-white rounded-lg py-3 px-6 font-semibold hover:bg-[#16423c]/90 transition-colors">
-                  Get In Touch
-                </button>
-              </a>
-            </div>
-
-            {/* Fractional Option */}
-            <div className="border border-[#16423c]/20 rounded-xl p-8 flex flex-col">
-              <div className="text-4xl font-bold mb-2">FRACTIONAL</div>
-              <p className="text-gray-600 mb-8">Starts at $4,000 per month</p>
-
-              <p className="text-[#16423c]">We'll craft a fractional plan with the highest ROI for you, for example:</p>
-              
-              <div className="space-y-4 flex-grow">
-                <div className="flex items-start gap-2">
-                  <img 
-                    src="/images/leaf-icon.png" 
-                    alt="Leaf icon" 
-                    className="w-[15px] h-[15px] text-[#16423c] mt-1 shrink-0 leaf-icon"
-                  />
-                  <span>Creating and executing your content and build-in-public strategy on social media and email</span>
-                </div>
-                <div className="flex items-start gap-2">
-                  <img 
-                    src="/images/leaf-icon.png" 
-                    alt="Leaf icon" 
-                    className="w-[15px] h-[15px] text-[#16423c] mt-1 shrink-0 leaf-icon"
-                  />
                   <span>Generating momentum for your next product launch</span>
                 </div>
                 <div className="flex items-start gap-2">
@@ -161,13 +140,13 @@ export default function HirePage() {
                     alt="Leaf icon" 
                     className="w-[15px] h-[15px] text-[#16423c] mt-1 shrink-0 leaf-icon"
                   />
-                  <span>I only take on a max of 2 roles at a time, hence there is a starting rate</span>
+                  <span>A lot more as I'm part of your team!</span>
                 </div>
               </div>
 
               <a href="https://tally.so/r/nWK4VN">
-                <button className="mt-8 w-full bg-white text-[#16423c] border-2 border-[#16423c] rounded-lg py-3 px-6 font-semibold hover:bg-[#16423c]/5 transition-colors">
-                  Get In Touch
+                <button href="https://tally.so/r/nWK4VN" className="mt-8 w-full bg-[#16423c] text-white rounded-lg py-3 px-6 font-semibold hover:bg-[#16423c]/90 transition-colors">
+                  Let's chat about working together
                 </button>
               </a>
             </div>
