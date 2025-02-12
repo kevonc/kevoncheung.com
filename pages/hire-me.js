@@ -60,7 +60,7 @@ export default function HirePage() {
             <li>I helped Ali Abdaal build an AI course that was taught to 1,000+ students over a weekend</li>
           </ol>
           <p>I'm not a fan of those personal brands that throw out authoritative posts just to squeeze cash from their followers. I show up for purpose, genuine influence, and building something that truly resonates.</p>
-          <p>And what sets me apart? I bring a unique blend of skills: marketing (built my own brand — telling relatable stories), operations (former COO — creating well-oiled systems), and tech (ex-software engineer — leveraging AI to do more & do it better).</p>
+          <p>I bring a unique blend of skills: marketing (built my own brand — telling relatable stories), operations (former COO — creating well-oiled systems), and tech (ex-software engineer — leveraging AI to do more & do it better).</p>
           <p>But I'm not for every entrepreneur or CEO, and that's okay. I'm sharing this so you can decide if I'm the right person to connect you to the world.</p>
 
           <h2>How you can work with me</h2>
