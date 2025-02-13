@@ -73,7 +73,7 @@ export default function HirePage() {
                 <span className="text-gray-500">or</span>
                 <span className="text-4xl font-bold">FRACTIONAL</span>
               </div>
-              <p className="text-gray-600 mb-8 text-center">Starts at $4,000 per month</p>
+              <p className="text-gray-600 mb-8 text-center">Starts at $3,600 per month</p>
 
               <p className="text-[#16423c]">Together we'll strategize the best marketing plans to execute, for example:</p>
               
