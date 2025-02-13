@@ -13,6 +13,26 @@ function getStaticPages() {
   const pagesDirectory = path.join(process.cwd(), 'pages')
   const staticPages = []
 
+  // Add paths to exclude from sitemap
+  const excludePaths = ['/[slug]', '/topic/*']  // Only exclude dynamic article pages and topic pages
+
+  function shouldIncludePath(path) {
+    // Always include root and static pages
+    if (path === '/' || ['/about', '/now', '/articles', '/hire-me', '/unsubscribed'].includes(path)) {
+      return true
+    }
+    
+    return !excludePaths.some(excludePath => {
+      // Convert glob pattern to regex
+      const regexPattern = excludePath
+        .replace('[slug]', '[^/]+')  // Convert [slug] to match any characters except /
+        .replace('*', '.*')          // Convert * to .*
+        .replace(/\//g, '\\/')       // Escape forward slashes
+      const regex = new RegExp(`^${regexPattern}$`)
+      return regex.test(path)
+    })
+  }
+
   function scanDirectory(directory) {
     const files = fs.readdirSync(directory)
     
@@ -26,18 +46,21 @@ function getStaticPages() {
           scanDirectory(filePath)
         }
       } else {
-        // Only process .js, .jsx, .ts, .tsx files
-        if (file.match(/\.(js|jsx|ts|tsx)$/)) {
+        // Only process .js, .jsx, .ts, .tsx files that are not special Next.js files
+        if (file.match(/\.(js|jsx|ts|tsx)$/) && 
+            !file.startsWith('_') && 
+            !file.startsWith('api') && 
+            file !== 'sitemap.xml.js') {
+          
           // Convert file path to route
           let route = filePath
             .replace(pagesDirectory, '')
             .replace(/\.(js|jsx|ts|tsx)$/, '')
-            .replace(/\/index$/, '')
-            .replace(/\[.*\]/, '*') // Replace dynamic routes with *
+            .replace(/\/index$/, '') || '/'
           
-          // Skip special Next.js files and API routes
-          if (!file.startsWith('_') && !file.startsWith('api') && file !== 'sitemap.xml.js') {
-            staticPages.push(route || '/')
+          // Skip excluded paths and add valid routes
+          if (shouldIncludePath(route)) {
+            staticPages.push(route)
           }
         }
       }
