@@ -63,7 +63,30 @@ export default function HirePage() {
           <p>I bring a unique blend of skills: marketing (built my own brand — telling relatable stories), operations (former COO — creating well-oiled systems), and tech (ex-software engineer — leveraging AI to do more & do it better).</p>
           <p>But I'm not for every entrepreneur or CEO, and that's okay. I'm sharing this so you can decide if I'm the right person to connect you to the world.</p>
 
-          <h2>How you can work with me</h2>
+          {/* What You Can Achieve Section */}
+          <h2 className="text-3xl font-bold mt-16 mb-8">What You Can Achieve</h2>
+          <p className="mb-8">Imagine this:</p>
+          <ul className="space-y-4 mb-8 list-disc pl-5">
+            <li>
+              <strong>Your social presence is growing</strong> — new people discover you every day, and your ideas spread far beyond your existing network.
+            </li>
+            <li>
+              <strong>Your email list is thriving</strong>, giving you direct access to an engaged audience who actually wants to hear from you.
+            </li>
+            <li>
+              <strong>Your audience trusts you</strong> — they're not just followers; they're supporters who value your insights and want to be part of your journey.
+            </li>
+            <li>
+              <strong>Your knowledge is packaged into digital products</strong> — a book, a course, or other resources that spread your methodology and create real impact.
+            </li>
+            <li>
+              <strong>Your personal brand is recognized and respected</strong> — people love what you stand for and are eager to support you in meaningful ways.
+            </li>
+          </ul>
+          <p className="mb-16">This is what happens when you have the right marketing partner in your corner. Let's build something that lasts.</p>
+
+          {/* How you can work with me Section */}
+          <h2 className="text-3xl font-bold mb-8">How you can work with me</h2>
           
           <div className="max-w-3xl mx-auto">
             {/* Full-Time Option */}
