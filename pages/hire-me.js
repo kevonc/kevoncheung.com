@@ -57,7 +57,7 @@ export default function HirePage() {
             <li>I wrote the <a href="https://smallschool.is/build-in-public">Build in Public guide</a> that has been read by 50,000 entrepreneurs</li>
             <li>I wrote and self-published <a href="https://findjoyinchaos.com/">Find Joy in Chaos</a> with a 4.9/5 rating</li>
             <li>I created and taught 500+ students personally with <a href="https://smallschool.is/build-in-public-mastery">Build in Public Mastery</a></li>
-            <li>I helped Ali Abdaal build an AI course that was taught to 1,000+ students over a weekend</li>
+            <li>I helped <a href="https://www.smallschool.is/blog/ali-abdaal-course">Ali Abdaal build a course</a> that was taught to 1,000+ students over a weekend</li>
           </ol>
           <p>I'm not a fan of those personal brands that throw out authoritative posts just to squeeze cash from their followers. I show up for purpose, genuine influence, and building something that truly resonates.</p>
           <p>I bring a unique blend of skills: marketing (built my own brand — telling relatable stories), operations (former COO — creating well-oiled systems), and tech (ex-software engineer — leveraging AI to do more & do it better).</p>
