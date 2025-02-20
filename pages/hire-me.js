@@ -91,7 +91,7 @@ export default function HirePage() {
           <div className="max-w-3xl mx-auto">
             {/* Full-Time Option */}
             <div className="border border-[#16423c]/20 rounded-xl p-8 flex flex-col">
-              <div className="flex flex-col md:flex-row items-center justify-center gap-4 mb-2">
+              <div className="flex flex-col md:flex-row items-center justify-center gap-4 mb-10">
                 <span className="text-4xl font-bold">FULL-TIME</span>
                 <span className="text-gray-500">or</span>
                 <span className="text-4xl font-bold">FRACTIONAL</span>
