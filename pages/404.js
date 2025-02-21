@@ -1,6 +1,5 @@
 import Layout from '../components/Layout'
 import Link from 'next/link'
-import Image from 'next/image'
 
 export default function Custom404() {
   return (
@@ -9,12 +8,10 @@ export default function Custom404() {
       robotsDirective="noindex, follow"
     >
       <div className="min-h-[60vh] flex flex-col items-center justify-center text-center px-4">
-        <Image 
+        <img 
           src="/images/404.gif" 
           alt="404" 
-          width={480}
-          height={252}
-          className="mb-10" 
+          className="mb-10 w-[480px] h-[252px]" 
         />
         <h1 className="text-3xl font-bold mb-4">Aye aye! What you're looking for doesn't seem to exist anymore.</h1>
         <h2 className="text-xl font-semibold mb-12">Maybe start here instead?</h2>
