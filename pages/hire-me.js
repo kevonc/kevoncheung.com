@@ -63,7 +63,6 @@ export default function HirePage() {
           <p>I'm not a fan of those personal brands that throw out authoritative posts just to squeeze cash from their followers. I show up for purpose, genuine influence, and building something that truly resonates.</p>
           <p>I bring a unique blend of skills: marketing (built my own brand — telling relatable stories), operations (former COO — creating well-oiled systems), and tech (ex-software engineer — leveraging AI to do more & do it better).</p>
           <p>But I'm not for every entrepreneur or CEO, and that's okay. I'm sharing this so you can decide if I'm the right person to connect you to the world.</p>
-I’ve grown an engaged audience of 40,000+ across platforms and email
           {/* What You Can Achieve Section */}
           <h2 className="text-3xl font-bold mt-16 mb-8">What You Can Achieve</h2>
           <p className="mb-8">Imagine this:</p>
