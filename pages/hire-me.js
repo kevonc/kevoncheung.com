@@ -68,6 +68,7 @@ export default function HirePage() {
           <h2 className="text-3xl font-bold mt-16 mb-8">What the right fit looks like</h2>
           <p className="mb-8"></p>
           <ol>
+            <li>You're a founder/CEO running a business and you want to build a personal brand</li>
             <li>You know a strong personal brand can bring you new networking, fundraising, and recruiting opportunities etc.</li>
             <li>You prefer an educational approach, not the traditional PR way (getting media coverage and awards)</li>
             <li>You have a heart to share your stories and help people</li>
