@@ -78,3 +78,4 @@ I like to run - flat or trail. I like to play tennis and now golf too. I enjoy t
 
 - [How to Start a Blog that Changes Your Life](https://www.nateliason.com/blog/start-a-blog?ref=kevoncheung.com) by Nat Eliason
 - [The Ladders of Wealth Creation](https://nathanbarry.com/wealth-creation/?ref=kevoncheung.com) by Nathan Barry
+- [Spiky Point of View](https://www.weskao.com/blog/spiky-point-of-view-lets-get-a-little-controversial?ref=kevoncheung.com) by Wes Kao
