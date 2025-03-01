@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import Layout from '../components/Layout'
+import Head from 'next/head'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
 
@@ -69,22 +69,38 @@ export default function LinkInBio() {
   }
 
   return (
-    <Layout 
-      title="Kevon Cheung | Link in Bio"
-      metaDescription="Connect with Kevon Cheung and explore his work on personal branding, building in public, and creating a business around yourself."
-      robotsDirective="index, follow"
-    >
+    <>
+      <Head>
+        <title>Kevon Cheung | Link in Bio</title>
+        <meta name="description" content="Connect with Kevon Cheung and explore his work on personal branding, building in public, and creating a business around yourself." />
+        <meta name="robots" content="index, follow" />
+        
+        {/* Open Graph meta tags */}
+        <meta property="og:title" content="Kevon Cheung | Link in Bio" />
+        <meta property="og:description" content="Connect with Kevon Cheung and explore his work on personal branding, building in public, and creating a business around yourself." />
+        <meta property="og:image" content="https://kevoncheung.com/images/meta-image.png" />
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="Kevon Cheung" />
+        
+        {/* Twitter Card meta tags */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@MeetKevon" />
+        <meta name="twitter:title" content="Kevon Cheung | Link in Bio" />
+        <meta name="twitter:description" content="Connect with Kevon Cheung and explore his work on personal branding, building in public, and creating a business around yourself." />
+        <meta name="twitter:image" content="https://kevoncheung.com/images/meta-image.png" />
+      </Head>
+      
       <div className="min-h-screen bg-gradient-to-b from-white to-gray-50">
         {/* Hero Section */}
         <motion.section 
-          className="min-h-[90vh] flex flex-col items-center justify-center text-center px-6 py-20 relative overflow-hidden"
+          className="min-h-[70vh] flex flex-col items-center justify-center text-center px-6 py-6 relative overflow-hidden"
           initial="hidden"
           animate={isLoaded ? "visible" : "hidden"}
           variants={containerVariants}
         >
           {/* Background animated elements */}
           <motion.div 
-            className="absolute top-20 left-10 w-20 h-20 rounded-full bg-green-100 opacity-30"
+            className="absolute top-5 left-10 w-20 h-20 rounded-full bg-green-100 opacity-30"
             animate={{
               x: [0, 30, 0],
               y: [0, -30, 0],
@@ -121,13 +137,63 @@ export default function LinkInBio() {
           />
           
           <motion.div 
-            className="relative w-48 h-48 mb-8 overflow-hidden rounded-full border-4 border-[#16423c] shadow-xl"
+            className="relative mb-8"
             variants={itemVariants}
           >
-            <img 
-              src="/images/linkinbio-kevon.jpg" 
-              alt="Kevon Cheung" 
-              className="w-full h-full object-cover"
+            <motion.div 
+              className="absolute -z-10 w-full h-full bg-gradient-to-br from-green-100 to-blue-100 rounded-lg opacity-70 blur-md"
+              animate={{
+                scale: [1, 1.05, 1],
+                rotate: [0, 1, 0],
+              }}
+              transition={{
+                repeat: Infinity,
+                duration: 5,
+                ease: "easeInOut"
+              }}
+            />
+            <div className="relative">
+              <motion.img 
+                src="/images/linkinbio-kevon.png" 
+                alt="Kevon Cheung" 
+                className="w-80 h-auto relative z-10"
+                whileHover={{ 
+                  scale: 1.05,
+                  transition: { duration: 0.3 }
+                }}
+                animate={{
+                  y: [0, -5, 0],
+                }}
+                transition={{
+                  repeat: Infinity,
+                  duration: 4,
+                  ease: "easeInOut"
+                }}
+              />
+              <motion.div 
+                className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-48 h-1 bg-gradient-to-r from-transparent via-[#16423c] to-transparent rounded-full z-20"
+                animate={{
+                  width: ["40%", "50%", "40%"],
+                  opacity: [0.5, 0.7, 0.5],
+                }}
+                transition={{
+                  repeat: Infinity,
+                  duration: 3,
+                  ease: "easeInOut"
+                }}
+              />
+            </div>
+            <motion.div 
+              className="absolute -bottom-4 -right-4 -z-10 w-32 h-32 bg-yellow-100 rounded-full opacity-60 blur-sm"
+              animate={{
+                scale: [1, 1.1, 1],
+              }}
+              transition={{
+                repeat: Infinity,
+                duration: 4,
+                ease: "easeInOut",
+                delay: 1
+              }}
             />
           </motion.div>
           <motion.h1 
@@ -136,30 +202,64 @@ export default function LinkInBio() {
           >
             Hey, I'm Kevon 👋
           </motion.h1>
-          <motion.p 
-            className="text-xl md:text-2xl text-gray-700 max-w-2xl mb-8"
+          <motion.p
+            className="text-xl md:text-2xl text-gray-600 mb-16"
             variants={itemVariants}
           >
-            You're intrigued enough to click and see this page - thank you! But always get to know the person if you're going to read a lot from him.
+            This is a tagline for first impression. Write something here
           </motion.p>
-          <motion.div variants={itemVariants}>
-            <Link 
-              href="https://kevoncheung.com?ref=linkinbio-page"
-              className="bg-[#16423c] text-white px-8 py-4 rounded-lg text-lg font-medium hover:bg-[#0f2e2a] transition-all transform hover:scale-105 hover:shadow-lg"
-            >
-              Get to really know me
-            </Link>
-          </motion.div>
+          
+          {/* Bouncing arrow at the bottom */}
           <motion.div 
-            className="absolute bottom-10 left-1/2 transform -translate-x-1/2"
+            className="absolute bottom-8 left-1/2 transform -translate-x-1/2"
             initial={{ y: 0 }}
             animate={{ y: [0, 10, 0] }}
-            transition={{ repeat: Infinity, duration: 1.5 }}
+            transition={{ 
+              repeat: Infinity, 
+              duration: 1.5,
+              ease: "easeInOut" 
+            }}
           >
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M12 5V19M12 19L5 12M12 19L19 12" stroke="#16423c" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
             </svg>
           </motion.div>
+        </motion.section>
+
+        {/* Introduction Section */}
+        <motion.section 
+          className="py-16 px-6 bg-white"
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          viewport={{ once: true, margin: "-100px" }}
+          transition={{ duration: 0.6 }}
+        >
+          <div className="max-w-4xl mx-auto text-center">
+            <motion.p 
+              className="text-xl md:text-2xl text-gray-700 max-w-2xl mx-auto mb-8"
+              initial={{ y: 20, opacity: 0 }}
+              whileInView={{ y: 0, opacity: 1 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.2, duration: 0.5 }}
+            >
+              You're intrigued enough to click and see this page - thank you! But always get to know the person if you're going to read a lot from him.
+            </motion.p>
+            <motion.div
+              initial={{ y: 20, opacity: 0 }}
+              whileInView={{ y: 0, opacity: 1 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.4, duration: 0.5 }}
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+            >
+              <Link 
+                href="https://kevoncheung.com?ref=linkinbio-page"
+                className="bg-[#16423c] text-white px-8 py-4 rounded-lg text-lg font-medium hover:bg-[#0f2e2a] transition-all transform hover:shadow-lg"
+              >
+                Get to really know me
+              </Link>
+            </motion.div>
+          </div>
         </motion.section>
 
         {/* Section 2 - Personal Brand */}
@@ -518,9 +618,9 @@ export default function LinkInBio() {
           </div>
         </motion.section>
 
-        {/* Footer */}
-        <footer className="py-10 px-6 text-center">
-          <div className="social-links flex justify-center gap-4 mb-6">
+        {/* Social links - keeping minimal social links at bottom */}
+        <div className="py-8 px-6 text-center">
+          <div className="social-links flex justify-center gap-4">
             <motion.a 
               href="https://x.com/MeetKevon" 
               target="_blank" 
@@ -532,16 +632,6 @@ export default function LinkInBio() {
               <img src="/images/social/x.svg" alt="X" width="24" height="24" />
             </motion.a>
             <motion.a 
-              href="https://www.linkedin.com/in/kevoncheung/" 
-              target="_blank" 
-              rel="noopener noreferrer" 
-              className="social-icon"
-              whileHover={{ scale: 1.2, rotate: 5 }}
-              whileTap={{ scale: 0.9 }}
-            >
-              <img src="/images/social/linkedin.svg" alt="LinkedIn" width="24" height="24" />
-            </motion.a>
-            <motion.a 
               href="https://www.instagram.com/kevon/" 
               target="_blank" 
               rel="noopener noreferrer" 
@@ -551,30 +641,9 @@ export default function LinkInBio() {
             >
               <img src="/images/social/instagram.svg" alt="Instagram" width="24" height="24" />
             </motion.a>
-            <motion.a 
-              href="https://www.threads.net/@kevon" 
-              target="_blank" 
-              rel="noopener noreferrer" 
-              className="social-icon"
-              whileHover={{ scale: 1.2, rotate: 5 }}
-              whileTap={{ scale: 0.9 }}
-            >
-              <img src="/images/social/threads.svg" alt="Threads" width="24" height="24" />
-            </motion.a>
-            <motion.a 
-              href="https://www.youtube.com/@MeetKevon" 
-              target="_blank" 
-              rel="noopener noreferrer" 
-              className="social-icon"
-              whileHover={{ scale: 1.2, rotate: 5 }}
-              whileTap={{ scale: 0.9 }}
-            >
-              <img src="/images/social/youtube.svg" alt="YouTube" width="24" height="24" />
-            </motion.a>
           </div>
-          <p className="text-gray-600">© {new Date().getFullYear()} Kevon Cheung. All rights reserved.</p>
-        </footer>
+        </div>
       </div>
-    </Layout>
+    </>
   )
 } 
