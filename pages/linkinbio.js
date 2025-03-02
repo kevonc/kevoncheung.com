@@ -143,7 +143,6 @@ export default function LinkInBio() {
             <motion.div 
               className="absolute -z-10 w-full h-full bg-gradient-to-br from-green-100 to-blue-100 rounded-lg opacity-70 blur-md"
               animate={{
-                scale: [1, 1.05, 1],
                 rotate: [0, 1, 0],
               }}
               transition={{
@@ -157,10 +156,6 @@ export default function LinkInBio() {
                 src="/images/linkinbio-kevon.png" 
                 alt="Kevon Cheung" 
                 className="w-80 h-auto relative z-10"
-                whileHover={{ 
-                  scale: 1.05,
-                  transition: { duration: 0.3 }
-                }}
                 animate={{
                   y: [0, -5, 0],
                 }}
@@ -171,14 +166,14 @@ export default function LinkInBio() {
                 }}
               />
               <motion.div 
-                className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-48 h-1 bg-gradient-to-r from-transparent via-[#16423c] to-transparent rounded-full z-20"
+                className="absolute bottom-0 transform -translate-x-1/2 w-80 bg-[#16423c] rounded-full z-20"
+                style={{ height: "4px" }}
                 animate={{
-                  width: ["40%", "50%", "40%"],
-                  opacity: [0.5, 0.7, 0.5],
+                  y: [0, -5, 0],
                 }}
                 transition={{
                   repeat: Infinity,
-                  duration: 3,
+                  duration: 4,
                   ease: "easeInOut"
                 }}
               />
@@ -186,7 +181,7 @@ export default function LinkInBio() {
             <motion.div 
               className="absolute -bottom-4 -right-4 -z-10 w-32 h-32 bg-yellow-100 rounded-full opacity-60 blur-sm"
               animate={{
-                scale: [1, 1.1, 1],
+                rotate: [0, 3, 0],
               }}
               transition={{
                 repeat: Infinity,
@@ -262,157 +257,314 @@ export default function LinkInBio() {
           </div>
         </motion.section>
 
-        {/* Section 2 - Personal Brand */}
+        {/* Section 2 - Personal Brand - Creative Redesign with BG Removed Image */}
         <motion.section 
-          className="py-20 px-6"
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          viewport={{ once: true, margin: "-100px" }}
-          transition={{ duration: 0.6 }}
-        >
-          <div className="max-w-4xl mx-auto">
-            <div className="flex flex-col md:flex-row items-center gap-10">
-              <motion.div 
-                className="md:w-1/2 relative"
-                initial={{ x: -50, opacity: 0 }}
-                whileInView={{ x: 0, opacity: 1 }}
-                viewport={{ once: true }}
-                transition={{ delay: 0.2, duration: 0.5 }}
-              >
-                <motion.div
-                  className="absolute -top-4 -left-4 w-full h-full bg-[#16423c]/10 rounded-lg"
-                  initial={{ rotate: 0 }}
-                  whileInView={{ rotate: -3 }}
-                  viewport={{ once: true }}
-                  transition={{ delay: 0.3, duration: 0.5 }}
-                />
-                <motion.img 
-                  src="/images/projects/find-joy-in-chaos.png" 
-                  alt="Find Joy in Chaos Book" 
-                  className="w-full h-auto rounded-lg shadow-xl relative z-10"
-                  whileHover={{ 
-                    rotate: 2,
-                    scale: 1.03,
-                    transition: { duration: 0.3 }
-                  }}
-                />
-              </motion.div>
-              <motion.div 
-                className="md:w-1/2"
-                initial={{ x: 50, opacity: 0 }}
-                whileInView={{ x: 0, opacity: 1 }}
-                viewport={{ once: true }}
-                transition={{ delay: 0.4, duration: 0.5 }}
-              >
-                <h2 className="text-3xl font-bold mb-6 text-[#16423c]">Magnetic Personal Brand</h2>
-                <p className="text-lg text-gray-700 mb-8">
-                  If you're doing great work but feel like the world doesn't have a way to see it, you need a magnetic personal brand. I started from zero and I wrote down the initial steps in this book to help you.
-                </p>
-                <motion.div
-                  whileHover={{ scale: 1.05 }}
-                  whileTap={{ scale: 0.95 }}
-                >
-                  <Link 
-                    href="https://findjoyinchaos.com?ref=linkinbio-page"
-                    className="inline-block bg-[#16423c] text-white px-6 py-3 rounded-lg font-medium hover:bg-[#0f2e2a] transition-all hover:shadow-lg"
-                  >
-                    Build yourself a brand
-                  </Link>
-                </motion.div>
-              </motion.div>
-            </div>
-          </div>
-        </motion.section>
-
-        {/* Section 3 - Build in Public */}
-        <motion.section 
-          className="py-20 px-6 bg-gray-50 relative overflow-hidden"
+          className="py-24 px-6 relative overflow-hidden bg-gradient-to-br from-[#f8f4e9] to-[#f0e9d6]"
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           viewport={{ once: true, margin: "-100px" }}
           transition={{ duration: 0.6 }}
         >
           {/* Decorative elements */}
-          <motion.div 
-            className="absolute top-10 right-10 w-32 h-32 rounded-full bg-green-100 opacity-20"
-            variants={floatVariants}
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true }}
-          />
-          <motion.div 
-            className="absolute bottom-10 left-10 w-24 h-24 rounded-full bg-blue-100 opacity-20"
-            variants={floatVariants}
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true }}
-          />
+          <div className="absolute inset-0 overflow-hidden">
+            <motion.div 
+              className="absolute top-20 left-10 w-40 h-40 rounded-full bg-[#16423c]/5"
+              animate={{
+                y: [0, 15, 0],
+                x: [0, 10, 0],
+              }}
+              transition={{
+                repeat: Infinity,
+                duration: 8,
+                ease: "easeInOut"
+              }}
+            />
+            <motion.div 
+              className="absolute bottom-20 right-10 w-60 h-60 rounded-full bg-yellow-400/5"
+              animate={{
+                y: [0, -20, 0],
+                x: [0, -15, 0],
+              }}
+              transition={{
+                repeat: Infinity,
+                duration: 10,
+                ease: "easeInOut"
+              }}
+            />
+          </div>
           
-          <div className="max-w-4xl mx-auto">
-            <div className="flex flex-col md:flex-row-reverse items-center gap-10">
+          <div className="max-w-6xl mx-auto relative">
+            {/* Heading with creative styling */}
+            <div className="text-center mb-16">
+              <motion.div
+                initial={{ y: -20, opacity: 0 }}
+                whileInView={{ y: 0, opacity: 1 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.5 }}
+              >
+                <h2 className="text-4xl md:text-5xl font-bold text-[#16423c] inline-block relative">
+                  Magnetic Personal Brand
+                  <motion.div 
+                    className="absolute -bottom-3 left-0 h-1 bg-yellow-400"
+                    initial={{ width: 0 }}
+                    whileInView={{ width: "100%" }}
+                    viewport={{ once: true }}
+                    transition={{ delay: 0.3, duration: 0.8 }}
+                  />
+                </h2>
+              </motion.div>
+            </div>
+            
+            {/* New layout with background-removed image */}
+            <div className="flex flex-col lg:flex-row items-center gap-12">
+              {/* Left side - Image with floating elements */}
+              <motion.div
+                className="lg:w-1/2 relative"
+                initial={{ opacity: 0, scale: 0.9 }}
+                whileInView={{ opacity: 1, scale: 1 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.7 }}
+              >
+                <div className="relative">
+                  {/* Floating circles behind image */}
+                  <motion.div 
+                    className="absolute top-1/4 -left-10 w-32 h-32 rounded-full bg-yellow-400/20 z-0"
+                    animate={{
+                      scale: [1, 1.1, 1],
+                    }}
+                    transition={{
+                      repeat: Infinity,
+                      duration: 5,
+                      ease: "easeInOut"
+                    }}
+                  />
+                  <motion.div 
+                    className="absolute bottom-10 -right-5 w-24 h-24 rounded-full bg-[#16423c]/10 z-0"
+                    animate={{
+                      scale: [1, 1.15, 1],
+                    }}
+                    transition={{
+                      repeat: Infinity,
+                      duration: 6,
+                      ease: "easeInOut",
+                      delay: 1
+                    }}
+                  />
+                  
+                  {/* Main image with floating animation */}
+                  <motion.div
+                    className="relative z-10"
+                    animate={{
+                      y: [0, -10, 0],
+                    }}
+                    transition={{
+                      repeat: Infinity,
+                      duration: 5,
+                      ease: "easeInOut"
+                    }}
+                    whileHover={{ 
+                      scale: 1.03,
+                      transition: { duration: 0.3 }
+                    }}
+                  >
+                    <img 
+                      src="/images/linkinbio-findjoyinchaos-bgremoved.png" 
+                      alt="Find Joy in Chaos Book" 
+                      className="max-w-full h-auto mx-auto"
+                    />
+                    
+                    {/* Subtle shadow beneath the floating image */}
+                    <div className="absolute -bottom-5 left-1/2 transform -translate-x-1/2 w-3/4 h-4 bg-black/10 blur-md rounded-full z-0" />
+                  </motion.div>
+                </div>
+              </motion.div>
+              
+              {/* Right side - Content */}
+              <motion.div
+                className="lg:w-1/2"
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.5 }}
+              >
+                {/* Main text */}
+                <motion.p 
+                  className="text-xl text-gray-700 mb-8"
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ delay: 0.2, duration: 0.5 }}
+                >
+                  If you're doing great work but feel like the world doesn't have a way to see it, you need a magnetic personal brand. I started from zero and I wrote down the initial steps in this book to help you.
+                </motion.p>
+                
+                {/* CTA Button */}
+                <motion.div
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ delay: 0.4, duration: 0.5 }}
+                  className="relative"
+                >
+                  <motion.div
+                    whileHover={{ scale: 1.05 }}
+                    whileTap={{ scale: 0.95 }}
+                    className="relative z-10"
+                  >
+                    <Link 
+                      href="https://findjoyinchaos.com?ref=linkinbio-page"
+                      className="inline-block bg-[#16423c] text-white px-8 py-4 rounded-lg font-medium hover:bg-[#0f2e2a] transition-all hover:shadow-lg"
+                    >
+                      Build yourself a brand
+                    </Link>
+                  </motion.div>
+                  <div className="absolute -bottom-2 -right-2 w-full h-full bg-yellow-400 rounded-lg opacity-50 z-0" />
+                </motion.div>
+              </motion.div>
+            </div>
+          </div>
+        </motion.section>
+
+        {/* Section 3 - Show Your Work - Redesigned */}
+        <motion.section 
+          className="py-24 relative overflow-hidden"
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          viewport={{ once: true, margin: "-100px" }}
+          transition={{ duration: 0.6 }}
+        >
+          {/* Background image with overlay */}
+          <div className="absolute inset-0 z-0">
+            <img 
+              src="/images/linkinbio-showyourwork.jpg" 
+              alt="Show Your Work" 
+              className="w-full h-full object-cover object-center"
+            />
+            <div className="absolute inset-0 bg-gradient-to-b from-black/50 to-black/80 z-10" />
+          </div>
+          
+          <div className="container mx-auto px-6 relative z-20">
+            <div className="max-w-4xl mx-auto text-center">
+              <motion.h2 
+                className="text-4xl md:text-5xl font-bold mb-8 text-white"
+                initial={{ y: -30, opacity: 0 }}
+                whileInView={{ y: 0, opacity: 1 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.5 }}
+              >
+                Show Your Work
+              </motion.h2>
+              
               <motion.div 
-                className="md:w-1/2 relative"
-                initial={{ x: 50, opacity: 0 }}
-                whileInView={{ x: 0, opacity: 1 }}
+                className="w-24 h-1 bg-yellow-400 mx-auto mb-12"
+                initial={{ width: 0 }}
+                whileInView={{ width: "6rem" }}
+                viewport={{ once: true }}
+                transition={{ delay: 0.3, duration: 0.5 }}
+              />
+              
+              <motion.p 
+                className="text-xl md:text-2xl text-white mb-12 max-w-2xl mx-auto"
+                initial={{ y: 30, opacity: 0 }}
+                whileInView={{ y: 0, opacity: 1 }}
                 viewport={{ once: true }}
                 transition={{ delay: 0.2, duration: 0.5 }}
               >
-                <motion.div
-                  className="absolute -top-4 -right-4 w-full h-full bg-[#16423c]/10 rounded-lg"
-                  initial={{ rotate: 0 }}
-                  whileInView={{ rotate: 3 }}
-                  viewport={{ once: true }}
-                  transition={{ delay: 0.3, duration: 0.5 }}
-                />
-                <motion.img 
-                  src="/images/projects/small-school.png" 
-                  alt="Build in Public Guide" 
-                  className="w-full h-auto rounded-lg shadow-xl relative z-10"
-                  whileHover={{ 
-                    rotate: -2,
-                    scale: 1.03,
-                    transition: { duration: 0.3 }
-                  }}
-                />
-              </motion.div>
-              <motion.div 
-                className="md:w-1/2"
-                initial={{ x: -50, opacity: 0 }}
-                whileInView={{ x: 0, opacity: 1 }}
+                You're intrigued enough to click and see this page - thank you! But always get to know the person if you're going to read a lot from him.
+              </motion.p>
+              
+              <motion.div
+                initial={{ y: 30, opacity: 0 }}
+                whileInView={{ y: 0, opacity: 1 }}
                 viewport={{ once: true }}
                 transition={{ delay: 0.4, duration: 0.5 }}
+                className="mb-16"
               >
-                <h2 className="text-3xl font-bold mb-6 text-[#16423c]">Show Your Work</h2>
-                <p className="text-lg text-gray-700 mb-8">
-                  Then you have to regularly show up to market yourself. The best way is to show your work. Why? Because it is the easiest and most impactful stories you can tell. People love them.
-                </p>
                 <motion.div
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                 >
                   <Link 
                     href="https://smallschool.is/build-in-public?ref=linkinbio-page"
-                    className="inline-block bg-[#16423c] text-white px-6 py-3 rounded-lg font-medium hover:bg-[#0f2e2a] transition-all hover:shadow-lg"
+                    className="inline-block bg-[#16423c] text-white px-10 py-5 rounded-lg text-lg font-medium hover:bg-[#0f2e2a] transition-all hover:shadow-xl border-2 border-transparent hover:border-yellow-400"
                   >
                     Build things in public
                   </Link>
                 </motion.div>
               </motion.div>
+              
+              {/* Animated arrow */}
+              <motion.div 
+                className="opacity-70 mx-auto"
+                animate={{ 
+                  y: [0, 10, 0],
+                }}
+                transition={{
+                  repeat: Infinity,
+                  duration: 2,
+                  ease: "easeInOut"
+                }}
+              >
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M12 5V19M12 19L5 12M12 19L19 12" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                </svg>
+              </motion.div>
             </div>
           </div>
         </motion.section>
 
-        {/* Section 4 - Business Around You */}
+        {/* Section 4 - Business Around You - Redesigned with full-width layout */}
         <motion.section 
-          className="py-20 px-6 relative overflow-hidden"
+          className="py-0 relative overflow-hidden min-h-screen flex items-center"
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           viewport={{ once: true, margin: "-100px" }}
           transition={{ duration: 0.6 }}
         >
+          {/* Full-width background image with overlay */}
+          <div className="absolute inset-0 z-0">
+            <div className="absolute inset-0 bg-gradient-to-r from-[#16423c]/90 to-transparent z-10" />
+            <img 
+              src="/images/linkinbio-bizofyou.jpg" 
+              alt="Business Around You" 
+              className="w-full h-full object-cover object-center"
+            />
+          </div>
+          
+          <div className="container mx-auto px-6 relative z-20">
+            <div className="max-w-2xl ml-8 md:ml-16 lg:ml-24">
+              <motion.div
+                initial={{ x: -50, opacity: 0 }}
+                whileInView={{ x: 0, opacity: 1 }}
+                viewport={{ once: true }}
+                transition={{ delay: 0.2, duration: 0.7 }}
+              >
+                <h2 className="text-4xl md:text-5xl font-bold mb-6 text-white leading-tight">
+                  Your Knowledge,<br />Your Business
+                </h2>
+                <div className="w-24 h-1 bg-yellow-400 mb-8" />
+                <p className="text-xl text-white/90 mb-10 max-w-xl">
+                  Finally, you want to build a business around what you know. If you feel overwhelmed, don't worry. It is about finding the right next thing to work on, step by step.
+                </p>
+                <motion.div
+                  whileHover={{ scale: 1.05 }}
+                  whileTap={{ scale: 0.95 }}
+                  className="inline-block"
+                >
+                  <Link 
+                    href="https://smallschool.is?ref=linkinbio-page"
+                    className="inline-block bg-white text-[#16423c] px-8 py-4 rounded-lg font-medium hover:bg-gray-100 transition-all hover:shadow-lg"
+                  >
+                    Build a business around YOU
+                  </Link>
+                </motion.div>
+              </motion.div>
+            </div>
+          </div>
+          
           {/* Decorative elements */}
           <motion.div 
-            className="absolute top-1/3 left-10 w-20 h-20 rounded-full bg-yellow-100 opacity-20"
+            className="absolute top-1/4 right-1/4 w-24 h-24 rounded-full bg-yellow-400 opacity-20"
             animate={{
               y: [0, 15, 0],
               x: [0, 10, 0],
@@ -424,7 +576,7 @@ export default function LinkInBio() {
             }}
           />
           <motion.div 
-            className="absolute bottom-1/4 right-10 w-16 h-16 rounded-full bg-green-100 opacity-20"
+            className="absolute bottom-1/3 right-1/6 w-16 h-16 rounded-full bg-green-300 opacity-20"
             animate={{
               y: [0, -10, 0],
               x: [0, -15, 0],
@@ -435,59 +587,6 @@ export default function LinkInBio() {
               ease: "easeInOut"
             }}
           />
-          
-          <div className="max-w-4xl mx-auto">
-            <div className="flex flex-col md:flex-row items-center gap-10">
-              <motion.div 
-                className="md:w-1/2 relative"
-                initial={{ x: -50, opacity: 0 }}
-                whileInView={{ x: 0, opacity: 1 }}
-                viewport={{ once: true }}
-                transition={{ delay: 0.2, duration: 0.5 }}
-              >
-                <motion.div
-                  className="absolute -top-4 -left-4 w-full h-full bg-[#16423c]/10 rounded-lg"
-                  initial={{ rotate: 0 }}
-                  whileInView={{ rotate: -3 }}
-                  viewport={{ once: true }}
-                  transition={{ delay: 0.3, duration: 0.5 }}
-                />
-                <motion.img 
-                  src="/images/projects/small-school.png" 
-                  alt="Small School" 
-                  className="w-full h-auto rounded-lg shadow-xl relative z-10"
-                  whileHover={{ 
-                    rotate: 2,
-                    scale: 1.03,
-                    transition: { duration: 0.3 }
-                  }}
-                />
-              </motion.div>
-              <motion.div 
-                className="md:w-1/2"
-                initial={{ x: 50, opacity: 0 }}
-                whileInView={{ x: 0, opacity: 1 }}
-                viewport={{ once: true }}
-                transition={{ delay: 0.4, duration: 0.5 }}
-              >
-                <h2 className="text-3xl font-bold mb-6 text-[#16423c]">Your Knowledge, Your Business</h2>
-                <p className="text-lg text-gray-700 mb-8">
-                  Finally, you want to build a business around what you know. If you feel overwhelmed, don't worry. It is about finding the right next thing to work on, step by step.
-                </p>
-                <motion.div
-                  whileHover={{ scale: 1.05 }}
-                  whileTap={{ scale: 0.95 }}
-                >
-                  <Link 
-                    href="https://smallschool.is?ref=linkinbio-page"
-                    className="inline-block bg-[#16423c] text-white px-6 py-3 rounded-lg font-medium hover:bg-[#0f2e2a] transition-all hover:shadow-lg"
-                  >
-                    Build a business around YOU
-                  </Link>
-                </motion.div>
-              </motion.div>
-            </div>
-          </div>
         </motion.section>
 
         {/* Social Media Section */}
