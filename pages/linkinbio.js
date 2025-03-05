@@ -1,10 +1,16 @@
 import { useState, useEffect } from 'react'
 import Head from 'next/head'
 import Link from 'next/link'
+import Script from 'next/script'
 import { motion } from 'framer-motion'
+import dynamic from 'next/dynamic'
+
+// Client-side only Instagram component
+const InstagramEmbed = dynamic(() => import('../components/InstagramEmbed'), {
+  ssr: false
+})
 
 export default function LinkInBio() {
-  const [instagramPost, setInstagramPost] = useState(null)
   const [isLoaded, setIsLoaded] = useState(false)
 
   useEffect(() => {
@@ -12,18 +18,6 @@ export default function LinkInBio() {
     const timer = setTimeout(() => {
       setIsLoaded(true)
     }, 300)
-
-    // Fetch Instagram posts
-    async function fetchSocialPosts() {
-      try {
-        const igResponse = await fetch('/api/get-latest-instagram-post');
-        const igData = await igResponse.json();
-        setInstagramPost(igData);
-      } catch (error) {
-        console.error('Error fetching social posts:', error);
-      }
-    }
-    fetchSocialPosts();
     
     return () => clearTimeout(timer)
   }, [])
@@ -83,10 +77,11 @@ export default function LinkInBio() {
         <meta name="twitter:title" content="Kevon Cheung | Link in Bio" />
         <meta name="twitter:description" content="Connect with Kevon Cheung and explore his work on personal branding, building in public, and creating a business around yourself." />
         <meta name="twitter:image" content="https://kevoncheung.com/images/meta-image.png" />
-        
-        {/* X Widget Script */}
-        <script async src="https://platform.twitter.com/widgets.js" charSet="utf-8"></script>
       </Head>
+      
+      {/* Social Media Scripts */}
+      <Script src="https://platform.twitter.com/widgets.js" strategy="lazyOnload" />
+      <Script src="//www.instagram.com/embed.js" strategy="lazyOnload" />
       
       <div className="min-h-screen bg-gradient-to-b from-white to-gray-50">
         {/* Hero Section */}
@@ -219,7 +214,7 @@ export default function LinkInBio() {
           </motion.div>
         </motion.section>
 
-        {/* Section 2 - Personal Brand - Creative Redesign with BG Removed Image */}
+        {/* Section 2 - Personal Brand */}
         <motion.section 
           className="py-24 px-6 relative overflow-hidden bg-gradient-to-br from-[#f8f4e9] to-[#f0e9d6]"
           initial={{ opacity: 0 }}
@@ -255,142 +250,144 @@ export default function LinkInBio() {
             />
           </div>
           
-          <div className="max-w-6xl mx-auto relative">
-            {/* New layout with background-removed image */}
-            <div className="flex flex-col lg:flex-row items-center gap-12">
-              {/* Left side - Image with floating elements */}
-              <motion.div
-                className="lg:w-1/2 relative order-2 lg:order-1"
-                initial={{ opacity: 0, scale: 0.9 }}
-                whileInView={{ opacity: 1, scale: 1 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.7 }}
-              >
-                <div className="relative">
-                  {/* Floating circles behind image */}
-                  <motion.div 
-                    className="absolute top-1/4 -left-10 w-32 h-32 rounded-full bg-yellow-400/20 z-0"
-                    animate={{
-                      scale: [1, 1.1, 1],
-                    }}
-                    transition={{
-                      repeat: Infinity,
-                      duration: 5,
-                      ease: "easeInOut"
-                    }}
-                  />
-                  <motion.div 
-                    className="absolute bottom-10 -right-5 w-24 h-24 rounded-full bg-[#16423c]/10 z-0"
-                    animate={{
-                      scale: [1, 1.15, 1],
-                    }}
-                    transition={{
-                      repeat: Infinity,
-                      duration: 6,
-                      ease: "easeInOut",
-                      delay: 1
-                    }}
-                  />
-                  
-                  {/* Main image with floating animation */}
-                  <motion.div
-                    className="relative z-10"
-                    animate={{
-                      y: [0, -10, 0],
-                    }}
-                    transition={{
-                      repeat: Infinity,
-                      duration: 5,
-                      ease: "easeInOut"
-                    }}
-                    whileHover={{ 
-                      scale: 1.03,
-                      transition: { duration: 0.3 }
-                    }}
-                  >
-                    <img 
-                      src="/images/linkinbio-findjoyinchaos-bgremoved.png" 
-                      alt="Find Joy in Chaos Book" 
-                      className="max-w-full h-auto mx-auto"
+          <div className="container mx-auto">
+            <div className="max-w-6xl mx-auto relative">
+              {/* New layout with background-removed image */}
+              <div className="flex flex-col lg:flex-row items-center gap-12">
+                {/* Left side - Image with floating elements */}
+                <motion.div
+                  className="lg:w-1/2 relative order-2 lg:order-1"
+                  initial={{ opacity: 0, scale: 0.9 }}
+                  whileInView={{ opacity: 1, scale: 1 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.7 }}
+                >
+                  <div className="relative">
+                    {/* Floating circles behind image */}
+                    <motion.div 
+                      className="absolute top-1/4 -left-10 w-32 h-32 rounded-full bg-yellow-400/20 z-0"
+                      animate={{
+                        scale: [1, 1.1, 1],
+                      }}
+                      transition={{
+                        repeat: Infinity,
+                        duration: 5,
+                        ease: "easeInOut"
+                      }}
+                    />
+                    <motion.div 
+                      className="absolute bottom-10 -right-5 w-24 h-24 rounded-full bg-[#16423c]/10 z-0"
+                      animate={{
+                        scale: [1, 1.15, 1],
+                      }}
+                      transition={{
+                        repeat: Infinity,
+                        duration: 6,
+                        ease: "easeInOut",
+                        delay: 1
+                      }}
                     />
                     
-                    {/* Subtle shadow beneath the floating image */}
-                    <div className="absolute -bottom-5 left-1/2 transform -translate-x-1/2 w-3/4 h-4 bg-black/10 blur-md rounded-full z-0" />
-                  </motion.div>
-                </div>
-              </motion.div>
-              
-              {/* Right side - Content */}
-              <motion.div
-                className="lg:w-1/2 order-1 lg:order-2"
-                initial={{ opacity: 0 }}
-                whileInView={{ opacity: 1 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.5 }}
-              >
-                {/* Heading with creative styling */}
+                    {/* Main image with floating animation */}
+                    <motion.div
+                      className="relative z-10"
+                      animate={{
+                        y: [0, -10, 0],
+                      }}
+                      transition={{
+                        repeat: Infinity,
+                        duration: 5,
+                        ease: "easeInOut"
+                      }}
+                      whileHover={{ 
+                        scale: 1.03,
+                        transition: { duration: 0.3 }
+                      }}
+                    >
+                      <img 
+                        src="/images/linkinbio-findjoyinchaos-bgremoved.png" 
+                        alt="Find Joy in Chaos Book" 
+                        className="w-full h-auto"
+                      />
+                      
+                      {/* Subtle shadow beneath the floating image */}
+                      <div className="absolute -bottom-5 left-1/2 transform -translate-x-1/2 w-3/4 h-4 bg-black/10 blur-md rounded-full z-0" />
+                    </motion.div>
+                  </div>
+                </motion.div>
+
+                {/* Right side - Content */}
                 <motion.div
-                  initial={{ y: -20, opacity: 0 }}
-                  whileInView={{ y: 0, opacity: 1 }}
+                  className="lg:w-1/2 order-1 lg:order-2"
+                  initial={{ opacity: 0 }}
+                  whileInView={{ opacity: 1 }}
                   viewport={{ once: true }}
                   transition={{ duration: 0.5 }}
-                  className="mb-8"
                 >
-                  <h2 className="text-4xl md:text-5xl font-bold text-[#16423c] inline-block relative">
-                  You're doing amazing work but ...
-                    <motion.div 
-                      className="absolute -bottom-3 left-0 h-1 bg-yellow-400"
-                      initial={{ width: 0 }}
-                      whileInView={{ width: "100%" }}
-                      viewport={{ once: true }}
-                      transition={{ delay: 0.3, duration: 0.8 }}
-                    />
-                  </h2>
-                </motion.div>
-
-                {/* Main text */}
-                <motion.p 
-                  className="text-xl text-gray-700 mb-4"
-                  initial={{ opacity: 0, y: 20 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true }}
-                  transition={{ delay: 0.2, duration: 0.5 }}
-                >
-                  the world doesn't see it. Well, because you've been in private mode. You don't share your stories.
-                </motion.p>
-
-                <motion.p 
-                  className="text-xl text-gray-700 mb-8"
-                  initial={{ opacity: 0, y: 20 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true }}
-                  transition={{ delay: 0.3, duration: 0.5 }}
-                >
-                  It's time to craft a brand that's unique to you.
-                </motion.p>
-                
-                {/* CTA Button */}
-                <motion.div
-                  initial={{ opacity: 0, y: 20 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true }}
-                  transition={{ delay: 0.4, duration: 0.5 }}
-                  className="relative"
-                >
+                  {/* Heading with creative styling */}
                   <motion.div
-                    whileHover={{ scale: 1.05 }}
-                    whileTap={{ scale: 0.95 }}
-                    className="relative z-10"
+                    initial={{ y: -20, opacity: 0 }}
+                    whileInView={{ y: 0, opacity: 1 }}
+                    viewport={{ once: true }}
+                    transition={{ duration: 0.5 }}
+                    className="mb-8"
                   >
-                    <Link 
-                      href="https://findjoyinchaos.com?ref=linkinbio-page"
-                      className="inline-block bg-[#16423c] text-white px-8 py-4 rounded-lg font-medium hover:bg-[#0f2e2a] transition-all hover:shadow-lg"
+                    <h2 className="text-4xl md:text-5xl font-bold text-[#16423c] inline-block relative">
+                    You're doing amazing work but ...
+                      <motion.div 
+                        className="absolute -bottom-3 left-0 h-1 bg-yellow-400"
+                        initial={{ width: 0 }}
+                        whileInView={{ width: "100%" }}
+                        viewport={{ once: true }}
+                        transition={{ delay: 0.3, duration: 0.8 }}
+                      />
+                    </h2>
+                  </motion.div>
+
+                  {/* Main text */}
+                  <motion.p 
+                    className="text-xl text-gray-700 mb-4"
+                    initial={{ opacity: 0, y: 20 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true }}
+                    transition={{ delay: 0.2, duration: 0.5 }}
+                  >
+                    the world doesn't see it. Well, because you've been in private mode. You haven't allowed anyone to see you.
+                  </motion.p>
+
+                  <motion.p 
+                    className="text-xl text-gray-700 mb-8"
+                    initial={{ opacity: 0, y: 20 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true }}
+                    transition={{ delay: 0.3, duration: 0.5 }}
+                  >
+                    It's time to craft a brand that's unique to you.
+                  </motion.p>
+                  
+                  {/* CTA Button */}
+                  <motion.div
+                    initial={{ opacity: 0, y: 20 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true }}
+                    transition={{ delay: 0.4, duration: 0.5 }}
+                    className="relative"
+                  >
+                    <motion.div
+                      whileHover={{ scale: 1.05 }}
+                      whileTap={{ scale: 0.95 }}
+                      className="relative z-10"
                     >
-                      Build yourself a brand
-                    </Link>
+                      <Link 
+                        href="https://findjoyinchaos.com?ref=linkinbio-page"
+                        className="inline-block bg-[#16423c] text-white px-8 py-4 rounded-lg font-medium hover:bg-[#0f2e2a] transition-all hover:shadow-lg"
+                      >
+                        Build yourself a brand
+                      </Link>
+                    </motion.div>
                   </motion.div>
                 </motion.div>
-              </motion.div>
+              </div>
             </div>
           </div>
         </motion.section>
@@ -615,8 +612,10 @@ export default function LinkInBio() {
                 transition={{ delay: 0.2, duration: 0.5 }}
                 whileHover={{ y: -5, transition: { duration: 0.2 } }}
               >
-                <div className="flex items-center mb-4">
-                  <img src="/images/social/x.svg" alt="X" className="w-6 h-6 mr-3" />
+                <div className="flex items-center gap-3 mb-4">
+                  <div className="flex-shrink-0 w-6 h-6 flex items-center justify-center mt-1">
+                    <img src="/images/social/x.svg" alt="X" className="w-full h-full mt-4" />
+                  </div>
                   <h3 className="text-xl font-bold">Latest from X</h3>
                 </div>
                 <div className="min-h-[400px] flex flex-col border border-gray-200 rounded-lg overflow-hidden">
@@ -652,76 +651,23 @@ export default function LinkInBio() {
                 transition={{ delay: 0.4, duration: 0.5 }}
                 whileHover={{ y: -5, transition: { duration: 0.2 } }}
               >
-                <div className="flex items-center mb-4">
-                  <img src="/images/social/instagram.svg" alt="Instagram" className="w-6 h-6 mr-3" />
+                <div className="flex items-center gap-3 mb-4">
+                  <div className="flex-shrink-0 w-6 h-6 flex items-center justify-center mt-1">
+                    <img src="/images/social/instagram.svg" alt="Instagram" className="w-full h-full mt-4" />
+                  </div>
                   <h3 className="text-xl font-bold">Latest from Instagram</h3>
                 </div>
-                <div className="min-h-[200px] flex flex-col border border-gray-200 rounded-lg overflow-hidden">
-                  {instagramPost ? (
-                    <>
-                      <div className="w-full aspect-square bg-gray-100">
-                        <img 
-                          src={instagramPost.media_url} 
-                          alt="Instagram post" 
-                          className="w-full h-full object-cover"
-                        />
-                      </div>
-                      <div className="p-4">
-                        <div className="flex items-center mb-2">
-                          <p className="font-bold mr-1">@{instagramPost.username}</p>
-                          <p className="text-gray-700 truncate">{instagramPost.caption}</p>
-                        </div>
-                        <div className="flex text-gray-500 text-sm">
-                          <span className="mr-4">{instagramPost.likes_count} likes</span>
-                          <span>{instagramPost.comments_count} comments</span>
-                        </div>
-                      </div>
-                    </>
-                  ) : (
-                    <div className="flex items-center justify-center h-full p-4">
-                      <p className="text-gray-500">Loading latest Instagram post...</p>
-                    </div>
-                  )}
-                </div>
-                <div className="mt-4 text-center">
-                  <a 
-                    href="https://www.instagram.com/kevon/" 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                    className="text-[#16423c] font-medium hover:underline"
-                  >
-                    Follow me on Instagram
-                  </a>
+                <div className="min-h-[400px] flex flex-col border border-gray-200 rounded-lg overflow-hidden">
+                  <InstagramEmbed />
                 </div>
               </motion.div>
             </div>
           </div>
         </motion.section>
 
-        {/* Social links - keeping minimal social links at bottom */}
+        {/* Thank you message */}
         <div className="py-8 px-6 text-center">
-          <div className="social-links flex justify-center gap-4">
-            <motion.a 
-              href="https://x.com/MeetKevon" 
-              target="_blank" 
-              rel="noopener noreferrer" 
-              className="social-icon"
-              whileHover={{ scale: 1.2, rotate: 5 }}
-              whileTap={{ scale: 0.9 }}
-            >
-              <img src="/images/social/x.svg" alt="X" width="24" height="24" />
-            </motion.a>
-            <motion.a 
-              href="https://www.instagram.com/kevon/" 
-              target="_blank" 
-              rel="noopener noreferrer" 
-              className="social-icon"
-              whileHover={{ scale: 1.2, rotate: 5 }}
-              whileTap={{ scale: 0.9 }}
-            >
-              <img src="/images/social/instagram.svg" alt="Instagram" width="24" height="24" />
-            </motion.a>
-          </div>
+          <p className="text-gray-600">Thanks for being here — Kevon</p>
         </div>
       </div>
     </>
