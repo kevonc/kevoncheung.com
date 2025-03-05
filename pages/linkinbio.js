@@ -4,7 +4,6 @@ import Link from 'next/link'
 import { motion } from 'framer-motion'
 
 export default function LinkInBio() {
-  const [xPost, setXPost] = useState(null)
   const [instagramPost, setInstagramPost] = useState(null)
   const [isLoaded, setIsLoaded] = useState(false)
 
@@ -14,13 +13,9 @@ export default function LinkInBio() {
       setIsLoaded(true)
     }, 300)
 
-    // Fetch X and Instagram posts
+    // Fetch Instagram posts
     async function fetchSocialPosts() {
       try {
-        const xResponse = await fetch('/api/get-latest-x-post');
-        const xData = await xResponse.json();
-        setXPost(xData);
-
         const igResponse = await fetch('/api/get-latest-instagram-post');
         const igData = await igResponse.json();
         setInstagramPost(igData);
@@ -88,6 +83,9 @@ export default function LinkInBio() {
         <meta name="twitter:title" content="Kevon Cheung | Link in Bio" />
         <meta name="twitter:description" content="Connect with Kevon Cheung and explore his work on personal branding, building in public, and creating a business around yourself." />
         <meta name="twitter:image" content="https://kevoncheung.com/images/meta-image.png" />
+        
+        {/* X Widget Script */}
+        <script async src="https://platform.twitter.com/widgets.js" charSet="utf-8"></script>
       </Head>
       
       <div className="min-h-screen bg-gradient-to-b from-white to-gray-50">
@@ -201,7 +199,7 @@ export default function LinkInBio() {
             className="text-xl md:text-2xl text-gray-600 mb-16"
             variants={itemVariants}
           >
-            This is a tagline for first impression. Write something here
+            I help you market yourself by telling relatable, intriguing stories.
           </motion.p>
           
           {/* Bouncing arrow at the bottom */}
@@ -219,42 +217,6 @@ export default function LinkInBio() {
               <path d="M12 5V19M12 19L5 12M12 19L19 12" stroke="#16423c" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
             </svg>
           </motion.div>
-        </motion.section>
-
-        {/* Introduction Section */}
-        <motion.section 
-          className="py-16 px-6 bg-white"
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          viewport={{ once: true, margin: "-100px" }}
-          transition={{ duration: 0.6 }}
-        >
-          <div className="max-w-4xl mx-auto text-center">
-            <motion.p 
-              className="text-xl md:text-2xl text-gray-700 max-w-2xl mx-auto mb-8"
-              initial={{ y: 20, opacity: 0 }}
-              whileInView={{ y: 0, opacity: 1 }}
-              viewport={{ once: true }}
-              transition={{ delay: 0.2, duration: 0.5 }}
-            >
-              You're intrigued enough to click and see this page - thank you! But always get to know the person if you're going to read a lot from him.
-            </motion.p>
-            <motion.div
-              initial={{ y: 20, opacity: 0 }}
-              whileInView={{ y: 0, opacity: 1 }}
-              viewport={{ once: true }}
-              transition={{ delay: 0.4, duration: 0.5 }}
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-            >
-              <Link 
-                href="https://kevoncheung.com?ref=linkinbio-page"
-                className="bg-[#16423c] text-white px-8 py-4 rounded-lg text-lg font-medium hover:bg-[#0f2e2a] transition-all transform hover:shadow-lg"
-              >
-                Get to really know me
-              </Link>
-            </motion.div>
-          </div>
         </motion.section>
 
         {/* Section 2 - Personal Brand - Creative Redesign with BG Removed Image */}
@@ -294,32 +256,11 @@ export default function LinkInBio() {
           </div>
           
           <div className="max-w-6xl mx-auto relative">
-            {/* Heading with creative styling */}
-            <div className="text-center mb-16">
-              <motion.div
-                initial={{ y: -20, opacity: 0 }}
-                whileInView={{ y: 0, opacity: 1 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.5 }}
-              >
-                <h2 className="text-4xl md:text-5xl font-bold text-[#16423c] inline-block relative">
-                  Magnetic Personal Brand
-                  <motion.div 
-                    className="absolute -bottom-3 left-0 h-1 bg-yellow-400"
-                    initial={{ width: 0 }}
-                    whileInView={{ width: "100%" }}
-                    viewport={{ once: true }}
-                    transition={{ delay: 0.3, duration: 0.8 }}
-                  />
-                </h2>
-              </motion.div>
-            </div>
-            
             {/* New layout with background-removed image */}
             <div className="flex flex-col lg:flex-row items-center gap-12">
               {/* Left side - Image with floating elements */}
               <motion.div
-                className="lg:w-1/2 relative"
+                className="lg:w-1/2 relative order-2 lg:order-1"
                 initial={{ opacity: 0, scale: 0.9 }}
                 whileInView={{ opacity: 1, scale: 1 }}
                 viewport={{ once: true }}
@@ -381,21 +322,51 @@ export default function LinkInBio() {
               
               {/* Right side - Content */}
               <motion.div
-                className="lg:w-1/2"
+                className="lg:w-1/2 order-1 lg:order-2"
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5 }}
               >
+                {/* Heading with creative styling */}
+                <motion.div
+                  initial={{ y: -20, opacity: 0 }}
+                  whileInView={{ y: 0, opacity: 1 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.5 }}
+                  className="mb-8"
+                >
+                  <h2 className="text-4xl md:text-5xl font-bold text-[#16423c] inline-block relative">
+                  You're doing amazing work but ...
+                    <motion.div 
+                      className="absolute -bottom-3 left-0 h-1 bg-yellow-400"
+                      initial={{ width: 0 }}
+                      whileInView={{ width: "100%" }}
+                      viewport={{ once: true }}
+                      transition={{ delay: 0.3, duration: 0.8 }}
+                    />
+                  </h2>
+                </motion.div>
+
                 {/* Main text */}
                 <motion.p 
-                  className="text-xl text-gray-700 mb-8"
+                  className="text-xl text-gray-700 mb-4"
                   initial={{ opacity: 0, y: 20 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   transition={{ delay: 0.2, duration: 0.5 }}
                 >
-                  If you're doing great work but feel like the world doesn't have a way to see it, you need a magnetic personal brand. I started from zero and I wrote down the initial steps in this book to help you.
+                  the world doesn't see it. Well, because you've been in private mode. You don't share your stories.
+                </motion.p>
+
+                <motion.p 
+                  className="text-xl text-gray-700 mb-8"
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ delay: 0.3, duration: 0.5 }}
+                >
+                  It's time to craft a brand that's unique to you.
                 </motion.p>
                 
                 {/* CTA Button */}
@@ -418,7 +389,6 @@ export default function LinkInBio() {
                       Build yourself a brand
                     </Link>
                   </motion.div>
-                  <div className="absolute -bottom-2 -right-2 w-full h-full bg-yellow-400 rounded-lg opacity-50 z-0" />
                 </motion.div>
               </motion.div>
             </div>
@@ -452,7 +422,7 @@ export default function LinkInBio() {
                 viewport={{ once: true }}
                 transition={{ duration: 0.5 }}
               >
-                Show Your Work
+                You have a coffee in ...
               </motion.h2>
               
               <motion.div 
@@ -470,7 +440,17 @@ export default function LinkInBio() {
                 viewport={{ once: true }}
                 transition={{ delay: 0.2, duration: 0.5 }}
               >
-                You're intrigued enough to click and see this page - thank you! But always get to know the person if you're going to read a lot from him.
+                Your hand walking down the street. There're so many stories and thoughts going on in your head, but sadly, they always just stay in your head.
+              </motion.p>
+
+              <motion.p 
+                className="text-xl md:text-2xl text-white mb-12 max-w-2xl mx-auto"
+                initial={{ y: 30, opacity: 0 }}
+                whileInView={{ y: 0, opacity: 1 }}
+                viewport={{ once: true }}
+                transition={{ delay: 0.3, duration: 0.5 }}
+              >
+                It's time to extract them and share them publicly.
               </motion.p>
               
               <motion.div
@@ -486,29 +466,13 @@ export default function LinkInBio() {
                 >
                   <Link 
                     href="https://smallschool.is/build-in-public?ref=linkinbio-page"
-                    className="inline-block bg-[#16423c] text-white px-10 py-5 rounded-lg text-lg font-medium hover:bg-[#0f2e2a] transition-all hover:shadow-xl border-2 border-transparent hover:border-yellow-400"
+                    className="inline-block bg-[#16423c] text-white px-10 py-5 rounded-lg text-lg font-medium hover:bg-[#0f2e2a] transition-all hover:shadow-xl"
                   >
-                    Build things in public
+                    Build and share in public
                   </Link>
                 </motion.div>
               </motion.div>
               
-              {/* Animated arrow */}
-              <motion.div 
-                className="opacity-70 mx-auto"
-                animate={{ 
-                  y: [0, 10, 0],
-                }}
-                transition={{
-                  repeat: Infinity,
-                  duration: 2,
-                  ease: "easeInOut"
-                }}
-              >
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M12 5V19M12 19L5 12M12 19L19 12" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                </svg>
-              </motion.div>
             </div>
           </div>
         </motion.section>
@@ -532,33 +496,66 @@ export default function LinkInBio() {
           </div>
           
           <div className="container mx-auto px-6 relative z-20">
-            <div className="max-w-2xl ml-8 md:ml-16 lg:ml-24">
-              <motion.div
-                initial={{ x: -50, opacity: 0 }}
-                whileInView={{ x: 0, opacity: 1 }}
-                viewport={{ once: true }}
-                transition={{ delay: 0.2, duration: 0.7 }}
-              >
-                <h2 className="text-4xl md:text-5xl font-bold mb-6 text-white leading-tight">
-                  Your Knowledge,<br />Your Business
-                </h2>
-                <div className="w-24 h-1 bg-yellow-400 mb-8" />
-                <p className="text-xl text-white/90 mb-10 max-w-xl">
-                  Finally, you want to build a business around what you know. If you feel overwhelmed, don't worry. It is about finding the right next thing to work on, step by step.
-                </p>
-                <motion.div
-                  whileHover={{ scale: 1.05 }}
-                  whileTap={{ scale: 0.95 }}
-                  className="inline-block"
-                >
-                  <Link 
-                    href="https://smallschool.is?ref=linkinbio-page"
-                    className="inline-block bg-white text-[#16423c] px-8 py-4 rounded-lg font-medium hover:bg-gray-100 transition-all hover:shadow-lg"
+            <div className="max-w-6xl mx-auto flex flex-col lg:flex-row items-center justify-end">
+              <div className="max-w-2xl lg:ml-auto">
+                <motion.h2 
+                    className="text-4xl md:text-5xl font-bold mb-8 text-white"
+                    initial={{ y: -30, opacity: 0 }}
+                    whileInView={{ y: 0, opacity: 1 }}
+                    viewport={{ once: true }}
+                    transition={{ duration: 0.5 }}
                   >
-                    Build a business around YOU
-                  </Link>
+                    Oh sweet, you realized ...
+                </motion.h2>
+
+                <motion.div 
+                  className="w-24 h-1 bg-yellow-400 mb-12"
+                  initial={{ width: 0 }}
+                  whileInView={{ width: "6rem" }}
+                  viewport={{ once: true }}
+                  transition={{ delay: 0.3, duration: 0.5 }}
+                />
+                
+                <motion.p 
+                  className="text-xl md:text-2xl text-white mb-12"
+                  initial={{ y: 30, opacity: 0 }}
+                  whileInView={{ y: 0, opacity: 1 }}
+                  viewport={{ once: true }}
+                  transition={{ delay: 0.2, duration: 0.5 }}
+                >
+                  That with a brand and a voice, you can do so so so much. You can help and influence a lot of people.
+                </motion.p>
+
+                <motion.p 
+                  className="text-xl md:text-2xl text-white mb-12"
+                  initial={{ y: 30, opacity: 0 }}
+                  whileInView={{ y: 0, opacity: 1 }}
+                  viewport={{ once: true }}
+                  transition={{ delay: 0.3, duration: 0.5 }}
+                >
+                  It's time to build a profitable business on what you know.
+                </motion.p>
+                
+                <motion.div
+                  initial={{ y: 30, opacity: 0 }}
+                  whileInView={{ y: 0, opacity: 1 }}
+                  viewport={{ once: true }}
+                  transition={{ delay: 0.4, duration: 0.5 }}
+                  className="mb-16"
+                >
+                  <motion.div
+                    whileHover={{ scale: 1.05 }}
+                    whileTap={{ scale: 0.95 }}
+                  >
+                    <Link 
+                      href="https://smallschool.is?ref=linkinbio-page"
+                      className="inline-block bg-white text-[#16423c] px-10 py-5 rounded-lg text-lg font-medium hover:bg-[#0f2e2a] transition-all hover:shadow-xl"
+                    >
+                      Build a business around YOU
+                    </Link>
+                  </motion.div>
                 </motion.div>
-              </motion.div>
+              </div>
             </div>
           </div>
           
@@ -622,33 +619,17 @@ export default function LinkInBio() {
                   <img src="/images/social/x.svg" alt="X" className="w-6 h-6 mr-3" />
                   <h3 className="text-xl font-bold">Latest from X</h3>
                 </div>
-                <div className="min-h-[200px] flex flex-col border border-gray-200 rounded-lg p-4">
-                  {xPost ? (
-                    <>
-                      <div className="flex items-center mb-3">
-                        <div className="w-10 h-10 rounded-full overflow-hidden mr-3">
-                          <img 
-                            src={xPost.author.profile_image_url} 
-                            alt={xPost.author.name} 
-                            className="w-full h-full object-cover"
-                          />
-                        </div>
-                        <div>
-                          <p className="font-bold">{xPost.author.name}</p>
-                          <p className="text-gray-500 text-sm">@{xPost.author.username}</p>
-                        </div>
-                      </div>
-                      <p className="mb-4">{xPost.text}</p>
-                      <div className="mt-auto flex text-gray-500 text-sm">
-                        <span className="mr-4">{xPost.public_metrics.like_count} likes</span>
-                        <span>{xPost.public_metrics.retweet_count} retweets</span>
-                      </div>
-                    </>
-                  ) : (
-                    <div className="flex items-center justify-center h-full">
-                      <p className="text-gray-500">Loading latest X post...</p>
-                    </div>
-                  )}
+                <div className="min-h-[400px] flex flex-col border border-gray-200 rounded-lg overflow-hidden">
+                  <a
+                    className="twitter-timeline"
+                    data-height="400"
+                    data-theme="light"
+                    data-chrome="noheader nofooter noborders transparent"
+                    data-tweet-limit="3"
+                    href="https://twitter.com/MeetKevon"
+                  >
+                    Loading posts by @MeetKevon
+                  </a>
                 </div>
                 <div className="mt-4 text-center">
                   <a 
