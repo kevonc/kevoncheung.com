@@ -589,6 +589,54 @@ export default function LinkInBio() {
           />
         </motion.section>
 
+        {/* How I can help you Section */}
+        <motion.section 
+          className="py-20 px-6 bg-white"
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          viewport={{ once: true, margin: "-100px" }}
+          transition={{ duration: 0.6 }}
+        >
+          <div className="max-w-2xl mx-auto">
+            <motion.h2 
+              className="text-3xl font-bold mb-12 text-center text-[#16423c]"
+              initial={{ y: 20, opacity: 0 }}
+              whileInView={{ y: 0, opacity: 1 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5 }}
+            >
+              How I can help you
+            </motion.h2>
+            
+            <motion.ul
+              className="space-y-6 text-lg text-gray-700"
+              initial={{ y: 30, opacity: 0 }}
+              whileInView={{ y: 0, opacity: 1 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.2, duration: 0.5 }}
+            >
+              <li className="flex items-start">
+                <span className="mr-3 text-2xl leading-none">•</span>
+                <span>
+                  You can <Link href="/hire-me" className="text-[#16423c] font-medium underline hover:text-[#0f2e2a]" target="_blank" rel="noopener noreferrer">hire me</Link> to be the fraction head of marketing for your personal brand (for entrepreneurs and CEOs)
+                </span>
+              </li>
+              <li className="flex items-start">
+                <span className="mr-3 text-2xl leading-none">•</span>
+                <span>
+                  You can <Link href="https://join.smallschool.is/book-a-call/" className="text-[#16423c] font-medium underline hover:text-[#0f2e2a]" target="_blank" rel="noopener noreferrer">book a 1-1 call</Link> with me
+                </span>
+              </li>
+              <li className="flex items-start">
+                <span className="mr-3 text-2xl leading-none">•</span>
+                <span>
+                  You can <Link href="https://smallschool.is/products" className="text-[#16423c] font-medium underline hover:text-[#0f2e2a]" target="_blank" rel="noopener noreferrer">check out</Link> the self-guided products I've created
+                </span>
+              </li>
+            </motion.ul>
+          </div>
+        </motion.section>
+
         {/* Social Media Section */}
         <motion.section 
           className="py-20 px-6 bg-gray-50"
@@ -605,7 +653,7 @@ export default function LinkInBio() {
               viewport={{ once: true }}
               transition={{ duration: 0.5 }}
             >
-              Latest Updates
+              Let's say hi 
             </motion.h2>
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
