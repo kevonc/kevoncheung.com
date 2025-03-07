@@ -194,7 +194,7 @@ export default function LinkInBio() {
             className="text-xl md:text-2xl text-gray-600 mb-16"
             variants={itemVariants}
           >
-            I help you market yourself by telling relatable, intriguing stories.
+            I help you market yourself by spilling untold stories.
           </motion.p>
           
           {/* Bouncing arrow at the bottom */}
@@ -381,6 +381,8 @@ export default function LinkInBio() {
                       <Link 
                         href="https://findjoyinchaos.com?ref=linkinbio-page"
                         className="inline-block bg-[#16423c] text-white px-8 py-4 rounded-lg font-medium hover:bg-[#0f2e2a] transition-all hover:shadow-lg"
+                        target="_blank"
+                        rel="noopener noreferrer"
                       >
                         Build yourself a brand
                       </Link>
@@ -464,6 +466,8 @@ export default function LinkInBio() {
                   <Link 
                     href="https://smallschool.is/build-in-public?ref=linkinbio-page"
                     className="inline-block bg-[#16423c] text-white px-10 py-5 rounded-lg text-lg font-medium hover:bg-[#0f2e2a] transition-all hover:shadow-xl"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     Build and share in public
                   </Link>
@@ -547,6 +551,8 @@ export default function LinkInBio() {
                     <Link 
                       href="https://smallschool.is?ref=linkinbio-page"
                       className="inline-block bg-white text-[#16423c] px-10 py-5 rounded-lg text-lg font-medium hover:bg-[#0f2e2a] transition-all hover:shadow-xl"
+                      target="_blank"
+                      rel="noopener noreferrer"
                     >
                       Build a business around YOU
                     </Link>
