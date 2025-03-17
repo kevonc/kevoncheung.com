@@ -72,7 +72,7 @@ export default function Layout({ children, title, metaDescription, metaImage, ro
                 <li className="m-0"><Link href="/now" className="nav-link">Now</Link></li>
                 <li className="m-0"><Link href="/hire-me" className="nav-link">Hire Me</Link></li>
                 <li className="m-0"><Link href="/articles" className="nav-link">Articles</Link></li>
-                <li className="m-0"><Link href="https://www.smallschool.is/newsletter" className="nav-link">Newsletter</Link></li>
+                <li className="m-0"><Link href="https://substack.com/@kevoncheung" className="nav-link">Newsletter</Link></li>
               </ul>
             </nav>
           </div>
@@ -124,7 +124,7 @@ export default function Layout({ children, title, metaDescription, metaImage, ro
                     </li>
                     <li>
                       <Link 
-                        href="https://www.smallschool.is/newsletter" 
+                        href="https://substack.com/@kevoncheung" 
                         className="nav-link block py-1.5"
                         onClick={() => setIsMenuOpen(false)}
                       >
