@@ -34,12 +34,13 @@ export default function Layout({ children, title, metaDescription, metaImage, ro
       <header className="py-4 mb-12">
         <div className="container mx-auto px-4 max-w-4xl">
           <div className="flex items-center justify-between">
-            <Link href="/" className="no-underline">
+            <Link href="/" className="no-underline flex items-center gap-3">
               <img 
                 src="/images/logo.png" 
                 alt="Kevon Cheung" 
                 className="h-6 w-auto"
               />
+              <span className="text-xl font-semibold text-gray-900">Kevon Cheung</span>
             </Link>
 
             {/* Mobile menu button */}
@@ -150,6 +151,11 @@ export default function Layout({ children, title, metaDescription, metaImage, ro
       
       <footer className="py-8 mt-16 border-t">
         <div className="container mx-auto px-4 max-w-4xl flex flex-col items-center">
+          <img 
+            src="/images/logo.png" 
+            alt="Kevon Cheung" 
+            className="h-8 w-auto mb-4"
+          />
           <p className="text-gray-600 mb-4">© {new Date().getFullYear()} Kevon Cheung. Let's connect.</p>
           <div className="social-links mb-8 md:mb-0">
             <a href="https://x.com/MeetKevon" target="_blank" rel="noopener noreferrer" className="social-icon">
