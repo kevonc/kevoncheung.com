@@ -31,8 +31,12 @@
     @apply text-green-700 hover:text-green-600 no-underline;
   }
   
-  ul, ol {
+  ul {
     @apply list-disc pl-5 mb-4 font-body;
+  }
+
+  ol {
+    @apply list-decimal pl-5 mb-4 font-body;
   }
 
   li {
@@ -67,9 +71,12 @@
     width: 100%;
   }
   
-  .prose ul,
-  .prose ol {
+  .prose ul {
     @apply list-disc pl-5;
+  }
+
+  .prose ol {
+    @apply list-decimal pl-7;
   }
 
   .prose li {

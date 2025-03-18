@@ -36,6 +36,16 @@ appearances:
 
 Hi! I'm Kevon. I grew up in Hong Kong and spent 7 years studying in the U.S. around the Boston area. Then I was in New York and Singapore for a short time. Now I'm back home in Hong Kong. I've been building and sharing things online since I was 12 years old. Let's just say I've enjoyed the impact and connections I'm able to make. You can check out [what I'm doing now](/now) if you're curious.
 
+## 🥦 Broccoli
+
+Too many people have asked me - why broccoli?
+
+Because it speaks to the life & business principles I live by:
+‍
+1. It is nutritious. I want to lead by creating tons of no-fluff value
+2. It takes a phenomenal supporting role in dishes. I want you to be the spotlight, not me
+3. It has a tree-like structure. To me, it is always about the people and community
+
 ## 🌅 Life Making
 
 Life is all about connecting the dots.
