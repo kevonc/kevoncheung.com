@@ -188,7 +188,7 @@ export default function LinkInBio() {
             className="text-4xl md:text-5xl font-bold mb-6 text-[#16423c]"
             variants={itemVariants}
           >
-            Hey, I'm Kevon 👋
+            Hey, I'm Kevon 🥦
           </motion.h1>
           <motion.p
             className="text-xl md:text-2xl text-gray-600 mb-16"
