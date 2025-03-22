@@ -36,6 +36,8 @@ I've always loved sports that require a **high level of concentration** — beer
 
 I took golf lessons when I was 20 but never really played much ever since. It is time to pick it up again.
 
+![Kevon's Golfing](/images/kevon-golf-2025.jpg)
+
 <br />
 <br />
 <br />
