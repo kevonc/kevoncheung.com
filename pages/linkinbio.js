@@ -80,7 +80,6 @@ export default function LinkInBio() {
       </Head>
       
       {/* Social Media Scripts */}
-      <Script src="https://platform.twitter.com/widgets.js" strategy="lazyOnload" />
       <Script src="//www.instagram.com/embed.js" strategy="lazyOnload" />
       
       <div className="min-h-screen bg-gradient-to-b from-white to-gray-50">
@@ -657,7 +656,7 @@ export default function LinkInBio() {
             </motion.h2>
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              {/* X Post Placeholder */}
+              {/* Substack Post */}
               <motion.div 
                 className="bg-white p-6 rounded-xl shadow-lg"
                 initial={{ y: 30, opacity: 0 }}
@@ -668,30 +667,23 @@ export default function LinkInBio() {
               >
                 <div className="flex items-center gap-3 mb-4">
                   <div className="flex-shrink-0 w-6 h-6 flex items-center justify-center mt-1">
-                    <img src="/images/social/x.svg" alt="X" className="w-full h-full mt-4" />
+                    <img src="/images/social/substack.svg" alt="Substack" className="w-full h-full mt-4" />
                   </div>
-                  <h3 className="text-xl font-bold">Latest from X</h3>
+                  <h3 className="text-xl font-bold">I'm most active on Substack now</h3>
                 </div>
-                <div className="min-h-[400px] flex flex-col border border-gray-200 rounded-lg overflow-hidden">
-                  <a
-                    className="twitter-timeline"
-                    data-height="400"
-                    data-theme="light"
-                    data-chrome="noheader nofooter noborders transparent"
-                    data-tweet-limit="3"
-                    href="https://twitter.com/MeetKevon"
-                  >
-                    Loading posts by @MeetKevon
-                  </a>
+                <div className="min-h-[400px] flex flex-col items-center justify-center border border-gray-200 rounded-lg overflow-hidden">
+                  <div className="w-full px-4">
+                    <img src="/images/substack.png" alt="Substack Profile" className="w-full h-auto rounded-lg" />
+                  </div>
                 </div>
-                <div className="mt-4 text-center">
+                <div className="mt-6 text-center">
                   <a 
-                    href="https://x.com/MeetKevon" 
+                    href="https://kevoncheung.substack.com" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="text-[#16423c] font-medium hover:underline"
                   >
-                    Follow me on X
+                    Say hi on Substack
                   </a>
                 </div>
               </motion.div>
