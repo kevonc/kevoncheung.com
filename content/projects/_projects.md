@@ -1,9 +1,9 @@
 ---
 projects:
-  - title: Small School
+  - title: Public Lab
     description: I believe everyone has something to teach. I build this school to share with you how to productize what you know into digital products to make a side income.
-    image: /images/projects/small-school.png
-    link: https://smallschool.is
+    image: /images/projects/publiclab.png
+    link: https://publiclab.co
   - title: Find Joy in Chaos
     description: I wrote a book to show you how to build a powerful online presence and community even if you are starting from absolutely nothing.
     image: /images/projects/find-joy-in-chaos.png

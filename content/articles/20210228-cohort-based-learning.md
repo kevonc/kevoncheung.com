@@ -98,7 +98,7 @@ This is also the reason why I'm fascinated by the vision of Contra to reinvent w
 
 ## How I know cohort-based is the future
 
-In <a href="https://www.smallschool.is/newsletter">my newsletter</a>, I shared that I came to realize running an angel-funded startup wasn't what I wanted at the moment. It surely sounded amazing to be able to raise funds, build a team, and pursue high growth opportunities, but underlying the hardcore, out-of-balanced work life, I was living a life that was out of my control.
+In <a href="https://www.publiclab.co/newsletter">my newsletter</a>, I shared that I came to realize running an angel-funded startup wasn't what I wanted at the moment. It surely sounded amazing to be able to raise funds, build a team, and pursue high growth opportunities, but underlying the hardcore, out-of-balanced work life, I was living a life that was out of my control.
 
 What I want to focus on is building a brand and a voice of my own. I love sharing thoughts based on my learnings and interpretations of the world.
 

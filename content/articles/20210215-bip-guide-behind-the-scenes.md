@@ -9,7 +9,7 @@ topic: marketing
 <img src="/images/blog/bip-guide-behind-the-scenes-1.jpeg" alt="Image 1 from bip-guide-behind-the-scenes" class="cover-image" />
 
 
-I was a nobody on the Internet. It took me a total of 2 months and 10,000 words to finish <a href="https://www.smallschool.is/build-in-public">the Building in Public guide</a>, and this happened: 2,100 unique visitors in 3 days, a 73% increase of Twitter followers in 7 days from 767 to 1327, #20 on Hacker News Page 1 for a day, 3 live sharing sessions, and regular mentions of the guide.
+I was a nobody on the Internet. It took me a total of 2 months and 10,000 words to finish <a href="https://www.publiclab.co/build-in-public">the Building in Public guide</a>, and this happened: 2,100 unique visitors in 3 days, a 73% increase of Twitter followers in 7 days from 767 to 1327, #20 on Hacker News Page 1 for a day, 3 live sharing sessions, and regular mentions of the guide.
 
 <img src="/images/blog/bip-guide-behind-the-scenes-2.png" alt="Image 2 from bip-guide-behind-the-scenes" />
 
@@ -83,7 +83,7 @@ This is why I don't have an expectation of what this launch can potentially brin
 
 ### 3. I'm interested in SEO
 
-If you've read <a href="https://www.smallschool.is/newsletter">my newsletters</a>, you know I'm someone who values long-term impact and does not mind taking baby steps to get there. When I started to build my personal voice, my goal was to establish my website and rank well via SEO.
+If you've read <a href="https://www.publiclab.co/newsletter">my newsletters</a>, you know I'm someone who values long-term impact and does not mind taking baby steps to get there. When I started to build my personal voice, my goal was to establish my website and rank well via SEO.
 
 I'm interested in social media, but organic search engine traffic sounds a lot more attractive to me. I <a href="/seo-guide">did that for my startup</a>, but doing it for a personal site is like 10x harder.
 
@@ -138,7 +138,7 @@ From my own experience reading a guide, I always prefer something that is practi
 
 With that, using real examples would be my approach to writing this guide. So when I was researching, I noted down which example would be great for which chapter and talking point.
 
-Once I <a href="https://www.smallschool.is/build-in-public/how">added these examples to my chapters</a>, I made sure to include a profile picture of everyone and a link to their Twitter or websites. If I was going to use someone's work as an example, I better give them enough respect.
+Once I <a href="https://www.publiclab.co/build-in-public/how">added these examples to my chapters</a>, I made sure to include a profile picture of everyone and a link to their Twitter or websites. If I was going to use someone's work as an example, I better give them enough respect.
 
 For most examples, I didn't contact the person to ask for permission because they were positive about their work. But for some examples that were more sensitive, e.g. Wenzel tweeted about his fear of getting his idea stolen, I reached out and asked if it'd be okay to quote him. Everyone was happy to be included.
 

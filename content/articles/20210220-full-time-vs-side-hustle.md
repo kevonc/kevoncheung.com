@@ -10,7 +10,7 @@ topic: entrepreneurship
 <img src="/images/blog/full-time-vs-side-hustle-1.jpeg" alt="Image 1 from full-time-vs-side-hustle" class="cover-image" />
 
 
-Thanks to the launch of my <a href="https://smallschool.is/build-in-public">Building in Public Definitive Guide</a>, I've received a number of questions from readers.
+Thanks to the launch of my <a href="https://publiclab.co/build-in-public">Building in Public Definitive Guide</a>, I've received a number of questions from readers.
 
 One question is ***"What do you think about going full-time indie hacker vs. side hustle? I know I want to run my own business in the future."***
 
@@ -84,4 +84,4 @@ Of course, there are people out there who can start from scratch, do it full-tim
 
 Whatever you do, know that this is going to be a marathon, so you're better off training slowly and adding the mileage each week than forcing yourself to sprint right away.
 
-And remember to build in public throughout your journey to maximize your potential. This is my free <a href="https://smallschool.is/build-in-public">Building in Public guide</a> to help you get started and my free email course, <a href="http://makingtwitterfriends.com/">Making Twitter Friends</a>, to help you build genuine relationships.
+And remember to build in public throughout your journey to maximize your potential. This is my free <a href="https://publiclab.co/build-in-public">Building in Public guide</a> to help you get started and my free email course, <a href="http://makingtwitterfriends.com/">Making Twitter Friends</a>, to help you build genuine relationships.

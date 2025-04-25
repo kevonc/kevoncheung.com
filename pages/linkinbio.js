@@ -463,7 +463,7 @@ export default function LinkInBio() {
                   whileTap={{ scale: 0.95 }}
                 >
                   <Link 
-                    href="https://smallschool.is/build-in-public?ref=linkinbio-page"
+                    href="https://publiclab.co/build-in-public?ref=linkinbio-page"
                     className="inline-block bg-[#16423c] text-white px-10 py-5 rounded-lg text-lg font-medium hover:bg-[#0f2e2a] transition-all hover:shadow-xl"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -548,7 +548,7 @@ export default function LinkInBio() {
                     whileTap={{ scale: 0.95 }}
                   >
                     <Link 
-                      href="https://smallschool.is?ref=linkinbio-page"
+                      href="https://publiclab.co?ref=linkinbio-page"
                       className="inline-block bg-white text-[#16423c] px-10 py-5 rounded-lg text-lg font-medium hover:bg-[#0f2e2a] transition-all hover:shadow-xl"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -623,13 +623,13 @@ export default function LinkInBio() {
               <li className="flex items-start">
                 <span className="mr-3 text-2xl leading-none">•</span>
                 <span>
-                  You can <Link href="https://join.smallschool.is/book-a-call/" className="text-[#16423c] font-medium underline hover:text-[#0f2e2a]" target="_blank" rel="noopener noreferrer">book a 1-1 call</Link> with me
+                  You can <Link href="https://join.publiclab.co/book-a-call/" className="text-[#16423c] font-medium underline hover:text-[#0f2e2a]" target="_blank" rel="noopener noreferrer">book a 1-1 call</Link> with me
                 </span>
               </li>
               <li className="flex items-start">
                 <span className="mr-3 text-2xl leading-none">•</span>
                 <span>
-                  You can <Link href="https://smallschool.is/products" className="text-[#16423c] font-medium underline hover:text-[#0f2e2a]" target="_blank" rel="noopener noreferrer">check out</Link> the self-guided products I've created
+                  You can <Link href="https://publiclab.co/products" className="text-[#16423c] font-medium underline hover:text-[#0f2e2a]" target="_blank" rel="noopener noreferrer">check out</Link> the self-guided products I've created
                 </span>
               </li>
             </motion.ul>

@@ -131,6 +131,6 @@ Obviously, here I'm only able to capture a small part of his mastermind. You'll 
 
 After I picked up these tactics from Dave. I put them into practice and saw my engagement numbers go up and up. Within 5 months, I was able to achieve 5-10x growth on my regular LinkedIn posts.
 
-If you're craving more copywriting tips, check out <a href="https://www.smallschool.is/build-in-public/storytelling">this chapter from my Building in Public guide</a>.
+If you're craving more copywriting tips, check out <a href="https://www.publiclab.co/build-in-public/storytelling">this chapter from my Building in Public guide</a>.
 
 <img src="/images/blog/copywriting-dave-gerhardt-11.png" alt="Image 11 from copywriting-dave-gerhardt" />

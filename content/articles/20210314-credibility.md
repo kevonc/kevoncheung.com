@@ -67,7 +67,7 @@ But if you have an active Twitter account with 5,000 followers and have written 
 
 This is exactly how I approached my journey to become a writer and content creator 4 months ago.
 
-I started writing <a href="https://twitter.com/MeetKevon">tweets</a> and <a href="https://kevoncheung.com/articles">articles</a> that got people's attention. Then I created a <a href="https://smallschool.is/build-in-public">free definitive guide on #BuildingInPublic</a> which was read by 2,100 people in the first 3 days. With that, I have <a href="http://makingtwitterfriends.com/">an email course</a> to help people make real Twitter friends. I then start to speak on podcasts about #BuildingInPublic, storytelling, relationship building, etc.
+I started writing <a href="https://twitter.com/MeetKevon">tweets</a> and <a href="https://kevoncheung.com/articles">articles</a> that got people's attention. Then I created a <a href="https://publiclab.co/build-in-public">free definitive guide on #BuildingInPublic</a> which was read by 2,100 people in the first 3 days. With that, I have <a href="http://makingtwitterfriends.com/">an email course</a> to help people make real Twitter friends. I then start to speak on podcasts about #BuildingInPublic, storytelling, relationship building, etc.
 
 Remember this.
 

@@ -2,11 +2,11 @@
 title: Hey! I'm Kevon 👋
 ---
 
-I love to explore ideas in **online education, learning design, business, and marketing**. When I realized everyone has the power to share what they know, I started [Small School](https://smallschool.is).
+I love to explore ideas in **online education, learning design, business, and marketing**. When I realized everyone has the power to share what they know, I started [Public Lab](https://publiclab.co).
 
 I now live in Hong Kong with my wife and two daughters. I like to run. I like to write. I like to do silly things with my family.
 
-Here you'll find my writing and projects. As the author of the [Build in Public guide](https://www.smallschool.is/build-in-public), I'm all about being open and sharing everything I'm learning. 
+Here you'll find my writing and projects. As the author of the [Build in Public guide](https://www.publiclab.co/build-in-public), I'm all about being open and sharing everything I'm learning. 
 
 If you're interested in hiring me, you can [go here](/hire-me). Let's also connect:
 

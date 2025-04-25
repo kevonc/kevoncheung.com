@@ -20,7 +20,7 @@ I've been running a one-man online education business since 2021. It was the dre
 
 ## Exploring the next phase of digital learning
 
-I've been impressed with what AI can do, especially in building micro software and tools. I can see AI revolutionizing the way we teach and learn. I see a bright future where we use more game play activities to make learning fun and engaging, but I don't mean gamification. [I wrote about it here.](https://www.smallschool.is/blog/info-products-ai-era)
+I've been impressed with what AI can do, especially in building micro software and tools. I can see AI revolutionizing the way we teach and learn. I see a bright future where we use more game play activities to make learning fun and engaging, but I don't mean gamification. [I wrote about it here.](https://www.publiclab.co/blog/info-products-ai-era)
 
 ## Sorting out Summer Worldschooling
 

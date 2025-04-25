@@ -49,7 +49,7 @@ Is that even possible?
 
 ## Step-by-step on how I found my way to launching a private community
 ### 1) Quickest way to gauge interest
-Ever since I rolled out <a href="https://smallschool.is/build-in-public">the Building in Public Definitive Guide</a>, a lot of people have reached out to me telling me their interests in a supportive ecosystem. They understood the mindset and how it could help their work, yet resources and a support system weren't there for them.
+Ever since I rolled out <a href="https://publiclab.co/build-in-public">the Building in Public Definitive Guide</a>, a lot of people have reached out to me telling me their interests in a supportive ecosystem. They understood the mindset and how it could help their work, yet resources and a support system weren't there for them.
 
 I didn't know whether this was true or if there were enough people to create a sustainable community.
 
