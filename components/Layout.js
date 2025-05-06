@@ -4,7 +4,7 @@ import { useState } from 'react'
 
 export default function Layout({ children, title, metaDescription, metaImage, robotsDirective = 'index, follow' }) {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
-  const pageTitle = title ? `${title} - Kevon Cheung` : 'Kevon Cheung'
+  const pageTitle = !title ? 'Kevon Cheung' : title === 'Home' ? 'Kevon Cheung' : `${title} - Kevon Cheung`
   const defaultMetaImage = 'https://kevoncheung.com/images/meta-image.png' // Default meta image
   const metaImageUrl = metaImage || defaultMetaImage
   const defaultDescription = "Kevon Cheung - Educator, Marketer, and Writer"

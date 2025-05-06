@@ -2,13 +2,15 @@
 title: Hey! I'm Kevon 👋
 ---
 
-I love to explore ideas in **online education, learning design, business, and marketing**. When I realized everyone has the power to share what they know, I started [Public Lab](https://publiclab.co).
+I'm a writer, educator, and marketer.
 
-I now live in Hong Kong with my wife and two daughters. I like to run. I like to write. I like to do silly things with my family.
+When I discovered the power of building in public, I started [Public Lab](https://publiclab.co) to share everything I’ve learned.
 
-Here you'll find my writing and projects. As the author of the [Build in Public guide](https://www.publiclab.co/build-in-public), I'm all about being open and sharing everything I'm learning. 
+After spending years in adult education, I’m now shifting my focus to children’s learning. It fascinates me — there’s really nothing like lighting up those tiny bulbs.
 
-If you're interested in hiring me, you can [go here](/hire-me). Let's also connect:
+I live in Hong Kong with my wife and two daughters. If you want to know more about me, check out [my About page](/about). I also share what I’m actively building on [my Now page](/now).
+
+Email is the best way to reach me, and we can also connect here:
 
 <div class="social-links">
   <a href="https://x.com/MeetKevon" target="_blank" rel="noopener noreferrer" class="social-icon">
