@@ -27,7 +27,7 @@ We never expected a 3-year-old to be competing in swimming, that’s madness. Bu
 
 There was no expectation. We certainly weren’t there to win. And if she couldn’t finish, that’s alright.
 
-Frankly, from my blurred memory, I recalled my daughter getting last place and we were both super proud that she finished it. We celebrated with McDonald’s!
+Frankly, from my hazy memory, I recall my daughter finishing last, and we were both super proud that she completed it. We celebrated with McDonald’s!
 
 While we were waiting and watching the other kids swim, a parent came up and we started chit-chatting.
 
@@ -49,7 +49,7 @@ It is always about getting more and more on paper.
 
 I might be naive but I really don’t think much about “that piece of paper”. When everyone has a stack of paper to show off what they’ve done, how do you stand out? 
 
-From my own experiences in life, I rarely used a piece of paper (resume) to land new opportunities. It has always been my library of experiences and who I am that landed things for me. So I believe that should be the way for my kids too.
+From my own experiences in life, I rarely used a piece of paper (resume) to land new opportunities. It has always been my library of experiences and who I am that have landed things for me.. So I believe that should be the way for my kids too.
 
 Now, another thing that fascinates me is how some parents view the bonding time with their children.
 
@@ -65,25 +65,25 @@ My top 3:
 
 1. **Parents are busier than ever with their own interests and pursuits**
 2. **Taking care of kids is no-joke exhausting**
-3. **Most importantly to me, parents don’t know how to craft experience**
+3. **Most importantly to me, parents don’t know how to craft experiences**
 
-Parents simply don’t know how to create these moments themselves, so they sign their kids up to more classes, more competitions, more clubs. More everything. Basically anything that looks enriching.
+Parents simply don’t know how to create these moments themselves, so they sign their kids up for more classes, more competitions, more clubs. More of everything. Basically anything that looks enriching.
 
-They’ve done their part of identifying the source of experiences, and now the responsibility is on the other people they’ve hired.
+They’ve done their part in identifying the source of experiences, and now the responsibility is on the other people they’ve hired.
 
 This is outsourcing parenting.
 
-But I’m not that extreme. I’m not talking about how parents should outsource nothing. That’d crazy as well given how busy we all are. If I don’t know how to teach swimming, I better outsource this to someone who has a structured way of guiding my kids.
+But I’m not that extreme. I’m not talking about how parents should outsource nothing. That’d be crazy as well, given how busy we all are. If I don’t know how to teach swimming, I'd better outsource this to someone who has a structured way of guiding my kids.
 
-I’m talking more about the default choice when it comes to “getting new experiences”. From what I see, most parents immediately look for places to go so that facilities or staff of those places are responsible for the job. Only a handful of parents get creative and build those experiences themselves.
+I’m talking more about the default choice when it comes to “getting new experiences”. From what I see, most parents immediately look for places to go so that the facilities or staff of those places are responsible for the job. Only a handful of parents get creative and build those experiences themselves.
 
-Honestly, I sometimes catch myself doing the same thing. I’d get on the phone and search “places to go in hong kong for kids”. 
+Honestly, I sometimes catch myself doing the same thing. I’d get on the phone and search “places to go in Hong Kong for kids”. 
 
 But every now and then, I remind myself:
 
 > **It’s not about where we go. It’s about what we do.**
 
-Here’s an example. One day, we had a bit of time at home. I needed to figure out something to engage the girls, so I told the girls we were going on an airplane.
+Here’s an example. One day, we had a bit of time at home. I needed to figure out something to engage the girls, so I told them we were going on an airplane.
 
 “What airplane?”
 
@@ -111,13 +111,13 @@ Why do parents opt for experiences like winning a swimming contest or getting a 
 
 A big part comes from the pressure to apply to schools.
 
-Schools ask for an application, in which the parents have to showcase your kid’s interest, travel experience, achievement, and such.
+Schools ask for an application, in which the parents have to showcase their child's interests, travel experiences, achievements, and such.
 
 But that’s not really a problem if there is a wide range of good schools.
 
 I thought about this and concluded - It is because the quality gap between schools in Hong Kong is huge.
 
-Everyone wants their kids to go to the “top tier” ones. Otherwise, your kid’s future is “doomed” because of the environment she grows up with.
+Everyone wants their kids to go to the “top tier” ones. Otherwise, your kid’s future is “doomed” because of the environment she grows up in.
 
 And since there is a limited number in the top tier, it naturally becomes extremely competitive. Then it reinforces parents to double down on the crazy things they’ve already been doing.
 
@@ -127,7 +127,7 @@ Now you might ask me, “If you don’t like this culture, why don’t you just 
 
 And I’d say, “The fact that I don’t like the performative parenting culture doesn’t mean I need to stay away from the schools these parents apply to. You do you, I do me. Totally different thing.”
 
-I think schools have their own job to do and it is the parent’s job to find a school that fits into what they want.
+I think schools have their own job to do, and it is the parents' job to find a school that fits into what they want.
 
 What I hate seeing is how the definition of achievements has been twisted.
 
@@ -141,7 +141,7 @@ But to me, **achievements are invisible**.
 >
 > It’s **her thinking**. Her way of breaking down a situation and reacting.
 
-Avery has been going to dance classes because we want her to build up confidence with her own body, stand in front of an audience with her head up and a big smile, and finding her own groove with music (a beautiful thing in life).
+Avery has been going to dance classes because we want her to build up confidence with her own body, stand in front of an audience with her head up and a big smile, and find her own groove with music (a beautiful thing in life).
 
 One time, her dance teacher mentioned a mini performance. We thought: great, time to see how her confidence has built up. We were super curious whether she enjoyed getting on stage too.
 
@@ -159,7 +159,7 @@ But honestly, what I really want to see is for the school faculty to interact wi
 
 Most parents are not educators, so I don’t expect them to know. 
 
-So far, I mind my own business to focus on my own ways to raise my two girls. Even with writing this essay, I don’t see myself as judging what others parents do.
+So far, I mind my own business to focus on my own ways to raise my two girls. Even with writing this essay, I don’t see myself as judging what other parents do.
 
 It is more that everyone comes from a different background so they have their own reasons why they pursue parenting that way. There are also a lot of hidden things that we can’t see from the surface.
 
@@ -173,7 +173,7 @@ Then I told him my violin story. I was learning classical pieces and theories an
 
 The two approaches to picking up music yielded totally different results. One is fun and enjoyable. One is boring and soulless.
 
-Now with Avery, we’re trying a different way. We still love piano. It’s such a powerful, creative instrument. But most teaching methods? Boring.
+Now with Avery, we’re trying a different way. We love the piano. It’s such a powerful, creative instrument. But most teaching methods? Boring.
 
 Luckily we found a young, modern teacher. 
 
@@ -191,9 +191,9 @@ The teacher asks what her favorite songs are (Disney, of course). Then they crea
 
 I especially appreciate the part where they create music first and then play to enjoy it. They are not simply flipping open a textbook and playing random sounds that my daughter doesn’t appreciate.
 
-Seriously, my wife and I both want to learn with this teacher. *This is the way.*
+Seriously, my wife and I both want to learn from this teacher. ***This is the way.***
 
-This is one example of a non-default parenting path. What if the kids are not learning piano to put “piano” on their school application but to learn about music?
+This is one example of a non-default parenting path. What if the kids are not learning piano to put “piano” on their school application, but to learn about music?
 
 ## A sharing, not a lesson
 
