@@ -189,6 +189,8 @@ The teacher asks what her favorite songs are (Disney, of course). Then they crea
 >
 > It’s **powerful**.
 
+![Avery Learning the Piano](images/blog/crazy-performative-asian-parents-piano.png)
+
 I especially appreciate the part where they create music first and then play to enjoy it. They are not simply flipping open a textbook and playing random sounds that my daughter doesn’t appreciate.
 
 Seriously, my wife and I both want to learn from this teacher. ***This is the way.***
