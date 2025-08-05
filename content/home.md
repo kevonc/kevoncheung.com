@@ -2,11 +2,11 @@
 title: Hey! I'm Kevon 👋
 ---
 
-I'm a writer, educator, and marketer.
+I'm an educator, builder, and dad.
 
-When I discovered the power of building in public, I started [Public Lab](https://publiclab.co) to share everything I’ve learned.
+These days I'm passionate about helping kids grow and learn in the AI age. This includes sharing what we can do as parents and reimagining education. 
 
-After spending years in adult education, I’m now shifting my focus to children’s learning. It fascinates me — there’s really nothing like lighting up those tiny bulbs.
+I've spent years in kids and adult education, so I’m I’m channeling that curiosity into this shift as AI transforms everything.
 
 I live in Hong Kong with my wife and two daughters. If you want to know more about me, check out [my About page](/about). I also share what I’m actively building on [my Now page](/now).
 
