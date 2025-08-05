@@ -158,20 +158,20 @@ export default function Layout({ children, title, metaDescription, metaImage, ro
           />
           <p className="text-gray-600 mb-4">© {new Date().getFullYear()} Kevon Cheung. Let's connect.</p>
           <div className="social-links mb-8 md:mb-0">
+          <a href="https://substack.com/@kevoncheung" target="_blank" rel="noopener noreferrer" className="social-icon">
+              <img src="/images/social/substack.svg" alt="Substack" width="24" height="24" />
+            </a>
+            <a href="https://www.youtube.com/@MeetKevon" target="_blank" rel="noopener noreferrer" className="social-icon">
+              <img src="/images/social/youtube.svg" alt="YouTube" width="24" height="24" />
+            </a>
+            <a href="https://www.instagram.com/kevon/" target="_blank" rel="noopener noreferrer" className="social-icon">
+              <img src="/images/social/instagram.svg" alt="Instagram" width="24" height="24" />
+            </a>
             <a href="https://x.com/MeetKevon" target="_blank" rel="noopener noreferrer" className="social-icon">
               <img src="/images/social/x.svg" alt="X" width="24" height="24" />
             </a>
             <a href="https://www.linkedin.com/in/kevoncheung/" target="_blank" rel="noopener noreferrer" className="social-icon">
               <img src="/images/social/linkedin.svg" alt="LinkedIn" width="24" height="24" />
-            </a>
-            <a href="https://www.instagram.com/kevon/" target="_blank" rel="noopener noreferrer" className="social-icon">
-              <img src="/images/social/instagram.svg" alt="Instagram" width="24" height="24" />
-            </a>
-            <a href="https://www.threads.net/@kevon" target="_blank" rel="noopener noreferrer" className="social-icon">
-              <img src="/images/social/threads.svg" alt="Threads" width="24" height="24" />
-            </a>
-            <a href="https://www.youtube.com/@MeetKevon" target="_blank" rel="noopener noreferrer" className="social-icon">
-              <img src="/images/social/youtube.svg" alt="YouTube" width="24" height="24" />
             </a>
           </div> 
         </div>
