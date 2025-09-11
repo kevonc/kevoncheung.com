@@ -72,7 +72,7 @@ export default function Layout({ children, title, metaDescription, metaImage, ro
                 <li className="m-0"><Link href="/about" className="nav-link">About</Link></li>
                 <li className="m-0"><Link href="/now" className="nav-link">Now</Link></li>
                 <li className="m-0"><Link href="/articles" className="nav-link">Articles</Link></li>
-                <li className="m-0"><Link href="https://substack.com/@kevoncheung" className="nav-link">Newsletter</Link></li>
+                <li className="m-0"><Link href="https://kevoncheung.substack.com/" className="nav-link">Newsletter</Link></li>
                 <li className="m-0"><Link href="/hire-me" className="nav-link">Hire</Link></li>
               </ul>
             </nav>
@@ -116,7 +116,7 @@ export default function Layout({ children, title, metaDescription, metaImage, ro
                     </li>
                     <li>
                       <Link 
-                        href="https://substack.com/@kevoncheung" 
+                        href="https://kevoncheung.substack.com/" 
                         className="nav-link block py-1.5"
                         onClick={() => setIsMenuOpen(false)}
                       >
@@ -158,7 +158,7 @@ export default function Layout({ children, title, metaDescription, metaImage, ro
           />
           <p className="text-gray-600 mb-4">© {new Date().getFullYear()} Kevon Cheung. Let's connect.</p>
           <div className="social-links mb-8 md:mb-0">
-          <a href="https://substack.com/@kevoncheung" target="_blank" rel="noopener noreferrer" className="social-icon">
+          <a href="https://kevoncheung.substack.com/" target="_blank" rel="noopener noreferrer" className="social-icon">
               <img src="/images/social/substack.svg" alt="Substack" width="24" height="24" />
             </a>
             <a href="https://www.youtube.com/@MeetKevon" target="_blank" rel="noopener noreferrer" className="social-icon">
