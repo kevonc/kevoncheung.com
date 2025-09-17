@@ -116,6 +116,11 @@
   .prose blockquote p {
     @apply mb-2 last:mb-0;
   }
+
+  .prose em {
+    @apply text-center italic text-gray-500 block mt-2 mb-8;
+    font-size: 0.9rem;
+  }
 }
 
 .social-links {
