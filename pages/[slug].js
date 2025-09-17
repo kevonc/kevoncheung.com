@@ -3,24 +3,9 @@ import path from 'path'
 import matter from 'gray-matter'
 import { marked } from 'marked'
 import Link from 'next/link'
-import { useEffect } from 'react'
 import Layout from '../components/Layout'
 
 export default function Post({ content, frontmatter }) {
-  useEffect(() => {
-    // Remove any existing script first
-    const existingScript = document.querySelector('script[data-uid="fca4203871"]')
-    if (existingScript) {
-      existingScript.remove()
-    }
-
-    // Create and add the script
-    const script = document.createElement('script')
-    script.src = 'https://smallschool.kit.com/fca4203871/index.js'
-    script.async = true
-    script.setAttribute('data-uid', 'fca4203871')
-    document.getElementById('subscription-container').appendChild(script)
-  }, []) // Run once when component mounts
 
   return (
     <Layout 
@@ -57,7 +42,16 @@ export default function Post({ content, frontmatter }) {
             dangerouslySetInnerHTML={{ __html: content }}
           />
 
-          <div id="subscription-container" className="mt-8"></div>
+          <div className="mt-8 flex justify-center">
+            <iframe 
+              src="https://kevoncheung.substack.com/embed" 
+              width="480" 
+              height="320" 
+              style={{border: '1px solid #EEE', background: 'white'}} 
+              frameBorder="0" 
+              scrolling="no"
+            />
+          </div>
         </article>
       </div>
     </Layout>
