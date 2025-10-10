@@ -4,6 +4,22 @@ import { promises as fs } from 'fs'
 import path from 'path'
 import { useState, useEffect } from 'react'
 
+// Function to parse text with **highlight** syntax
+function parseHighlightedText(text) {
+  const parts = text.split(/(\*\*.*?\*\*)/g)
+  return parts.map((part, index) => {
+    if (part.startsWith('**') && part.endsWith('**')) {
+      const highlightedText = part.slice(2, -2)
+      return (
+        <span key={index} className="font-semibold text-green-700 bg-green-100 px-1 rounded">
+          {highlightedText}
+        </span>
+      )
+    }
+    return part
+  })
+}
+
 export default function Explore({ data }) {
   const [isLoaded, setIsLoaded] = useState(false)
 
@@ -80,7 +96,7 @@ export default function Explore({ data }) {
                     </div>
                     {link.subtitle && (
                       <div className="text-sm text-gray-500 font-body mt-1">
-                        {link.subtitle}
+                        {parseHighlightedText(link.subtitle)}
                       </div>
                     )}
                   </div>
