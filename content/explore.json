@@ -6,13 +6,14 @@
     {
       "title": "Chatty Bestie",
       "subtitle": "Stop fighting over English practice. Turn it into playtime! Your child builds confidence while you finally become a teammate, not the 'teacher.'",
-      "url": "https://chattybestie.com"
+      "url": "https://chattybestie.com",
+      "image": "/images/explore/chattybestie.jpg"
     },
     {
       "title": "Fun Sheets",
-      "subtitle": "Turn 'I'm bored!' into 'Can I do more?' Instantly create personalized worksheets to make learning feel like magic.",
+      "subtitle": "Turn 'I'm bored!' into 'Can I do more?' Input a keyword and instantly create personalized worksheets to make learning feel like magic.",
       "url": "https://funsheets.co/",
-      "image": "/images/projects/funsheets.png"
+      "image": "/images/explore/funsheets.png"
     },
     {
       "title": "My Online Home",
