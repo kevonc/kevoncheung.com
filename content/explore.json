@@ -1,0 +1,29 @@
+{
+  "profileImage": "/images/kevon.png",
+  "title": "Kevon Cheung",
+  "subtitle": "Dad x Educator x Builder",
+  "links": [
+    {
+      "title": "Chatty Bestie",
+      "subtitle": "Improve Communication & Interview Skills for Age 3-7",
+      "url": "https://chattybestie.com"
+    },
+    {
+      "title": "Fun Sheets",
+      "subtitle": "Create Personalized Worksheets to Learn Chinese, English and Maths",
+      "url": "https://funsheets.co/",
+      "image": "/images/projects/funsheets.png"
+    },
+    {
+      "title": "My Website",
+      "subtitle": "Check out what I'm up to recently",
+      "url": "https://kevoncheung.com/"
+    },
+    {
+      "title": "My Newsletter & Podcast",
+      "subtitle": "Find out latest sharing and conversations with passionate parents & educators",
+      "url": "https://kevoncheung.substack.com/"
+    }
+  ]
+}
+

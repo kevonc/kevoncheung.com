@@ -73,7 +73,6 @@ export default function Layout({ children, title, metaDescription, metaImage, ro
                 <li className="m-0"><Link href="/now" className="nav-link">Now</Link></li>
                 <li className="m-0"><Link href="/articles" className="nav-link">Articles</Link></li>
                 <li className="m-0"><Link href="https://kevoncheung.substack.com/" className="nav-link">Newsletter</Link></li>
-                <li className="m-0"><Link href="/hire-me" className="nav-link">Hire</Link></li>
               </ul>
             </nav>
           </div>
@@ -121,15 +120,6 @@ export default function Layout({ children, title, metaDescription, metaImage, ro
                         onClick={() => setIsMenuOpen(false)}
                       >
                         Newsletter
-                      </Link>
-                    </li>
-                    <li>
-                      <Link 
-                        href="/hire-me" 
-                        className="nav-link block py-1.5"
-                        onClick={() => setIsMenuOpen(false)}
-                      >
-                        Hire
                       </Link>
                     </li>
                   </ul>
