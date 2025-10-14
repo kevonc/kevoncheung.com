@@ -34,12 +34,7 @@ export default function Layout({ children, title, metaDescription, metaImage, ro
       <header className="py-4 mb-12">
         <div className="container mx-auto px-4 max-w-4xl">
           <div className="flex items-center justify-between">
-            <Link href="/" className="no-underline flex items-center gap-3">
-              <img 
-                src="/images/logo.png" 
-                alt="Kevon Cheung" 
-                className="h-6 w-auto"
-              />
+            <Link href="/" className="no-underline flex items-center">
               <span className="text-xl font-semibold text-gray-900">Kevon Cheung</span>
             </Link>
 
