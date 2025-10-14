@@ -4,6 +4,11 @@
   "subtitle": "Dad x Educator x Builder",
   "links": [
     {
+      "title": "Founder of Public Lab",
+      "subtitle": "We're building AI-powered educational products to transform how our children learn and grow.",
+      "url": "https://publiclab.co"
+    },
+    {
       "title": "Chatty Bestie",
       "subtitle": "Stop fighting over English practice. Turn it into playtime! Your child **speaks better** and **builds confidence** when you become a teammate, not 'the teacher'.",
       "url": "https://chattybestie.com",
@@ -16,7 +21,7 @@
       "image": "/images/explore/funsheets.png"
     },
     {
-      "title": "My Online Home",
+      "title": "KevonCheung.com",
       "subtitle": "Check out my latest bio, projects, and writing ",
       "url": "https://kevoncheung.com/"
     },
