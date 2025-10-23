@@ -7,7 +7,7 @@ export default function Layout({ children, title, metaDescription, metaImage, ro
   const pageTitle = !title ? 'Kevon Cheung' : title === 'Home' ? 'Kevon Cheung' : `${title} - Kevon Cheung`
   const defaultMetaImage = 'https://kevoncheung.com/images/meta-image.png' // Default meta image
   const metaImageUrl = metaImage || defaultMetaImage
-  const defaultDescription = "Kevon Cheung - Educator, Marketer, and Writer"
+  const defaultDescription = "Find out what I'm working on and sharing."
   
   return (
     <div className="min-h-screen">
