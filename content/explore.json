@@ -4,13 +4,18 @@
   "subtitle": "Dad x Educator x Builder",
   "links": [
     {
+      "title": "Kevon's Newsletter",
+      "subtitle": "I write about life, entrepreneurship, and helping kids learn & grow.",
+      "url": "https://kevoncheung.substack.com/"
+    },
+    {
       "title": "Founder of Public Lab",
       "subtitle": "We're building AI-powered educational products to transform how our children learn and grow.",
       "url": "https://publiclab.co"
     },
     {
       "title": "Chatty Bestie",
-      "subtitle": "Stop fighting over English practice. Turn it into playtime! Your child **speaks better** and **builds confidence** when you become a teammate, not 'the teacher'.",
+      "subtitle": "Stop fighting over English practice. Turn it into playtime! Your child **speaks better** and **builds more confidence** when you (the parent) become a teammate, not 'the teacher'.",
       "url": "https://chattybestie.com",
       "image": "/images/explore/chattybestie.jpg"
     },
@@ -21,19 +26,14 @@
       "image": "/images/explore/funsheets.png"
     },
     {
-      "title": "KevonCheung.com",
-      "subtitle": "Check out my latest bio, projects, and writing ",
-      "url": "https://kevoncheung.com/"
-    },
-    {
-      "title": "My Newsletter & Podcast",
-      "subtitle": "Join my deep conversations with passionate parents & educators",
-      "url": "https://kevoncheung.substack.com/"
-    },
-    {
-      "title": "Build in Public Guide (Free)",
-      "subtitle": "Read it alongside 50,000 entrepreneurs around the world",
+      "title": "Build in Public Free Guide",
+      "subtitle": "Build products & brands alongside 50,000 entrepreneurs around the world.",
       "url": "https://publiclab.co/build-in-public"
+    },
+    {
+      "title": "KevonCheung.com",
+      "subtitle": "Check out my latest projects and writing.",
+      "url": "https://kevoncheung.com/"
     }
   ]
 }

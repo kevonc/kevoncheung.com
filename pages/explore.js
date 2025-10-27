@@ -108,8 +108,27 @@ export default function Explore({ data }) {
           {/* Footer Message */}
           <div className="text-center mt-8">
             <p className="text-sm text-gray-500 font-body">
-              🥦 It'll be awesome to connect, <Link href="https://www.instagram.com/kevon/" target="_blank" rel="noopener noreferrer" className="text-green-700 hover:text-green-600 underline">so say hi!</Link>
+              🥦 It'll be awesome to connect, so say hi!
             </p>
+            
+            {/* Social Links */}
+            <div className="flex justify-center gap-4 mt-6">
+              <a href="https://kevoncheung.substack.com/" target="_blank" rel="noopener noreferrer" className="transition-opacity hover:opacity-70">
+                <img src="/images/social/substack.svg" alt="Substack" width="24" height="24" />
+              </a>
+              <a href="https://www.youtube.com/@MeetKevon" target="_blank" rel="noopener noreferrer" className="transition-opacity hover:opacity-70">
+                <img src="/images/social/youtube.svg" alt="YouTube" width="24" height="24" />
+              </a>
+              <a href="https://www.instagram.com/kevon/" target="_blank" rel="noopener noreferrer" className="transition-opacity hover:opacity-70">
+                <img src="/images/social/instagram.svg" alt="Instagram" width="24" height="24" />
+              </a>
+              <a href="https://x.com/MeetKevon" target="_blank" rel="noopener noreferrer" className="transition-opacity hover:opacity-70">
+                <img src="/images/social/x.svg" alt="X" width="24" height="24" />
+              </a>
+              <a href="https://www.linkedin.com/in/kevoncheung/" target="_blank" rel="noopener noreferrer" className="transition-opacity hover:opacity-70">
+                <img src="/images/social/linkedin.svg" alt="LinkedIn" width="24" height="24" />
+              </a>
+            </div>
           </div>
         </div>
       </div>

@@ -13,7 +13,7 @@ I live in Hong Kong with my wife and two daughters. If you want to know more abo
 Email is the best way to reach me, and we can also connect here:
 
 <div class="social-links">
-  <a href="https://substack.com/@kevoncheung" target="_blank" rel="noopener noreferrer" class="social-icon">
+  <a href="https://kevoncheung.substack.com/" target="_blank" rel="noopener noreferrer" class="social-icon">
     <img src="/images/social/substack.svg" alt="Substack" width="24" height="24" />
   </a>
   <a href="https://www.youtube.com/@MeetKevon" target="_blank" rel="noopener noreferrer" class="social-icon">
