@@ -4,9 +4,7 @@ title: Hey! I'm Kevon 👋
 
 I'm an educator, builder, and dad.
 
-These days I'm passionate about helping kids grow and learn in the AI age. This includes sharing what we can do as parents and reimagining education. 
-
-I've spent years in kids and adult education, so I’m channeling the experience and curiosity into this shift as AI transforms everything.
+These days I'm passionate about helping kids grow and learn in the AI age. This includes sharing what we can do as parents and educators. You can read <a href="https://publiclab.co/manifesto" target="_blank" rel="noopener noreferrer">my manifesto about the future of education here.</a>
 
 I live in Hong Kong with my wife and two daughters. If you want to know more about me, check out [my About page](/about). I also share what I’m actively building on [my Now page](/now).
 
