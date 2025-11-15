@@ -67,7 +67,8 @@ export default function Layout({ children, title, metaDescription, metaImage, ro
                 <li className="m-0"><Link href="/about" className="nav-link">About</Link></li>
                 <li className="m-0"><Link href="/now" className="nav-link">Now</Link></li>
                 <li className="m-0"><Link href="/articles" className="nav-link">Articles</Link></li>
-                <li className="m-0"><Link href="https://kevoncheung.substack.com/" className="nav-link">Newsletter</Link></li>
+                <li className="m-0"><a href="https://publiclab.co/build-in-public-mastery" className="nav-link" target="_blank" rel="noopener noreferrer">Course</a></li>
+                <li className="m-0"><a href="https://kevoncheung.substack.com/" className="nav-link" target="_blank" rel="noopener noreferrer">Newsletter</a></li>
               </ul>
             </nav>
           </div>
@@ -109,13 +110,26 @@ export default function Layout({ children, title, metaDescription, metaImage, ro
                       </Link>
                     </li>
                     <li>
-                      <Link 
+                      <a 
+                        href="https://publiclab.co/build-in-public-mastery" 
+                        className="nav-link block py-1.5"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        onClick={() => setIsMenuOpen(false)}
+                      >
+                        Course
+                      </a>
+                    </li>
+                    <li>
+                      <a 
                         href="https://kevoncheung.substack.com/" 
                         className="nav-link block py-1.5"
+                        target="_blank"
+                        rel="noopener noreferrer"
                         onClick={() => setIsMenuOpen(false)}
                       >
                         Newsletter
-                      </Link>
+                      </a>
                     </li>
                   </ul>
                 </nav>
