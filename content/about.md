@@ -54,7 +54,7 @@ While I majored in Entrepreneurship and Finance, my heart has always been in tec
 
 Coincidentally, a founder reached out and I went on to spend four years expanding her kids coding school across Asia. I never imagined I would be interested in education, but saying yes ended up changing the entire trajectory of my life. After that, I spent two years leading a funded startup building software for online teaching and facilitating.
 
-During COVID in 2020, I took a big step into writing and teaching online myself. I wrote a guide that [went somehwat viral](/bip-guide-behind-the-scenes). With an audience, I dedicated myself to teaching them [how to build in public](https://www.publiclab.co/build-in-public). I started [Public Lab](https://publiclab.co).
+During COVID in 2020, I took a big step into writing and teaching online myself. I wrote a guide that [went somewhat viral](/bip-guide-behind-the-scenes). With an audience, I dedicated myself to teaching them [how to build in public](https://www.publiclab.co/build-in-public). I started [Public Lab](https://publiclab.co).
 
 The dots have connected me to entrepreneurship, business, coding, education, teaching, and learning. Now these are the things I deeply care about.
 
