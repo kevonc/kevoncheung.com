@@ -13,7 +13,7 @@ projects:
     image: /images/projects/summer-worldschooling.png
     link: http://summerworldschooling.com
   - title: Find Joy in Chaos
-    description: I wrote a book to show you how to build a powerful online presence and community even if you are starting from absolutely nothing.
+    description: I wrote a book to show you how to build a powerful online presence and community even if you are starting from absolutely nothing. 4.9/5 on Amazon.
     image: /images/projects/find-joy-in-chaos.png
     link: https://findjoyinchaos.com
   - title: Build in Public Free Guide
