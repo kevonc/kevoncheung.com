@@ -4,7 +4,7 @@ import matter from 'gray-matter'
 import Link from 'next/link'
 import Layout from '../components/Layout'
 
-export default function Articles({ posts, topics }) {
+export default function Blog({ posts, topics }) {
   // Add helper function to get topic name from slug
   const getTopicName = (topicSlug) => {
     const topic = topics.find(t => t.slug === topicSlug?.toLowerCase().replace(/\s+/g, '-'))
@@ -12,10 +12,10 @@ export default function Articles({ posts, topics }) {
   }
 
   return (
-    <Layout title="Articles">
+    <Layout title="Blog">
       <div className="max-w-3xl mx-auto">
         <div className="mb-16">
-          <h1>Articles</h1>
+          <h1>Blog</h1>
           <div className="flex flex-wrap gap-2 mb-8">
             {topics.map((topic) => (
               <Link

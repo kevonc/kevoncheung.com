@@ -13,7 +13,7 @@ export default function Post({ content, frontmatter }) {
       metaImage={frontmatter.meta_image}
       metaDescription={frontmatter.meta_description}
     >
-      <div className="max-w-3xl mx-auto">
+      <div className="max-w-2xl mx-auto">
         <article>
           <header className="mb-10">
             <h1>{frontmatter.title}</h1>
