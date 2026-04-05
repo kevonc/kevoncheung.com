@@ -9,7 +9,7 @@ topic: family
 
 <img src="/images/blog/crazy-performative-asian-parents-cover.png" alt="Crazy Performative Asian Parents" class="cover-image" />
 
-We’ve all heard of *Crazy Rich Asians*.
+We’ve all heard of **Crazy Rich Asians**.
 
 But have you heard about the **Crazy Performative Asian Parents**?
 
@@ -131,7 +131,7 @@ I think schools have their own job to do, and it is the parents' job to find a s
 
 What I hate seeing is how the definition of achievements has been twisted.
 
-A lot of parents fill those five pages with *achievements:* certificates, awards, things you can print and point to. The visible things.
+A lot of parents fill those five pages with **achievements:** certificates, awards, things you can print and point to. The visible things.
 
 But to me, **achievements are invisible**.
 
@@ -193,7 +193,7 @@ The teacher asks what her favorite songs are (Disney, of course). Then they crea
 
 I especially appreciate the part where they create music first and then play to enjoy it. They are not simply flipping open a textbook and playing random sounds that my daughter doesn’t appreciate.
 
-Seriously, my wife and I both want to learn from this teacher. ***This is the way.***
+Seriously, my wife and I both want to learn from this teacher. **This is the way.**
 
 This is one example of a non-default parenting path. What if the kids are not learning piano to put “piano” on their school application, but to learn about music?
 
