@@ -4,7 +4,7 @@ import matter from 'gray-matter'
 import Link from 'next/link'
 import Layout from '../../components/Layout'
 
-export default function Topic({ posts, topic }) {
+export default function Topic({ posts, topic, topics }) {
   // Add helper function to get topic name from slug
   const getTopicName = (topicSlug) => {
     if (topicSlug?.toLowerCase().replace(/\s+/g, '-') === topic.slug) {
@@ -19,9 +19,15 @@ export default function Topic({ posts, topic }) {
         <div className="mb-16">
           <h1>Articles in {topic.title.toLowerCase()}</h1>
           <div className="flex flex-wrap gap-2 mb-8">
-            <Link href="/articles" className="tag">
-              all articles
-            </Link>
+            {topics.map((t) => (
+              <Link
+                key={t.slug}
+                href={`/topic/${t.slug}`}
+                className={`tag${t.slug === topic.slug ? ' !bg-green-700 !text-white' : ''}`}
+              >
+                {t.title.toLowerCase()}
+              </Link>
+            ))}
           </div>
         </div>
 
@@ -117,7 +123,8 @@ export async function getStaticProps({ params: { slug } }) {
   return {
     props: {
       posts,
-      topic
+      topic,
+      topics
     }
   }
 } 
