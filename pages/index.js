@@ -70,9 +70,9 @@ export default function Home({ posts, projects, homeContent, homeTitle }) {
           </div>
         </div>
 
-        {/* Articles Section */}
+        {/* Blog Posts Section */}
         <div className="mb-24">
-          <h2>Latest Articles</h2>
+          <h2>Latest Blog Posts</h2>
           <div className="space-y-8">
             {posts.map((post) => (
               <article key={post.slug}>
