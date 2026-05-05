@@ -2,7 +2,7 @@
 title: 'Crazy Performative Asian Parents'
 date: '2025-06-30'
 meta_description: ''
-meta_image: '/images/blog/35-1.jpg'
+meta_image: '/images/blog/crazy-performative-asian-parents-cover.png'
 slug: 'crazy-performative-asian-parents'
 topic: family
 ---
