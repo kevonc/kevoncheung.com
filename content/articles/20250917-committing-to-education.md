@@ -1,7 +1,7 @@
 ---
 title: 'Why I am committing to an education path'
 date: '2025-09-17'
-meta_description: ''
+meta_description: 'Why AI is pulling me deeper into education, and how I am learning, experimenting, and committing to this path for the next decade.'
 meta_image: '/images/blog/committing-to-education-1.jpg'
 slug: 'committing-to-education'
 topic: entrepreneurship

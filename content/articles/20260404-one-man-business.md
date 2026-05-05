@@ -1,7 +1,7 @@
 ---
 title: 'The hard truth of one man business'
 date: '2026-04-04'
-meta_description: 'The hard truth about one-man businesses — why they work beautifully online, and quietly break down the moment you go in-person.'
+meta_description: 'The hard truth about one-man businesses: why they work beautifully online but quietly break down the moment you go in-person.'
 slug: 'one-man-business'
 topic: entrepreneurship
 ---
