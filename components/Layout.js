@@ -6,7 +6,9 @@ export default function Layout({ children, title, metaDescription, metaImage, ro
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const pageTitle = !title ? 'Kevon Cheung' : title === 'Home' ? 'Kevon Cheung' : `${title} - Kevon Cheung`
   const defaultMetaImage = 'https://kevoncheung.com/images/meta-image.png' // Default meta image
-  const metaImageUrl = metaImage || defaultMetaImage
+  const metaImageUrl = metaImage
+    ? new URL(metaImage, 'https://kevoncheung.com').toString()
+    : defaultMetaImage
   const defaultDescription = "Find out what I'm working on and sharing."
   
   return (

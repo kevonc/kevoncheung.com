@@ -31,3 +31,4 @@ yarn-error.log*
 .vercel
 
 /images
+/public/og-meta-images

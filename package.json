@@ -9,7 +9,8 @@
   },
   "scripts": {
     "dev": "next dev",
-    "build": "next build && node scripts/generate-sitemap.mjs",
+    "build": "node scripts/generate-og-images.mjs && next build && node scripts/generate-sitemap.mjs",
+    "og-images": "node scripts/generate-og-images.mjs",
     "serve": "npx serve@latest out",
     "sitemap": "node scripts/generate-sitemap.mjs"
   },

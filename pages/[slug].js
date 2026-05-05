@@ -118,12 +118,16 @@ export async function getStaticProps({ params: { slug } }) {
   )
 
   const { data: frontmatter, content } = matter(markdownWithMeta)
+  const metaImage = typeof frontmatter.meta_image === 'string' && frontmatter.meta_image.trim()
+    ? frontmatter.meta_image
+    : `/og-meta-images/${slug}.png`
   const htmlContent = marked(content)
 
   return {
     props: {
       frontmatter: {
         ...frontmatter,
+        meta_image: metaImage,
         date: frontmatter.date ? frontmatter.date.toString() : ''
       },
       content: htmlContent
