@@ -2,7 +2,7 @@
 title: Avoid doing what you like
 date: '2021-06-19'
 meta_description: 'Challenge the "follow your passion" advice. Discover why doing what you like might not lead to success, and what approach actually works better.'
-meta_image: '/images/blog/avoid-doing-what-you-like-1.jpeg'
+meta_image: '/images/blog/avoid-doing-what-you-like-1.png'
 slug: avoid-doing-what-you-like
 topic: entrepreneurship
 ---

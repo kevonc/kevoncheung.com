@@ -2,7 +2,6 @@
 title: 10 lessons I learned from my first failed startup
 date: '2014-02-06'
 meta_description: 'Real lessons learned from startup failure. Honest reflections on mistakes made, lessons learned, and how to approach entrepreneurship differently.'
-meta_image: '/images/blog/lessons-failed-startup-1.jpeg'
 slug: lessons-failed-startup
 topic: entrepreneurship
 ---

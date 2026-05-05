@@ -2,7 +2,6 @@
 title: Building First Code Academy's company culture
 date: '2016-08-28'
 meta_description: 'Inside look at creating a strong company culture at First Code Academy. Learn key principles for fostering a positive and productive work environment.'
-meta_image: '/images/blog/first-code-academy-company-culture-1.jpeg'
 slug: first-code-academy-company-culture
 topic: entrepreneurship
 ---

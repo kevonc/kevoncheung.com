@@ -2,7 +2,6 @@
 title: This approach helped me hit my fitness goal in 14 days
 date: '2020-12-08'
 meta_description: 'Rethink traditional goal setting with a more effective approach. Learn how to set meaningful objectives that align with your values and lead to lasting success.'
-meta_image: '/images/blog/goal-setting-1.jpeg'
 slug: goal-setting
 topic: life-lessons
 ---

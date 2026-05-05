@@ -2,7 +2,6 @@
 title: 7 life mottos I live by
 date: '2016-05-02'
 meta_description: 'Personal principles and life mottos that shape success and happiness. Learn how simple guiding philosophies can transform your approach to life.'
-meta_image: '/images/blog/life-mottos-1.jpeg'
 slug: life-mottos
 topic: life-lessons
 ---

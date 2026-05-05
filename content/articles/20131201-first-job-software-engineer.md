@@ -2,7 +2,6 @@
 title: My first job as a software engineer
 date: '2013-12-01'
 meta_description: 'Personal journey of transitioning into software engineering. Learn what to expect in your first engineering role and tips for career success.'
-meta_image: '/images/blog/first-job-software-engineer-1.jpeg'
 slug: first-job-software-engineer
 topic: entrepreneurship
 ---

@@ -2,7 +2,6 @@
 title: You are finding jobs the wrong way
 date: '2016-09-09'
 meta_description: 'Common mistakes to avoid in your job search. Learn smarter approaches to finding meaningful work and standing out to potential employers.'
-meta_image: '/images/blog/finding-jobs-the-wrong-way-1.jpeg'
 slug: finding-jobs-the-wrong-way
 topic: life-lessons
 ---
