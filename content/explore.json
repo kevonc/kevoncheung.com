@@ -1,26 +1,34 @@
 {
   "profileImage": "/images/kevon.png",
   "title": "Kevon Cheung",
-  "subtitle": "Dad x Educator x Builder",
+  "subtitle": "Educator x Storyteller x Dad of 2 Girls",
   "links": [
     {
-      "title": "Youth Entrepreneurship Coach for 12-16 Year Olds",
-      "subtitle": "I guide students to build and sell real products and craft their standout story. Contact me for a free 60-min first session.",
-      "url": "https://wa.me/85260557094?text=Hi%20Kevon%2C%20I%27d%20love%20to%20learn%20more%20about%20how%20you%20can%20help%20my%20child."
+      "label": "Shang Nancy Friends",
+      "title": "Senior Education Consultant",
+      "subtitle": "I help kids get into top U.S. boarding schools. Get in touch if you'd like to chat about your kid's education path.",
+      "labelURL": "http://www.shangnancyfriends.com/?l=en-us",
+      "url": "https://kevoncheung.com/"
     },
     {
-      "title": "Kevon's Newsletter",
-      "subtitle": "I write about life, entrepreneurship, and hacking kids' motivation to learn & grow.",
-      "url": "https://kevoncheung.substack.com/"
+      "label": "Babson Alumni Club of Hong Kong",
+      "title": "Host",
+      "subtitle": "I run Babson College's alumni events in Hong Kong and work with featured guests to tell their inspiring stories.",
+      "labelURL": "https://babsonhongkong.vercel.app/",
+      "url": "https://babsonhongkong.vercel.app/"
     },
     {
-      "title": "Build in Public Free Guide",
-      "subtitle": "Build your product & traction alongside 50,000 entrepreneurs around the world.",
-      "url": "https://publiclab.co/build-in-public"
+      "label": "Alpha Stage",
+      "title": "Founder & Instructor",
+      "subtitle": "I teach & guide kids to build creative projects that help them stand out from the crowd.",
+      "labelURL": "https://alphastage.org/",
+      "url": "https://alphastage.org/"
     },
     {
-      "title": "KevonCheung.com",
-      "subtitle": "Check out my latest projects and writing.",
+      "label": "Love to Post",
+      "title": "Storyteller",
+      "subtitle": "I love to share my journey, ups, and downs with everyone so that we can all learn from one another. I talk about education, boarding schools, raising resilient kids, parenting and many more.",
+      "labelURL": "https://kevoncheung.com/",
       "url": "https://kevoncheung.com/"
     }
   ]

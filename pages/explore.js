@@ -11,7 +11,7 @@ function parseHighlightedText(text) {
     if (part.startsWith('**') && part.endsWith('**')) {
       const highlightedText = part.slice(2, -2)
       return (
-        <span key={index} className="font-semibold text-green-700 bg-green-100 px-1 rounded">
+        <span key={index} className="font-semibold text-green-900 bg-green-100 px-1 rounded">
           {highlightedText}
         </span>
       )
@@ -41,78 +41,108 @@ export default function Explore({ data }) {
         <meta name="twitter:description" content={data.subtitle} />
       </Head>
 
-      <div className="min-h-screen bg-gradient-to-br from-green-50 to-green-100 flex items-center justify-center py-4 px-4">
-        <div className="max-w-2xl w-full">
-          {/* Profile Section */}
-          <div 
-            className="text-center mb-8"
-            style={{
-              opacity: isLoaded ? 1 : 0,
-              transform: isLoaded ? 'scale(1)' : 'scale(0.9)',
-              transition: 'opacity 0.6s ease-out, transform 0.6s ease-out'
-            }}
-          >
-            <div className="mb-6">
-              <img 
-                src={data.profileImage} 
-                alt={data.title}
-                className="w-32 h-32 rounded-full mx-auto object-cover border-4 border-white shadow-lg"
-              />
-            </div>
-            <h1 className="text-2xl font-bold text-gray-900 mb-1 font-heading">
-              {data.title}
-            </h1>
-            <p className="text-sm text-gray-500 font-body">
-              {data.subtitle}
-            </p>
-          </div>
+      <div className="min-h-screen bg-[#f6f2eb] text-green-950">
+        <div className="mx-auto flex min-h-screen w-full max-w-xl flex-col px-5 py-8 sm:px-6">
+          <main className="flex flex-1 flex-col justify-center">
+            {/* Profile Section */}
+            <section
+              className="mb-10 text-center"
+              style={{
+                opacity: isLoaded ? 1 : 0,
+                transform: isLoaded ? 'scale(1)' : 'scale(0.96)',
+                transition: 'opacity 0.6s ease-out, transform 0.6s ease-out'
+              }}
+            >
+              <div className="mb-5">
+                <img
+                  src={data.profileImage}
+                  alt={data.title}
+                  className="mx-auto h-36 w-36 rounded-full border-4 border-white object-cover shadow-xl shadow-green-950/15 sm:h-40 sm:w-40"
+                />
+              </div>
+              <h1 className="mb-2 text-3xl font-bold leading-tight text-green-950">
+                {data.title}
+              </h1>
+              <p className="mx-auto mb-0 max-w-md text-base leading-7 text-green-950/65">
+                {data.subtitle}
+              </p>
+            </section>
 
-          {/* Links Section */}
-          <div className="space-y-4">
-            {data.links.map((link, index) => (
-              <Link
-                key={index}
-                href={link.url}
-                className="block"
-                target={link.url.startsWith('http') ? '_blank' : '_self'}
-                rel={link.url.startsWith('http') ? 'noopener noreferrer' : ''}
-                style={{
-                  opacity: isLoaded ? 1 : 0,
-                  transform: isLoaded ? 'translateY(0)' : 'translateY(20px)',
-                  transition: `opacity 0.6s ease-out ${0.3 + index * 0.15}s, transform 0.6s ease-out ${0.3 + index * 0.15}s`
-                }}
-              >
-                <div className="bg-white border-2 border-green-700 rounded-lg hover:shadow-lg transition-all duration-200 hover:scale-[1.02] flex overflow-hidden">
-                  {link.image && (
-                    <img 
-                      src={link.image} 
-                      alt={link.title}
-                      className="w-32 object-cover flex-shrink-0 self-stretch"
-                    />
-                  )}
-                  <div className="flex-1 px-6 py-4">
-                    <div className="text-xl font-medium text-green-700 font-body mb-2">
-                      {link.title}
-                    </div>
-                    {link.subtitle && (
-                      <div className="text-sm text-gray-500 font-body mt-1">
-                        {parseHighlightedText(link.subtitle)}
-                      </div>
-                    )}
-                  </div>
+            {/* Experience Links */}
+            <section>
+              <div className="mb-3 flex items-center justify-between">
+                <div className="text-xs font-semibold uppercase tracking-[0.28em] text-green-800">
+                  Things I do
                 </div>
-              </Link>
-            ))}
-          </div>
+                <div className="h-px flex-1 bg-green-950/10 ml-4"></div>
+              </div>
+              <div className="space-y-3">
+                {data.links.map((link, index) => (
+                  <div
+                    key={index}
+                    style={{
+                      opacity: isLoaded ? 1 : 0,
+                      transform: isLoaded ? 'translateY(0)' : 'translateY(20px)',
+                      transition: `opacity 0.6s ease-out ${0.25 + index * 0.1}s, transform 0.6s ease-out ${0.25 + index * 0.1}s`
+                    }}
+                  >
+                    <div className="flex items-center gap-4 rounded-2xl border border-green-950/10 bg-white p-4 shadow-sm transition-all duration-200 hover:-translate-y-0.5 hover:border-green-700/40 hover:shadow-lg hover:shadow-green-950/10 sm:p-5">
+                      <div className="min-w-0 flex-1">
+                        {link.label && (
+                          <a
+                            href={link.labelURL}
+                            target={link.labelURL?.startsWith('http') ? '_blank' : '_self'}
+                            rel={link.labelURL?.startsWith('http') ? 'noopener noreferrer' : ''}
+                            className="mb-2 inline-block text-xs font-semibold uppercase tracking-[0.18em] text-green-700 no-underline hover:text-green-900"
+                          >
+                            {link.label}
+                          </a>
+                        )}
+                        <Link
+                          href={link.url}
+                          className="group block no-underline"
+                          target={link.url.startsWith('http') ? '_blank' : '_self'}
+                          rel={link.url.startsWith('http') ? 'noopener noreferrer' : ''}
+                        >
+                          <h2 className="mb-1 mt-0 text-lg font-bold leading-snug text-green-950 group-hover:text-green-700 sm:text-xl">
+                            {link.title}
+                          </h2>
+                          {link.subtitle && (
+                            <p className="mb-0 text-sm leading-6 text-green-950/60">
+                              {parseHighlightedText(link.subtitle)}
+                            </p>
+                          )}
+                        </Link>
+                      </div>
+                      <Link
+                        href={link.url}
+                        className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-full bg-green-50 text-lg font-semibold text-green-700 no-underline transition-colors hover:bg-green-950 hover:text-white"
+                        target={link.url.startsWith('http') ? '_blank' : '_self'}
+                        rel={link.url.startsWith('http') ? 'noopener noreferrer' : ''}
+                        aria-label={`Open ${link.title}`}
+                      >
+                        &rarr;
+                      </Link>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </section>
+          </main>
 
           {/* Footer Message */}
-          <div className="text-center mt-8">
-            <p className="text-sm text-gray-500 font-body">
-              🥦 It'll be awesome to connect, so say hi!
+          <footer
+            className="mt-10 text-center"
+            style={{
+              opacity: isLoaded ? 1 : 0,
+              transition: 'opacity 0.6s ease-out 0.6s'
+            }}
+          >
+            <p className="mb-4 text-sm text-green-950/55 font-body">
+              Say hi to connect!
             </p>
-            
             {/* Social Links */}
-            <div className="flex justify-center gap-4 mt-6">
+            <div className="flex justify-center gap-4 pb-4">
               <a href="https://kevoncheung.substack.com/" target="_blank" rel="noopener noreferrer" className="transition-opacity hover:opacity-70">
                 <img src="/images/social/substack.svg" alt="Substack" width="24" height="24" />
               </a>
@@ -129,7 +159,7 @@ export default function Explore({ data }) {
                 <img src="/images/social/linkedin.svg" alt="LinkedIn" width="24" height="24" />
               </a>
             </div>
-          </div>
+          </footer>
         </div>
       </div>
     </>
