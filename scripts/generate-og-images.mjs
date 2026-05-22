@@ -93,7 +93,7 @@ async function generateOgImage({ title, slug, templateDataUrl, fontData }) {
         {
           style: {
             position: 'absolute',
-            left: 72,
+            left: 84,
             top: 80,
             width: 620,
             color: '#1A1A1A',
