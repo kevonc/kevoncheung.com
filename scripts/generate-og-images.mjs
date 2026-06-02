@@ -1,6 +1,7 @@
 import { existsSync } from 'fs'
 import { mkdir, readdir, readFile, writeFile } from 'fs/promises'
 import path from 'path'
+import { createHash } from 'crypto'
 import matter from 'gray-matter'
 import { ImageResponse } from 'next/og.js'
 import React from 'react'
@@ -13,6 +14,37 @@ const ARTICLES_DIR = path.join(process.cwd(), 'content', 'articles')
 const PUBLIC_DIR = path.join(process.cwd(), 'public')
 const TEMPLATE_PATH = path.join(PUBLIC_DIR, 'og-meta-image-template.png')
 const OUTPUT_DIR = path.join(PUBLIC_DIR, 'og-meta-images')
+const MANIFEST_PATH = path.join(OUTPUT_DIR, 'manifest.json')
+
+function sha256(input) {
+  return createHash('sha256').update(input).digest('hex')
+}
+
+async function readManifest() {
+  try {
+    return JSON.parse(await readFile(MANIFEST_PATH, 'utf-8'))
+  } catch (error) {
+    if (error.code === 'ENOENT') {
+      return {}
+    }
+
+    throw error
+  }
+}
+
+async function writeManifest(manifest) {
+  await writeFile(MANIFEST_PATH, `${JSON.stringify(manifest, null, 2)}\n`)
+}
+
+function getPostImageHash({ post, templateHash, scriptHash }) {
+  return sha256(JSON.stringify({
+    slug: post.slug,
+    title: post.title,
+    contentHash: post.contentHash,
+    templateHash,
+    scriptHash,
+  }))
+}
 
 function truncateTitle(title) {
   if (title.length <= MAX_TITLE_CHARACTERS) {
@@ -146,6 +178,7 @@ async function getPostsForGeneratedImages() {
     posts.push({
       slug: String(slug),
       title: String(data.title),
+      contentHash: sha256(markdown),
     })
   }
 
@@ -160,14 +193,26 @@ async function main() {
   await mkdir(OUTPUT_DIR, { recursive: true })
 
   const posts = await getPostsForGeneratedImages()
-  const postsToGenerate = posts.filter(({ slug }) => !existsSync(path.join(OUTPUT_DIR, `${slug}.png`)))
+  const manifest = await readManifest()
+  const templateBuffer = await readFile(TEMPLATE_PATH)
+  const templateHash = sha256(templateBuffer)
+  const scriptHash = sha256(await readFile(new URL(import.meta.url)))
+  const nextManifest = {}
+  const postsToGenerate = posts.filter(post => {
+    const hash = getPostImageHash({ post, templateHash, scriptHash })
+    const outputPath = path.join(OUTPUT_DIR, `${post.slug}.png`)
+
+    nextManifest[post.slug] = hash
+
+    return manifest[post.slug] !== hash || !existsSync(outputPath)
+  })
 
   if (postsToGenerate.length === 0) {
+    await writeManifest(nextManifest)
     console.log('OG images are up to date.')
     return
   }
 
-  const templateBuffer = await readFile(TEMPLATE_PATH)
   const templateDataUrl = `data:image/png;base64,${templateBuffer.toString('base64')}`
   const fontData = await loadKumbhSansSemiBold()
 
@@ -180,6 +225,8 @@ async function main() {
 
     console.log(`Generated ${SITE_URL}/og-meta-images/${post.slug}.png`)
   }
+
+  await writeManifest(nextManifest)
 }
 
 main().catch(error => {

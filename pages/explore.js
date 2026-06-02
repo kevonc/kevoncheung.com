@@ -20,6 +20,8 @@ function parseHighlightedText(text) {
   })
 }
 
+const boardingSchoolWhatsAppUrl = 'https://api.whatsapp.com/send/?phone=85260557094&text=Hi+Kevon%2C+I+want+to+explore+sending+my+kids+to+U.S.+top+boarding+schools.&type=phone_number&app_absent=0'
+
 export default function Explore({ data }) {
   const [isLoaded, setIsLoaded] = useState(false)
 
@@ -93,7 +95,7 @@ export default function Explore({ data }) {
                             href={link.labelURL}
                             target={link.labelURL?.startsWith('http') ? '_blank' : '_self'}
                             rel={link.labelURL?.startsWith('http') ? 'noopener noreferrer' : ''}
-                            className="mb-2 inline-block text-xs font-semibold uppercase tracking-[0.18em] text-green-700 no-underline hover:text-green-900"
+                            className="mb-2 inline-flex rounded-full border border-green-700/30 bg-green-50 px-3 py-1 text-xs font-semibold uppercase tracking-[0.14em] text-green-700 no-underline transition-colors hover:border-green-700 hover:bg-green-700 hover:text-white"
                           >
                             {link.label}
                           </a>
@@ -114,15 +116,37 @@ export default function Explore({ data }) {
                           )}
                         </Link>
                       </div>
-                      <Link
-                        href={link.url}
-                        className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-full bg-green-50 text-lg font-semibold text-green-700 no-underline transition-colors hover:bg-green-950 hover:text-white"
-                        target={link.url.startsWith('http') ? '_blank' : '_self'}
-                        rel={link.url.startsWith('http') ? 'noopener noreferrer' : ''}
-                        aria-label={`Open ${link.title}`}
-                      >
-                        &rarr;
-                      </Link>
+                      {index === 0 ? (
+                        <div className="flex flex-shrink-0 flex-col items-center gap-3">
+                          <a
+                            href={boardingSchoolWhatsAppUrl}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="flex h-12 w-12 items-center justify-center rounded-full bg-green-50 no-underline transition-colors hover:bg-green-100"
+                            aria-label="Message Kevon on WhatsApp"
+                          >
+                            <img src="/images/social/whatsapp.png" alt="" className="h-7 w-7" />
+                          </a>
+                          <div className="flex flex-col items-center">
+                            <div className="flex h-12 w-12 items-center justify-center rounded-full bg-green-50">
+                              <img src="/images/social/wechat.png" alt="" className="h-7 w-7" />
+                            </div>
+                            <div className="mt-1 text-[10px] font-semibold leading-none text-green-950/60">
+                              kevonc
+                            </div>
+                          </div>
+                        </div>
+                      ) : (
+                        <Link
+                          href={link.url}
+                          className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-full bg-green-50 text-lg font-semibold text-green-700 no-underline transition-colors hover:bg-green-950 hover:text-white"
+                          target={link.url.startsWith('http') ? '_blank' : '_self'}
+                          rel={link.url.startsWith('http') ? 'noopener noreferrer' : ''}
+                          aria-label={`Open ${link.title}`}
+                        >
+                          &rarr;
+                        </Link>
+                      )}
                     </div>
                   </div>
                 ))}
