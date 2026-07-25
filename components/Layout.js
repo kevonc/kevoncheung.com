@@ -84,7 +84,7 @@ export default function Layout({
                 <img src="/images/social/substack.svg" alt="Substack" width="24" height="24" />
               </a>
               <a href="https://www.youtube.com/@MeetKevon" target="_blank" rel="noopener noreferrer" className="social-icon" aria-label="YouTube">
-                <span aria-hidden="true">▶</span>
+                <img src="/images/social/youtube.svg" alt="" width="24" height="24" />
               </a>
               <a href="https://www.instagram.com/kevon/" target="_blank" rel="noopener noreferrer" className="social-icon">
                 <img src="/images/social/instagram.svg" alt="Instagram" width="24" height="24" />
