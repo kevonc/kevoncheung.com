@@ -8,7 +8,7 @@
     "./tailwind.config.cjs": "./tailwind.config.cjs"
   },
   "scripts": {
-    "dev": "next dev",
+    "dev": "WATCHPACK_POLLING=true next dev",
     "build": "node scripts/generate-og-images.mjs && next build && node scripts/generate-sitemap.mjs",
     "og-images": "node scripts/generate-og-images.mjs",
     "serve": "npx serve@latest out",

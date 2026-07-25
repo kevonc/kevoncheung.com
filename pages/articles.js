@@ -1,21 +1,22 @@
-import fs from 'fs'
-import path from 'path'
-import matter from 'gray-matter'
 import Link from 'next/link'
 import Layout from '../components/Layout'
+import { getPosts, getTopics } from '../lib/articles'
 
-export default function Blog({ posts, topics }) {
-  // Add helper function to get topic name from slug
+export default function Articles({ posts, topics }) {
   const getTopicName = (topicSlug) => {
     const topic = topics.find(t => t.slug === topicSlug?.toLowerCase().replace(/\s+/g, '-'))
     return topic?.title || topicSlug
   }
 
   return (
-    <Layout title="Blog">
+    <Layout title="Articles">
       <div className="max-w-3xl mx-auto">
-        <div className="mb-16">
-          <h1>Blog</h1>
+        <div className="mb-14">
+          <p className="text-sm font-semibold uppercase tracking-widest text-green-800 mb-3">Ideas and field notes</p>
+          <h1>Articles</h1>
+          <p className="text-lg text-gray-600 max-w-2xl mb-8">
+            Lessons from building, teaching, marketing, and figuring out a meaningful life along the way.
+          </p>
           <div className="flex flex-wrap gap-2 mb-8">
             {topics.map((topic) => (
               <Link
@@ -31,9 +32,9 @@ export default function Blog({ posts, topics }) {
 
         <div className="space-y-12">
           {posts.map((post) => (
-            <article key={post.slug} className="group">
+            <article key={post.slug} className="group border-b border-gray-200 pb-8">
               <Link href={`/${post.slug}`} className="block no-underline">
-                <h2 className="group-hover:text-green-700 mb-2">
+                <h2 className="group-hover:text-green-700 mt-0 mb-2">
                   {post.frontmatter.title}
                 </h2>
                 <div className="flex items-center gap-2 text-gray-600 text-sm mb-3">
@@ -59,43 +60,10 @@ export default function Blog({ posts, topics }) {
 }
 
 export async function getStaticProps() {
-  // Get topics
-  const topicsFile = fs.readFileSync(path.join('content', 'articles', '_topics.md'), 'utf-8')
-  const { data: topicsData } = matter(topicsFile)
-  const topics = topicsData.topics || []
-
-  // Get posts
-  const files = fs.readdirSync(path.join('content', 'articles'))
-  
-  const posts = files
-    .filter(filename => filename !== '_topics.md' && filename !== '.DS_Store')
-    .map(filename => {
-      const markdownWithMeta = fs.readFileSync(
-        path.join('content', 'articles', filename),
-        'utf-8'
-      )
-
-      const { data: frontmatter } = matter(markdownWithMeta)
-
-      return {
-        frontmatter: {
-          ...frontmatter,
-          date: frontmatter.date ? frontmatter.date.toString() : ''
-        },
-        slug: frontmatter.slug || filename.replace('.md', '')
-      }
-    })
-    .filter(post => post.slug)
-    .sort((a, b) => {
-      if (!a.frontmatter.date) return 1
-      if (!b.frontmatter.date) return -1
-      return new Date(b.frontmatter.date) - new Date(a.frontmatter.date)
-    })
-
   return {
     props: {
-      posts,
-      topics
+      posts: getPosts(),
+      topics: getTopics(),
     }
   }
-} 
+}

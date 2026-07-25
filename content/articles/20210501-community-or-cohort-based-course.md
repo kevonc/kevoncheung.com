@@ -4,7 +4,7 @@ date: '2021-05-01'
 meta_description: 'Compare communities and cohort-based courses to find the right fit for your business. Practical insights on choosing between these two popular creator models.'
 meta_image: '/images/blog/community-or-cohort-based-course-1.jpeg'
 slug: community-or-cohort-based-course
-topic: teaching-learning
+topic: entrepreneurship
 ---
 
 <img src="/images/blog/community-or-cohort-based-course-1.jpeg" alt="Image 1 from community-or-cohort-based-course" class="cover-image" />

@@ -4,7 +4,7 @@ date: '2021-02-28'
 meta_description: 'Explore why cohort-based courses are revolutionizing online education. Learn the benefits of collaborative learning and why traditional courses fall short.'
 meta_image: '/images/blog/cohort-based-learning-1.jpeg'
 slug: cohort-based-learning
-topic: teaching-learning
+topic: entrepreneurship
 ---
 <img src="/images/blog/cohort-based-learning-1.jpeg" alt="Image 1 from cohort-based-learning" class="cover-image" />
 

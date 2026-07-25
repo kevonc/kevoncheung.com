@@ -4,7 +4,7 @@ date: '2021-02-15'
 meta_description: 'The journey of creating a comprehensive guide on building in public. Get insights into the research, writing process, and launch strategy.'
 meta_image: '/images/blog/bip-guide-behind-the-scenes-1.jpeg'
 slug: bip-guide-behind-the-scenes
-topic: marketing
+topic: entrepreneurship
 ---
 <img src="/images/blog/bip-guide-behind-the-scenes-1.jpeg" alt="Image 1 from bip-guide-behind-the-scenes" class="cover-image" />
 

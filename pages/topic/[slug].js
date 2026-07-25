@@ -1,59 +1,29 @@
-import fs from 'fs'
-import path from 'path'
-import matter from 'gray-matter'
 import Link from 'next/link'
 import Layout from '../../components/Layout'
+import { getPosts, getTopics } from '../../lib/articles'
 
-export default function Topic({ posts, topic, topics }) {
-  // Add helper function to get topic name from slug
-  const getTopicName = (topicSlug) => {
-    if (topicSlug?.toLowerCase().replace(/\s+/g, '-') === topic.slug) {
-      return topic.title
-    }
-    return topicSlug
-  }
-
+export default function Topic({ posts, topic }) {
   return (
-    <Layout title={`${topic.title} Articles`}>
-      <div className="max-w-3xl mx-auto">
-        <div className="mb-16">
-          <h1>Articles in {topic.title.toLowerCase()}</h1>
-          <div className="flex flex-wrap gap-2 mb-8">
-            {topics.map((t) => (
-              <Link
-                key={t.slug}
-                href={`/topic/${t.slug}`}
-                className={`tag${t.slug === topic.slug ? ' !bg-green-700 !text-white' : ''}`}
-              >
-                {t.title.toLowerCase()}
-              </Link>
-            ))}
-          </div>
-        </div>
-
-        <div className="space-y-12">
-          {posts.map((post) => (
-            <article key={post.slug} className="group">
-              <Link href={`/${post.slug}`} className="block no-underline">
-                <h2 className="group-hover:text-green-700 mb-2">
-                  {post.frontmatter.title}
-                </h2>
-                <div className="flex items-center gap-2 text-gray-600 text-sm mb-3">
-                  <time>{new Date(post.frontmatter.date).toLocaleDateString('en-US', {
-                    year: 'numeric',
-                    month: 'long',
-                    day: 'numeric'
-                  })}</time>
-                  {post.frontmatter.topic && (
-                    <>
-                      <span className="text-gray-400 mx-2">·</span>
-                      <span>{getTopicName(post.frontmatter.topic).toLowerCase()}</span>
-                    </>
-                  )}
-                </div>
-              </Link>
-            </article>
-          ))}
+    <Layout
+      title={`${topic.title} Articles`}
+      articlePanel={{ title: topic.title, topicSlug: topic.slug, posts }}
+    >
+      <div className="max-w-2xl mx-auto">
+        <p className="text-sm font-semibold uppercase tracking-widest text-green-800 mb-3">Article collection</p>
+        <h1>{topic.title}</h1>
+        <p className="text-xl text-gray-600 leading-relaxed">
+          There {posts.length === 1 ? 'is' : 'are'} {posts.length} {posts.length === 1 ? 'article' : 'articles'} in this collection.
+          Choose one from the article index to start reading.
+        </p>
+        <div className="mt-10 flex flex-wrap gap-3">
+          {posts[0] && (
+            <Link href={`/${posts[0].slug}`} className="inline-flex items-center rounded-lg bg-[#16423c] px-5 py-3 font-semibold text-white hover:bg-[#1f5750] hover:text-white">
+              Read the latest article
+            </Link>
+          )}
+          <Link href="/articles" className="inline-flex items-center rounded-lg border border-gray-300 px-5 py-3 font-semibold text-gray-700 hover:border-gray-500 hover:text-gray-900">
+            Browse all articles
+          </Link>
         </div>
       </div>
     </Layout>
@@ -61,11 +31,7 @@ export default function Topic({ posts, topic, topics }) {
 }
 
 export async function getStaticPaths() {
-  const topicsFile = fs.readFileSync(path.join('content', 'articles', '_topics.md'), 'utf-8')
-  const { data: topicsData } = matter(topicsFile)
-  const topics = topicsData.topics || []
-
-  const paths = topics.map((topic) => ({
+  const paths = getTopics().map((topic) => ({
     params: { slug: topic.slug }
   }))
 
@@ -76,10 +42,7 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params: { slug } }) {
-  // Get topics
-  const topicsFile = fs.readFileSync(path.join('content', 'articles', '_topics.md'), 'utf-8')
-  const { data: topicsData } = matter(topicsFile)
-  const topics = topicsData.topics || []
+  const topics = getTopics()
   const topic = topics.find(t => t.slug === slug)
 
   if (!topic) {
@@ -88,43 +51,10 @@ export async function getStaticProps({ params: { slug } }) {
     }
   }
 
-  // Get posts
-  const files = fs.readdirSync(path.join('content', 'articles'))
-  
-  const posts = files
-    .filter(filename => filename !== '_topics.md')
-    .map(filename => {
-      const markdownWithMeta = fs.readFileSync(
-        path.join('content', 'articles', filename),
-        'utf-8'
-      )
-
-      const { data: frontmatter } = matter(markdownWithMeta)
-
-      return {
-        frontmatter: {
-          ...frontmatter,
-          date: frontmatter.date ? frontmatter.date.toString() : ''
-        },
-        slug: frontmatter.slug || filename.replace('.md', '')
-      }
-    })
-    .filter(post => {
-      // Convert both topic strings to slugs for comparison
-      const postTopicSlug = post.frontmatter.topic?.toLowerCase().replace(/\s+/g, '-')
-      return postTopicSlug === slug
-    })
-    .sort((a, b) => {
-      if (!a.frontmatter.date) return 1
-      if (!b.frontmatter.date) return -1
-      return new Date(b.frontmatter.date) - new Date(a.frontmatter.date)
-    })
-
   return {
     props: {
-      posts,
+      posts: getPosts(slug),
       topic,
-      topics
     }
   }
 } 

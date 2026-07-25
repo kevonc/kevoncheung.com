@@ -5,6 +5,7 @@ import fs from 'fs'
 import path from 'path'
 import matter from 'gray-matter'
 import { marked } from 'marked'
+import { getPosts } from '../lib/articles'
 
 export default function Home({ posts, projects, homeContent, homeTitle }) {
   useEffect(() => {
@@ -40,7 +41,7 @@ export default function Home({ posts, projects, homeContent, homeTitle }) {
     <Layout title="Home">
       <div className="max-w-3xl mx-auto">
         {/* Hero Section */}
-        <div className="flex flex-col md:flex-row items-start justify-between mb-24">
+        <div className="flex flex-col xl:flex-row xl:gap-12 xl:-mx-24 items-start justify-between mb-24">
           <div className="flex-1 max-w-2xl">
             <h1 className="text-4xl mb-6">{homeTitle}</h1>
             
@@ -50,7 +51,7 @@ export default function Home({ posts, projects, homeContent, homeTitle }) {
             />
           </div>
 
-          <div className="w-full md:w-[320px] md:ml-6 rounded-2xl overflow-hidden shrink-0">
+          <div className="w-full max-w-[640px] mx-auto mt-10 aspect-[4/3] xl:w-[340px] xl:mx-0 xl:mt-0 xl:aspect-[3/4] rounded-2xl overflow-hidden shrink-0">
             <img 
               src="/images/kevon-home.jpg" 
               alt="Kevon Cheung" 
@@ -158,38 +159,9 @@ export async function getStaticProps() {
   const { data: projectsData } = matter(projectsFile)
   const projects = projectsData.projects || []
 
-  // Get blog posts
-  const files = fs.readdirSync(path.join('content', 'articles'))
-  
-  const posts = files
-    .filter(filename => filename !== '_categories.md')
-    .map(filename => {
-      const markdownWithMeta = fs.readFileSync(
-        path.join('content', 'articles', filename),
-        'utf-8'
-      )
-
-      const { data: frontmatter } = matter(markdownWithMeta)
-
-      return {
-        frontmatter: {
-          ...frontmatter,
-          date: frontmatter.date ? frontmatter.date.toString() : ''
-        },
-        slug: frontmatter.slug || filename.replace('.md', '')
-      }
-    })
-    .filter(post => post.slug)
-    .sort((a, b) => {
-      if (!a.frontmatter.date) return 1
-      if (!b.frontmatter.date) return -1
-      return new Date(b.frontmatter.date) - new Date(a.frontmatter.date)
-    })
-    .slice(0, 5) // Only get the latest 5 posts
-
   return {
     props: {
-      posts,
+      posts: getPosts().slice(0, 5),
       projects,
       homeContent: htmlContent,
       homeTitle: homeMatter.title

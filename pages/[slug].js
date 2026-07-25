@@ -4,14 +4,22 @@ import matter from 'gray-matter'
 import { marked } from 'marked'
 import Link from 'next/link'
 import Layout from '../components/Layout'
+import { getPosts, getTopics } from '../lib/articles'
+import { normalizeTopicSlug } from '../lib/topic-utils'
 
-export default function Post({ content, frontmatter }) {
-
+export default function Post({ content, frontmatter, relatedPosts, topicTitle }) {
+  const topicSlug = normalizeTopicSlug(frontmatter.topic)
   return (
     <Layout 
       title={frontmatter.title}
       metaImage={frontmatter.meta_image}
       metaDescription={frontmatter.meta_description}
+      articlePanel={{
+        title: topicTitle || frontmatter.topic,
+        topicSlug,
+        posts: relatedPosts,
+        activeSlug: frontmatter.slug,
+      }}
     >
       <div className="max-w-2xl mx-auto">
         <article>
@@ -27,10 +35,10 @@ export default function Post({ content, frontmatter }) {
                 <>
                   <span className="text-gray-400 mx-2">·</span>
                   <Link 
-                    href={`/topic/${frontmatter.topic.toLowerCase()}`} 
+                    href={`/topic/${topicSlug}`}
                     className="hover:text-gray-900"
                   >
-                    {frontmatter.topic.toLowerCase()}
+                    {(topicTitle || frontmatter.topic).toLowerCase()}
                   </Link>
                 </>
               )}
@@ -59,27 +67,8 @@ export default function Post({ content, frontmatter }) {
 }
 
 export async function getStaticPaths() {
-  const files = fs.readdirSync(path.join('content', 'articles'))
-
-  // Get all article slugs
-  const slugs = files
-    .filter(filename => filename !== '_categories.md')
-    .map(filename => {
-      const markdownWithMeta = fs.readFileSync(
-        path.join('content', 'articles', filename),
-        'utf-8'
-      )
-
-      const { data: frontmatter } = matter(markdownWithMeta)
-      const slug = frontmatter.slug || filename.replace('.md', '')
-
-      return slug
-    })
-    .filter(Boolean)
-
-  // Create paths for direct routes only
-  const paths = slugs.map(slug => ({
-    params: { slug }
+  const paths = getPosts().map((post) => ({
+    params: { slug: post.slug }
   }))
 
   return {
@@ -96,24 +85,16 @@ export async function getStaticProps({ params: { slug } }) {
     }
   }
 
-  const files = fs.readdirSync(path.join('content', 'articles'))
-  const file = files.find(filename => {
-    const markdownWithMeta = fs.readFileSync(
-      path.join('content', 'articles', filename),
-      'utf-8'
-    )
-    const { data: frontmatter } = matter(markdownWithMeta)
-    return frontmatter.slug === slug || filename.replace('.md', '') === slug
-  })
+  const post = getPosts().find((candidate) => candidate.slug === slug)
 
-  if (!file) {
+  if (!post) {
     return {
       notFound: true
     }
   }
 
   const markdownWithMeta = fs.readFileSync(
-    path.join('content', 'articles', file),
+    path.join('content', 'articles', post.filename),
     'utf-8'
   )
 
@@ -122,15 +103,20 @@ export async function getStaticProps({ params: { slug } }) {
     ? frontmatter.meta_image
     : `/og-meta-images/${slug}.png`
   const htmlContent = marked(content)
+  const topicSlug = normalizeTopicSlug(frontmatter.topic)
+  const topic = getTopics().find((candidate) => candidate.slug === topicSlug)
 
   return {
     props: {
       frontmatter: {
         ...frontmatter,
         meta_image: metaImage,
-        date: frontmatter.date ? frontmatter.date.toString() : ''
+        date: frontmatter.date ? frontmatter.date.toString() : '',
+        slug,
       },
-      content: htmlContent
+      content: htmlContent,
+      relatedPosts: getPosts(topicSlug),
+      topicTitle: topic?.title || frontmatter.topic || 'Articles',
     }
   }
 } 

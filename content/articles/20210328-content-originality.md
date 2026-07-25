@@ -4,7 +4,7 @@ date: '2021-03-28'
 meta_description: 'Exploring the myth of content originality and why it should not hold creators back. Learn why true value comes from your unique perspective and consistent delivery rather than being first.'
 meta_image: '/images/blog/content-originality-1.jpeg'
 slug: content-originality
-topic: marketing
+topic: entrepreneurship
 ---
 <img src="/images/blog/content-originality-1.jpeg" alt="Image 1 from content-originality" class="cover-image" />
 

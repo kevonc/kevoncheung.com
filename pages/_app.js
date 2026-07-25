@@ -6,11 +6,13 @@ import GoogleAnalytics from '../components/GoogleAnalytics'
 const archivo = Archivo({ 
   subsets: ['latin'],
   display: 'swap',
+  variable: '--font-archivo',
 })
 
 const schibsted = Schibsted_Grotesk({
   subsets: ['latin'],
   display: 'swap',
+  variable: '--font-schibsted-grotesk',
 })
 
 function MyApp({ Component, pageProps }) {
@@ -28,9 +30,9 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <GoogleAnalytics />
-      <main className={`${archivo.className} ${schibsted.className}`}>
+      <div className={`${archivo.variable} ${schibsted.variable}`}>
         <Component {...pageProps} />
-      </main>
+      </div>
     </>
   )
 }

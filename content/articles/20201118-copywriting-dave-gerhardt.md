@@ -3,7 +3,7 @@ title: Copywriting lessons from Dave Gerhardt
 date: '2020-11-18'
 meta_description: 'Master the art of persuasive copywriting with insights from marketing expert Dave Gerhardt. Learn proven techniques to write compelling content that converts.'
 slug: copywriting-dave-gerhardt
-topic: marketing
+topic: entrepreneurship
 ---
 <img src="/images/blog/copywriting-dave-gerhardt-1.png" alt="Image 1 from copywriting-dave-gerhardt" class="cover-image" />
 

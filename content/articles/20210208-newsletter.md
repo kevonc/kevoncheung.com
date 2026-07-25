@@ -4,7 +4,7 @@ date: '2021-02-08'
 meta_description: 'The power of newsletters for creators and entrepreneurs. Learn why email lists are crucial for building relationships and growing your business.'
 meta_image: '/images/blog/newsletter-1.jpeg'
 slug: newsletter
-topic: marketing
+topic: entrepreneurship
 ---
 <img src="/images/blog/newsletter-1.jpeg" alt="Image 1 from newsletter" class="cover-image" />
 

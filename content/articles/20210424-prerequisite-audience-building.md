@@ -4,7 +4,7 @@ date: '2021-04-24'
 meta_description: 'Essential prerequisites for successful audience building: accountability, consistency, and clear direction. Learn how to overcome common barriers to growing your online presence.'
 meta_image: '/images/blog/prerequisite-audience-building-1.png'
 slug: prerequisite-audience-building
-topic: marketing
+topic: entrepreneurship
 ---
 <img src="/images/blog/prerequisite-audience-building-1.png" alt="Image 1 from prerequisite-audience-building" class="cover-image" />
 

@@ -1,5 +1,6 @@
 {
   "redirects": [
+    { "source": "/blog", "destination": "/articles", "permanent": true },
     { "source": "/blog/:slug", "destination": "/:slug", "permanent": true }
   ],
   "headers": [
