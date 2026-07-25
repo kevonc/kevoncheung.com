@@ -10,7 +10,7 @@ export default function Articles({ posts, topics }) {
 
   return (
     <Layout title="Articles">
-      <div className="articles-page">
+      <div className="max-w-3xl mx-auto">
         <header className="articles-hero">
           <h1>Articles</h1>
           <p className="articles-intro">
