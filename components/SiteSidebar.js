@@ -79,7 +79,7 @@ export default function SiteSidebar({ isOpen, onClose, activeTopicSlug }) {
           </div>
 
           <div className="sidebar-group">
-            <p className="sidebar-label">Elsewhere</p>
+            <p className="sidebar-label">Resources</p>
             <NavLink href="https://kevoncheung.substack.com/" icon="arrow" external>Newsletter</NavLink>
             <NavLink href="https://publiclab.co/build-in-public-mastery" icon="arrow" external>Course</NavLink>
           </div>

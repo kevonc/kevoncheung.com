@@ -10,50 +10,55 @@ export default function Articles({ posts, topics }) {
 
   return (
     <Layout title="Articles">
-      <div className="max-w-3xl mx-auto">
-        <div className="mb-14">
-          <p className="text-sm font-semibold uppercase tracking-widest text-green-800 mb-3">Ideas and field notes</p>
+      <div className="articles-page">
+        <header className="articles-hero">
           <h1>Articles</h1>
-          <p className="text-lg text-gray-600 max-w-2xl mb-8">
+          <p className="articles-intro">
             Lessons from building, teaching, marketing, and figuring out a meaningful life along the way.
           </p>
-          <div className="flex flex-wrap gap-2 mb-8">
+          <nav className="articles-topics" aria-label="Article categories">
+            <span className="articles-topics-label">Browse topics</span>
             {topics.map((topic) => (
               <Link
                 key={topic.slug}
                 href={`/topic/${topic.slug}`}
-                className="tag"
+                className="articles-topic"
               >
-                {topic.title.toLowerCase()}
+                {topic.title}
               </Link>
             ))}
-          </div>
-        </div>
+          </nav>
+        </header>
 
-        <div className="space-y-12">
+        <section aria-labelledby="all-articles-heading">
+          <div className="articles-list-heading">
+            <h2 id="all-articles-heading">Latest writing</h2>
+            <span>{posts.length} articles</span>
+          </div>
+
+          <div className="articles-index">
           {posts.map((post) => (
-            <article key={post.slug} className="group border-b border-gray-200 pb-8">
-              <Link href={`/${post.slug}`} className="block no-underline">
-                <h2 className="group-hover:text-green-700 mt-0 mb-2">
-                  {post.frontmatter.title}
-                </h2>
-                <div className="flex items-center gap-2 text-gray-600 text-sm mb-3">
-                  <time>{new Date(post.frontmatter.date).toLocaleDateString('en-US', {
+            <Link key={post.slug} href={`/${post.slug}`} className="articles-index-row">
+              <time dateTime={post.frontmatter.date}>
+                {new Date(post.frontmatter.date).toLocaleDateString('en-US', {
                     year: 'numeric',
-                    month: 'long',
+                  month: 'short',
                     day: 'numeric'
-                  })}</time>
-                  {post.frontmatter.topic && (
-                    <>
-                      <span className="text-gray-400 mx-2">·</span>
-                      <span>{getTopicName(post.frontmatter.topic).toLowerCase()}</span>
-                    </>
-                  )}
-                </div>
-              </Link>
-            </article>
+                })}
+              </time>
+              <span className="articles-index-copy">
+                <span className="articles-index-title">{post.frontmatter.title}</span>
+                {post.frontmatter.topic && (
+                  <span className="articles-index-topic">{getTopicName(post.frontmatter.topic)}</span>
+                )}
+              </span>
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="m9 18 6-6-6-6" />
+              </svg>
+            </Link>
           ))}
-        </div>
+          </div>
+        </section>
       </div>
     </Layout>
   )
