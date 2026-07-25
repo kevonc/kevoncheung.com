@@ -1,5 +1,6 @@
 import '../styles/globals.css'
-import { Archivo, Schibsted_Grotesk } from 'next/font/google'
+import { Archivo } from 'next/font/google'
+import localFont from 'next/font/local'
 import { useEffect } from 'react'
 import GoogleAnalytics from '../components/GoogleAnalytics'
 
@@ -9,10 +10,21 @@ const archivo = Archivo({
   variable: '--font-archivo',
 })
 
-const schibsted = Schibsted_Grotesk({
-  subsets: ['latin'],
+const googleSans = localFont({
+  src: [
+    {
+      path: '../node_modules/@fontsource-variable/google-sans/files/google-sans-latin-standard-normal.woff2',
+      weight: '400 700',
+      style: 'normal',
+    },
+    {
+      path: '../node_modules/@fontsource-variable/google-sans/files/google-sans-latin-standard-italic.woff2',
+      weight: '400 700',
+      style: 'italic',
+    },
+  ],
   display: 'swap',
-  variable: '--font-schibsted-grotesk',
+  variable: '--font-google-sans',
 })
 
 function MyApp({ Component, pageProps }) {
@@ -30,7 +42,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <GoogleAnalytics />
-      <div className={`${archivo.variable} ${schibsted.variable}`}>
+      <div className={`${archivo.variable} ${googleSans.variable} ${googleSans.className}`}>
         <Component {...pageProps} />
       </div>
     </>

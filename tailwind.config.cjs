@@ -17,7 +17,7 @@ module.exports = {
     extend: {
       fontFamily: {
         heading: ['var(--font-archivo)'],
-        body: ['var(--font-schibsted-grotesk)'],
+        body: ['var(--font-google-sans)'],
       },
     },
   },

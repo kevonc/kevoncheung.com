@@ -2,9 +2,8 @@
 h1_title: What I'm doing now
 page_title: What I'm doing now
 meta_description: You'll find out what I'm actively thinking about and working on on this page. I'd be happy if you reach out to me to exchange ideas.
+intro: Here you'll find out what I'm actively thinking about and working on. If you feel connected to something, feel free to reach out! This page was last updated on May 6, 2025.
 ---
-
-Here you'll find out what I'm actively thinking about and working on. If you feel connected to something, feel free to reach out! This page was last updated on May 6, 2025.
 
 ## Being a present dad
 
