@@ -5,9 +5,14 @@ import fs from 'fs'
 import path from 'path'
 import matter from 'gray-matter'
 import { marked } from 'marked'
-import { getPosts } from '../lib/articles'
+import { getPosts, getTopics } from '../lib/articles'
 
-export default function Home({ posts, projects, homeContent, homeTitle }) {
+export default function Home({ posts, topics, projects, homeContent, homeTitle }) {
+  const getTopicName = (topicSlug) => {
+    const topic = topics.find(t => t.slug === topicSlug?.toLowerCase().replace(/\s+/g, '-'))
+    return topic?.title || topicSlug
+  }
+
   useEffect(() => {
     // Load Senja widget script
     const senjaScript = document.createElement('script')
@@ -71,31 +76,31 @@ export default function Home({ posts, projects, homeContent, homeTitle }) {
           </div>
         </div>
 
-        {/* Blog Posts Section */}
+        {/* Articles Section */}
         <div className="mb-24">
-          <h2>Latest Blog Posts</h2>
-          <div className="space-y-8">
+          <div className="articles-list-heading">
+            <h2>Latest Articles</h2>
+          </div>
+          <div className="articles-index">
             {posts.map((post) => (
-              <article key={post.slug}>
-                <Link href={`/${post.slug}`} className="block no-underline group">
-                  <h3 className="group-hover:text-green-700 mb-2">
-                    {post.frontmatter.title}
-                  </h3>
-                  <div className="flex items-center gap-2 text-gray-600 text-sm">
-                    <time>{new Date(post.frontmatter.date).toLocaleDateString('en-US', {
+              <Link key={post.slug} href={`/${post.slug}`} className="articles-index-row">
+                <time dateTime={post.frontmatter.date}>
+                  {new Date(post.frontmatter.date).toLocaleDateString('en-US', {
                       year: 'numeric',
-                      month: 'long',
+                      month: 'short',
                       day: 'numeric'
-                    })}</time>
-                    {post.frontmatter.topic && (
-                      <>
-                        <span className="text-gray-400 mx-2">·</span>
-                        <span>{post.frontmatter.topic.toLowerCase()}</span>
-                      </>
-                    )}
-                  </div>
-                </Link>
-              </article>
+                  })}
+                </time>
+                <span className="articles-index-copy">
+                  <span className="articles-index-title">{post.frontmatter.title}</span>
+                  {post.frontmatter.topic && (
+                    <span className="articles-index-topic">{getTopicName(post.frontmatter.topic)}</span>
+                  )}
+                </span>
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="m9 18 6-6-6-6" />
+                </svg>
+              </Link>
             ))}
           </div>
         </div>
@@ -162,6 +167,7 @@ export async function getStaticProps() {
   return {
     props: {
       posts: getPosts().slice(0, 5),
+      topics: getTopics(),
       projects,
       homeContent: htmlContent,
       homeTitle: homeMatter.title

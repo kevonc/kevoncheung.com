@@ -61,7 +61,7 @@ export default function SiteSidebar({ isOpen, onClose, activeTopicSlug }) {
 
           <div className="sidebar-group">
             <p className="sidebar-label">Articles</p>
-            <NavLink href="/articles" icon="articles" onNavigate={onClose}>All articles</NavLink>
+            <NavLink href="/articles" icon="articles" onNavigate={onClose}>All Articles</NavLink>
             {topics.map((topic) => {
               const active = activeTopicSlug === topic.slug || router.asPath.startsWith(`/topic/${topic.slug}`)
               return (
