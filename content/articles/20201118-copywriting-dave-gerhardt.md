@@ -5,7 +5,7 @@ meta_description: 'Master the art of persuasive copywriting with insights from m
 slug: copywriting-dave-gerhardt
 topic: entrepreneurship
 ---
-<img src="/images/blog/copywriting-dave-gerhardt-1.png" alt="Image 1 from copywriting-dave-gerhardt" class="cover-image" />
+<img src="/images/articles/copywriting-dave-gerhardt-1.png" alt="Image 1 from copywriting-dave-gerhardt" class="cover-image" />
 
 
 Back in March 2020, I was very active on my LinkedIn trying to engage my network.
@@ -26,7 +26,7 @@ And the best form of communication is still text, believe it or not. That's wher
 
 But a lot of us don't take copywriting seriously because it is not easy to spot that you're not good at it. As long as you can write, you can always produce something. But are people reading it? That's the billion-dollar question.
 
-<img src="/images/blog/copywriting-dave-gerhardt-2.png" alt="Image 2 from copywriting-dave-gerhardt" />
+<img src="/images/articles/copywriting-dave-gerhardt-2.png" alt="Image 2 from copywriting-dave-gerhardt" />
 
 ## Dave Gerhardt's copywriting tactics on LinkedIn
 
@@ -62,40 +62,40 @@ To a lot of us, when we first write marketing copies, somehow we always go for a
 
 Dave doesn't do that. When you read his words, you feel that he is talking to you like a friend on the phone.
 
-<img src="/images/blog/copywriting-dave-gerhardt-3.png" alt="Image 3 from copywriting-dave-gerhardt" />
+<img src="/images/articles/copywriting-dave-gerhardt-3.png" alt="Image 3 from copywriting-dave-gerhardt" />
 
 ### He is talking to a very clear audience
 
 We all get greedy and want to speak to a lot of people at once. Dave focuses on marketers and he makes it very clear. Funny enough, by doing this, he naturally attracts other people.
 
-<img src="/images/blog/copywriting-dave-gerhardt-4.png" alt="Image 4 from copywriting-dave-gerhardt" />
+<img src="/images/articles/copywriting-dave-gerhardt-4.png" alt="Image 4 from copywriting-dave-gerhardt" />
 
 His opening line is short (8-16 words)
 I love to look at his 1st line.
-<img src="/images/blog/copywriting-dave-gerhardt-5.png" alt="Image 5 from copywriting-dave-gerhardt" />
+<img src="/images/articles/copywriting-dave-gerhardt-5.png" alt="Image 5 from copywriting-dave-gerhardt" />
 
 ### He tells a story (even a personal one)
 
 We all love reading a story because we're nosy and we want to find out what happened. Daves always writes as if he is telling a quick bedtime story to his kids.
 
-<img src="/images/blog/copywriting-dave-gerhardt-6.png" alt="Image 6 from copywriting-dave-gerhardt" />
+<img src="/images/articles/copywriting-dave-gerhardt-6.png" alt="Image 6 from copywriting-dave-gerhardt" />
 
 He uses bullet points
 No one has time, so let's cut to the chase. Removing words is key to good copywriting.
 
-<img src="/images/blog/copywriting-dave-gerhardt-7.png" alt="Image 7 from copywriting-dave-gerhardt" />
+<img src="/images/articles/copywriting-dave-gerhardt-7.png" alt="Image 7 from copywriting-dave-gerhardt" />
 
 ### He focuses on one hashtag only
 
 Are you thinking of using hashtags to bring in views & engagement? It is not quite sustainable and Dave doesn't care about that. He is persistent on one hashtag only: #marketing.
 
-<img src="/images/blog/copywriting-dave-gerhardt-8.png" alt="Image 8 from copywriting-dave-gerhardt" />
+<img src="/images/articles/copywriting-dave-gerhardt-8.png" alt="Image 8 from copywriting-dave-gerhardt" />
 
 ### He injects personality and talks about unrelated things
 
 Big one. If copywriting is #1 important, personality is #2. Have some swags and differentiate yourself from the rest. Dave is genuine and fun, and you just want to be his friend.
 
-<img src="/images/blog/copywriting-dave-gerhardt-9.png" alt="Image 9 from copywriting-dave-gerhardt" />
+<img src="/images/articles/copywriting-dave-gerhardt-9.png" alt="Image 9 from copywriting-dave-gerhardt" />
 
 He posts consistently
 To keep an active presence, Dave tweets at least once a day, and posts on LinkedIn every other day if not every day.
@@ -104,7 +104,7 @@ To keep an active presence, Dave tweets at least once a day, and posts on Linked
 
 Here comes the best way to resonate with your audience - get on the same side! Dave points out annoying things he faces in his life/work and it feels like a friend telling you over lunch, so you jump into the conversation. 3,106 reactions and 723 comments!
 
-<img src="/images/blog/copywriting-dave-gerhardt-10.png" alt="Image 10 from copywriting-dave-gerhardt" />
+<img src="/images/articles/copywriting-dave-gerhardt-10.png" alt="Image 10 from copywriting-dave-gerhardt" />
 
 ## Bonus: writing well is not enough on LinkedIn
 
@@ -132,4 +132,4 @@ After I picked up these tactics from Dave. I put them into practice and saw my e
 
 If you're craving more copywriting tips, check out <a href="https://www.publiclab.co/build-in-public/storytelling">this chapter from my Building in Public guide</a>.
 
-<img src="/images/blog/copywriting-dave-gerhardt-11.png" alt="Image 11 from copywriting-dave-gerhardt" />
+<img src="/images/articles/copywriting-dave-gerhardt-11.png" alt="Image 11 from copywriting-dave-gerhardt" />

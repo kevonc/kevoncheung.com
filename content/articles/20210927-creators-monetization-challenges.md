@@ -2,12 +2,12 @@
 title: How I grew to $2,000/mo then got rid of it
 date: '2021-09-27'
 meta_description: "A creator's journey from $0 to $2,000 monthly revenue and the surprising decision to let it go. Learn about the real challenges of monetizing as a content creator."
-meta_image: '/images/blog/creators-monetization-challenges-1.jpeg'
+meta_image: '/images/articles/creators-monetization-challenges-1.jpeg'
 slug: creators-monetization-challenges
 topic: entrepreneurship
 ---
 
-<img src="/images/blog/creators-monetization-challenges-1.jpeg" alt="Image 1 from creators-monetization-challenges" class="cover-image" />
+<img src="/images/articles/creators-monetization-challenges-1.jpeg" alt="Image 1 from creators-monetization-challenges" class="cover-image" />
 
 Who worked really hard to make a living online, found a way to reach $2K/month, and then said goodbye to the 2 revenue streams?
 
@@ -23,7 +23,7 @@ To give you a quick background: I started creating online in Nov 2020 and starte
 
 - A Notion template
 
-<img src="/images/blog/creators-monetization-challenges-2.png" alt="Image 2 from creators-monetization-challenges" />
+<img src="/images/articles/creators-monetization-challenges-2.png" alt="Image 2 from creators-monetization-challenges" />
 
 I didn't have a good grasp of setup effort, sustainability, or ROI for these products, so I followed my heart and experimented a lot.
 
@@ -81,7 +81,7 @@ All these are important. Okay, so here are why I stopped running 30DaysInPublic 
 
 It was absolutely a fantastic time pulling together a group of people together each month to do this.
 
-<img src="/images/blog/creators-monetization-challenges-3.png" alt="Image 3 from creators-monetization-challenges" />
+<img src="/images/articles/creators-monetization-challenges-3.png" alt="Image 3 from creators-monetization-challenges" />
 
 I knew I could have grown it by increasing the price or getting more students, but I needed to fix one thing first.
 
@@ -109,7 +109,7 @@ It is also why I'm part of the <a href="https://maven.com/maven/course-accelerat
 
 ## I stopped collecting recurring membership fee
 
-<img src="/images/blog/creators-monetization-challenges-4.png" alt="Image 4 from creators-monetization-challenges" />
+<img src="/images/articles/creators-monetization-challenges-4.png" alt="Image 4 from creators-monetization-challenges" />
 
 I announced to my 50 paid members that I would no longer charge them a recurring fee in order to be part of the Public Lab community.
 
@@ -130,7 +130,7 @@ For Public Lab, since I realized my strength and interest is more in creating co
 
 ## 🙌 Supporters
 
-<img src="/images/blog/creators-monetization-challenges-5.png" alt="Image 5 from creators-monetization-challenges" />
+<img src="/images/articles/creators-monetization-challenges-5.png" alt="Image 5 from creators-monetization-challenges" />
 
 I know for a fact that many of them have been supporting my work even though they're not looking for a particular value in return. They're happy to pay even if they only participate once or twice a month.
 
@@ -207,4 +207,4 @@ This is a long post, so thank you if you're reading up till this point.
 
 There is also a lot to be discussed, maybe you think I could approach it differently, so I would love to hear your thoughts! Jump in the discussion here:
 
-<img src="/images/blog/creators-monetization-challenges-6.png" alt="Image 6 from creators-monetization-challenges" />
+<img src="/images/articles/creators-monetization-challenges-6.png" alt="Image 6 from creators-monetization-challenges" />

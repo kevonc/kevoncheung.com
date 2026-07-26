@@ -5,7 +5,7 @@ meta_description: "Detailed analysis of Contra's landing page design and copy. L
 slug: landing-page-contra
 topic: entrepreneurship
 ---
-<img src="/images/blog/landing-page-contra-1.png" alt="Image 1 from landing-page-contra" class="cover-image" />
+<img src="/images/articles/landing-page-contra-1.png" alt="Image 1 from landing-page-contra" class="cover-image" />
 
 
 What does the future of work look like? Flexible, do what you love, and be measured by outcome, not hours.
@@ -32,7 +32,7 @@ I want to take you through the entire thought process. You'll take a look at the
 
 <a href="https://uploads-ssl.webflow.com/5fdf5c194a4d23f828ab1984/60015992ebca5f7d11d08aa2_contra-homepage.png">Click here</a> to enlarge this image below:
 
-<img src="/images/blog/landing-page-contra-2.png" alt="Image 2 from landing-page-contra" />
+<img src="/images/articles/landing-page-contra-2.png" alt="Image 2 from landing-page-contra" />
 
 ## What I love
 

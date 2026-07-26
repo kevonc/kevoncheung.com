@@ -2,11 +2,11 @@
 title: How to validate your startup idea
 date: '2020-12-12'
 meta_description: 'A practical framework for evaluating and validating startup ideas before investing resources. Learn eight essential questions to assess market potential and business viability.'
-meta_image: '/images/blog/validate-startup-ideas-1.png'
+meta_image: '/images/articles/validate-startup-ideas-1.png'
 slug: validate-startup-ideas
 topic: entrepreneurship
 ---
-<img src="/images/blog/validate-startup-ideas-1.png" alt="Image 1 from validate-startup-ideas" class="cover-image" />
+<img src="/images/articles/validate-startup-ideas-1.png" alt="Image 1 from validate-startup-ideas" class="cover-image" />
 
 
 If you're thinking about the next big idea that matches or even beats Airbnb, Netflix, and Uber, then you're on the right track.
@@ -43,11 +43,11 @@ And this post is about the first 6 months of Toasty, before our first pivot.
 
 We built a matchmaking platform for conference-goers to screen and set up meetings with each other before the actual date. The goal was to enhance their networking experience so that it was worthwhile to spend days at the conference, especially when tickets were so expensive or if attendees traveled overseas.
 
-<img src="/images/blog/validate-startup-ideas-2.jpeg" alt="Image 2 from validate-startup-ideas" />
+<img src="/images/articles/validate-startup-ideas-2.jpeg" alt="Image 2 from validate-startup-ideas" />
 
 Here is us traveling to Shanghai for the first conference that used Toasty! We wanted to be there to observe and talk to end-users.
 
-<img src="/images/blog/validate-startup-ideas-3.jpeg" alt="Image 3 from validate-startup-ideas" />
+<img src="/images/articles/validate-startup-ideas-3.jpeg" alt="Image 3 from validate-startup-ideas" />
 
 The web app was beautifully designed to allow any attendee to see who else was going to the conference and set up meetings beforehand.
 
@@ -65,7 +65,7 @@ With these data points, we jumped in without thinking too much.
 
 It was one of the toughest calls I had to make.
 
-<img src="/images/blog/validate-startup-ideas-4.png" alt="Image 4 from validate-startup-ideas" />
+<img src="/images/articles/validate-startup-ideas-4.png" alt="Image 4 from validate-startup-ideas" />
 
 Toasty analyzed everyone's profile and recommended people you should meet.
 
@@ -75,7 +75,7 @@ Before the decision to pivot, I took some time to consolidate the learnings, and
 
 ### Sales cycle is long
 
-<img src="/images/blog/validate-startup-ideas-5.png" alt="Image 5 from validate-startup-ideas" />
+<img src="/images/articles/validate-startup-ideas-5.png" alt="Image 5 from validate-startup-ideas" />
 
 November is too early to talk about a conference in March next year.
 
@@ -95,7 +95,7 @@ The end users (attendees) are exposed to our matchmaking platform once (during t
 
 ### One-off payment term
 
-<img src="/images/blog/validate-startup-ideas-6.png" alt="Image 6 from validate-startup-ideas" />
+<img src="/images/articles/validate-startup-ideas-6.png" alt="Image 6 from validate-startup-ideas" />
 
 A one-off payment is also hard to collect. Here they just never paid us 50% of the contract.
 
@@ -107,7 +107,7 @@ We made a naive assumption that because it is a software platform, it would be o
 
 ### Matchmaking is not top of the organizer's mind
 
-<img src="/images/blog/validate-startup-ideas-7.png" alt="Image 7 from validate-startup-ideas" />
+<img src="/images/articles/validate-startup-ideas-7.png" alt="Image 7 from validate-startup-ideas" />
 
 Keynote and Sponsors make the conference, the other things are all icing on the cake.
 
@@ -123,7 +123,7 @@ The key to growing a startup product is to collect a ton of feedback to improve 
 
 ## In hindsight, this was a terrible idea
 
-<img src="/images/blog/validate-startup-ideas-8.jpeg" alt="Image 8 from validate-startup-ideas" />
+<img src="/images/articles/validate-startup-ideas-8.jpeg" alt="Image 8 from validate-startup-ideas" />
 
 *Waving goodbye to our first product.*
 
@@ -141,7 +141,7 @@ So reflecting back, I came up with this list to help me evaluate future ideas.
 
 It is much better to ride with the wave than to go against it. Zapier played right in the global trend of booming Marketing Technology when it started in 2011. What did they do? They connected all these platforms.
 
-<img src="/images/blog/validate-startup-ideas-9.jpeg" alt="Image 9 from validate-startup-ideas" />
+<img src="/images/articles/validate-startup-ideas-9.jpeg" alt="Image 9 from validate-startup-ideas" />
 
 
 Source: <a href="https://saasmarketer.io/saas-partnership-strategy">SaaS Marketer</a>

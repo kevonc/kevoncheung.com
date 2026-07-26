@@ -2,12 +2,12 @@
 title: Avoid doing what you like
 date: '2021-06-19'
 meta_description: 'Challenge the "follow your passion" advice. Discover why doing what you like might not lead to success, and what approach actually works better.'
-meta_image: '/images/blog/avoid-doing-what-you-like-1.png'
+meta_image: '/images/articles/avoid-doing-what-you-like-1.png'
 slug: avoid-doing-what-you-like
 topic: entrepreneurship
 ---
 
-<img src="/images/blog/avoid-doing-what-you-like-1.png" alt="Image 1 from avoid-doing-what-you-like" class="cover-image" />
+<img src="/images/articles/avoid-doing-what-you-like-1.png" alt="Image 1 from avoid-doing-what-you-like" class="cover-image" />
 
 I was chatting with a community builder friend and he asked me, "What's the thing that offers the most value in your community?"
 

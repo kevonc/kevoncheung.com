@@ -6,7 +6,7 @@ slug: user-interview-traps
 topic: entrepreneurship
 ---
 
-<img src="/images/blog/user-interview-traps-1.png" alt="Image 1 from user-interview-traps" class="cover-image" />
+<img src="/images/articles/user-interview-traps-1.png" alt="Image 1 from user-interview-traps" class="cover-image" />
 
 ***"Stay close to your users" has become the principle of building great products.***
 

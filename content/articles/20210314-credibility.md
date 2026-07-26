@@ -2,11 +2,11 @@
 title: How to build credibility online
 date: '2021-03-14'
 meta_description: 'Build genuine authority and trust in your online presence. Learn effective ways to establish credibility without appearing salesy or inauthentic.'
-meta_image: '/images/blog/credibility-1.jpeg'
+meta_image: '/images/articles/credibility-1.jpeg'
 slug: credibility
 topic: entrepreneurship
 ---
-<img src="/images/blog/credibility-1.jpeg" alt="A person looking at their laptop screen, contemplating online business" class="cover-image" />
+<img src="/images/articles/credibility-1.jpeg" alt="A person looking at their laptop screen, contemplating online business" class="cover-image" />
 
 
 Let's say there are two gardeners: John and Jenn.
@@ -29,7 +29,7 @@ Once the credibility is established, whatever a person says or does, it is alway
 
 This is why testimonials and social proof have become a big part of the online world. I put up this wall by <a href="https://testimonial.to/?via=kevon">Testimonial</a> on my homepage to let people instantly find out whether I'm trustworthy.
 
-<img src="/images/blog/credibility-2.png" alt="Screenshot of a Twitter thread about building in public" />
+<img src="/images/articles/credibility-2.png" alt="Screenshot of a Twitter thread about building in public" />
 
 This is what I have on KevonCheung.com's homepage.
 
@@ -55,7 +55,7 @@ So every achievement is placed on a scale from easy to achieve to hard to achiev
 
 If we put this concept into the online world, the scale looks like this:
 
-<img src="/images/blog/credibility-3.png" alt="Screenshot showing social proof and endorsements" />
+<img src="/images/articles/credibility-3.png" alt="Screenshot showing social proof and endorsements" />
 
 These are the most common achievements for tech founders and creators. Can you point out where your credibility level is right now?
 
@@ -87,7 +87,7 @@ More importantly, this person's credibility level spills over to your credibilit
 
 I was endorsed by Preetam Nath who has 5,000+ followers and is an influencer in the SaaS space. This helped me a lot.
 
-<img src="/images/blog/credibility-4.png" alt="Screenshot of project documentation and evidence" />
+<img src="/images/articles/credibility-4.png" alt="Screenshot of project documentation and evidence" />
 
 Once you get that going. When you can get different respected people to endorse you regularly, you're establishing yourself as "somebody".
 
@@ -107,7 +107,7 @@ You want to take every chance to capture positive things people say about you. I
 
 ***Do yourself a favor. Be your own promoter.***
 
-<img src="/images/blog/credibility-5.jpeg" alt="A person working on their laptop, building their online presence" />
+<img src="/images/articles/credibility-5.jpeg" alt="A person working on their laptop, building their online presence" />
 
 *I love Testimonial.to - easy to use and does the job!*
 

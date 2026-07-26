@@ -2,12 +2,12 @@
 title: Community vs Cohort-based Course - Which one should you build?
 date: '2021-05-01'
 meta_description: 'Compare communities and cohort-based courses to find the right fit for your business. Practical insights on choosing between these two popular creator models.'
-meta_image: '/images/blog/community-or-cohort-based-course-1.jpeg'
+meta_image: '/images/articles/community-or-cohort-based-course-1.jpeg'
 slug: community-or-cohort-based-course
 topic: entrepreneurship
 ---
 
-<img src="/images/blog/community-or-cohort-based-course-1.jpeg" alt="Image 1 from community-or-cohort-based-course" class="cover-image" />
+<img src="/images/articles/community-or-cohort-based-course-1.jpeg" alt="Image 1 from community-or-cohort-based-course" class="cover-image" />
 
 Are you thinking about starting a new community or creating a cohort-based course? They're the hottest products to create in 2021. But before you do so, read this.
 
@@ -21,7 +21,7 @@ But from interacting with the members, I realized what's more helpful in their e
 
 Here I'm breaking down and comparing what I learned from creating these two products. This can help you think through how you want to approach creating them.
 
-<img src="/images/blog/community-or-cohort-based-course-2.png" alt="Image 2 from community-or-cohort-based-course" />
+<img src="/images/articles/community-or-cohort-based-course-2.png" alt="Image 2 from community-or-cohort-based-course" />
 
 ## A community is a commitment
 An online community is asynchronous. It runs in the background for most people's lives. Most people are not visiting the community all the time, but they go there when they want to interact with the other members.

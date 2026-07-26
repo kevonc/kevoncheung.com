@@ -2,11 +2,11 @@
 title: How to be successful in life
 date: '2021-01-06'
 meta_description: 'A personal reflection on defining true success beyond societal standards. Explore what meaningful achievement looks like in both life and career.'
-meta_image: '/images/blog/success-in-life-1.jpeg'
+meta_image: '/images/articles/success-in-life-1.jpeg'
 slug: success-in-life
 topic: life-lessons
 ---
-<img src="/images/blog/success-in-life-1.jpeg" alt="Image 1 from success-in-life" class="cover-image" />
+<img src="/images/articles/success-in-life-1.jpeg" alt="Image 1 from success-in-life" class="cover-image" />
 
 
 It was Thanksgiving, and I ordered two bottles of my favorite Château Léoville-Poyferré and wrote a card to send to a friend of mine. I don't actually enjoy gifting that much; I prefer catching up over coffee in person. But I wanted to do it this time.

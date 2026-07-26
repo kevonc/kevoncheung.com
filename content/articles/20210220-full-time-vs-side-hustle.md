@@ -2,12 +2,12 @@
 title: Start a business full-time or as a side hustle
 date: '2021-02-20'
 meta_description: 'Comparing the pros and cons of full-time entrepreneurship versus side hustles. Learn how to make the right choice for your situation and set yourself up for sustainable success.'
-meta_image: '/images/blog/full-time-vs-side-hustle-1.jpeg'
+meta_image: '/images/articles/full-time-vs-side-hustle-1.jpeg'
 slug: full-time-vs-side-hustle
 topic: entrepreneurship
 ---
 
-<img src="/images/blog/full-time-vs-side-hustle-1.jpeg" alt="Image 1 from full-time-vs-side-hustle" class="cover-image" />
+<img src="/images/articles/full-time-vs-side-hustle-1.jpeg" alt="Image 1 from full-time-vs-side-hustle" class="cover-image" />
 
 
 Thanks to the launch of my <a href="https://publiclab.co/build-in-public">Building in Public Definitive Guide</a>, I've received a number of questions from readers.

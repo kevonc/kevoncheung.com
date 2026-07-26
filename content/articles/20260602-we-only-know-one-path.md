@@ -2,7 +2,7 @@
 title: 'We only know one path'
 date: '2026-06-02'
 meta_description: 'A dinner conversation about school paths, parenting blind spots, and why listening across different experiences matters.'
-slug: 'we-only-know-one-path'
+slug: 'one-path'
 topic: life-lessons
 ---
 

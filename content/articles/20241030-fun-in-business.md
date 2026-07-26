@@ -2,12 +2,12 @@
 title: When you lose the fun in business
 date: '2024-10-30'
 meta_description: 'Why entrepreneurs lose their identity and joy in business, and how to reclaim it. A personal story about choosing fun over conventional business wisdom.'
-meta_image: '/images/blog/fun-in-business-1.png'
+meta_image: '/images/articles/fun-in-business-1.png'
 slug: fun-in-business
 topic: entrepreneurship
 ---
 
-<img src="/images/blog/fun-in-business-1.png" alt="When you lose the fun in business entrepreneurship October 30" class="cover-image" />
+<img src="/images/articles/fun-in-business-1.png" alt="When you lose the fun in business entrepreneurship October 30" class="cover-image" />
 
 
 Yucks!
@@ -70,7 +70,7 @@ Honestly, after 4 years of working solo, I crave working and collaborating with 
 
 As to having fun, I did something super random for fun:
 
-<img src="/images/blog/fun-in-business-2.png" alt="Prioritize fun" />
+<img src="/images/articles/fun-in-business-2.png" alt="Prioritize fun" />
 
 
 This made no sense but this is was what I wanted to do.

@@ -2,11 +2,11 @@
 title: Truth behind a successful product launch
 date: '2021-03-21'
 meta_description: 'Essential strategies for a successful product launch. Learn how to build anticipation, engage your audience, and maximize your launch day impact.'
-meta_image: '/images/blog/product-launch-1.jpeg'
+meta_image: '/images/articles/product-launch-1.jpeg'
 slug: product-launch
 topic: entrepreneurship
 ---
-<img src="/images/blog/product-launch-1.jpeg" alt="Image 1 from product-launch" class="cover-image" />
+<img src="/images/articles/product-launch-1.jpeg" alt="Image 1 from product-launch" class="cover-image" />
 
 
 Every founder has to learn how to launch products.
@@ -59,7 +59,7 @@ Reflecting on how I created the guide and the email course, the first thing I di
 
 Here were the breadcrumbs that led me to build Making Twitter Friends.
 
-<img src="/images/blog/product-launch-2.png" alt="Image 2 from product-launch" />
+<img src="/images/articles/product-launch-2.png" alt="Image 2 from product-launch" />
 
 ***There are lots and lots of courses on Growing Twitter.***
 
@@ -81,19 +81,19 @@ At Toasty, we built, we launched, and we got nothing.
 
 The way I created the guide and the email course was very different. I've been using Twitter to make friends and my tweets became my testing ground. Long before my guide was ready, I already talked about it and received interest from people.
 
-<img src="/images/blog/product-launch-3.png" alt="Image 3 from product-launch" />
+<img src="/images/articles/product-launch-3.png" alt="Image 3 from product-launch" />
 
 I also tweeted to see if anyone would be interested in helping to review my draft. When they replied, I reached out via DM and got to know them.
 
-<img src="/images/blog/product-launch-4.png" alt="Image 4 from product-launch" />
+<img src="/images/articles/product-launch-4.png" alt="Image 4 from product-launch" />
 
 Dan (<a href="https://twitter.com/DanRoche01">@DanRoche01</a>) was super helpful.
 
-<img src="/images/blog/product-launch-5.png" alt="Image 5 from product-launch" />
+<img src="/images/articles/product-launch-5.png" alt="Image 5 from product-launch" />
 
 Boris (<a href="https://twitter.com/BorisTane">@BorisTane</a>) was giving me a hand.
 
-<img src="/images/blog/product-launch-6.png" alt="Image 6 from product-launch" />
+<img src="/images/articles/product-launch-6.png" alt="Image 6 from product-launch" />
 
 
 Pavel (<a href="https://twitter.com/hipavel">@hipavel</a>) even helped read my draft for both part 1 & 2.
@@ -112,13 +112,13 @@ The word "launch" is a little misleading. It refers to the moment you put out so
 
 With the early readers, I was able to get their testimonials to add credibility to my product when it launched. I use <a href="https://testimonial.to/?via=kevon">Testimonial</a>.
 
-<img src="/images/blog/product-launch-7.png" alt="Image 7 from product-launch" />
+<img src="/images/articles/product-launch-7.png" alt="Image 7 from product-launch" />
 
 ***A beautiful Testimonial wall featuring tweets.***    
 
 Because they were part of the creation, they didn't hesitate to help to retweet and to promote. That "network effect" was powerful.
 
-<img src="/images/blog/product-launch-8.png" alt="Image 8 from product-launch" />
+<img src="/images/articles/product-launch-8.png" alt="Image 8 from product-launch" />
 
 If you click to see my launch tweet's stats, I had a total of 53 Retweets + 37 Quote Tweets. That's 90 people helping out!
 

@@ -2,11 +2,11 @@
 title: Why I forced my whole team to read The Mom Test
 date: '2021-01-14'
 meta_description: 'Master the art of customer interviews using The Mom Test method. Learn how to get honest feedback and validate your business ideas effectively.'
-meta_image: '/images/blog/the-mom-test-1.jpeg'
+meta_image: '/images/articles/the-mom-test-1.jpeg'
 slug: the-mom-test
 topic: entrepreneurship
 ---
-<img src="/images/blog/the-mom-test-1.jpeg" alt="Image 1 from the-mom-test" class="cover-image" />
+<img src="/images/articles/the-mom-test-1.jpeg" alt="Image 1 from the-mom-test" class="cover-image" />
 
 
 If you've read my other post about <a href="/validate-startup-ideas">validating your startup idea</a>, you'd know that my startup, Toasty, went through a critical pivot after failing the 1st idea.

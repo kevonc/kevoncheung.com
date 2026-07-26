@@ -2,12 +2,12 @@
 title: 5 misconceptions about building in public
 date: '2021-04-11'
 meta_description: 'Debunking common myths about building in public. Learn why it is not about daily updates, bragging, or marketing hacks, but about authentic sharing and community building.'
-meta_image: '/images/blog/misconceptions-building-in-public-1.jpg'
+meta_image: '/images/articles/misconceptions-building-in-public-1.jpg'
 slug: misconceptions-building-in-public
 topic: entrepreneurship
 ---
 
-<img src="/images/blog/misconceptions-building-in-public-1.jpg" alt="Image 1 from misconceptions-building-in-public" class="cover-image" />
+<img src="/images/articles/misconceptions-building-in-public-1.jpg" alt="Image 1 from misconceptions-building-in-public" class="cover-image" />
 
 More and more people are embracing Building in Public these days. Why? Is it because it is a hot trend or because more people care about transparency? I'm not entirely sure.
 

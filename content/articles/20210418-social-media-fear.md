@@ -2,11 +2,11 @@
 title: How to overcome your social media fear
 date: '2021-04-18'
 meta_description: 'Practical strategies to overcome fear and build confidence on social media. Learn how to handle public criticism, manage feedback, and develop an authentic online presence.'
-meta_image: '/images/blog/social-media-fear-1.png'
+meta_image: '/images/articles/social-media-fear-1.png'
 slug: social-media-fear
 topic: entrepreneurship
 ---
-<img src="/images/blog/social-media-fear-1.png" alt="Image 1 from social-media-fear" class="cover-image" />
+<img src="/images/articles/social-media-fear-1.png" alt="Image 1 from social-media-fear" class="cover-image" />
 
 
 I found my spot to be helpful on the Internet.

@@ -2,11 +2,11 @@
 title: Why cohort-based learning is the future of education
 date: '2021-02-28'
 meta_description: 'Explore why cohort-based courses are revolutionizing online education. Learn the benefits of collaborative learning and why traditional courses fall short.'
-meta_image: '/images/blog/cohort-based-learning-1.jpeg'
+meta_image: '/images/articles/cohort-based-learning-1.jpeg'
 slug: cohort-based-learning
 topic: entrepreneurship
 ---
-<img src="/images/blog/cohort-based-learning-1.jpeg" alt="Image 1 from cohort-based-learning" class="cover-image" />
+<img src="/images/articles/cohort-based-learning-1.jpeg" alt="Image 1 from cohort-based-learning" class="cover-image" />
 
 
 We keep forgetting one simple truth. We humans are tribal.
@@ -17,7 +17,7 @@ If we're tribal, why do we grow communities to thousands of people knowing that 
 
 ## The death of large communities
 
-<img src="/images/blog/cohort-based-learning-2.jpeg" alt="Image 2 from cohort-based-learning" />
+<img src="/images/articles/cohort-based-learning-2.jpeg" alt="Image 2 from cohort-based-learning" />
 
 *Large communities are losing their charms.*
 
@@ -51,7 +51,7 @@ Everyone is occupied with their own priorities in life. There is no reason for s
 
 ## A tribal era emerging
 
-<img src="/images/blog/cohort-based-learning-3.jpeg" alt="Image 3 from cohort-based-learning" />
+<img src="/images/articles/cohort-based-learning-3.jpeg" alt="Image 3 from cohort-based-learning" />
 
 *Smaller cohorts encourage people to build authentic relationships to support each other.*
 

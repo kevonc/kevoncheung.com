@@ -5,7 +5,7 @@ meta_description: ''
 slug: customer-development-singapore
 topic: entrepreneurship
 ---
-<img src="/images/blog/customer-development-singapore-1.jpeg" alt="Image 1 from customer-development-singapore" class="cover-image" />
+<img src="/images/articles/customer-development-singapore-1.jpeg" alt="Image 1 from customer-development-singapore" class="cover-image" />
 
 For the last six days, I traveled to one of the most exciting cities with curiosity and excitement. I used to live there for two whole years when I was two years old, and there wasn’t a tiny bit of memory left in my head. That’s why I was extremely excited to be back in Singapore all by myself, just adventure and exploration in front of me.
 
@@ -17,9 +17,9 @@ As we all got excited about new business ideas, we made all these rough assumpti
 
 We learned about the right methodology to do a startup at LSM, and I kept referring the concept back to my own startup, Sponfed. I realized there were a ton of mistakes we made: didn’t specify a specific market segment where the early adopters are, didn’t test assumptions and pivot enough, and didn’t come up with a way to present our product effectively when meeting with clients. The sponsorship space is definitely a tough market to go into, but we could have been more successful in tackling the problems if we had used the lean startup concept.
 
-<img src="/images/blog/customer-development-singapore-2.jpeg" alt="Image 2 from customer-development-singapore" />
-<img src="/images/blog/customer-development-singapore-3.jpeg" alt="Image 3 from customer-development-singapore" />
-<img src="/images/blog/customer-development-singapore-4.jpeg" alt="Image 4 from customer-development-singapore" />
+<img src="/images/articles/customer-development-singapore-2.jpeg" alt="Image 2 from customer-development-singapore" />
+<img src="/images/articles/customer-development-singapore-3.jpeg" alt="Image 3 from customer-development-singapore" />
+<img src="/images/articles/customer-development-singapore-4.jpeg" alt="Image 4 from customer-development-singapore" />
 
 Well, other than learning the startup methodology, I also visited a ton of places in Singapore, Night Safari, Garden by the Bay, Sentosa, Raffle Places, Clarke Quay, the best rooftop bar <a href="http://travel.cnn.com/singapore/drink/best-singapore-rooftop-bars-197848">1-Altitude</a>, Little India, Orchard Road, Bugis, what a shame I didn’t get to Chinatown lol! I found Singapore to be a very lovely place, it is extremely small but ridiculously diverse, from Indians to Chinese to Malays to Westerners, you could expect everything there. 
 
@@ -29,7 +29,7 @@ Other observations from my trip were that the architecture in the city is consis
 
 I can now announce that Singapore has jumped onto my favorite list of cities right behind Bangkok and Taipei. To be honest, it is quite an ideal city to work overseas!
 
-<img src="/images/blog/customer-development-singapore-5.jpeg" alt="Image 5 from customer-development-singapore" />
-<img src="/images/blog/customer-development-singapore-6.jpeg" alt="Image 6 from customer-development-singapore" />
-<img src="/images/blog/customer-development-singapore-7.jpeg" alt="Image 7 from customer-development-singapore" />
-<img src="/images/blog/customer-development-singapore-8.jpeg" alt="Image 8 from customer-development-singapore" />
+<img src="/images/articles/customer-development-singapore-5.jpeg" alt="Image 5 from customer-development-singapore" />
+<img src="/images/articles/customer-development-singapore-6.jpeg" alt="Image 6 from customer-development-singapore" />
+<img src="/images/articles/customer-development-singapore-7.jpeg" alt="Image 7 from customer-development-singapore" />
+<img src="/images/articles/customer-development-singapore-8.jpeg" alt="Image 8 from customer-development-singapore" />

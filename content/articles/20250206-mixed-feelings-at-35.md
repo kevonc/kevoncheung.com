@@ -2,12 +2,12 @@
 title: 'Mixed feelings at 35'
 date: '2025-02-06'
 meta_description: 'A reflection on turning 35: balancing family life, career ambitions, and personal growth while navigating the challenges of this pivotal age.'
-meta_image: '/images/blog/35-1.jpg'
+meta_image: '/images/articles/35-1.jpg'
 slug: '35'
 topic: life-lessons
 ---
 
-<img src="/images/blog/35-1.jpg" alt="Mixed feelings at 35" class="cover-image" />
+<img src="/images/articles/35-1.jpg" alt="Mixed feelings at 35" class="cover-image" />
 
 This year is 2025 and I'm turning 35 soon.
 

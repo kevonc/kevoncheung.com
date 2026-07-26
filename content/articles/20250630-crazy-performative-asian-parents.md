@@ -1,13 +1,13 @@
 ---
-title: 'Crazy Performative Asian Parents'
+title: 'Crazy performative Asian parents'
 date: '2025-06-30'
 meta_description: ''
-meta_image: '/images/blog/crazy-performative-asian-parents-cover.png'
-slug: 'crazy-performative-asian-parents'
+meta_image: '/images/articles/crazy-performative-asian-parents-cover.png'
+slug: 'asian-parents'
 topic: family
 ---
 
-<img src="/images/blog/crazy-performative-asian-parents-cover.png" alt="Crazy Performative Asian Parents" class="cover-image" />
+<img src="/images/articles/crazy-performative-asian-parents-cover.png" alt="Crazy Performative Asian Parents" class="cover-image" />
 
 We’ve all heard of **Crazy Rich Asians**.
 

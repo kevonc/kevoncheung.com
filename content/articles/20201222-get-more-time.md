@@ -2,11 +2,11 @@
 title: How to get more time in your day
 date: '2020-12-22'
 meta_description: 'Practical strategies to maximize your daily productivity without burning out. Learn effective techniques like task batching and automation to create more time for what matters.'
-meta_image: '/images/blog/get-more-time-1.jpeg'
+meta_image: '/images/articles/get-more-time-1.jpeg'
 slug: get-more-time
 topic: life-lessons
 ---
-<img src="/images/blog/get-more-time-1.jpeg" alt="Image 1 from get-more-time" class="cover-image" />
+<img src="/images/articles/get-more-time-1.jpeg" alt="Image 1 from get-more-time" class="cover-image" />
 
 
 I'm a productivity nerd. When I waste time, I always feel a sense of guilt.
@@ -61,7 +61,7 @@ Let's take my day as an example.
 
 ## Start of the day: exercise and breakfast
 
-<img src="/images/blog/get-more-time-2.jpeg" alt="Image 2 from get-more-time" />
+<img src="/images/articles/get-more-time-2.jpeg" alt="Image 2 from get-more-time" />
 
 *My best day routine.*
 
@@ -75,7 +75,7 @@ Up until 8:45 am, I still make no decision, wasting no time.
 
 I've long stopped caring about what I wear, maybe because most of my work is in front of a computer. I have about 12 Uniqlo t-shirts in plain colors, 7-8 J Crew shirts in plain colors, and 4-5 American Eagle jeans in black or blue. Every day, I just put on whatever combination that I feel like on the day. Not having to decide what to wear saves me a good 5-15 mins.
 
-<img src="/images/blog/get-more-time-3.png" alt="Image 3 from get-more-time" />
+<img src="/images/articles/get-more-time-3.png" alt="Image 3 from get-more-time" />
 
 *Plain is the new cool.*
 
@@ -85,7 +85,7 @@ It is time to put in productive work so I can make a living to sustain my family
 
 ### ‍1. Task batching
 
-<img src="/images/blog/get-more-time-4.jpeg" alt="Image 4 from get-more-time" />
+<img src="/images/articles/get-more-time-4.jpeg" alt="Image 4 from get-more-time" />
 
 *Do things in batches for top efficiency. Imagine yourself in a factory.*
 
@@ -99,7 +99,7 @@ The benefits of this are clear. When you're in the zone of doing one thing, you'
 
 ### 2. Automating to eliminate distraction
 
-<img src="/images/blog/get-more-time-5.png" alt="Image 5 from get-more-time" />
+<img src="/images/articles/get-more-time-5.png" alt="Image 5 from get-more-time" />
 
 *Use "+" in your email in order to set up auto-filter. The "+newsletter" part won't affect the email functionality.*
 

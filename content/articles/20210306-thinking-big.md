@@ -2,11 +2,11 @@
 title: The problem with thinking big
 date: '2021-03-06'
 meta_description: 'Why "think big" advice might be holding you back. Discover the power of starting small and growing naturally in your entrepreneurial journey.'
-meta_image: '/images/blog/thinking-big-1.jpeg'
+meta_image: '/images/articles/thinking-big-1.jpeg'
 slug: thinking-big
 topic: entrepreneurship
 ---
-<img src="/images/blog/thinking-big-1.jpeg" alt="Image 1 from thinking-big" class="cover-image" />
+<img src="/images/articles/thinking-big-1.jpeg" alt="Image 1 from thinking-big" class="cover-image" />
 
 
 I almost always say yes if an aspiring founder asks me for advice.
