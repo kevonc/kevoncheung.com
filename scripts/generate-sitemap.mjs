@@ -18,7 +18,7 @@ function getStaticPages() {
 
   function shouldIncludePath(path) {
     // Always include root and static pages
-    if (path === '/' || ['/about', '/now', '/articles', '/hire-me', '/unsubscribed'].includes(path)) {
+    if (path === '/' || ['/about', '/now', '/parenting-playbook', '/articles', '/hire-me', '/unsubscribed'].includes(path)) {
       return true
     }
     
@@ -73,14 +73,14 @@ function getStaticPages() {
 
 function getPagePriority(path) {
   if (path === '/') return 1
-  if (['/about', '/now'].includes(path)) return 0.8
+  if (['/about', '/now', '/parenting-playbook'].includes(path)) return 0.8
   if (path === '/articles') return 0.7
   return 0.5
 }
 
 function getChangeFreq(path) {
   if (path === '/') return 'yearly'
-  if (['/about', '/now'].includes(path)) return 'monthly'
+  if (['/about', '/now', '/parenting-playbook'].includes(path)) return 'monthly'
   if (path === '/articles') return 'weekly'
   return 'monthly'
 }

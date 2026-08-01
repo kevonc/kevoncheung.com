@@ -7,7 +7,7 @@ projects:
   - title: Our Parenting Playbook
     description: "Why do startups have \"culture & values\" playbook but families don't? Since my 1st daughter was born, I've been noting down key principles that guide our family forward."
     image: /images/projects/parenting-playbook.png
-    link: https://kevonc.notion.site/Kevon-s-and-Lydia-s-Parenting-Playbook-1226108c589e809f846bda8ccd83334f?pvs=4
+    link: /parenting-playbook
   - title: Find Joy in Chaos
     description: I wrote a book to show you how to build a powerful online presence and community even if you are starting from absolutely nothing. 4.9/5 on Amazon.
     image: /images/projects/find-joy-in-chaos.png
