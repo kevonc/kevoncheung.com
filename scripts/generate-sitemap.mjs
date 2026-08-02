@@ -18,7 +18,7 @@ function getStaticPages() {
 
   function shouldIncludePath(path) {
     // Always include root and static pages
-    if (path === '/' || ['/about', '/now', '/parenting-playbook', '/articles', '/hire-me', '/unsubscribed'].includes(path)) {
+    if (path === '/' || ['/about', '/now', '/parenting-playbook', '/articles', '/unsubscribed'].includes(path)) {
       return true
     }
     

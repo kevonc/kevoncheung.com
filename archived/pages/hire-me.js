@@ -1,5 +1,5 @@
 import { useEffect } from 'react'
-import Layout from '../components/Layout'
+import Layout from '../../components/Layout'
 
 export default function HirePage() {
 
@@ -39,7 +39,7 @@ export default function HirePage() {
 
           <div className="w-full md:w-[320px] md:ml-6 rounded-2xl overflow-hidden shrink-0">
             <img 
-              src="/images/kevon-hire-me.jpg" 
+              src="/images/kevon/kevon-hire-me.jpg" 
               alt="Kevon Cheung" 
               className="w-full h-full object-cover"
             />

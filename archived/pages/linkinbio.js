@@ -6,7 +6,7 @@ import { motion } from 'framer-motion'
 import dynamic from 'next/dynamic'
 
 // Client-side only Instagram component
-const InstagramEmbed = dynamic(() => import('../components/InstagramEmbed'), {
+const InstagramEmbed = dynamic(() => import('../../components/InstagramEmbed'), {
   ssr: false
 })
 

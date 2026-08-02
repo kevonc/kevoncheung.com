@@ -2,37 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://kevoncheung.com/about</loc>
-    <lastmod>2025-10-14T07:50:06.428Z</lastmod>
+    <lastmod>2026-08-02T13:32:57.064Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://kevoncheung.com/articles</loc>
-    <lastmod>2025-10-14T07:50:06.428Z</lastmod>
+    <lastmod>2026-08-02T13:32:57.064Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://kevoncheung.com/hire-me</loc>
-    <lastmod>2025-10-14T07:50:06.428Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://kevoncheung.com/</loc>
-    <lastmod>2025-10-14T07:50:06.428Z</lastmod>
+    <lastmod>2026-08-02T13:32:57.064Z</lastmod>
     <changefreq>yearly</changefreq>
     <priority>1</priority>
   </url>
   <url>
     <loc>https://kevoncheung.com/now</loc>
-    <lastmod>2025-10-14T07:50:06.428Z</lastmod>
+    <lastmod>2026-08-02T13:32:57.064Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://kevoncheung.com/parenting-playbook</loc>
+    <lastmod>2026-08-02T13:32:57.064Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://kevoncheung.com/unsubscribed</loc>
-    <lastmod>2025-10-14T07:50:06.428Z</lastmod>
+    <lastmod>2026-08-02T13:32:57.064Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -115,26 +115,8 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://kevoncheung.com/2016</loc>
-    <lastmod>2016-12-20T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://kevoncheung.com/workplace-tips</loc>
     <lastmod>2017-02-13T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://kevoncheung.com/2017</loc>
-    <lastmod>2017-12-26T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://kevoncheung.com/2018</loc>
-    <lastmod>2019-01-07T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -289,12 +271,6 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://kevoncheung.com/may-2021</loc>
-    <lastmod>2021-05-30T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://kevoncheung.com/advice</loc>
     <lastmod>2021-06-06T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
@@ -307,49 +283,13 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://kevoncheung.com/jun-2021</loc>
-    <lastmod>2021-07-02T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://kevoncheung.com/jul-2021</loc>
-    <lastmod>2021-08-03T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://kevoncheung.com/aug-2021</loc>
-    <lastmod>2021-09-04T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://kevoncheung.com/creators-monetization-challenges</loc>
     <lastmod>2021-09-27T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://kevoncheung.com/sep-2021</loc>
-    <lastmod>2021-10-11T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://kevoncheung.com/oct-nov-2021</loc>
-    <lastmod>2021-11-30T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://kevoncheung.com/2021</loc>
-    <lastmod>2022-01-10T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://kevoncheung.com/raise-second-child</loc>
+    <loc>https://kevoncheung.com/second-child</loc>
     <lastmod>2024-05-21T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -361,19 +301,31 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://kevoncheung.com/2024</loc>
-    <lastmod>2025-01-07T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://kevoncheung.com/35</loc>
     <lastmod>2025-02-06T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://kevoncheung.com/crazy-performative-asian-parents</loc>
+    <loc>https://kevoncheung.com/online-audiences</loc>
+    <lastmod>2025-03-15T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://kevoncheung.com/staying-still</loc>
+    <lastmod>2025-04-09T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://kevoncheung.com/what-to-pursue</loc>
+    <lastmod>2025-04-18T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://kevoncheung.com/asian-parents</loc>
     <lastmod>2025-06-30T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -381,6 +333,54 @@
   <url>
     <loc>https://kevoncheung.com/committing-to-education</loc>
     <lastmod>2025-09-17T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://kevoncheung.com/mental-exercises</loc>
+    <lastmod>2025-10-02T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://kevoncheung.com/scapegoat-ai</loc>
+    <lastmod>2025-10-28T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://kevoncheung.com/care-at-35</loc>
+    <lastmod>2025-11-07T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://kevoncheung.com/grieving</loc>
+    <lastmod>2025-12-02T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://kevoncheung.com/one-man-business</loc>
+    <lastmod>2026-04-04T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://kevoncheung.com/commute-work</loc>
+    <lastmod>2026-05-20T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://kevoncheung.com/one-path</loc>
+    <lastmod>2026-06-02T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://kevoncheung.com/family-travel</loc>
+    <lastmod>2026-07-26T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>

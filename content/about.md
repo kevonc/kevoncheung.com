@@ -41,8 +41,8 @@ appearances:
 - **2000:** grew up in Hong Kong
 - **2003:** tinkered a lot with the Internet and built websites serving thousands of people
 - **2005:** at 15, hopped on a plane to the U.S. by myself
-- **2008:** did high school at a boarding school called Tabor Academy
-- **2012:** did college at Babson College, learning all about entrepreneurship and finance
+- **2008:** did high school at a boarding school called [Tabor Academy](https://www.taboracademy.org/)
+- **2012:** did college at [Babson College](https://babson.edu/), learning all about entrepreneurship and finance
 - **2013:** lived in New York for 3 months picking up coding
 - **2014:** got my first job as a software engineer and moved to Singapore within 4 days
 - **2015:** ran a kids' coding school across Asia
@@ -68,7 +68,7 @@ I also have a [manifesto about the future of education here](https://publiclab.c
 
 
 
-![Kevon's Family](/images/kevon-family.jpg)
+![Kevon's Family](/images/kevon/kevon-family.jpg)
 
 I love my family.
 
