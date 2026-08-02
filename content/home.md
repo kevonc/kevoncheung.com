@@ -4,7 +4,7 @@ title: Hey! I'm Kevon 👋
 
 I'm an educator, dad, and education consultant based in Hong Kong.
 
-My life path ran through entrepreneurship, software, and espeically education. I spent years running a kids' coding school and teaching entrepreneurs to <a href="https://publiclab.co/build-in-public" target="_blank" rel="noopener noreferrer">build in public</a>.
+My life path ran through entrepreneurship, software, and espeically education. I spent years running a kids' coding school and teaching entrepreneurs and kids to build creatively.
 
 These days I spend most of my time helping kids find their character and confidence, and I guide families toward top U.S. boarding schools. I believe AI will change how we learn forever, and I love to use it to create meaningful learning experiences for my students. Read <a href="https://publiclab.co/manifesto" target="_blank" rel="noopener noreferrer">my manifesto on the future of education here</a>.
 
