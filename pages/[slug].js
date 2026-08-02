@@ -38,7 +38,7 @@ export default function Post({ content, frontmatter, relatedPosts, topicTitle })
                     href={`/topic/${topicSlug}`}
                     className="hover:text-gray-900"
                   >
-                    {(topicTitle || frontmatter.topic).toLowerCase()}
+                    {topicTitle || frontmatter.topic}
                   </Link>
                 </>
               )}
