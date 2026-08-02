@@ -4,11 +4,11 @@ title: Hey! I'm Kevon 👋
 
 I'm an educator, dad, and education consultant based in Hong Kong.
 
-I help kids find their character and confidence, and I guide families toward top U.S. boarding schools. I believe AI will change how we learn forever, and I use it to create learning experiences that actually stick. Read <a href="https://publiclab.co/manifesto" target="_blank" rel="noopener noreferrer">my manifesto on the future of education here</a>.
+My life path ran through entrepreneurship, software, and espeically education. I spent years running a kids' coding school and teaching entrepreneurs to <a href="https://publiclab.co/build-in-public" target="_blank" rel="noopener noreferrer">build in public</a>.
 
-My path ran through software engineering, a kids' coding school across Asia, a funded startup, and years teaching entrepreneurs to <a href="https://publiclab.co/build-in-public" target="_blank" rel="noopener noreferrer">build in public</a>. All roads led back to kids and learning, which is exactly where I am now, busier and happier than I've been in years.
+These days I spend most of my time helping kids find their character and confidence, and I guide families toward top U.S. boarding schools. I believe AI will change how we learn forever, and I love to use it to create meaningful learning experiences for my students. Read <a href="https://publiclab.co/manifesto" target="_blank" rel="noopener noreferrer">my manifesto on the future of education here</a>.
 
-At home I'm Lydia's husband, Avery and Audrey's dad, and Bestie's walking buddy. Want the full picture? [About me](/about) · [What I'm doing now](/now)
+I live a simple, happy life with Lydia, Avery, Audrey, and Bestie. Here's [more about me](/about) or [what I'm doing now.](/now)
 
 Email is the best way to reach me, and we can also connect here:
 
