@@ -37,8 +37,7 @@ appearances:
 
 ## Life in a glance: my timeline
 
-- **1990:** born
-- **2000:** grew up in Hong Kong
+- **1990:** born & grew up in Hong Kong
 - **2003:** tinkered a lot with the Internet and built websites serving thousands of people
 - **2005:** at 15, hopped on a plane to the U.S. by myself
 - **2008:** did high school at a boarding school called [Tabor Academy](https://www.taboracademy.org/)
