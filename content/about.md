@@ -55,9 +55,9 @@ appearances:
 
 ## I care about education
 
-I'm an educator <a href="http://alphastage.org" target="_blank" rel="noopener noreferrer">Alpha Stage</a> who believes AI will forever change how we work, and especially how we learn. When I teach, I always use AI and tech to create learning experiences that actually stick.
-
 I'm a senior education consultant at <a href="http://www.shangnancyfriends.com/?l=en-us&ref=kevoncheung" target="_blank" rel="noopener noreferrer">Shang NancyFriends</a>, and I help students get into top U.S. boarding schools. Having graduated from one myself, I'm a firm believer that it's the best place for a teenager to learn how to thrive, not just for academic excellence, but also for independence, confidence, and curiosity.
+
+I'm an educator <a href="http://alphastage.org" target="_blank" rel="noopener noreferrer">Alpha Stage</a> who believes AI will forever change how we work, and especially how we learn. When I teach, I always use AI and tech to create learning experiences that actually stick.
 
 I hopped on a plane from Hong Kong to the U.S. at 15, all by myself. I think this is what set me up to be fearless about any path ahead. That's the same fearlessness I want to help my students find. Other than that, I look for the one thing about a kid that admissions can picture on campus within 3 seconds, and help them show up with that character and confidence.
 
