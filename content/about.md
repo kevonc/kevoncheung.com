@@ -41,7 +41,7 @@ appearances:
 - **2003:** tinkered a lot with the Internet and built websites serving thousands of people
 - **2005:** at 15, hopped on a plane to the U.S. by myself
 - **2008:** did high school at a boarding school called [Tabor Academy](https://www.taboracademy.org/)
-- **2012:** did college at [Babson College](https://babson.edu/), learning all about entrepreneurship and finance
+- **2012:** did college at [Babson College](https://babson.edu/), majored in entrepreneurship and finance
 - **2013:** lived in New York for 3 months picking up coding
 - **2014:** got my first job as a software engineer and moved to Singapore within 4 days
 - **2015:** ran a kids' coding school across Asia
@@ -55,9 +55,9 @@ appearances:
 
 ## I care about education
 
-I'm an educator who believes AI will forever change how we work, and especially how we learn. When I teach, I always use AI and tech to create learning experiences that actually stick.
+I'm an educator <a href="http://alphastage.org" target="_blank" rel="noopener noreferrer">Alpha Stage</a> who believes AI will forever change how we work, and especially how we learn. When I teach, I always use AI and tech to create learning experiences that actually stick.
 
-I'm an education consultant, and I help students get into top U.S. boarding schools. Having graduated from one myself, I'm a firm believer that it's the best place for a teenager to learn how to thrive, not just for academic excellence, but also for independence, confidence, and curiosity.
+I'm a senior education consultant at <a href="http://www.shangnancyfriends.com/?l=en-us&ref=kevoncheung" target="_blank" rel="noopener noreferrer">Shang NancyFriends</a>, and I help students get into top U.S. boarding schools. Having graduated from one myself, I'm a firm believer that it's the best place for a teenager to learn how to thrive, not just for academic excellence, but also for independence, confidence, and curiosity.
 
 I hopped on a plane from Hong Kong to the U.S. at 15, all by myself. I think this is what set me up to be fearless about any path ahead. That's the same fearlessness I want to help my students find. Other than that, I look for the one thing about a kid that admissions can picture on campus within 3 seconds, and help them show up with that character and confidence.
 
