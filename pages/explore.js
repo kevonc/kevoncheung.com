@@ -88,36 +88,34 @@ export default function Explore({ data }) {
                       transition: `opacity 0.6s ease-out ${0.25 + index * 0.1}s, transform 0.6s ease-out ${0.25 + index * 0.1}s`
                     }}
                   >
-                    <div className="flex items-center gap-4 rounded-2xl border border-green-950/10 bg-white p-4 shadow-sm transition-all duration-200 hover:-translate-y-0.5 hover:border-green-700/40 hover:shadow-lg hover:shadow-green-950/10 sm:p-5">
-                      <div className="min-w-0 flex-1">
-                        {link.label && (
-                          <a
-                            href={link.labelURL}
-                            target={link.labelURL?.startsWith('http') ? '_blank' : '_self'}
-                            rel={link.labelURL?.startsWith('http') ? 'noopener noreferrer' : ''}
-                            className="mb-1.5 inline-flex max-w-full items-center rounded-full border border-green-700/30 bg-green-50 px-3 py-1 text-xs font-semibold uppercase tracking-[0.14em] text-green-700 no-underline transition-colors hover:border-green-700 hover:bg-green-700 hover:text-white"
-                          >
-                            🔗 {link.label}
-                          </a>
-                        )}
-                        <Link
-                          href={link.url}
-                          className="group block no-underline"
-                          target={link.url.startsWith('http') ? '_blank' : '_self'}
-                          rel={link.url.startsWith('http') ? 'noopener noreferrer' : ''}
+                    <div className={`relative rounded-2xl border border-green-950/10 bg-white p-4 shadow-sm transition-all duration-200 hover:-translate-y-0.5 hover:border-green-700/40 hover:shadow-lg hover:shadow-green-950/10 sm:p-5 ${index === 0 ? 'pr-[4.75rem] sm:pr-[5.25rem]' : 'pr-16 sm:pr-[4.5rem]'}`}>
+                      {link.label && (
+                        <a
+                          href={link.labelURL}
+                          target={link.labelURL?.startsWith('http') ? '_blank' : '_self'}
+                          rel={link.labelURL?.startsWith('http') ? 'noopener noreferrer' : ''}
+                          className="mb-1.5 inline-flex max-w-full items-center rounded-full border border-green-700/30 bg-green-50 px-3 py-1 text-xs font-semibold uppercase tracking-[0.06em] text-green-700 no-underline transition-colors hover:border-green-700 hover:bg-green-700 hover:text-white sm:tracking-[0.14em]"
                         >
-                          <h2 className="mb-1 mt-0 text-lg font-bold leading-snug text-green-950 group-hover:text-green-700 sm:text-xl">
-                            {link.title}
-                          </h2>
-                          {link.subtitle && (
-                            <p className="mb-0 text-sm leading-6 text-green-950/60">
-                              {parseHighlightedText(link.subtitle)}
-                            </p>
-                          )}
-                        </Link>
-                      </div>
+                          🔗 {link.label}
+                        </a>
+                      )}
+                      <Link
+                        href={link.url}
+                        className="group block no-underline"
+                        target={link.url.startsWith('http') ? '_blank' : '_self'}
+                        rel={link.url.startsWith('http') ? 'noopener noreferrer' : ''}
+                      >
+                        <h2 className="mb-1 mt-0 text-lg font-bold leading-snug text-green-950 group-hover:text-green-700 sm:text-xl">
+                          {link.title}
+                        </h2>
+                        {link.subtitle && (
+                          <p className="mb-0 text-sm leading-6 text-green-950/60">
+                            {parseHighlightedText(link.subtitle)}
+                          </p>
+                        )}
+                      </Link>
                       {index === 0 ? (
-                        <div className="flex flex-shrink-0 flex-col items-center gap-3">
+                        <div className="absolute right-4 top-1/2 flex -translate-y-1/2 flex-col items-center gap-3 sm:right-5">
                           <a
                             href={boardingSchoolWhatsAppUrl}
                             target="_blank"
@@ -139,7 +137,7 @@ export default function Explore({ data }) {
                       ) : (
                         <Link
                           href={link.url}
-                          className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-full bg-green-50 text-lg font-semibold text-green-700 no-underline transition-colors hover:bg-green-950 hover:text-white"
+                          className="absolute right-4 top-1/2 flex h-10 w-10 -translate-y-1/2 items-center justify-center rounded-full bg-green-50 text-lg font-semibold text-green-700 no-underline transition-colors hover:bg-green-950 hover:text-white sm:right-5"
                           target={link.url.startsWith('http') ? '_blank' : '_self'}
                           rel={link.url.startsWith('http') ? 'noopener noreferrer' : ''}
                           aria-label={`Open ${link.title}`}
