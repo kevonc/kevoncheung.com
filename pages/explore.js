@@ -97,7 +97,7 @@ export default function Explore({ data }) {
                             rel={link.labelURL?.startsWith('http') ? 'noopener noreferrer' : ''}
                             className="mb-2 inline-flex rounded-full border border-green-700/30 bg-green-50 px-3 py-1 text-xs font-semibold uppercase tracking-[0.14em] text-green-700 no-underline transition-colors hover:border-green-700 hover:bg-green-700 hover:text-white"
                           >
-                            {link.label}
+                            🔗 {link.label}
                           </a>
                         )}
                         <Link

@@ -4,10 +4,10 @@
   "subtitle": "Education Consultant x Storyteller x Dad of 2 Girls",
   "links": [
     {
-      "label": "Shang Nancy Friends",
+      "label": "Shang NancyFriends",
       "title": "Senior Education Consultant",
       "subtitle": "I help kids get into top U.S. boarding schools. Get in touch if you'd like to chat about your kid's education path.",
-      "labelURL": "http://www.shangnancyfriends.com/?l=en-us",
+      "labelURL": "http://www.shangnancyfriends.com/?l=en-us&ref=kevoncheung",
       "url": "https://api.whatsapp.com/send/?phone=85260557094&text=Hi+Kevon%2C+I+want+to+explore+sending+my+kids+to+U.S.+top+boarding+schools.&type=phone_number&app_absent=0"
     },
     {
@@ -16,6 +16,13 @@
       "subtitle": "I run Babson College's alumni events in Hong Kong and work with featured guests to tell their inspiring stories.",
       "labelURL": "https://babsonhongkong.vercel.app/",
       "url": "https://babsonhongkong.vercel.app/"
+    },
+    {
+      "label": "Alpha Stage",
+      "title": "Founder & Mentor",
+      "subtitle": "I guide kids to build creative, entrepreneurial projects that get real traction and help them stand out from the crowd.",
+      "labelURL": "https://alphastage.org/",
+      "url": "https://alphastage.org/"
     },
     {
       "label": "Kevon's Blog & Newsletter",

@@ -80,17 +80,8 @@ export default function Layout({
           <footer className="site-footer">
             <p>© {new Date().getFullYear()} Kevon Cheung. Let&apos;s connect.</p>
             <div className="social-links mb-8 md:mb-0">
-              <a href="https://kevoncheung.substack.com/" target="_blank" rel="noopener noreferrer" className="social-icon">
-                <img src="/images/social/substack.svg" alt="Substack" width="24" height="24" />
-              </a>
-              <a href="https://www.youtube.com/@MeetKevon" target="_blank" rel="noopener noreferrer" className="social-icon" aria-label="YouTube">
-                <img src="/images/social/youtube.svg" alt="" width="24" height="24" />
-              </a>
               <a href="https://www.instagram.com/kevon/" target="_blank" rel="noopener noreferrer" className="social-icon">
                 <img src="/images/social/instagram.svg" alt="Instagram" width="24" height="24" />
-              </a>
-              <a href="https://x.com/MeetKevon" target="_blank" rel="noopener noreferrer" className="social-icon">
-                <img src="/images/social/x.svg" alt="X" width="24" height="24" />
               </a>
               <a href="https://www.linkedin.com/in/kevoncheung/" target="_blank" rel="noopener noreferrer" className="social-icon">
                 <img src="/images/social/linkedin.svg" alt="LinkedIn" width="24" height="24" />
