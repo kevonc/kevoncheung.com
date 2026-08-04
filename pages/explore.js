@@ -3,6 +3,7 @@ import Link from 'next/link'
 import { promises as fs } from 'fs'
 import path from 'path'
 import { useState, useEffect } from 'react'
+import SocialLinks from '../components/SocialLinks'
 
 // Function to parse text with **highlight** syntax
 function parseHighlightedText(text) {
@@ -163,24 +164,7 @@ export default function Explore({ data }) {
             <p className="mb-4 text-sm text-green-950/55 font-body">
               Say hi to connect!
             </p>
-            {/* Social Links */}
-            <div className="flex justify-center gap-4 pb-4">
-              <a href="https://kevoncheung.substack.com/" target="_blank" rel="noopener noreferrer" className="transition-opacity hover:opacity-70">
-                <img src="/images/social/substack.svg" alt="Substack" width="24" height="24" />
-              </a>
-              <a href="https://www.youtube.com/@MeetKevon" target="_blank" rel="noopener noreferrer" className="transition-opacity hover:opacity-70">
-                <img src="/images/social/youtube.svg" alt="YouTube" width="24" height="24" />
-              </a>
-              <a href="https://www.instagram.com/kevon/" target="_blank" rel="noopener noreferrer" className="transition-opacity hover:opacity-70">
-                <img src="/images/social/instagram.svg" alt="Instagram" width="24" height="24" />
-              </a>
-              <a href="https://x.com/MeetKevon" target="_blank" rel="noopener noreferrer" className="transition-opacity hover:opacity-70">
-                <img src="/images/social/x.svg" alt="X" width="24" height="24" />
-              </a>
-              <a href="https://www.linkedin.com/in/kevoncheung/" target="_blank" rel="noopener noreferrer" className="transition-opacity hover:opacity-70">
-                <img src="/images/social/linkedin.svg" alt="LinkedIn" width="24" height="24" />
-              </a>
-            </div>
+            <SocialLinks className="justify-center pb-4" />
           </footer>
         </div>
       </div>

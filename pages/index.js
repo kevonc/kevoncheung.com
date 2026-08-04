@@ -1,5 +1,6 @@
 import { useEffect } from 'react'
 import Layout from '../components/Layout'
+import SocialLinks from '../components/SocialLinks'
 import Link from 'next/link'
 import fs from 'fs'
 import path from 'path'
@@ -54,6 +55,7 @@ export default function Home({ posts, topics, projects, homeContent, homeTitle }
               className="space-y-6 text-lg prose"
               dangerouslySetInnerHTML={{ __html: homeContent }}
             />
+            <SocialLinks />
           </div>
 
           <div className="w-full max-w-[640px] mx-auto mt-10 aspect-[4/3] xl:w-[340px] xl:mx-0 xl:mt-0 xl:aspect-[3/4] rounded-2xl overflow-hidden shrink-0">

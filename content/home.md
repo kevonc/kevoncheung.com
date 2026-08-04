@@ -12,11 +12,3 @@ I live a simple, happy life with Lydia, Avery, Audrey, and Bestie in Hong Kong. 
 
 Email is the best way to reach me, and we can also connect here:
 
-<div class="social-links">
-  <a href="https://www.instagram.com/kevon/" target="_blank" rel="noopener noreferrer" class="social-icon">
-    <img src="/images/social/instagram.svg" alt="Instagram" width="24" height="24" />
-  </a>
-  <a href="https://www.linkedin.com/in/kevoncheung/" target="_blank" rel="noopener noreferrer" class="social-icon">
-    <img src="/images/social/linkedin.svg" alt="LinkedIn" width="24" height="24" />
-  </a>
-</div>

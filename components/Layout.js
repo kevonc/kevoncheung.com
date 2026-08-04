@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react'
 import { useRouter } from 'next/router'
 import ArticlePanel from './ArticlePanel'
 import SiteSidebar from './SiteSidebar'
+import SocialLinks from './SocialLinks'
 
 export default function Layout({
   children,
@@ -79,14 +80,7 @@ export default function Layout({
 
           <footer className="site-footer">
             <p>© {new Date().getFullYear()} Kevon Cheung. Let&apos;s connect.</p>
-            <div className="social-links mb-8 md:mb-0">
-              <a href="https://www.instagram.com/kevon/" target="_blank" rel="noopener noreferrer" className="social-icon">
-                <img src="/images/social/instagram.svg" alt="Instagram" width="24" height="24" />
-              </a>
-              <a href="https://www.linkedin.com/in/kevoncheung/" target="_blank" rel="noopener noreferrer" className="social-icon">
-                <img src="/images/social/linkedin.svg" alt="LinkedIn" width="24" height="24" />
-              </a>
-            </div>
+            <SocialLinks className="mb-8 md:mb-0" />
           </footer>
         </div>
       </div>
