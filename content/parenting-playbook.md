@@ -21,7 +21,7 @@ If you start to write your parenting playbook, please let me know at [k@kevonche
 
 ![Kevon's and Lydia's Parenting Playbook](/images/projects/parenting-playbook.png)
 
-## Guiding Principles
+## Parenting Principles
 
 - Leave no one behind. Not leaving the younger kid out even if she is small
 - Let our kids make their own decisions
@@ -62,3 +62,16 @@ If you start to write your parenting playbook, please let me know at [k@kevonche
 - Remember "When we feel bad, we don't need to be fixed. We want to be felt with rather than dealt with"
 - Don't shut the conversation. Always keep it open
 - Show them how we handle conflicts: empathize and find solutions
+
+## Family Values
+
+- Ownership
+- Integrity
+- Commitment
+- Comfort is the enemy of growth
+- Good things take time
+- Big things start small
+- See the good in people
+- Don't freak out, take a deep breath
+- Everything is a learning opportunity
+- Carry the water
