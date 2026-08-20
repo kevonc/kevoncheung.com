@@ -6,4 +6,6 @@ topics:
     slug: entrepreneurship
   - title: Family
     slug: family
+  - title: Boarding Schools
+    slug: boarding-schools
 --- 

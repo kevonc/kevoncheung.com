@@ -5,6 +5,7 @@ const topics = [
   { title: 'Life Lessons', slug: 'life-lessons' },
   { title: 'Entrepreneurship', slug: 'entrepreneurship' },
   { title: 'Family', slug: 'family' },
+  { title: 'Boarding Schools', slug: 'boarding-schools' },
 ]
 
 function Icon({ type }) {
