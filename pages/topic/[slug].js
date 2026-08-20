@@ -13,7 +13,7 @@ export default function Topic({ posts, topic }) {
         <h1>{topic.title}</h1>
         <p className="text-xl text-gray-600 leading-relaxed">
           There {posts.length === 1 ? 'is' : 'are'} {posts.length} {posts.length === 1 ? 'article' : 'articles'} in this collection.
-          Choose one from the article index to start reading.
+          Click one to start reading.
         </p>
         <div className="mt-10 flex flex-wrap gap-3">
           {posts[0] && (
