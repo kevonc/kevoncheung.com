@@ -6,7 +6,7 @@ export default function Topic({ posts, topic }) {
   return (
     <Layout
       title={`${topic.title} Articles`}
-      articlePanel={{ title: topic.title, topicSlug: topic.slug, posts }}
+      activeTopicSlug={topic.slug}
     >
       <div className="max-w-2xl mx-auto">
         <p className="text-sm font-semibold uppercase tracking-widest text-green-800 mb-3">Article collection</p>
@@ -15,6 +15,29 @@ export default function Topic({ posts, topic }) {
           There {posts.length === 1 ? 'is' : 'are'} {posts.length} {posts.length === 1 ? 'article' : 'articles'} in this collection.
           Click one to start reading.
         </p>
+        {posts.length > 0 && (
+          <div className="articles-index mt-8">
+            {posts.map((post) => (
+              <Link key={post.slug} href={`/${post.slug}`} className="articles-index-row">
+                {post.frontmatter.date && (
+                  <time dateTime={post.frontmatter.date}>
+                    {new Date(post.frontmatter.date).toLocaleDateString('en-US', {
+                      year: 'numeric',
+                      month: 'short',
+                      day: 'numeric',
+                    })}
+                  </time>
+                )}
+                <span className="articles-index-copy">
+                  <span className="articles-index-title">{post.frontmatter.title}</span>
+                </span>
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="m9 18 6-6-6-6" />
+                </svg>
+              </Link>
+            ))}
+          </div>
+        )}
         <div className="mt-10 flex flex-wrap gap-3">
           {posts[0] && (
             <Link href={`/${posts[0].slug}`} className="inline-flex items-center rounded-lg bg-[#16423c] px-5 py-3 font-semibold text-white hover:bg-[#1f5750] hover:text-white">

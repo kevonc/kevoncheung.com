@@ -13,6 +13,7 @@ export default function Layout({
   metaImage,
   robotsDirective = 'index, follow',
   articlePanel,
+  activeTopicSlug,
 }) {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const router = useRouter()
@@ -69,7 +70,7 @@ export default function Layout({
       <SiteSidebar
         isOpen={isMenuOpen}
         onClose={() => setIsMenuOpen(false)}
-        activeTopicSlug={articlePanel?.topicSlug}
+        activeTopicSlug={activeTopicSlug || articlePanel?.topicSlug}
       />
 
       <div className={`site-main${articlePanel ? ' has-article-panel' : ''}`}>
